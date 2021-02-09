@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8"/>
     <title>General Phenomena for April</title>
-    <link rel="stylesheet" type="text/css" href="../resources/css/kalendar.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="../resources/js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../resources/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="../resources/js/kalendar.min.js"></script>
-    <script async="async" type="text/javascript" src="../resources/js/kalendarsearch.min.js"></script>
-    <script async="async" type="text/javascript" src="../resources/js/blast/jquery.blast.min.js"></script>
+    <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./resources/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
+    <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
+    <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
 </head>
 
 <body>
@@ -18,14 +18,14 @@
         ☰
         <div id="navmainpage">
             <script>
-                $("#navmainpage").load("../navigation-menu.html");
+                $("#navmainpage").load("./navigation-menu.html");
             </script>
         </div>
     </div>
     <div id="main">
         <div id="content">
             <div id="banner">
-                    <img src="../resources/images/newtestheader3.png" align="middle"/>
+                    <img src="./resources/images/newtestheader3.png" align="middle"/>
                 </div>
             <div id="search-menu">
                 <table style="width: 80%;">
