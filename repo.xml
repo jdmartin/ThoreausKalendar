@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<meta xmlns="http://exist-db.org/xquery/repo"><description>Thoreau's Kalendar</description><author>Jonathan Martin</author><website/><status>beta</status><license>GNU-LGPL</license><copyright>true</copyright><type>application</type><target>Kalendar</target><prepare>pre-install.xql</prepare><finish/><permissions user="admin" password="" group="dba" mode="rw-rw-r--"/></meta>
