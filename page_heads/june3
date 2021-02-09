@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8"/>
+        <title>General Phenomena for June</title>
+        <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.css"/>
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="./resources/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
+        <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
+        <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
+        <script type="text/javascript" src="./resources/js/linkmaker.min.js"></script>
+    </head>
+    <body>
+        <div class="hiddenmenu" onclick="">
+                ☰
+                <div id="navmainpage">
+                <script>
+                    $("#navmainpage").load( "./navigation-menu.html");
+                </script>
+            </div>
+        </div>
+        <div id="main">
+            <div id="content">
+                <div id="banner">
+                    <img src="./resources/images/newtestheader3.png" align="middle"/>
+                </div>
+                <div id="search-menu">
+                    <table style="width: 80%;">
+                        <tr>
+                            <td style="padding-left: 20px;">
+                                <button id="pers">people</button>
+                                <button id="places">places</button>
+                                <button id="add">adds</button>
+                                <button id="pencils">pencil</button>
+                                <button id="gaps" class="red">gaps</button>
+                                <button id="help">help</button>
+                            </td>
+                            <td>
+                                <i>
+                                    <script>var pageTitle = $(document).attr('title'); document.write(pageTitle);</script>
+                                </i>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="helpbox">
+                    <table cellpadding="1" cellspacing="0">
+                        <tr>
+                            <th colspan="2" style="width:100%">Clicking the buttons above will do the following:</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>People:  </b>
+                            </td>
+                            <td>Highlight person names.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Places:  </b>
+                            </td>
+                            <td>Highlight place names.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Adds:  </b>
+                            </td>
+                            <td>Highlight items marked 'add.' (Excluding: pencil additions)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Pencil:  </b>
+                            </td>
+                            <td>Highlight additions done in pencil.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Gaps:  </b>
+                            </td>
+                            <td>Toggles the display of textual gaps.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Sources:</b>
+                            </td>
+                            <td>Source material links are the dates in <span style="color: #8A4E5D;">this color</span>.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Unclear:</b>
+                            </td>
+                            <td>Words with a <span style="border-bottom: 1px dashed #999;">dashed underline</span> are unclear in the source text.</td>
+                        </tr>
+                    </table>
+                </div>
