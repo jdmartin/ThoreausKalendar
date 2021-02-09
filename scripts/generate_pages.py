@@ -1,15 +1,34 @@
-import beautifulsoup4 as bs4
-import lxml
+from bs4 import BeautifulSoup
+
+with open("../page_heads/newapril", "r") as head:
+    top = head.read()
+    with open("../pages/newapril.html", "w") as output:
+        output.write(top)
+    output.close()
+    head.close()
 
 with open("../data/april/NewApril.xml", "r") as file:
     #Read the file
-    content = file.readlines()
-    #Combine into a string
-    content = "".join(content)
-    bs_content = bs4(content, "lxml")
+    contents = file.read()
+    
+    #Make some soup
+    soup = BeautifulSoup(contents, 'lxml')
 
     #Test
-    rows = bs4.find_all("row")
-    for row in rows:
-        print("<row>", row, "</row>")
-        
+    rows = soup.find_all("row")
+
+    with open("../pages/newapril.html", "a") as output:
+        output.write("<table>")
+        for row in rows:
+            line = print("<td>", row, "</td>")
+            output.write(str(line))
+        output.write("</table")
+    output.close()
+    file.close()
+
+with open("../page_tails/newapril", "r") as tail:
+    bottom = tail.read()
+    with open("../pages/newapril.html", "a") as output:
+        output.write(bottom)
+    output.close()
+    tail.close()
