@@ -26,9 +26,9 @@ with open("../data/april/NewApril.xml", "r") as file:
             gathered_output += "<td>"
             gathered_output += (str(row))
             gathered_output += "</td>"
-        gathered_output += "</table>"
-        gathered_output = str(gathered_output)
-        output.write(gathered_output)
+            gathered_output = str(gathered_output)
+            output.write(gathered_output)
+        output.write("</table>")
     output.close()
     file.close()
 
