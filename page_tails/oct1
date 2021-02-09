@@ -1,0 +1,39 @@
+<div>
+                    <br/>
+                </div>
+                <div id="footer">
+                    <div id="lefty">
+                        <ul style="list-style: none;">
+                            <li style="font-size: 0.8em;">
+                                <li>
+                                <a href="./resources/downloads/Oct_1_Beinecke_DL_2056839%202.pdf" target="_new">See this manuscript page</a>
+                            </li>
+                                <br/>Manuscript images provided by: <a href="http://beinecke.library.yale.edu" target="_blank">Beinecke Rare Book and Manuscript Library</a>, Yale University</li>
+                        </ul>
+                    </div>
+                    <div id="righty">
+                        <script>
+                            $("#righty").load( "./colophon.html");
+                        </script>
+                    </div>
+                    <div id="nader">
+                        <br/>
+                        <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off"/>
+                        <button id="show">Search</button>
+                        <br/>
+                        <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
+                        <div id="search-help">
+                            <span>
+                                <ul>
+                                    <li>
+                                        <b>Searching:</b> You can search for items word by word, 
+                                <br/>or you can use multiple words like so: a, b, c</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

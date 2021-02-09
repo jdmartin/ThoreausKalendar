@@ -392,6 +392,104 @@ def junefour():
         output.close()
         tail.close()
 
+def octone():
+    ##Process Oct1.xml
+
+    #Get the HTML for the top part of the file
+    with open("page_heads/oct1", "r") as head:
+        top = head.read()
+        with open("oct1.html", "w") as output:
+            output.write(top)
+        output.close()
+        head.close()
+
+    #Process the XML and output HTML elements for the body.
+    with open("data/Oct1.xml", "r") as file:
+        #Read the file
+        contents = file.read()
+        
+        #Make some soup
+        soup = BeautifulSoup(contents, 'lxml')
+
+        #Geat all the TEI rows
+        rows = soup.find_all("row")
+
+        with open("oct1.html", "a") as output:
+            #Create a container for the processed and prepared XML
+            output.write('<table id="kalendar" border="1" cellpadding="1" cellspacing="0">')
+            for row in rows:
+                output.write("<tr>")
+
+                children = row.find_all("cell")
+
+                for elem in list(children):
+                    output.write("<td>")
+                    output.write(str(elem))
+                    output.write("</td>")
+
+                output.write("</tr>")
+
+            output.write("</table>")
+        output.close()
+        file.close()
+
+    #Get the HTML for the bottom of the file.
+    with open("page_tails/oct1", "r") as tail:
+        bottom = tail.read()
+        with open("oct1.html", "a") as output:
+            output.write(bottom)
+        output.close()
+        tail.close()
+
+def alldecember():
+    ##Process AllDecember.xml
+
+    #Get the HTML for the top part of the file
+    with open("page_heads/alldecember", "r") as head:
+        top = head.read()
+        with open("alldecember.html", "w") as output:
+            output.write(top)
+        output.close()
+        head.close()
+
+    #Process the XML and output HTML elements for the body.
+    with open("data/AllDecember.xml", "r") as file:
+        #Read the file
+        contents = file.read()
+        
+        #Make some soup
+        soup = BeautifulSoup(contents, 'lxml')
+
+        #Geat all the TEI rows
+        rows = soup.find_all("row")
+
+        with open("alldecember.html", "a") as output:
+            #Create a container for the processed and prepared XML
+            output.write('<table id="kalendar" border="1" cellpadding="1" cellspacing="0">')
+            for row in rows:
+                output.write("<tr>")
+
+                children = row.find_all("cell")
+
+                for elem in list(children):
+                    output.write("<td>")
+                    output.write(str(elem))
+                    output.write("</td>")
+
+                output.write("</tr>")
+
+            output.write("</table>")
+        output.close()
+        file.close()
+
+    #Get the HTML for the bottom of the file.
+    with open("page_tails/alldecember", "r") as tail:
+        bottom = tail.read()
+        with open("alldecember.html", "a") as output:
+            output.write(bottom)
+        output.close()
+        tail.close()
+
 newapril()
 otherapril()
 mayone()
@@ -400,4 +498,5 @@ june()
 junetwo()
 junethree()
 junefour()
-
+octone()
+alldecember()
