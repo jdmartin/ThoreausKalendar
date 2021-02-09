@@ -2,129 +2,893 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta charset="utf-8"/>
-        <title>General Phenomena for June</title>
-        <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.css"/>
-        <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
-        <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
-        <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
-        <script type="text/javascript" src="./resources/js/linkmaker.min.js"></script>
-    </head>
-    <body>
-        <div class="hiddenmenu" onclick="">
-                ☰
-                <div id="navmainpage">
-                <script>
-                    $("#navmainpage").load( "./navigation-menu.html");
-                </script>
+    <meta charset="utf-8" />
+    <title>General Phenomena for June</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.css" />
+    <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
+    <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
+    <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
+    <script type="text/javascript" src="./resources/js/linkmaker.min.js"></script>
+</head>
+
+<body>
+    <div class="hiddenmenu" onclick="">
+        ☰
+        <div id="navmainpage">
+            <script>
+                $("#navmainpage").load("./navigation-menu.html");
+            </script>
+        </div>
+    </div>
+    <div id="main">
+        <div id="content">
+            <div id="banner">
+                <img src="./resources/images/newtestheader3.png" align="middle" />
+            </div>
+            <div id="search-menu">
+                <table style="width: 80%;">
+                    <tr>
+                        <td style="padding-left: 20px;">
+                            <button id="pers">people</button>
+                            <button id="places">places</button>
+                            <button id="add">adds</button>
+                            <button id="pencils">pencil</button>
+                            <button id="gaps" class="red">gaps</button>
+                            <button id="help">help</button>
+                        </td>
+                        <td>
+                            <i>
+                                <script>
+                                    var pageTitle = $(document).attr('title');
+                                    document.write(pageTitle);
+                                </script>
+                            </i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="helpbox">
+                <table cellpadding="1" cellspacing="0">
+                    <tr>
+                        <th colspan="2" style="width:100%">Clicking the buttons above will do the following:</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>People:  </b>
+                        </td>
+                        <td>Highlight person names.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Places:  </b>
+                        </td>
+                        <td>Highlight place names.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Adds:  </b>
+                        </td>
+                        <td>Highlight items marked 'add.' (Excluding: pencil additions)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Pencil:  </b>
+                        </td>
+                        <td>Highlight additions done in pencil.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Gaps:  </b>
+                        </td>
+                        <td>Toggles the display of textual gaps.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Sources:</b>
+                        </td>
+                        <td>Source material links are the dates in <span style="color: #8A4E5D;">this color</span>.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Unclear:</b>
+                        </td>
+                        <td>Words with a <span style="border-bottom: 1px dashed #999;">dashed underline</span> are
+                            unclear in the source text.</td>
+                    </tr>
+                </table>
+            </div>
+            <table id="kalendar" border="1" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>52</cell>
+                    </td>
+                    <td>
+                        <cell>53</cell>
+                    </td>
+                    <td>
+                        <cell>54</cell>
+                    </td>
+                    <td>
+                        <cell>55</cell>
+                    </td>
+                    <td>
+                        <cell>56</cell>
+                    </td>
+                    <td>
+                        <cell>57</cell>
+                    </td>
+                    <td>
+                        <cell>58</cell>
+                    </td>
+                    <td>
+                        <cell>59</cell>
+                    </td>
+                    <td>
+                        <cell>60</cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Thunder showers <unclear>around</unclear>
+                            <lb></lb>summer showers in pm
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-06-13">13
+                                <link target="http://tinyurl.com/gukv675" />
+                            </date> - <date when="1854-06-14">14
+                                <link target="http://tinyurl.com/gukv675" />
+                            </date> - <date when="1854-06-15">15
+                                <link target="http://tinyurl.com/gukv675" />
+                            </date> - <date when="1854-06-16">16
+                                <link target="http://tinyurl.com/gukv675" />
+                            </date> high<lb></lb>in E fail to reach us
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-06-02">2nd
+                                <link target="http://tinyurl.com/z7ulyqc" />
+                            </date>
+                            <gap></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-08">8
+                                <link target="http://tinyurl.com/zswwsgp" />
+                            </date> season of pm showers<lb></lb>
+                            <gap></gap>
+                            <lb></lb>
+                            <date when="1860-06-08">8
+                                <link target="http://tinyurl.com/zswwsgp" />
+                            </date> within a day or 2<lb></lb>uncertain walking<lb></lb>(1st summer shower<lb></lb>May
+                            <date when="1860-05-25">25
+                                <link target="http://tinyurl.com/ht3zxa6" />
+                            </date>) <date when="1860-06-15">15
+                                <link target="http://tinyurl.com/zzwl5j2" />
+                            </date> &amp; <date when="1860-06-16">16
+                                <link target="http://tinyurl.com/j9ou6sv" />
+                            </date>
+                            <lb></lb>
+                            <date when="1860-06-29">29
+                                <link target="http://tinyurl.com/j3gxhxs" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Violent Showers<lb></lb>or Thunder showers<lb></lb>most violent shower the <date
+                                when="1860-06-02">2
+                                <link target="http://tinyurl.com/jlesfsm" />
+                            </date> - 60 after<lb></lb>
+                            <gap></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-06-19">19
+                                <link target="http://tinyurl.com/hw8qdmt" />
+                            </date> a gusty thunder-<lb></lb>shower strikes near
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-29">29
+                                <link target="http://tinyurl.com/zgm58fv" />
+                            </date>
+                            <gap></gap>6pm<lb></lb>a short deluge<lb></lb>with very strong gust<lb></lb>after at
+                            <unclear>5 pm</unclear> 91+<lb></lb>
+                            <gap></gap>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Hail</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-06-26">26
+                                <link target="http://tinyurl.com/hw9m26r" />
+                            </date> slight in pm
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-09">9th
+                                <link target="http://tinyurl.com/gqeurnb" />
+                            </date> a little
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Rain bow</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-06-22">22
+                                <link target="http://tinyurl.com/z3fqqsv" />
+                            </date>
+                            <lb></lb>
+                            <date when="1852-06-25">25
+                                <link target="http://tinyurl.com/jztwbv7" />
+                            </date> in morning
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-06-30">30
+                                <link target="http://tinyurl.com/zqdxqxw" />
+                            </date> in morn
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-07">7th
+                                <link target="http://tinyurl.com/h89z8bc" />
+                            </date> pm<lb></lb><del>
+                                <gap></gap>
+                            </del>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>Birds</unclear> killed wet <note place="below">
+                                <unclear>cold</unclear>
+                            </note>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1858-06-20">20th
+                                <link target="http://tinyurl.com/jv9mqqe" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell> </cell>
+                    </td>
+                    <td>
+                        <cell>Rank weeds droop</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-06-22">22
+                                <link target="http://tinyurl.com/zo6gmaj" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Clear air</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-06-05">5
+                                <link target="http://tinyurl.com/j7zpvfw" />
+                            </date> comparatively<lb></lb>clear<lb></lb>
+                            <date when="1853-06-26">26
+                                <link target="http://tinyurl.com/h9z8x4r" />
+                            </date> wonderfully clear<lb></lb>after hail
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-06-23">23
+                                <link target="http://tinyurl.com/h9e37lc" />
+                            </date> clearer after<lb></lb>1 or 2 cool + rainy<lb></lb>days<lb></lb>
+                            <date when="1854-06-26">26
+                                <link target="http://tinyurl.com/jeupfsg" />
+                            </date> &amp; <date when="1854-06-28">28th
+                                <link target="http://tinyurl.com/hodj442" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-03">3rd
+                                <link target="http://tinyurl.com/jap32ea" />
+                            </date>
+                            <lb></lb>
+                            <date when="1860-06-27">27
+                                <link target="http://tinyurl.com/jzbagct" />
+                            </date> &amp; cool
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Breezy days</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-06-16">16
+                                <link target="http://tinyurl.com/hvcnaca" />
+                            </date> has been quite breezy<lb></lb>even windy this month<lb></lb>
+                            <date when="1852-06-09">9th
+                                <link target="http://tinyurl.com/jhmmbxo" />
+                            </date> washing days for<lb></lb>a week past waving<lb></lb>of boughs just leafed<lb></lb>
+                            <date when="1852-06-10">10
+                                <link target="http://tinyurl.com/jhmmbxo" />
+                            </date> quite windy 10 days past<lb></lb>
+                            <date when="1852-06-23">23
+                                <link target="http://tinyurl.com/jsuplae" />
+                            </date> - <date when="1852-06-24">24
+                                <link target="http://tinyurl.com/jsuplae" />
+                            </date> agreeably cool<lb></lb>washing days
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-06-06">6
+                                <link target="http://tinyurl.com/zmyadwj" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-06-04">4th
+                                <link target="http://tinyurl.com/gr7j98t" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-06-02">2nd
+                                <link target="http://tinyurl.com/js2dvmw" />
+                            </date> in pm
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-29">29th
+                                <link target="http://tinyurl.com/j6kyf2k" />
+                            </date> quite windy<lb></lb>
+                            <date when="1860-06-02">2
+                                <link target="http://tinyurl.com/zybovuw" />
+                            </date> a windy washing<lb></lb>
+                            <unclear>NW wind</unclear>
+                            <lb></lb>
+                            <date when="1860-06-03">3
+                                <link target="http://tinyurl.com/jap32ea" />
+                            </date> clear breezy days<lb></lb>
+                            <date when="1860-06-07">7
+                                <link target="http://tinyurl.com/zd978df" />
+                            </date>
+                            <gap></gap>after rains<lb></lb>
+                            <date when="1860-06-21">21
+                                <link target="http://tinyurl.com/hxhxusn" />
+                            </date> about<gap></gap>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Glaucous sheen of<lb></lb> bent sedge</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-06-14">14th
+                                <link target="http://tinyurl.com/ju8bxey" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-06-06">6
+                                <link target="http://tinyurl.com/zstla36" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-06-26">26
+                                <link target="http://tinyurl.com/jeupfsg" />
+                            </date>
+                            <lb></lb>
+                            <date when="1854-06-02">2nd
+                                <link target="http://tinyurl.com/j37u44g" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-06-15">15th
+                                <link target="http://tinyurl.com/jxcg4xx" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-11">11th
+                                <link target="http://tinyurl.com/hbhlf4u" />
+                            </date> first of it
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Light undersides<lb></lb>of leaves in wind</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-06-14">14
+                                <link target="http://tinyurl.com/jmuvc8p" />
+                            </date>
+                            <lb></lb>
+                            <date when="1852-06-26">26
+                                <link target="http://tinyurl.com/zbtqyff" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-06-06">6
+                                <link target="http://tinyurl.com/zmyadwj" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-06-04">4th
+                                <link target="http://tinyurl.com/gr7j98t" />
+                            </date> beg. to show
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-06-18">18
+                                <link target="http://tinyurl.com/jxsy3o8" />
+                            </date> swamp <abbr corresp="white oak">wht o.</abbr>
+                            <lb></lb>red maple<lb></lb>willows beg. <unclear>to show</unclear>
+                            <lb></lb>a slight silveriness
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-11">11th
+                                <link target="http://tinyurl.com/hbhlf4u" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Red pads turned up</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-06-29">29th
+                                <link target="http://tinyurl.com/ht8ouqd" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-06-06">6
+                                <link target="http://tinyurl.com/zmyadwj" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-06-30">30
+                                <link target="http://tinyurl.com/hdozw56" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-11">11
+                                <link target="http://tinyurl.com/got8oex" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <emph rend="underline">very</emph> windy
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-06-01">1st
+                                <link target="http://tinyurl.com/zhmqs3y" />
+                            </date> the 3rd one<lb></lb>
+                            <date when="1855-06-02">2nd
+                                <link target="http://tinyurl.com/zl9kmyo" />
+                            </date> windier than before<lb></lb>shakes home night + day<lb></lb>
+                            <date when="1855-06-10">10
+                                <link target="http://tinyurl.com/hp6d5mr" />
+                            </date> SW for season - wracking<lb></lb>trees
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-10">10
+                                <link target="http://tinyurl.com/gvdd532" />
+                            </date> strong cold wind<lb></lb>
+                            <date when="1860-06-11">11
+                                <link target="http://tinyurl.com/gw7qmcx" />
+                            </date> - NW pretty strong still
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>E wind in pm</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-06-16">16
+                                <link target="http://tinyurl.com/jcxlnrd" />
+                            </date> cool E wind<lb></lb>for several pms past<lb></lb>
+                            <date when="1854-06-03">3rd
+                                <link target="http://tinyurl.com/zvtobs6" />
+                            </date> cools the air
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-06-29">29th
+                                <link target="http://tinyurl.com/zlfjkg6" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-06-23">23rd
+                                <link target="http://tinyurl.com/htq7cm2" />
+                            </date> &amp; cooler
+                        </cell>
+                    </td>
+                </tr>
+            </table>
+            <div id="footer">
+                <div id="lefty">
+                    <ul style="list-style: none;">
+                        <li>
+                            <a href="./resources/images/pages/genphenjune3.html" target="_new">See this manuscript
+                                page</a>    <a
+                                href="https://thoreauskalendar.org/resources/downloads/Junewhole3.zip">Download the
+                                full-size image</a>
+                        </li>
+                        <li style="font-size: 0.8em;">
+                            <br />Manuscript images provided by: <a href="http://www.themorgan.org/default.asp"
+                                target="_blank">The Pierpont Morgan Library</a>, New York.</li>
+                    </ul>
+                </div>
+                <div id="righty">
+                    <script>
+                        $("#righty").load("./colophon.html");
+                    </script>
+                </div>
+                <div id="nader">
+                    <br />
+                    <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off" />
+                    <button id="show">Search</button>
+                    <br />
+                    <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
+                    <div id="search-help">
+                        <span>
+                            <ul>
+                                <li>
+                                    <b>Searching:</b> You can search for items word by word,
+                                    <br />or you can use multiple words like so: a, b, c</li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="main">
-            <div id="content">
-                <div id="banner">
-                    <img src="./resources/images/newtestheader3.png" align="middle"/>
-                </div>
-                <div id="search-menu">
-                    <table style="width: 80%;">
-                        <tr>
-                            <td style="padding-left: 20px;">
-                                <button id="pers">people</button>
-                                <button id="places">places</button>
-                                <button id="add">adds</button>
-                                <button id="pencils">pencil</button>
-                                <button id="gaps" class="red">gaps</button>
-                                <button id="help">help</button>
-                            </td>
-                            <td>
-                                <i>
-                                    <script>var pageTitle = $(document).attr('title'); document.write(pageTitle);</script>
-                                </i>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div id="helpbox">
-                    <table cellpadding="1" cellspacing="0">
-                        <tr>
-                            <th colspan="2" style="width:100%">Clicking the buttons above will do the following:</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>People:  </b>
-                            </td>
-                            <td>Highlight person names.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Places:  </b>
-                            </td>
-                            <td>Highlight place names.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Adds:  </b>
-                            </td>
-                            <td>Highlight items marked 'add.' (Excluding: pencil additions)</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Pencil:  </b>
-                            </td>
-                            <td>Highlight additions done in pencil.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Gaps:  </b>
-                            </td>
-                            <td>Toggles the display of textual gaps.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Sources:</b>
-                            </td>
-                            <td>Source material links are the dates in <span style="color: #8A4E5D;">this color</span>.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Unclear:</b>
-                            </td>
-                            <td>Words with a <span style="border-bottom: 1px dashed #999;">dashed underline</span> are unclear in the source text.</td>
-                        </tr>
-                    </table>
-                </div><table id="kalendar" border="1" cellpadding="1" cellspacing="0"><tr><td><cell></cell></td><td><cell></cell></td><td><cell>52</cell></td><td><cell>53</cell></td><td><cell>54</cell></td><td><cell>55</cell></td><td><cell>56</cell></td><td><cell>57</cell></td><td><cell>58</cell></td><td><cell>59</cell></td><td><cell>60</cell></td></tr><tr><td><cell></cell></td><td><cell>Thunder showers <unclear>around</unclear><lb></lb>summer showers in pm</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1854-06-13">13<link target="http://tinyurl.com/gukv675"/></date> - <date when="1854-06-14">14<link target="http://tinyurl.com/gukv675"/></date> - <date when="1854-06-15">15<link target="http://tinyurl.com/gukv675"/></date> - <date when="1854-06-16">16<link target="http://tinyurl.com/gukv675"/></date> high<lb></lb>in E fail to reach us</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1857-06-02">2nd<link target="http://tinyurl.com/z7ulyqc"/></date><gap></gap></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-06-08">8<link target="http://tinyurl.com/zswwsgp"/></date> season of pm showers<lb></lb><gap></gap><lb></lb><date when="1860-06-08">8<link target="http://tinyurl.com/zswwsgp"/></date> within a day or 2<lb></lb>uncertain walking<lb></lb>(1st summer shower<lb></lb>May <date when="1860-05-25">25<link target="http://tinyurl.com/ht3zxa6"/></date>) <date when="1860-06-15">15<link target="http://tinyurl.com/zzwl5j2"/></date> &amp; <date when="1860-06-16">16<link target="http://tinyurl.com/j9ou6sv"/></date><lb></lb><date when="1860-06-29">29<link target="http://tinyurl.com/j3gxhxs"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>Violent Showers<lb></lb>or Thunder showers<lb></lb>most violent shower the <date when="1860-06-02">2<link target="http://tinyurl.com/jlesfsm"/></date> - 60 after<lb></lb><gap></gap></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1854-06-19">19<link target="http://tinyurl.com/hw8qdmt"/></date> a gusty thunder-<lb></lb>shower strikes near</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-06-29">29<link target="http://tinyurl.com/zgm58fv"/></date><gap></gap>6pm<lb></lb>a short deluge<lb></lb>with very strong gust<lb></lb>after at <unclear>5 pm</unclear> 91+<lb></lb><gap></gap></cell></td></tr><tr><td><cell></cell></td><td><cell>Hail</cell></td><td><cell></cell></td><td><cell><date when="1853-06-26">26<link target="http://tinyurl.com/hw9m26r"/></date> slight in pm</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-06-09">9th<link target="http://tinyurl.com/gqeurnb"/></date> a little</cell></td></tr><tr><td><cell></cell></td><td><cell>Rain bow</cell></td><td><cell><date when="1852-06-22">22<link target="http://tinyurl.com/z3fqqsv"/></date><lb></lb><date when="1852-06-25">25<link target="http://tinyurl.com/jztwbv7"/></date> in morning</cell></td><td><cell><date when="1853-06-30">30<link target="http://tinyurl.com/zqdxqxw"/></date> in morn</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-06-07">7th<link target="http://tinyurl.com/h89z8bc"/></date> pm<lb></lb><del><gap></gap></del></cell></td></tr><tr><td><cell></cell></td><td><cell><unclear>Birds</unclear> killed wet <note place="below"><unclear>cold</unclear></note></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1858-06-20">20th<link target="http://tinyurl.com/jv9mqqe"/></date></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell> </cell></td><td><cell>Rank weeds droop</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-06-22">22<link target="http://tinyurl.com/zo6gmaj"/></date></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>Clear air</cell></td><td><cell></cell></td><td><cell><date when="1853-06-05">5<link target="http://tinyurl.com/j7zpvfw"/></date> comparatively<lb></lb>clear<lb></lb><date when="1853-06-26">26<link target="http://tinyurl.com/h9z8x4r"/></date> wonderfully clear<lb></lb>after hail</cell></td><td><cell><date when="1854-06-23">23<link target="http://tinyurl.com/h9e37lc"/></date> clearer after<lb></lb>1 or 2 cool + rainy<lb></lb>days<lb></lb><date when="1854-06-26">26<link target="http://tinyurl.com/jeupfsg"/></date> &amp; <date when="1854-06-28">28th<link target="http://tinyurl.com/hodj442"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-06-03">3rd<link target="http://tinyurl.com/jap32ea"/></date><lb></lb><date when="1860-06-27">27<link target="http://tinyurl.com/jzbagct"/></date> &amp; cool</cell></td></tr><tr><td><cell></cell></td><td><cell>Breezy days</cell></td><td><cell><date when="1852-06-16">16<link target="http://tinyurl.com/hvcnaca"/></date> has been quite breezy<lb></lb>even windy this month<lb></lb><date when="1852-06-09">9th<link target="http://tinyurl.com/jhmmbxo"/></date> washing days for<lb></lb>a week past waving<lb></lb>of boughs just leafed<lb></lb><date when="1852-06-10">10<link target="http://tinyurl.com/jhmmbxo"/></date> quite windy 10 days past<lb></lb><date when="1852-06-23">23<link target="http://tinyurl.com/jsuplae"/></date> - <date when="1852-06-24">24<link target="http://tinyurl.com/jsuplae"/></date> agreeably cool<lb></lb>washing days</cell></td><td><cell><date when="1853-06-06">6<link target="http://tinyurl.com/zmyadwj"/></date></cell></td><td><cell><date when="1854-06-04">4th<link target="http://tinyurl.com/gr7j98t"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1857-06-02">2nd<link target="http://tinyurl.com/js2dvmw"/></date> in pm</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-06-29">29th<link target="http://tinyurl.com/j6kyf2k"/></date> quite windy<lb></lb><date when="1860-06-02">2<link target="http://tinyurl.com/zybovuw"/></date> a windy washing<lb></lb><unclear>NW wind</unclear><lb></lb><date when="1860-06-03">3<link target="http://tinyurl.com/jap32ea"/></date> clear breezy days<lb></lb><date when="1860-06-07">7<link target="http://tinyurl.com/zd978df"/></date><gap></gap>after rains<lb></lb><date when="1860-06-21">21<link target="http://tinyurl.com/hxhxusn"/></date> about<gap></gap></cell></td></tr><tr><td><cell></cell></td><td><cell>Glaucous sheen of<lb></lb> bent sedge</cell></td><td><cell><date when="1852-06-14">14th<link target="http://tinyurl.com/ju8bxey"/></date></cell></td><td><cell><date when="1853-06-06">6<link target="http://tinyurl.com/zstla36"/></date></cell></td><td><cell><date when="1854-06-26">26<link target="http://tinyurl.com/jeupfsg"/></date><lb></lb><date when="1854-06-02">2nd<link target="http://tinyurl.com/j37u44g"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-06-15">15th<link target="http://tinyurl.com/jxcg4xx"/></date></cell></td><td><cell><date when="1860-06-11">11th<link target="http://tinyurl.com/hbhlf4u"/></date> first of it</cell></td></tr><tr><td><cell></cell></td><td><cell>Light undersides<lb></lb>of leaves in wind</cell></td><td><cell><date when="1852-06-14">14<link target="http://tinyurl.com/jmuvc8p"/></date><lb></lb><date when="1852-06-26">26<link target="http://tinyurl.com/zbtqyff"/></date></cell></td><td><cell><date when="1853-06-06">6<link target="http://tinyurl.com/zmyadwj"/></date></cell></td><td><cell><date when="1854-06-04">4th<link target="http://tinyurl.com/gr7j98t"/></date> beg. to show</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-06-18">18<link target="http://tinyurl.com/jxsy3o8"/></date> swamp <abbr corresp="white oak">wht o.</abbr><lb></lb>red maple<lb></lb>willows beg. <unclear>to show</unclear><lb></lb>a slight silveriness</cell></td><td><cell><date when="1860-06-11">11th<link target="http://tinyurl.com/hbhlf4u"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>Red pads turned up</cell></td><td><cell><date when="1852-06-29">29th<link target="http://tinyurl.com/ht8ouqd"/></date></cell></td><td><cell><date when="1853-06-06">6<link target="http://tinyurl.com/zmyadwj"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-06-30">30<link target="http://tinyurl.com/hdozw56"/></date></cell></td><td><cell><date when="1860-06-11">11<link target="http://tinyurl.com/got8oex"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell><emph rend="underline">very</emph> windy</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1855-06-01">1st<link target="http://tinyurl.com/zhmqs3y"/></date> the 3rd one<lb></lb><date when="1855-06-02">2nd<link target="http://tinyurl.com/zl9kmyo"/></date> windier than before<lb></lb>shakes home night + day<lb></lb><date when="1855-06-10">10<link target="http://tinyurl.com/hp6d5mr"/></date> SW for season - wracking<lb></lb>trees</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-06-10">10<link target="http://tinyurl.com/gvdd532"/></date> strong cold wind<lb></lb><date when="1860-06-11">11<link target="http://tinyurl.com/gw7qmcx"/></date> - NW pretty strong still</cell></td></tr><tr><td><cell></cell></td><td><cell>E wind in pm</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1854-06-16">16<link target="http://tinyurl.com/jcxlnrd"/></date> cool E wind<lb></lb>for several pms past<lb></lb><date when="1854-06-03">3rd<link target="http://tinyurl.com/zvtobs6"/></date> cools the air</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1857-06-29">29th<link target="http://tinyurl.com/zlfjkg6"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-06-23">23rd<link target="http://tinyurl.com/htq7cm2"/></date> &amp; cooler</cell></td></tr></table><div id="footer">
-                    <div id="lefty">
-                        <ul style="list-style: none;">
-                            <li>
-                                <a href="./resources/images/pages/genphenjune3.html" target="_new">See this manuscript page</a>    <a href="https://thoreauskalendar.org/resources/downloads/Junewhole3.zip">Download the full-size image</a>
-                            </li>
-                            <li style="font-size: 0.8em;">
-                                <br/>Manuscript images provided by: <a href="http://www.themorgan.org/default.asp" target="_blank">The Pierpont Morgan Library</a>, New York.</li>
-                        </ul>
-                    </div>
-                    <div id="righty">
-                        <script>
-                            $("#righty").load( "./colophon.html");
-                        </script>
-                    </div>
-                    <div id="nader">
-                        <br/>
-                        <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off"/>
-                        <button id="show">Search</button>
-                        <br/>
-                        <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
-                        <div id="search-help">
-                            <span>
-                                <ul>
-                                    <li>
-                                        <b>Searching:</b> You can search for items word by word, 
-                                <br/>or you can use multiple words like so: a, b, c</li>
-                                </ul>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>

@@ -2,129 +2,2383 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta charset="utf-8"/>
-        <title>General Phenomena for May</title>
-        <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css"/>
-        <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
-        <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
-        <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
-        <script type="text/javascript" src="./resources/js/linkmaker.min.js"></script>
-    </head>
-    <body>
-        <div class="hiddenmenu" onclick="">
-                ☰
-                <div id="navmainpage">
-                <script>
-                    $("#navmainpage").load( "./navigation-menu.html");
-                </script>
+    <meta charset="utf-8" />
+    <title>General Phenomena for May</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css" />
+    <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
+    <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
+    <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
+    <script type="text/javascript" src="./resources/js/linkmaker.min.js"></script>
+</head>
+
+<body>
+    <div class="hiddenmenu" onclick="">
+        ☰
+        <div id="navmainpage">
+            <script>
+                $("#navmainpage").load("./navigation-menu.html");
+            </script>
+        </div>
+    </div>
+    <div id="main">
+        <div id="content">
+            <div id="banner">
+                <img src="./resources/images/newtestheader3.png" align="middle" />
+            </div>
+            <div id="search-menu">
+                <table style="width: 80%;">
+                    <tr>
+                        <td style="padding-left: 20px;">
+                            <button id="pers">people</button>
+                            <button id="places">places</button>
+                            <button id="add">adds</button>
+                            <button id="pencils">pencil</button>
+                            <button id="gaps" class="red">gaps</button>
+                            <button id="help">help</button>
+                        </td>
+                        <td>
+                            <i>
+                                <script>
+                                    var pageTitle = $(document).attr('title');
+                                    document.write(pageTitle);
+                                </script>
+                            </i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="helpbox">
+                <table cellpadding="1" cellspacing="0">
+                    <tr>
+                        <th colspan="2" style="width:100%">Clicking the buttons above will do the following:</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>People:  </b>
+                        </td>
+                        <td>Highlight person names.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Places:  </b>
+                        </td>
+                        <td>Highlight place names.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Adds:  </b>
+                        </td>
+                        <td>Highlight items marked 'add.' (Excluding: pencil additions)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Pencil:  </b>
+                        </td>
+                        <td>Highlight additions done in pencil.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Gaps:  </b>
+                        </td>
+                        <td>Toggles the display of textual gaps.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Sources:</b>
+                        </td>
+                        <td>Source material links are the dates in <span style="color: #8A4E5D;">this color</span>.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Unclear:</b>
+                        </td>
+                        <td>Words with a <span style="border-bottom: 1px dashed #999;">dashed underline</span> are
+                            unclear in the source text.</td>
+                    </tr>
+                </table>
+            </div>
+            <table id="kalendar" border="1" cellpadding="1" cellspacing="0">
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>52</cell>
+                    </td>
+                    <td>
+                        <cell>53</cell>
+                    </td>
+                    <td>
+                        <cell>54</cell>
+                    </td>
+                    <td>
+                        <cell>55</cell>
+                    </td>
+                    <td>
+                        <cell>56</cell>
+                    </td>
+                    <td>
+                        <cell>57</cell>
+                    </td>
+                    <td>
+                        <cell>58</cell>
+                    </td>
+                    <td>
+                        <cell>59</cell>
+                    </td>
+                    <td>
+                        <cell>60</cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Cows go up country</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-05-06">6
+                                <link target="http://tinyurl.com/zv4fkrg" />
+                            </date> cattle going<lb></lb>up c.<lb></lb>
+                            <date when="1852-05-10">10
+                                <link target="http://tinyurl.com/ja8qykf" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-02">2
+                                <link target="http://tinyurl.com/z9cjma9" />
+                            </date> cattle going<lb></lb>up c.
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <gap reason="unclear"></gap>up country<gap reason="unclear"></gap>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>
+                            <date when="1854-05-08">8th
+                                <link target="http://tinyurl.com/z4drpwc" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-06">6
+                                <link target="http://tinyurl.com/j8cdy68" />
+                            </date> Road full of c.<lb></lb>going up country
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1856-05-07">7
+                                <link target="http://tinyurl.com/j7g4dtb" />
+                            </date> c. going up<lb></lb>country for a week
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-14">14
+                                <link target="http://tinyurl.com/gsq25xm" />
+                            </date> cattle still<lb></lb>going up c.<lb></lb>Begins Ap. <date when="1860-05-30">30
+                                <link target="http://tinyurl.com/z9lgpkm" />
+                            </date>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>
+                            <date when="1860-05-04">4th
+                                <link target="http://tinyurl.com/hjkb62o" />
+                            </date>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>
+                            <date when="1860-05-15">15th
+                                <link target="http://tinyurl.com/j7l9wxb" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Cold in 1st half</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell><del>16 the 1st<gap reason="unclear"></gap>
+                                <lb></lb>weather
+                            </del>
+                            <lb></lb>
+                            <date when="1853-05-01">1st
+                                <link target="http://tinyurl.com/honmvsz" />
+                            </date> cold NW wind<lb></lb>
+                            <date when="1853-05-08">8
+                                <link target="http://tinyurl.com/hgjpwac" />
+                            </date> cold SW wind
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-06">6
+                                <link target="http://tinyurl.com/zebeama" />
+                            </date> cold enough<lb></lb>for gloves in wind
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-12">12
+                                <link target="http://tinyurl.com/z8yqau6" />
+                            </date> 1st warm day for a week or 2<lb></lb>
+                            <date when="1855-05-05">5
+                                <link target="http://tinyurl.com/hjjewm8" />
+                            </date> cold weather for<lb></lb>several days<lb></lb>
+                            <date when="1855-05-08">8
+                                <link target="http://tinyurl.com/jpwwx2l" />
+                            </date>
+                            <gap reason="unclear"></gap>cold in morning<lb></lb>
+                            <date when="1855-05-13">13
+                                <link target="http://tinyurl.com/h687t5r" />
+                            </date> cool &amp; wind in <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1855-05-12">12
+                                <link target="http://tinyurl.com/joc8e4z" />
+                            </date> cold enough for fire <unclear>this many</unclear>
+                            <lb></lb>a day
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1856-05-02">2
+                                <link target="http://tinyurl.com/zde3fco" />
+                            </date> &amp; <date when="1856-05-03">3
+                                <link target="http://tinyurl.com/zde3fco" />
+                            </date> cool rainy<lb></lb>days
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-11">11
+                                <link target="http://tinyurl.com/z45ydk6" />
+                            </date> very cold NW<lb></lb>wind
+                        </cell>
+                    </td>
+                    <td>
+                        <cell><del>
+                                <gap reason="unclear"></gap>
+                            </del></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <gap reason="unclear"></gap>
+                            <date when="1859-05-15">15th
+                                <link target="http://tinyurl.com/hh5bay6" />
+                            </date> a very<lb></lb>
+                            <gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-02">2
+                                <link target="http://tinyurl.com/jjvvkml" />
+                            </date> cool nights<lb></lb>of late<lb></lb>63+ with wind makes<lb></lb>a cool day<lb></lb>
+                            <date when="1860-05-14">14
+                                <link target="http://tinyurl.com/zq9oouw" />
+                            </date>
+                            <date when="1860-05-15">15
+                                <link target="http://tinyurl.com/j8vkn3r" />
+                            </date>
+                            <unclear>cool</unclear> 60+
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Hot in 1st half</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>some</unclear> warm hazy<lb></lb>days before <unclear>the</unclear>
+                            <date when="1852-05-14">14
+                                <link target="http://tinyurl.com/zvqeysd" />
+                            </date>
+                            <lb></lb>
+                            <add rend="pencil">
+                                <date when="1852-05-05">5th
+                                    <link target="http://tinyurl.com/jyczrly" />
+                                </date> really warm<lb></lb>
+                                <date when="1852-05-11">11th
+                                    <link target="http://tinyurl.com/hvz4z92" />
+                                </date>
+                                <persname ref="Lajos Louis Kossuth">Kossuth</persname> here
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-16">16
+                                <link target="http://tinyurl.com/hldzbjx" />
+                            </date> the 1st sultry<lb></lb>weather
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-12">12
+                                <link target="http://tinyurl.com/hn6pq2x" />
+                            </date> sit with open<lb></lb>window &amp; forget<lb></lb>fire<lb></lb>
+                            <date when="1854-05-11">11
+                                <link target="http://tinyurl.com/h8p6o4f" />
+                            </date> warm night<lb></lb>
+                            <date when="1854-05-15">15
+                                <link target="http://tinyurl.com/hsytpzd" />
+                            </date> suddenly very warm
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-12">12
+                                <link target="http://tinyurl.com/z8yqau6" />
+                            </date> warm<lb></lb>
+                            <date when="1855-05-13">13
+                                <link target="http://tinyurl.com/gr9ercq" />
+                            </date> warm &amp; hazy<lb></lb>
+                            <date when="1855-05-15">15
+                                <link target="http://tinyurl.com/zhj45lf" />
+                            </date> suddenly very warm
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-03">3
+                                <link target="http://tinyurl.com/j4qxr6h" />
+                            </date> sit without fire<lb></lb><del>(<gap reason="unclear"></gap>)</del>
+                            <lb></lb>very warm<lb></lb>
+                            <gap reason="unclear"></gap>2 pm 78+<lb></lb>
+                            <date when="1857-05-06">6
+                                <link target="http://tinyurl.com/jcvslyj" />
+                            </date> - <date when="1857-05-07">7
+                                <link target="http://tinyurl.com/j52u8dm" />
+                            </date> - <date when="1857-05-08">8
+                                <link target="http://tinyurl.com/zamrzu6" />
+                            </date>
+                            <gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1858-05-01">1st
+                                <link target="http://tinyurl.com/hcwdrak" />
+                            </date> a <lb></lb>warm &amp; pleasant<lb></lb>day<lb></lb>
+                            <date when="1858-05-02">2
+                                <link target="http://tinyurl.com/z5r75qb" />
+                            </date> no fire today &amp;<lb></lb>yesterday<lb></lb>
+                            <date when="1858-05-14">14
+                                <link target="http://tinyurl.com/gvnoudq" />
+                            </date> 1st summer-like<lb></lb>day
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-01">1st
+                                <link target="http://tinyurl.com/hgskbbs" />
+                            </date> very warm<lb></lb>
+                            <date when="1859-05-04">4
+                                <link target="http://tinyurl.com/hlruavr" />
+                            </date> - 4th warm day<lb></lb>
+                            <date when="1859-05-06">6
+                                <link target="http://tinyurl.com/j244auu" />
+                            </date> suddenly op-<lb></lb>pressively hot <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1859-05-07">7
+                                <link target="http://tinyurl.com/zp82tyg" />
+                            </date>
+                            <unclear>hotter</unclear> 88+<lb></lb>
+                            <date when="1859-05-08">8
+                                <link target="http://tinyurl.com/gqfpv2g" />
+                            </date> - 90 and more
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-04">4th
+                                <link target="http://tinyurl.com/hrpbl7n" />
+                            </date> 70+<lb></lb>
+                            <date when="1860-05-05">5
+                                <link target="http://tinyurl.com/joogqqs" />
+                            </date> - 76 warm &amp; hazy<lb></lb>
+                            <date when="1860-05-06">6
+                                <link target="http://tinyurl.com/za4w2o9" />
+                            </date>
+                            <unclear>chamber</unclear>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1860-05-11">11
+                                <link target="http://tinyurl.com/j2kobpu" />
+                            </date> very warm 77+<lb></lb>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>sultry<gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Hazy (a little <date when="1851-05-25">25
+                                <link target="http://tinyurl.com/zao5euu" />
+                            </date>-51)<lb></lb>
+                            <date when="1860-05-24">24
+                                <link target="http://tinyurl.com/hx5mlek" />
+                            </date>-60
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>some warm hazy<lb></lb>days before the <date when="1852-05-14">14
+                                <link target="http://tinyurl.com/zvqeysd" />
+                            </date>
+                            <lb></lb>
+                            <date when="1852-05-07">7
+                                <link target="http://tinyurl.com/hudnve3" />
+                            </date>
+                            <add rend="pencil">thick W. wind</add>
+                            <lb></lb>
+                            <date when="1852-05-08">8
+                                <link target="http://tinyurl.com/za64v8m" />
+                            </date>
+                            <add rend="pencil">very thick</add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-10">10
+                                <link target="http://tinyurl.com/z5sl9rn" />
+                            </date>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1853-05-28">28
+                                <link target="http://tinyurl.com/hh4xvff" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-13">13th
+                                <link target="http://tinyurl.com/gr9ercq" />
+                            </date>
+                            <lb></lb>
+                            <date when="1855-05-24">24
+                                <link target="http://tinyurl.com/h5dcq7j" />
+                            </date> cannot see the <emph rend="underline">Mts.</emph>
+                            <lb></lb>
+                            <date when="1855-05-30">30
+                                <link target="http://tinyurl.com/hrupaj3" />
+                            </date> much haze<lb></lb>
+                            <date when="1855-05-26">26
+                                <link target="http://tinyurl.com/hcqqnha" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-24">24
+                                <link target="http://tinyurl.com/j67gaqf" />
+                            </date> hazy <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1857-05-26">26
+                                <link target="http://tinyurl.com/jz9wn5p" />
+                            </date> very hazy
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-04">4th
+                                <link target="http://tinyurl.com/j6uv4mj" />
+                            </date> &amp; <date when="1859-05-05">5th
+                                <link target="http://tinyurl.com/jzdqwl2" />
+                            </date>
+                            <lb></lb>
+                            <date when="1859-05-06">6
+                                <link target="http://tinyurl.com/zlstnue" />
+                            </date> - <unclear>smoky ? meads</unclear>
+                            <lb></lb>
+                            <date when="1859-05-07">7
+                                <link target="http://tinyurl.com/jfngwqx" />
+                            </date>
+                            <gap reason="unclear"></gap><del>
+                                <gap reason="unclear"></gap>
+                            </del>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-05">5th
+                                <link target="http://tinyurl.com/joogqqs" />
+                            </date> warm &amp; hazy<lb></lb>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1860-05-14">14
+                                <link target="http://tinyurl.com/jobbpw9" />
+                            </date> remarkably hazy<lb></lb>
+                            <date when="1860-05-15">15
+                                <link target="http://tinyurl.com/hstmv3y" />
+                            </date> hazy<gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Thinner clothes</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-05-09">9
+                                <link target="http://tinyurl.com/h5pcmf3" />
+                            </date> reduce neck<lb></lb>cloth
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-10">10
+                                <link target="http://tinyurl.com/jbgwzap" />
+                            </date> beg. to think<lb></lb>of thin coats
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-24">24
+                                <link target="http://tinyurl.com/hddafr4" />
+                            </date> 1st think of thn coat<lb></lb>
+                            <date when="1855-05-20">20
+                                <link target="http://tinyurl.com/jp5k97e" />
+                            </date>
+                            <unclear>&amp;</unclear>
+                            <date when="1855-05-23">23
+                                <link target="http://tinyurl.com/jp5k97e" />
+                            </date> cold &amp; <unclear>warm</unclear>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>coat <unclear>some</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-26">26
+                                <link target="http://tinyurl.com/j9865g4" />
+                            </date> thin coats<lb></lb>&amp; straw hats worn
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1858-05-10">10th
+                                <link target="http://tinyurl.com/zpnx8l4" />
+                            </date> wish I had worn<lb></lb>a thinner coat
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>
+                                <date when="1860-05-12">12
+                                    <link target="http://tinyurl.com/jqw7hux" />
+                                </date>
+                            </unclear> - 60 <unclear>thinner</unclear>
+                            <gap reason="unclear"></gap>coat<gap reason="unclear"></gap>
+                            <lb></lb>
+                            <unclear>much</unclear>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1860-05-18">18
+                                <link target="http://tinyurl.com/gmj5lmq" />
+                            </date>
+                            <unclear>remarkably<lb></lb>warm</unclear> - 60 <date when="1860-05-19">19
+                                <link target="http://tinyurl.com/zl68vwf" />
+                            </date> &amp; May <date when="1860-05-15">15
+                                <link target="http://tinyurl.com/jkfnmxw" />
+                            </date> at last<lb></lb> &amp; <unclear>no fire</unclear>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>
+                            <date when="1860-05-29">29
+                                <link target="http://tinyurl.com/hk3oqho" />
+                            </date>
+                            <gap reason="unclear"></gap>
+                            <date when="1860-05-30">30
+                                <link target="http://tinyurl.com/gpg53zg" />
+                            </date>
+                            <gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell> </cell>
+                    </td>
+                    <td>
+                        <cell>Bathing</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-29">29th
+                                <link target="http://tinyurl.com/h5y8jnq" />
+                            </date> begins
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-13">13
+                                <link target="http://tinyurl.com/h5weuzf" />
+                            </date> boys bathe
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-08">8
+                                <link target="http://tinyurl.com/hxowgtd" />
+                            </date> some boys<lb></lb>have bathed<lb></lb>
+                            <date when="1857-05-25">25
+                                <link target="http://tinyurl.com/jtql2ld" />
+                            </date>
+                            <unclear>I</unclear> bathe
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-12">12
+                                <link target="http://tinyurl.com/z4qskv4" />
+                            </date> I bathe
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Thunder Shower</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">1st lightning of year<lb></lb>the Sunday before<lb></lb>
+                                <date when="1852-05-19">19th
+                                    <link target="http://tinyurl.com/guxc252" />
+                                </date>
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-16">16th
+                                <link target="http://tinyurl.com/hpbq6om" />
+                            </date>
+                            <gap reason="unclear"></gap>had some<lb></lb>in April when I was in<lb></lb>
+                            <unclear>
+                                <placename>Haverhill</placename>
+                            </unclear> - <date when="1853-05-18">18th
+                                <link target="http://tinyurl.com/zsycerv" />
+                            </date> at night
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-11">11
+                                <link target="http://tinyurl.com/jy3vq4f" />
+                            </date> Thunder <gap reason="unclear"></gap>
+                            <lb></lb>&amp; rain bow - <gap reason="unclear"></gap> - <lb></lb>
+                            <gap reason="unclear"></gap>
+                            <unclear>of Summer</unclear>
+                            <lb></lb>
+                            <date when="1854-05-20">20th
+                                <link target="http://tinyurl.com/j6pbe3l" />
+                            </date> in <unclear>
+                                <placename ref="Haverhill">H.</placename>
+                            </unclear>
+                            <lb></lb>
+                            <unclear>
+                                <date when="1854-05-29">29
+                                    <link target="http://tinyurl.com/z9oglya" />
+                                </date>
+                            </unclear> Thunder <lb></lb> &amp; Lightning<lb></lb>before<lb></lb>rain
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1856-05-20">20
+                                <link target="http://tinyurl.com/heo3mmt" />
+                            </date> Thunder
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-10">10
+                                <link target="http://tinyurl.com/hnjhk3w" />
+                            </date> some thunder<lb></lb>
+                            <gap reason="unclear"></gap>(the first)<lb></lb>
+                            <date when="1857-05-29">29
+                                <link target="http://tinyurl.com/hwxpkar" />
+                            </date> - 1st <gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-09">9
+                                <link target="http://tinyurl.com/jlod4xz" />
+                            </date> the 1st Th. shower<lb></lb><del>
+                                <gap reason="unclear"></gap>
+                            </del>
+                            <unclear>pm</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-13">13
+                                <link target="http://tinyurl.com/zocco27" />
+                            </date> lightning <unclear>storm</unclear>
+                            <lb></lb>
+                            <gap extent="2 lines" reason="unclear"></gap>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Open window <unclear>was fire</unclear>
+                            <lb></lb>v <unclear>April</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">Open all day<lb></lb>the <date when="1852-05-05">5th
+                                    <link target="http://tinyurl.com/zoygbq3" />
+                                </date>
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>April <date when="1855-04-19">19th
+                                    <link target="http://tinyurl.com/z5dydsl" />
+                                </date>
+                            </unclear> 1st <gap reason="unclear"></gap>
+                            <unclear>sit</unclear>
+                            <lb></lb>with open window
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-03">3rd
+                                <link target="http://tinyurl.com/h94xztm" />
+                            </date> sit without<lb></lb>fire
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1858-05-01">1st
+                                <link target="http://tinyurl.com/ha49d86" />
+                            </date> &amp; <date when="1858-05-02">2nd
+                                <link target="http://tinyurl.com/ha49d86" />
+                            </date> 58<lb></lb>without fire
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-04-30">30
+                                <link target="http://tinyurl.com/hs5sye6" />
+                            </date>
+                            <unclear>April</unclear>sit<lb></lb>without fire
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>no fire in chamber<lb></lb>from Ap. <date when="1860-04-19">19
+                                <link target="http://tinyurl.com/gol6bg5" />
+                            </date> - May <date when="1860-05-15">15
+                                <link target="http://tinyurl.com/gol6bg5" />
+                            </date>
+                            <lb></lb>at last
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Slightly sultryish morning</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-22">22
+                                <link target="http://tinyurl.com/jpacmgr" />
+                            </date> slightly
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-25">25
+                                <link target="http://tinyurl.com/hqb3dr2" />
+                            </date> Hear buzz of flies<lb></lb>in sultryish morning
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-06">6
+                                <link target="http://tinyurl.com/he62ogk" />
+                            </date> at night<lb></lb>1st sultry buzz<lb></lb>of a fly in chamber
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Fire again</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">
+                                <date when="1852-05-12">12
+                                    <link target="http://tinyurl.com/gm2d284" />
+                                </date> - <date when="1852-05-13">13
+                                    <link target="http://tinyurl.com/gm2d284in" />
+                                </date> in rain
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-27">27
+                                <link target="http://tinyurl.com/hauttlr" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell><del>27</del>
+                            <date when="1855-05-12">12
+                                <link target="http://tinyurl.com/hqut8g5" />
+                            </date> cold enough<lb></lb>for a fire this many a day<lb></lb>
+                            <date when="1855-05-20">20
+                                <link target="http://tinyurl.com/j7lfd8g" />
+                            </date>
+                            <gap reason="unclear"></gap>
+                            <date when="1855-05-25">25
+                                <link target="http://tinyurl.com/hvvesnj" />
+                            </date>
+                            <unclear>indoors</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-16">16
+                                <link target="http://tinyurl.com/z66yf2j" />
+                            </date> many have<lb></lb>
+                            <date when="1860-05-21">21
+                                <link target="http://tinyurl.com/hcuhrvt" />
+                            </date> I have <gap reason="unclear"></gap> &amp; <date when="1860-05-22">22
+                                <link target="http://tinyurl.com/hajkbe8" />
+                            </date>
+                            <lb></lb>
+                            <date when="1860-05-27">27th
+                                <link target="http://tinyurl.com/h9kbbal" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>Sat</unclear>with open window
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">
+                                <date when="1852-05-01">1st
+                                    <link target="http://tinyurl.com/h8ysssl" />
+                                </date> &amp; <date when="1852-05-08">8
+                                    <link target="http://tinyurl.com/h8ysssl" />
+                                </date> at least
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">
+                                <date when="1854-05-24">24
+                                    <link target="http://tinyurl.com/jdk2zbg" />
+                                </date> last night
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-25">25
+                                <link target="http://tinyurl.com/jzsnp4e" />
+                            </date> (last night)
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-13">13th
+                                <link target="http://tinyurl.com/zq4wg5u" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Yellow sun light</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-06">6
+                                <link target="http://tinyurl.com/z3z8sny" />
+                            </date> &amp; <date when="1859-05-07">7
+                                <link target="http://tinyurl.com/z3z8sny" />
+                            </date>
+                            <gap extent="2 lines" reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-14">14th
+                                <link target="http://tinyurl.com/gtn5fay" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Water tepid in morning</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-17">17th
+                                <link target="http://tinyurl.com/hlqxyv3" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Frost <unclear>Apprehended</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-05-20">20th
+                                <link target="http://tinyurl.com/jeg9bff" />
+                            </date> 52
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-31">31
+                                <link target="http://tinyurl.com/jbmlenl" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-31">31st
+                                <link target="http://tinyurl.com/jfslth2" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Frost on <unclear>upland<lb></lb><abbr corresp="Note Bene">NB</abbr>(But frost on lowland
+                                in June)</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-21">21
+                                <link target="http://tinyurl.com/zd6zpsn" />
+                            </date> on squashes in garden<lb></lb>&amp; in woods (v <date when="1860-05-22">22
+                                <link target="http://tinyurl.com/jbvtsev" />
+                            </date> &amp; <date when="1860-05-25">25
+                                <link target="http://tinyurl.com/jcm7edc" />
+                            </date>)<lb></lb>
+                            <date when="1860-05-29">29th
+                                <link target="http://tinyurl.com/jtoeupm" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Frost in <unclear>ground</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-05-08">8</date> ground still<lb></lb>frozen in some places
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <note place="above">
+                                <gap reason="unclear"></gap>
+                            </note>Frost kill plants
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-26">26
+                                <link target="http://tinyurl.com/h7r3vlp" />
+                            </date> kills only <unclear>be in</unclear>
+                            <lb></lb>hollow a week since<lb></lb>v. June <date when="1853-06-01">1st
+                                <link target="http://tinyurl.com/jbbrvjd" />
+                            </date> 53
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-19">19
+                                <link target="http://tinyurl.com/hs53tyg" />
+                            </date> ferns blackened<lb></lb>within a night or 2
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1858-05-28">28
+                                <link target="http://tinyurl.com/hmhvuht" />
+                            </date> &amp; <date when="1858-05-29">29
+                                <link target="http://tinyurl.com/hmhvuht" />
+                            </date>
+                            <unclear>night</unclear>
+                            <lb></lb>more <unclear>frost</unclear>
+                            <lb></lb>
+                            <date when="1858-05-30">30
+                                <link target="http://tinyurl.com/hmhvuht" />
+                            </date> hickories<lb></lb>blackened
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-22">22
+                                <link target="http://tinyurl.com/gkuu2fz" />
+                            </date> see many leaves<lb></lb>killed about <date when="1859-05-15">15th
+                                <link target="http://tinyurl.com/hh5bay6" />
+                            </date>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>late for<gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>52</cell>
+                    </td>
+                    <td>
+                        <cell>53</cell>
+                    </td>
+                    <td>
+                        <cell>54</cell>
+                    </td>
+                    <td>
+                        <cell>55</cell>
+                    </td>
+                    <td>
+                        <cell>56</cell>
+                    </td>
+                    <td>
+                        <cell>57</cell>
+                    </td>
+                    <td>
+                        <cell>58</cell>
+                    </td>
+                    <td>
+                        <cell>59</cell>
+                    </td>
+                    <td>
+                        <cell>60</cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>1st shadows noticed</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-05-11">11
+                                <link target="http://tinyurl.com/ze3ttzk" />
+                            </date> sought but<lb></lb>did not find -<lb></lb>- <persname ref="Lajos Louis Kossuth">
+                                Kossuth</persname> here
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-16">16
+                                <link target="http://tinyurl.com/j59e3ju" />
+                            </date>
+                            <placename>Conantum Cliff</placename>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-04">4
+                                <link target="http://tinyurl.com/zywcfmv" />
+                            </date> notice <unclear>conspic</unclear>
+                            <lb></lb>shadow of <placename ref="Conantum Cliff">Conant. <lb></lb>Cliff</placename> warm
+                            SW<lb></lb>wind
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-06">6
+                                <link target="http://tinyurl.com/zu7876n" />
+                            </date> shade grateful<lb></lb>
+                            <date when="1860-05-11">11
+                                <link target="http://tinyurl.com/gqbo4c6" />
+                            </date> notice<gap reason="unclear"></gap>
+                            <lb></lb>warmth - before <unclear>leaves</unclear>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>1st shadows<gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1851-05-28">28
+                                <link target="http://tinyurl.com/z4vveu3" />
+                            </date>-51
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">
+                                <date when="1852-05-30">30
+                                    <link target="http://tinyurl.com/zhrqlrr" />
+                                </date> strong lights<lb></lb>&amp; shades now
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-27">27
+                                <link target="http://tinyurl.com/zsppga9" />
+                            </date> - casting darker shad-<lb></lb>ows over the meads<lb></lb>
+                            <gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-29">29
+                                <link target="http://tinyurl.com/hksd4yg" />
+                            </date> little shades<lb></lb>produced by expand-<lb></lb>ing foliage
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-24">24
+                                <link target="http://tinyurl.com/jhqxuu9" />
+                            </date>
+                            <gap reason="unclear"></gap>shadow of hickories
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Sun sets red</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">
+                                <date when="1853-05-28">28
+                                    <link target="http://tinyurl.com/h8ymagp" />
+                                </date> &amp; <date when="1853-05-27">27
+                                    <link target="http://tinyurl.com/gm9ax9y" />
+                                </date>
+                                <lb></lb>warm weather
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-05">5
+                                <link target="http://tinyurl.com/zxd2dba" />
+                            </date> (1st time) fol-<lb></lb>lowed by very hot<lb></lb>&amp; hazy day
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-04">4th
+                                <link target="http://tinyurl.com/jofg46f" />
+                            </date> or <date when="1860-05-05">5th
+                                <link target="http://tinyurl.com/hgl3m5f" />
+                            </date>
+                            <lb></lb>
+                            <date when="1860-05-15">15
+                                <link target="http://tinyurl.com/z3g9nxu" />
+                            </date> &amp; <date when="1860-05-14">14th
+                                <link target="http://tinyurl.com/z3g9nxu" />
+                            </date> &amp; <date when="1860-05-16">16th
+                                <link target="http://tinyurl.com/j2n8aw5" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <emph rend="underline">Cold</emph> in last half
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-05-20">20
+                                <link target="http://tinyurl.com/jeg9bff" />
+                            </date> - <unclear>frost ap-<lb></lb>prehended</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-31">31
+                                <link target="http://tinyurl.com/htjogce" />
+                            </date> cold SE wind
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-21">21
+                                <link target="http://tinyurl.com/h4ect8f" />
+                            </date> very cold -<lb></lb>cold <unclear>from</unclear>
+                            <date when="1855-05-20">20
+                                <link target="http://tinyurl.com/zz8gohu" />
+                            </date> to <date when="1855-05-23">23
+                                <link target="http://tinyurl.com/zz8gohu" />
+                            </date>
+                            <unclear>wind</unclear>
+                            <lb></lb>wear great coat some<lb></lb>stormy cold wind from NW
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1856-05-25">25
+                                <link target="http://tinyurl.com/zeylsb6" />
+                            </date> &amp; <date when="1856-05-26">26</date> cold<lb></lb>
+                            <date when="1856-05-31">31
+                                <link target="http://tinyurl.com/hv2s4zv" />
+                            </date> very cold for<lb></lb>2 or 3 days past
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-19">19
+                                <link target="http://tinyurl.com/hs53tyg" />
+                            </date> frost within<lb></lb>a night or 2 past
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>Frost</unclear> the<lb></lb>
+                            <date when="1858-05-28">28
+                                <link target="http://tinyurl.com/hmhvuht" />
+                            </date> &amp; <date when="1858-05-29">29
+                                <link target="http://tinyurl.com/hmhvuht" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-16">16
+                                <link target="http://tinyurl.com/zmajrzh" />
+                            </date> - 56+ <unclear>fires again</unclear>
+                            <lb></lb>
+                            <date when="1860-05-20">20
+                                <link target="http://tinyurl.com/h569fkr" />
+                            </date> strong cold <unclear>W</unclear> wind<lb></lb>60+ at 2pm<lb></lb>
+                            <date when="1860-05-21">21
+                                <link target="http://tinyurl.com/hcuhrvt" />
+                            </date>
+                            <gap reason="unclear"></gap> &amp; <unclear>fire</unclear>
+                            <lb></lb>
+                            <date when="1860-05-22">22
+                                <link target="http://tinyurl.com/gs6na79" />
+                            </date>
+                            <gap reason="unclear"></gap>
+                            <unclear>wet</unclear>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Hot in last half<lb></lb>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1851-05-25">25
+                                <link target="http://tinyurl.com/hxlfl3m" />
+                            </date>-51
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-28">28
+                                <link target="http://tinyurl.com/jzglxn2" />
+                            </date> sudden heat
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-28">28
+                                <link target="http://tinyurl.com/h6ej8jg" />
+                            </date>
+                            <unclear>oppresively</unclear>
+                            <lb></lb>warm
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-24">24
+                                <link target="http://tinyurl.com/hddafr4" />
+                            </date> 1st think of thin coat<lb></lb>
+                            <date when="1855-05-25">25
+                                <link target="http://tinyurl.com/htojddg" />
+                            </date> warm night the last<lb></lb>
+                            <date when="1855-05-28">28
+                                <link target="http://tinyurl.com/hwmsx5r" />
+                            </date><del>
+                                <gap reason="unclear"></gap>
+                            </del>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1856-05-23">23
+                                <link target="http://tinyurl.com/h4x2j5k" />
+                            </date> - <date when="1856-05-24">24
+                                <link target="http://tinyurl.com/jkqwlwd" />
+                            </date> warm<lb></lb>summer-like<lb></lb>evening<lb></lb>
+                            <date when="1856-05-24">24
+                                <link target="http://tinyurl.com/jkqwlwd" />
+                            </date> suddenly<gap reason="unclear"></gap>
+                            <lb></lb>hot 94+ at <unclear>1pm</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-22">22
+                                <link target="http://tinyurl.com/hduy4yy" />
+                            </date> - fair &amp; warm<lb></lb>at last 70+<lb></lb>
+                            <date when="1857-05-24">24
+                                <link target="http://tinyurl.com/zl7zxt6" />
+                            </date> very warm morn<lb></lb>3pm 88+<lb></lb>
+                            <date when="1857-05-25">25
+                                <link target="http://tinyurl.com/j2w8zz2" />
+                            </date> 87 2pm 87+
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Washing day<lb></lb>
+                            <date when="1851-05-25">25
+                                <link target="http://tinyurl.com/hxlfl3m" />
+                            </date>-51<gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">
+                                <date when="1852-05-17">17
+                                    <link target="http://tinyurl.com/hwscz3l" />
+                                </date> after storm<lb></lb>
+                                <date when="1852-05-30">30th
+                                    <link target="http://tinyurl.com/zcymkce" />
+                                </date> &amp; shadows<lb></lb>of clouds
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-21">21
+                                <link target="http://tinyurl.com/hvy6hut" />
+                            </date> windy day after<lb></lb>May rains - wash-<lb></lb>ing day (<date when="1853-05-19">
+                                19
+                                <link target="http://tinyurl.com/zvxxbrc" />
+                            </date> - <date when="1853-05-20">20
+                                <link target="http://tinyurl.com/gwuubeu" />
+                            </date> -<lb></lb>
+                            <date when="1853-05-21">21
+                                <link target="http://tinyurl.com/hvy6hut" />
+                            </date> - <date when="1853-05-22">2
+                                <link target="http://tinyurl.com/z8sb83n" />
+                            </date> - <date when="1853-05-23">3
+                                <link target="http://tinyurl.com/j7du4dd" />
+                            </date>)
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-19">19
+                                <link target="http://tinyurl.com/jjzfpx3" />
+                            </date> washing day<lb></lb>
+                            <date when="1854-05-20">20
+                                <link target="http://tinyurl.com/jm3hgou" />
+                                <link target="http://tinyurl.com/jm3hgou" />
+                            </date> blowing off<lb></lb>some apple <unclear>blossom</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-31">31st
+                                <link target="http://tinyurl.com/zvju6tu" />
+                            </date>
+                            <lb></lb>
+                            <unclear>
+                                <date when="1855-05-27">27th
+                                    <link target="http://tinyurl.com/zyeajbq" />
+                                </date>
+                            </unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1856-05-02">2
+                                <link target="http://tinyurl.com/jqmjpxk" />
+                            </date> - washing day<lb></lb>after rains
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-10">10th
+                                <link target="http://tinyurl.com/hzq383o" />
+                            </date> a washing day
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-19">19th
+                                <link target="http://tinyurl.com/zfqvrgu" />
+                            </date>
+                            <note place="above">
+                                <unclear>SW</unclear>
+                            </note>
+                            <date when="1860-05-30">30th
+                                <link target="http://tinyurl.com/zu7wkss" />
+                            </date> &amp;<lb></lb>June <date when="1860-06-02">2
+                                <link target="http://tinyurl.com/zerj6ye" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>High winds</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-30">30th
+                                <link target="http://tinyurl.com/j589n4v" />
+                            </date> very windy
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-18">18
+                                <link target="http://tinyurl.com/jjzfpx3" />
+                            </date> high winds
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-26">26
+                                <link target="http://tinyurl.com/js2vqxp" />
+                            </date> strong cold NW wind<lb></lb>
+                            <date when="1855-05-30">30
+                                <link target="http://tinyurl.com/hmwau9b" />
+                            </date> strong W wind<lb></lb>
+                            <date when="1855-05-31">31
+                                <link target="http://tinyurl.com/zvju6tu" />
+                            </date> windy washing day<lb></lb>June <date when="1855-06-01">1
+                                <link target="http://tinyurl.com/jgpka27" />
+                            </date> &amp; <date when="1855-06-02">2
+                                <link target="http://tinyurl.com/gthsbo6" />
+                            </date>
+                            <emph rend="underline">very windy</emph>
+                            <lb></lb>making 4 days
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-11">11th
+                                <link target="http://tinyurl.com/z45ydk6" />
+                            </date> (very cold NW<lb></lb>wind<unclear>?</unclear>)
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-10">10th
+                                <link target="http://tinyurl.com/jpa8ndy" />
+                            </date>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>&amp; have died away with<lb></lb>April<lb></lb>
+                            <date when="1860-05-20">20
+                                <link target="http://tinyurl.com/ht7ylae" />
+                            </date> strong cold W wind
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>Leaves</unclear>blackened &amp; cold<lb></lb>wind
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Hickory blackened &amp;<lb></lb>blowing in cold wind <date when="1856-05-31">31
+                                <link target="http://tinyurl.com/z2snc79" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Sea turn</cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-17">17
+                                <link target="http://tinyurl.com/gnfphr8" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1858-05-31">31st
+                                <link target="http://tinyurl.com/hmhvuht" />
+                            </date> slight in<lb></lb>
+                            <unclear>Am</unclear>
+                            <lb></lb>
+                            <date when="1858-05-20">20
+                                <link target="http://tinyurl.com/zqrqp9x" />
+                            </date> perhaps a little
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>E winds</unclear>
+                            <gap></gap>
+                            <unclear>rain?</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Cool &amp; wind in pm<lb></lb>
+                            <date when="1855-05-13">13th
+                                <link target="http://tinyurl.com/j7xuy28" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <unclear>prevailing wind</unclear>
+                            <lb></lb>
+                            <gap extent="3 lines" reason="unclear"></gap>
+                            <lb></lb>cool <unclear>wind</unclear>
+                            <gap reason="unclear"></gap>
+                            <unclear>
+                                <date when="1860-05-19">19
+                                    <link target="http://tinyurl.com/jcu2jnq" />
+                                </date>
+                            </unclear>
+                            <date when="1860-05-15">15
+                                <link target="http://tinyurl.com/jkcmztb" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Fog</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-05-07">7th
+                                <link target="http://tinyurl.com/zvojsud" />
+                            </date> 1st fog very slight<lb></lb>
+                            <date when="1852-05-29">29
+                                <link target="http://tinyurl.com/zhbq6h4" />
+                            </date> some slight fog<lb></lb>in the morning
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-12">12th
+                                <link target="http://tinyurl.com/juqc543" />
+                            </date> 1st considerable<lb></lb>one<lb></lb>June <date when="1853-06-01">1st
+                                <link target="http://tinyurl.com/zstutxt" />
+                            </date> quite a fog<lb></lb>
+                            <gap reason="unclear"></gap> fogs begin
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-12">12
+                                <link target="http://tinyurl.com/zcml5f6" />
+                            </date> 1st fog <unclear>slight</unclear>
+                            <lb></lb>
+                            <date when="1854-05-24">24
+                                <link target="http://tinyurl.com/hlnklvu" />
+                            </date> consid fog<gap extent="2 lines" reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1856-05-15">15
+                                <link target="http://tinyurl.com/j8ayhhr" />
+                            </date> fog in morning<lb></lb>
+                            <date when="1856-05-19">19
+                                <link target="http://tinyurl.com/gwzkv77" />
+                            </date> thick fog in morn<lb></lb>till late forenoon
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1858-05-30">30
+                                <link target="http://tinyurl.com/jb7horq" />
+                            </date> fog rising<lb></lb>over meadow<lb></lb>at evening
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-06">6
+                                <link target="http://tinyurl.com/znmqzpv" />
+                            </date>
+                            <gap reason="unclear"></gap>
+                            <lb></lb>morning<gap reason="unclear"></gap>
+                            <lb></lb>week after<lb></lb>
+                            <date when="1860-05-19">19
+                                <link target="http://tinyurl.com/zl68vwf" />
+                            </date> quite a fog till 8am<lb></lb>
+                            <date when="1860-05-28">28
+                                <link target="http://tinyurl.com/hdl4hrx" />
+                            </date>
+                            <gap reason="unclear"></gap>solid white fog<lb></lb>
+                            <gap reason="unclear"></gap>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Heavy Dew</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <add rend="pencil">
+                                <date when="1852-05-07">7
+                                    <link target="http://tinyurl.com/zavston" />
+                                </date> - which wets<lb></lb>feet<lb></lb>
+                                <date when="1852-05-11">11
+                                    <link target="http://tinyurl.com/j752srb" />
+                                </date>
+                                <gap reason="unclear"></gap>
+                            </add>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-22">22
+                                <link target="http://tinyurl.com/jlcpc46" />
+                            </date> now wets<lb></lb>completely<lb></lb>
+                            <date when="1854-05-12">12
+                                <link target="http://tinyurl.com/hgs4r9u" />
+                            </date> grass high<lb></lb>enough to be wet
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1860-05-12">12
+                                <link target="http://tinyurl.com/hgzgvna" />
+                            </date> very heavy dew<lb></lb>
+                            <unclear>
+                                <date when="1860-05-09">9
+                                    <link target="http://tinyurl.com/j9q8w5x" />
+                                </date>
+                            </unclear>
+                            <gap extent="2 lines" reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1860-05-13">13
+                                <link target="http://tinyurl.com/hg7ntzl" />
+                            </date>
+                            <unclear>beautiful</unclear> dew drops
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>meadow fragrance</cell>
+                    </td>
+                    <td>
+                        <cell><del>26</del>
+                            <date when="1852-05-27">27
+                                <link target="http://tinyurl.com/hdx7r6t" />
+                            </date>
+                            <unclear>begins<lb></lb>much as meadows <date when="1852-06-24">24
+                                    <link target="http://tinyurl.com/zjtmfo4" />
+                                </date>
+                            </unclear>
+                            <lb></lb>
+                            <gap reason="unclear"></gap>June <date when="1852-06-27">27
+                                <link target="http://tinyurl.com/hdx7r6t" />
+                            </date>
+                            <lb></lb>
+                            <date when="1852-05-16">16
+                                <link target="http://tinyurl.com/h7u4an8" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1853-05-17">17
+                                <link target="http://tinyurl.com/h8g2ref" />
+                            </date> the first
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-22">22
+                                <link target="http://tinyurl.com/grgdk25" />
+                            </date> the 1st
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1855-05-27">27
+                                <link target="http://tinyurl.com/ja4pnb7" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1856-05-15">15
+                                <link target="http://tinyurl.com/zu4pr4n" />
+                            </date> &amp; <date when="1856-05-27">27
+                                <link target="http://tinyurl.com/hj422pu" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1857-05-25">25
+                                <link target="http://tinyurl.com/zv9m2zv" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell><del>
+                                <gap reason="unclear"></gap>
+                            </del></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-11">11th
+                                <link target="http://tinyurl.com/jt2hh4b" />
+                            </date>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>June <date when="1860-06-04">4
+                                <link target="http://tinyurl.com/zum9gem" />
+                            </date>
+                        </cell>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>Peculiar fragrance<lb></lb>in air</cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1852-05-26">26
+                                <link target="http://tinyurl.com/jbm3nxl" />
+                            </date> meadows<lb></lb>well most<lb></lb>of night
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1854-05-16">16
+                                <link target="http://tinyurl.com/jctczds" />
+                            </date> sweet scent<lb></lb>expand. leafets or other<lb></lb>
+                            <unclear>cuases</unclear>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell></cell>
+                    </td>
+                    <td>
+                        <cell>
+                            <date when="1859-05-04">4
+                                <link target="http://tinyurl.com/jx6p2hu" />
+                            </date> a peculiar<lb></lb>fr. in air<gap reason="unclear"></gap>
+                            <lb></lb>
+                            <date when="1859-05-26">26
+                                <link target="http://tinyurl.com/z9p35qd" />
+                            </date>
+                            <gap extent="2 lines" reason="unclear"></gap>
+                        </cell>
+                    </td>
+                    <td>
+                        <cell>June <date when="1860-06-04">4
+                                <link target="http://tinyurl.com/zum9gem" />
+                            </date>
+                            <gap extent="2 lines" reason="unclear"></gap>
+                        </cell>
+                    </td>
+                </tr>
+            </table>
+            <div id="footer">
+                <div id="lefty">
+                    <ul style="list-style: none;">
+                        <li>
+                            <a href="./resources/images/pages/genphenmay2.html" target="_new">See this manuscript
+                                page</a>    <a
+                                href="https://thoreauskalendar.org/resources/downloads/May2whole.zip">Download the
+                                full-size image</a>
+                        </li>
+                        <li style="font-size: 0.8em;">
+                            <br />Manuscript images provided by: <a href="http://www.themorgan.org/default.asp"
+                                target="_blank">The Pierpont Morgan Library</a>, New York.</li>
+                    </ul>
+                </div>
+                <div id="righty">
+                    <script>
+                        $("#righty").load("./colophon.html");
+                    </script>
+                </div>
+                <div id="nader">
+                    <br />
+                    <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off" />
+                    <button id="show">Search</button>
+                    <br />
+                    <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
+                    <div id="search-help">
+                        <span>
+                            <ul>
+                                <li>
+                                    <b>Searching:</b> You can search for items word by word,
+                                    <br />or you can use multiple words like so: a, b, c</li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="main">
-            <div id="content">
-                <div id="banner">
-                    <img src="./resources/images/newtestheader3.png" align="middle"/>
-                </div>
-                <div id="search-menu">
-                    <table style="width: 80%;">
-                        <tr>
-                            <td style="padding-left: 20px;">
-                                <button id="pers">people</button>
-                                <button id="places">places</button>
-                                <button id="add">adds</button>
-                                <button id="pencils">pencil</button>
-                                <button id="gaps" class="red">gaps</button>
-                                <button id="help">help</button>
-                            </td>
-                            <td>
-                                <i>
-                                    <script>var pageTitle = $(document).attr('title'); document.write(pageTitle);</script>
-                                </i>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div id="helpbox">
-                    <table cellpadding="1" cellspacing="0">
-                        <tr>
-                            <th colspan="2" style="width:100%">Clicking the buttons above will do the following:</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>People:  </b>
-                            </td>
-                            <td>Highlight person names.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Places:  </b>
-                            </td>
-                            <td>Highlight place names.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Adds:  </b>
-                            </td>
-                            <td>Highlight items marked 'add.' (Excluding: pencil additions)</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Pencil:  </b>
-                            </td>
-                            <td>Highlight additions done in pencil.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Gaps:  </b>
-                            </td>
-                            <td>Toggles the display of textual gaps.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Sources:</b>
-                            </td>
-                            <td>Source material links are the dates in <span style="color: #8A4E5D;">this color</span>.</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Unclear:</b>
-                            </td>
-                            <td>Words with a <span style="border-bottom: 1px dashed #999;">dashed underline</span> are unclear in the source text.</td>
-                        </tr>
-                    </table>
-                </div><table id="kalendar" border="1" cellpadding="1" cellspacing="0"><tr><td><cell></cell></td><td><cell></cell></td><td><cell>52</cell></td><td><cell>53</cell></td><td><cell>54</cell></td><td><cell>55</cell></td><td><cell>56</cell></td><td><cell>57</cell></td><td><cell>58</cell></td><td><cell>59</cell></td><td><cell>60</cell></td></tr><tr><td><cell></cell></td><td><cell>Cows go up country</cell></td><td><cell><date when="1852-05-06">6<link target="http://tinyurl.com/zv4fkrg"/></date> cattle going<lb></lb>up c.<lb></lb><date when="1852-05-10">10<link target="http://tinyurl.com/ja8qykf"/></date></cell></td><td><cell><date when="1853-05-02">2<link target="http://tinyurl.com/z9cjma9"/></date> cattle going<lb></lb>up c.</cell></td><td><cell><gap reason="unclear"></gap>up country<gap reason="unclear"></gap><lb></lb><gap reason="unclear"></gap><date when="1854-05-08">8th<link target="http://tinyurl.com/z4drpwc"/></date></cell></td><td><cell><date when="1855-05-06">6<link target="http://tinyurl.com/j8cdy68"/></date> Road full of c.<lb></lb>going up country</cell></td><td><cell><date when="1856-05-07">7<link target="http://tinyurl.com/j7g4dtb"/></date> c. going up<lb></lb>country for a week</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-14">14<link target="http://tinyurl.com/gsq25xm"/></date> cattle still<lb></lb>going up c.<lb></lb>Begins Ap. <date when="1860-05-30">30<link target="http://tinyurl.com/z9lgpkm"/></date><lb></lb><gap reason="unclear"></gap><date when="1860-05-04">4th<link target="http://tinyurl.com/hjkb62o"/></date><lb></lb><gap reason="unclear"></gap><date when="1860-05-15">15th<link target="http://tinyurl.com/j7l9wxb"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>Cold in 1st half</cell></td><td><cell></cell></td><td><cell><del>16 the 1st<gap reason="unclear"></gap><lb></lb>weather</del><lb></lb><date when="1853-05-01">1st<link target="http://tinyurl.com/honmvsz"/></date> cold NW wind<lb></lb><date when="1853-05-08">8<link target="http://tinyurl.com/hgjpwac"/></date> cold SW wind</cell></td><td><cell><date when="1854-05-06">6<link target="http://tinyurl.com/zebeama"/></date> cold enough<lb></lb>for gloves in wind</cell></td><td><cell><date when="1855-05-12">12<link target="http://tinyurl.com/z8yqau6"/></date> 1st warm day for a week or 2<lb></lb><date when="1855-05-05">5<link target="http://tinyurl.com/hjjewm8"/></date> cold weather for<lb></lb>several days<lb></lb><date when="1855-05-08">8<link target="http://tinyurl.com/jpwwx2l"/></date><gap reason="unclear"></gap>cold in morning<lb></lb><date when="1855-05-13">13<link target="http://tinyurl.com/h687t5r"/></date> cool &amp; wind in <gap reason="unclear"></gap><lb></lb><date when="1855-05-12">12<link target="http://tinyurl.com/joc8e4z"/></date> cold enough for fire <unclear>this many</unclear><lb></lb>a day</cell></td><td><cell><date when="1856-05-02">2<link target="http://tinyurl.com/zde3fco"/></date> &amp; <date when="1856-05-03">3<link target="http://tinyurl.com/zde3fco"/></date> cool rainy<lb></lb>days</cell></td><td><cell><date when="1857-05-11">11<link target="http://tinyurl.com/z45ydk6"/></date> very cold NW<lb></lb>wind</cell></td><td><cell><del><gap reason="unclear"></gap></del></cell></td><td><cell><gap reason="unclear"></gap><date when="1859-05-15">15th<link target="http://tinyurl.com/hh5bay6"/></date> a very<lb></lb><gap reason="unclear"></gap></cell></td><td><cell><date when="1860-05-02">2<link target="http://tinyurl.com/jjvvkml"/></date> cool nights<lb></lb>of late<lb></lb>63+ with wind makes<lb></lb>a cool day<lb></lb><date when="1860-05-14">14<link target="http://tinyurl.com/zq9oouw"/></date><date when="1860-05-15">15<link target="http://tinyurl.com/j8vkn3r"/></date><unclear>cool</unclear> 60+</cell></td></tr><tr><td><cell></cell></td><td><cell>Hot in 1st half</cell></td><td><cell><unclear>some</unclear> warm hazy<lb></lb>days before <unclear>the</unclear><date when="1852-05-14">14<link target="http://tinyurl.com/zvqeysd"/></date><lb></lb><add rend="pencil"><date when="1852-05-05">5th<link target="http://tinyurl.com/jyczrly"/></date> really warm<lb></lb><date when="1852-05-11">11th<link target="http://tinyurl.com/hvz4z92"/></date><persname ref="Lajos Louis Kossuth">Kossuth</persname> here</add></cell></td><td><cell><date when="1853-05-16">16<link target="http://tinyurl.com/hldzbjx"/></date> the 1st sultry<lb></lb>weather</cell></td><td><cell><date when="1854-05-12">12<link target="http://tinyurl.com/hn6pq2x"/></date> sit with open<lb></lb>window &amp; forget<lb></lb>fire<lb></lb><date when="1854-05-11">11<link target="http://tinyurl.com/h8p6o4f"/></date> warm night<lb></lb><date when="1854-05-15">15<link target="http://tinyurl.com/hsytpzd"/></date> suddenly very warm</cell></td><td><cell><date when="1855-05-12">12<link target="http://tinyurl.com/z8yqau6"/></date> warm<lb></lb><date when="1855-05-13">13<link target="http://tinyurl.com/gr9ercq"/></date> warm &amp; hazy<lb></lb><date when="1855-05-15">15<link target="http://tinyurl.com/zhj45lf"/></date> suddenly very warm</cell></td><td><cell></cell></td><td><cell><date when="1857-05-03">3<link target="http://tinyurl.com/j4qxr6h"/></date> sit without fire<lb></lb><del>(<gap reason="unclear"></gap>)</del><lb></lb>very warm<lb></lb><gap reason="unclear"></gap>2 pm 78+<lb></lb><date when="1857-05-06">6<link target="http://tinyurl.com/jcvslyj"/></date> - <date when="1857-05-07">7<link target="http://tinyurl.com/j52u8dm"/></date> - <date when="1857-05-08">8<link target="http://tinyurl.com/zamrzu6"/></date><gap reason="unclear"></gap></cell></td><td><cell><date when="1858-05-01">1st<link target="http://tinyurl.com/hcwdrak"/></date> a <lb></lb>warm &amp; pleasant<lb></lb>day<lb></lb><date when="1858-05-02">2<link target="http://tinyurl.com/z5r75qb"/></date> no fire today &amp;<lb></lb>yesterday<lb></lb><date when="1858-05-14">14<link target="http://tinyurl.com/gvnoudq"/></date> 1st summer-like<lb></lb>day</cell></td><td><cell><date when="1859-05-01">1st<link target="http://tinyurl.com/hgskbbs"/></date> very warm<lb></lb><date when="1859-05-04">4<link target="http://tinyurl.com/hlruavr"/></date> - 4th warm day<lb></lb><date when="1859-05-06">6<link target="http://tinyurl.com/j244auu"/></date> suddenly op-<lb></lb>pressively hot <gap reason="unclear"></gap><lb></lb><date when="1859-05-07">7<link target="http://tinyurl.com/zp82tyg"/></date><unclear>hotter</unclear> 88+<lb></lb><date when="1859-05-08">8<link target="http://tinyurl.com/gqfpv2g"/></date> - 90 and more</cell></td><td><cell><date when="1860-05-04">4th<link target="http://tinyurl.com/hrpbl7n"/></date> 70+<lb></lb><date when="1860-05-05">5<link target="http://tinyurl.com/joogqqs"/></date> - 76 warm &amp; hazy<lb></lb><date when="1860-05-06">6<link target="http://tinyurl.com/za4w2o9"/></date><unclear>chamber</unclear><gap reason="unclear"></gap><lb></lb><date when="1860-05-11">11<link target="http://tinyurl.com/j2kobpu"/></date> very warm 77+<lb></lb><gap reason="unclear"></gap><lb></lb><gap reason="unclear"></gap>sultry<gap reason="unclear"></gap></cell></td></tr><tr><td><cell></cell></td><td><cell>Hazy (a little <date when="1851-05-25">25<link target="http://tinyurl.com/zao5euu"/></date>-51)<lb></lb><date when="1860-05-24">24<link target="http://tinyurl.com/hx5mlek"/></date>-60</cell></td><td><cell>some warm hazy<lb></lb>days before the <date when="1852-05-14">14<link target="http://tinyurl.com/zvqeysd"/></date><lb></lb><date when="1852-05-07">7<link target="http://tinyurl.com/hudnve3"/></date><add rend="pencil">thick W. wind</add><lb></lb><date when="1852-05-08">8<link target="http://tinyurl.com/za64v8m"/></date><add rend="pencil">very thick</add></cell></td><td><cell><date when="1853-05-10">10<link target="http://tinyurl.com/z5sl9rn"/></date><gap reason="unclear"></gap><lb></lb><date when="1853-05-28">28<link target="http://tinyurl.com/hh4xvff"/></date></cell></td><td><cell></cell></td><td><cell><date when="1855-05-13">13th<link target="http://tinyurl.com/gr9ercq"/></date><lb></lb><date when="1855-05-24">24<link target="http://tinyurl.com/h5dcq7j"/></date> cannot see the <emph rend="underline">Mts.</emph><lb></lb><date when="1855-05-30">30<link target="http://tinyurl.com/hrupaj3"/></date> much haze<lb></lb><date when="1855-05-26">26<link target="http://tinyurl.com/hcqqnha"/></date></cell></td><td><cell></cell></td><td><cell><date when="1857-05-24">24<link target="http://tinyurl.com/j67gaqf"/></date> hazy <gap reason="unclear"></gap><lb></lb><date when="1857-05-26">26<link target="http://tinyurl.com/jz9wn5p"/></date> very hazy</cell></td><td><cell></cell></td><td><cell><date when="1859-05-04">4th<link target="http://tinyurl.com/j6uv4mj"/></date> &amp; <date when="1859-05-05">5th<link target="http://tinyurl.com/jzdqwl2"/></date><lb></lb><date when="1859-05-06">6<link target="http://tinyurl.com/zlstnue"/></date> - <unclear>smoky ? meads</unclear><lb></lb><date when="1859-05-07">7<link target="http://tinyurl.com/jfngwqx"/></date><gap reason="unclear"></gap><del><gap reason="unclear"></gap></del></cell></td><td><cell><date when="1860-05-05">5th<link target="http://tinyurl.com/joogqqs"/></date> warm &amp; hazy<lb></lb><gap reason="unclear"></gap><lb></lb><date when="1860-05-14">14<link target="http://tinyurl.com/jobbpw9"/></date> remarkably hazy<lb></lb><date when="1860-05-15">15<link target="http://tinyurl.com/hstmv3y"/></date> hazy<gap reason="unclear"></gap></cell></td></tr><tr><td><cell></cell></td><td><cell>Thinner clothes</cell></td><td><cell><date when="1852-05-09">9<link target="http://tinyurl.com/h5pcmf3"/></date> reduce neck<lb></lb>cloth</cell></td><td><cell><date when="1853-05-10">10<link target="http://tinyurl.com/jbgwzap"/></date> beg. to think<lb></lb>of thin coats</cell></td><td><cell></cell></td><td><cell><date when="1855-05-24">24<link target="http://tinyurl.com/hddafr4"/></date> 1st think of thn coat<lb></lb><date when="1855-05-20">20<link target="http://tinyurl.com/jp5k97e"/></date><unclear>&amp;</unclear><date when="1855-05-23">23<link target="http://tinyurl.com/jp5k97e"/></date> cold &amp; <unclear>warm</unclear><lb></lb><gap reason="unclear"></gap>coat <unclear>some</unclear></cell></td><td><cell></cell></td><td><cell><date when="1857-05-26">26<link target="http://tinyurl.com/j9865g4"/></date> thin coats<lb></lb>&amp; straw hats worn</cell></td><td><cell><date when="1858-05-10">10th<link target="http://tinyurl.com/zpnx8l4"/></date> wish I had worn<lb></lb>a thinner coat</cell></td><td><cell></cell></td><td><cell><unclear><date when="1860-05-12">12<link target="http://tinyurl.com/jqw7hux"/></date></unclear> - 60 <unclear>thinner</unclear><gap reason="unclear"></gap>coat<gap reason="unclear"></gap><lb></lb><unclear>much</unclear><gap reason="unclear"></gap><lb></lb><gap reason="unclear"></gap><lb></lb><date when="1860-05-18">18<link target="http://tinyurl.com/gmj5lmq"/></date><unclear>remarkably<lb></lb>warm</unclear> - 60 <date when="1860-05-19">19<link target="http://tinyurl.com/zl68vwf"/></date> &amp; May <date when="1860-05-15">15<link target="http://tinyurl.com/jkfnmxw"/></date> at last<lb></lb> &amp; <unclear>no fire</unclear><gap reason="unclear"></gap><lb></lb><gap reason="unclear"></gap><date when="1860-05-29">29<link target="http://tinyurl.com/hk3oqho"/></date><gap reason="unclear"></gap><date when="1860-05-30">30<link target="http://tinyurl.com/gpg53zg"/></date><gap reason="unclear"></gap></cell></td></tr><tr><td><cell> </cell></td><td><cell>Bathing</cell></td><td><cell></cell></td><td><cell><date when="1853-05-29">29th<link target="http://tinyurl.com/h5y8jnq"/></date> begins</cell></td><td><cell></cell></td><td><cell><date when="1855-05-13">13<link target="http://tinyurl.com/h5weuzf"/></date> boys bathe</cell></td><td><cell></cell></td><td><cell><date when="1857-05-08">8<link target="http://tinyurl.com/hxowgtd"/></date> some boys<lb></lb>have bathed<lb></lb><date when="1857-05-25">25<link target="http://tinyurl.com/jtql2ld"/></date><unclear>I</unclear> bathe</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-12">12<link target="http://tinyurl.com/z4qskv4"/></date> I bathe</cell></td></tr><tr><td><cell></cell></td><td><cell>Thunder Shower</cell></td><td><cell><add rend="pencil">1st lightning of year<lb></lb>the Sunday before<lb></lb><date when="1852-05-19">19th<link target="http://tinyurl.com/guxc252"/></date></add></cell></td><td><cell><date when="1853-05-16">16th<link target="http://tinyurl.com/hpbq6om"/></date><gap reason="unclear"></gap>had some<lb></lb>in April when I was in<lb></lb><unclear><placename>Haverhill</placename></unclear> - <date when="1853-05-18">18th<link target="http://tinyurl.com/zsycerv"/></date> at night</cell></td><td><cell><date when="1854-05-11">11<link target="http://tinyurl.com/jy3vq4f"/></date> Thunder <gap reason="unclear"></gap><lb></lb>&amp; rain bow - <gap reason="unclear"></gap> - <lb></lb><gap reason="unclear"></gap><unclear>of Summer</unclear><lb></lb><date when="1854-05-20">20th<link target="http://tinyurl.com/j6pbe3l"/></date> in <unclear><placename ref="Haverhill">H.</placename></unclear><lb></lb><unclear><date when="1854-05-29">29<link target="http://tinyurl.com/z9oglya"/></date></unclear> Thunder <lb></lb> &amp; Lightning<lb></lb>before<lb></lb>rain</cell></td><td><cell></cell></td><td><cell><date when="1856-05-20">20<link target="http://tinyurl.com/heo3mmt"/></date> Thunder</cell></td><td><cell><date when="1857-05-10">10<link target="http://tinyurl.com/hnjhk3w"/></date> some thunder<lb></lb><gap reason="unclear"></gap>(the first)<lb></lb><date when="1857-05-29">29<link target="http://tinyurl.com/hwxpkar"/></date> - 1st <gap reason="unclear"></gap></cell></td><td><cell></cell></td><td><cell><date when="1859-05-09">9<link target="http://tinyurl.com/jlod4xz"/></date> the 1st Th. shower<lb></lb><del><gap reason="unclear"></gap></del><unclear>pm</unclear></cell></td><td><cell><date when="1860-05-13">13<link target="http://tinyurl.com/zocco27"/></date> lightning <unclear>storm</unclear><lb></lb><gap extent="2 lines" reason="unclear"></gap></cell></td></tr><tr><td><cell></cell></td><td><cell>Open window <unclear>was fire</unclear><lb></lb>v <unclear>April</unclear></cell></td><td><cell><add rend="pencil">Open all day<lb></lb>the <date when="1852-05-05">5th<link target="http://tinyurl.com/zoygbq3"/></date></add></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><unclear>April <date when="1855-04-19">19th<link target="http://tinyurl.com/z5dydsl"/></date></unclear> 1st <gap reason="unclear"></gap><unclear>sit</unclear><lb></lb>with open window</cell></td><td><cell></cell></td><td><cell><date when="1857-05-03">3rd<link target="http://tinyurl.com/h94xztm"/></date> sit without<lb></lb>fire</cell></td><td><cell><date when="1858-05-01">1st<link target="http://tinyurl.com/ha49d86"/></date> &amp; <date when="1858-05-02">2nd<link target="http://tinyurl.com/ha49d86"/></date> 58<lb></lb>without fire</cell></td><td><cell><date when="1859-04-30">30<link target="http://tinyurl.com/hs5sye6"/></date><unclear>April</unclear>sit<lb></lb>without fire</cell></td><td><cell>no fire in chamber<lb></lb>from Ap. <date when="1860-04-19">19<link target="http://tinyurl.com/gol6bg5"/></date> - May <date when="1860-05-15">15<link target="http://tinyurl.com/gol6bg5"/></date><lb></lb>at last</cell></td></tr><tr><td><cell></cell></td><td><cell>Slightly sultryish morning</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1854-05-22">22<link target="http://tinyurl.com/jpacmgr"/></date> slightly</cell></td><td><cell><date when="1855-05-25">25<link target="http://tinyurl.com/hqb3dr2"/></date> Hear buzz of flies<lb></lb>in sultryish morning</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-05-06">6<link target="http://tinyurl.com/he62ogk"/></date> at night<lb></lb>1st sultry buzz<lb></lb>of a fly in chamber</cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>Fire again</cell></td><td><cell><add rend="pencil"><date when="1852-05-12">12<link target="http://tinyurl.com/gm2d284"/></date> - <date when="1852-05-13">13<link target="http://tinyurl.com/gm2d284in"/></date> in rain</add></cell></td><td><cell></cell></td><td><cell><date when="1854-05-27">27<link target="http://tinyurl.com/hauttlr"/></date></cell></td><td><cell><del>27</del><date when="1855-05-12">12<link target="http://tinyurl.com/hqut8g5"/></date> cold enough<lb></lb>for a fire this many a day<lb></lb><date when="1855-05-20">20<link target="http://tinyurl.com/j7lfd8g"/></date><gap reason="unclear"></gap><date when="1855-05-25">25<link target="http://tinyurl.com/hvvesnj"/></date><unclear>indoors</unclear></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-16">16<link target="http://tinyurl.com/z66yf2j"/></date> many have<lb></lb><date when="1860-05-21">21<link target="http://tinyurl.com/hcuhrvt"/></date> I have <gap reason="unclear"></gap> &amp; <date when="1860-05-22">22<link target="http://tinyurl.com/hajkbe8"/></date><lb></lb><date when="1860-05-27">27th<link target="http://tinyurl.com/h9kbbal"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell><unclear>Sat</unclear>with open window</cell></td><td><cell><add rend="pencil"><date when="1852-05-01">1st<link target="http://tinyurl.com/h8ysssl"/></date> &amp; <date when="1852-05-08">8<link target="http://tinyurl.com/h8ysssl"/></date> at least</add></cell></td><td><cell></cell></td><td><cell><add rend="pencil"><date when="1854-05-24">24<link target="http://tinyurl.com/jdk2zbg"/></date> last night</add></cell></td><td><cell><date when="1855-05-25">25<link target="http://tinyurl.com/jzsnp4e"/></date> (last night)</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-13">13th<link target="http://tinyurl.com/zq4wg5u"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>Yellow sun light</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-05-06">6<link target="http://tinyurl.com/z3z8sny"/></date> &amp; <date when="1859-05-07">7<link target="http://tinyurl.com/z3z8sny"/></date><gap extent="2 lines" reason="unclear"></gap></cell></td><td><cell><date when="1860-05-14">14th<link target="http://tinyurl.com/gtn5fay"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>Water tepid in morning</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1854-05-17">17th<link target="http://tinyurl.com/hlqxyv3"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>Frost <unclear>Apprehended</unclear></cell></td><td><cell><date when="1852-05-20">20th<link target="http://tinyurl.com/jeg9bff"/></date> 52</cell></td><td><cell><date when="1853-05-31">31<link target="http://tinyurl.com/jbmlenl"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1855-05-31">31st<link target="http://tinyurl.com/jfslth2"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>Frost on <unclear>upland<lb></lb><abbr corresp="Note Bene">NB</abbr>(But frost on lowland in June)</unclear></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-21">21<link target="http://tinyurl.com/zd6zpsn"/></date> on squashes in garden<lb></lb>&amp; in woods (v <date when="1860-05-22">22<link target="http://tinyurl.com/jbvtsev"/></date> &amp; <date when="1860-05-25">25<link target="http://tinyurl.com/jcm7edc"/></date>)<lb></lb><date when="1860-05-29">29th<link target="http://tinyurl.com/jtoeupm"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>Frost in <unclear>ground</unclear></cell></td><td><cell><date when="1852-05-08">8</date> ground still<lb></lb>frozen in some places</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell><note place="above"><gap reason="unclear"></gap></note>Frost kill plants</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1854-05-26">26<link target="http://tinyurl.com/h7r3vlp"/></date> kills only <unclear>be in</unclear><lb></lb>hollow a week since<lb></lb>v. June <date when="1853-06-01">1st<link target="http://tinyurl.com/jbbrvjd"/></date> 53</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1857-05-19">19<link target="http://tinyurl.com/hs53tyg"/></date> ferns blackened<lb></lb>within a night or 2</cell></td><td><cell><date when="1858-05-28">28<link target="http://tinyurl.com/hmhvuht"/></date> &amp; <date when="1858-05-29">29<link target="http://tinyurl.com/hmhvuht"/></date><unclear>night</unclear><lb></lb>more <unclear>frost</unclear><lb></lb><date when="1858-05-30">30<link target="http://tinyurl.com/hmhvuht"/></date> hickories<lb></lb>blackened</cell></td><td><cell><date when="1859-05-22">22<link target="http://tinyurl.com/gkuu2fz"/></date> see many leaves<lb></lb>killed about <date when="1859-05-15">15th<link target="http://tinyurl.com/hh5bay6"/></date><lb></lb><gap reason="unclear"></gap>late for<gap reason="unclear"></gap></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell></cell></td><td><cell>52</cell></td><td><cell>53</cell></td><td><cell>54</cell></td><td><cell>55</cell></td><td><cell>56</cell></td><td><cell>57</cell></td><td><cell>58</cell></td><td><cell>59</cell></td><td><cell>60</cell></td></tr><tr><td><cell></cell></td><td><cell>1st shadows noticed</cell></td><td><cell><date when="1852-05-11">11<link target="http://tinyurl.com/ze3ttzk"/></date> sought but<lb></lb>did not find -<lb></lb>- <persname ref="Lajos Louis Kossuth">Kossuth</persname> here</cell></td><td><cell></cell></td><td><cell><date when="1854-05-16">16<link target="http://tinyurl.com/j59e3ju"/></date><placename>Conantum Cliff</placename></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-05-04">4<link target="http://tinyurl.com/zywcfmv"/></date> notice <unclear>conspic</unclear><lb></lb>shadow of <placename ref="Conantum Cliff">Conant. <lb></lb>Cliff</placename> warm SW<lb></lb>wind</cell></td><td><cell><date when="1860-05-06">6<link target="http://tinyurl.com/zu7876n"/></date> shade grateful<lb></lb><date when="1860-05-11">11<link target="http://tinyurl.com/gqbo4c6"/></date> notice<gap reason="unclear"></gap><lb></lb>warmth - before <unclear>leaves</unclear></cell></td></tr><tr><td><cell></cell></td><td><cell>1st shadows<gap reason="unclear"></gap><lb></lb><date when="1851-05-28">28<link target="http://tinyurl.com/z4vveu3"/></date>-51</cell></td><td><cell><add rend="pencil"><date when="1852-05-30">30<link target="http://tinyurl.com/zhrqlrr"/></date> strong lights<lb></lb>&amp; shades now</add></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1855-05-27">27<link target="http://tinyurl.com/zsppga9"/></date> - casting darker shad-<lb></lb>ows over the meads<lb></lb><gap reason="unclear"></gap></cell></td><td><cell></cell></td><td><cell><date when="1857-05-29">29<link target="http://tinyurl.com/hksd4yg"/></date> little shades<lb></lb>produced by expand-<lb></lb>ing foliage</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-24">24<link target="http://tinyurl.com/jhqxuu9"/></date><gap reason="unclear"></gap>shadow of hickories</cell></td></tr><tr><td><cell></cell></td><td><cell>Sun sets red</cell></td><td><cell></cell></td><td><cell><add rend="pencil"><date when="1853-05-28">28<link target="http://tinyurl.com/h8ymagp"/></date> &amp; <date when="1853-05-27">27<link target="http://tinyurl.com/gm9ax9y"/></date><lb></lb>warm weather</add></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-05-05">5<link target="http://tinyurl.com/zxd2dba"/></date> (1st time) fol-<lb></lb>lowed by very hot<lb></lb>&amp; hazy day</cell></td><td><cell><date when="1860-05-04">4th<link target="http://tinyurl.com/jofg46f"/></date> or <date when="1860-05-05">5th<link target="http://tinyurl.com/hgl3m5f"/></date><lb></lb><date when="1860-05-15">15<link target="http://tinyurl.com/z3g9nxu"/></date> &amp; <date when="1860-05-14">14th<link target="http://tinyurl.com/z3g9nxu"/></date> &amp; <date when="1860-05-16">16th<link target="http://tinyurl.com/j2n8aw5"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell><emph rend="underline">Cold</emph> in last half</cell></td><td><cell><date when="1852-05-20">20<link target="http://tinyurl.com/jeg9bff"/></date> - <unclear>frost ap-<lb></lb>prehended</unclear></cell></td><td><cell></cell></td><td><cell><date when="1854-05-31">31<link target="http://tinyurl.com/htjogce"/></date> cold SE wind</cell></td><td><cell><date when="1855-05-21">21<link target="http://tinyurl.com/h4ect8f"/></date> very cold -<lb></lb>cold <unclear>from</unclear><date when="1855-05-20">20<link target="http://tinyurl.com/zz8gohu"/></date> to <date when="1855-05-23">23<link target="http://tinyurl.com/zz8gohu"/></date><unclear>wind</unclear><lb></lb>wear great coat some<lb></lb>stormy cold wind from NW</cell></td><td><cell><date when="1856-05-25">25<link target="http://tinyurl.com/zeylsb6"/></date> &amp; <date when="1856-05-26">26</date> cold<lb></lb><date when="1856-05-31">31<link target="http://tinyurl.com/hv2s4zv"/></date> very cold for<lb></lb>2 or 3 days past</cell></td><td><cell><date when="1857-05-19">19<link target="http://tinyurl.com/hs53tyg"/></date> frost within<lb></lb>a night or 2 past</cell></td><td><cell><unclear>Frost</unclear> the<lb></lb><date when="1858-05-28">28<link target="http://tinyurl.com/hmhvuht"/></date> &amp; <date when="1858-05-29">29<link target="http://tinyurl.com/hmhvuht"/></date></cell></td><td><cell></cell></td><td><cell><date when="1860-05-16">16<link target="http://tinyurl.com/zmajrzh"/></date> - 56+ <unclear>fires again</unclear><lb></lb><date when="1860-05-20">20<link target="http://tinyurl.com/h569fkr"/></date> strong cold <unclear>W</unclear> wind<lb></lb>60+ at 2pm<lb></lb><date when="1860-05-21">21<link target="http://tinyurl.com/hcuhrvt"/></date><gap reason="unclear"></gap> &amp; <unclear>fire</unclear><lb></lb><date when="1860-05-22">22<link target="http://tinyurl.com/gs6na79"/></date><gap reason="unclear"></gap><unclear>wet</unclear></cell></td></tr><tr><td><cell></cell></td><td><cell>Hot in last half<lb></lb><gap reason="unclear"></gap><lb></lb><date when="1851-05-25">25<link target="http://tinyurl.com/hxlfl3m"/></date>-51</cell></td><td><cell></cell></td><td><cell><date when="1853-05-28">28<link target="http://tinyurl.com/jzglxn2"/></date> sudden heat</cell></td><td><cell><date when="1854-05-28">28<link target="http://tinyurl.com/h6ej8jg"/></date><unclear>oppresively</unclear><lb></lb>warm</cell></td><td><cell><date when="1855-05-24">24<link target="http://tinyurl.com/hddafr4"/></date> 1st think of thin coat<lb></lb><date when="1855-05-25">25<link target="http://tinyurl.com/htojddg"/></date> warm night the last<lb></lb><date when="1855-05-28">28<link target="http://tinyurl.com/hwmsx5r"/></date><del><gap reason="unclear"></gap></del></cell></td><td><cell><date when="1856-05-23">23<link target="http://tinyurl.com/h4x2j5k"/></date> - <date when="1856-05-24">24<link target="http://tinyurl.com/jkqwlwd"/></date> warm<lb></lb>summer-like<lb></lb>evening<lb></lb><date when="1856-05-24">24<link target="http://tinyurl.com/jkqwlwd"/></date> suddenly<gap reason="unclear"></gap><lb></lb>hot 94+ at <unclear>1pm</unclear></cell></td><td><cell><date when="1857-05-22">22<link target="http://tinyurl.com/hduy4yy"/></date> - fair &amp; warm<lb></lb>at last 70+<lb></lb><date when="1857-05-24">24<link target="http://tinyurl.com/zl7zxt6"/></date> very warm morn<lb></lb>3pm 88+<lb></lb><date when="1857-05-25">25<link target="http://tinyurl.com/j2w8zz2"/></date> 87 2pm 87+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>Washing day<lb></lb><date when="1851-05-25">25<link target="http://tinyurl.com/hxlfl3m"/></date>-51<gap reason="unclear"></gap></cell></td><td><cell><add rend="pencil"><date when="1852-05-17">17<link target="http://tinyurl.com/hwscz3l"/></date> after storm<lb></lb><date when="1852-05-30">30th<link target="http://tinyurl.com/zcymkce"/></date> &amp; shadows<lb></lb>of clouds</add></cell></td><td><cell><date when="1853-05-21">21<link target="http://tinyurl.com/hvy6hut"/></date> windy day after<lb></lb>May rains - wash-<lb></lb>ing day (<date when="1853-05-19">19<link target="http://tinyurl.com/zvxxbrc"/></date> - <date when="1853-05-20">20<link target="http://tinyurl.com/gwuubeu"/></date> -<lb></lb><date when="1853-05-21">21<link target="http://tinyurl.com/hvy6hut"/></date> - <date when="1853-05-22">2<link target="http://tinyurl.com/z8sb83n"/></date> - <date when="1853-05-23">3<link target="http://tinyurl.com/j7du4dd"/></date>)</cell></td><td><cell><date when="1854-05-19">19<link target="http://tinyurl.com/jjzfpx3"/></date> washing day<lb></lb><date when="1854-05-20">20<link target="http://tinyurl.com/jm3hgou"/><link target="http://tinyurl.com/jm3hgou"/></date> blowing off<lb></lb>some apple <unclear>blossom</unclear></cell></td><td><cell><date when="1855-05-31">31st<link target="http://tinyurl.com/zvju6tu"/></date><lb></lb><unclear><date when="1855-05-27">27th<link target="http://tinyurl.com/zyeajbq"/></date></unclear></cell></td><td><cell><date when="1856-05-02">2<link target="http://tinyurl.com/jqmjpxk"/></date> - washing day<lb></lb>after rains</cell></td><td><cell><date when="1857-05-10">10th<link target="http://tinyurl.com/hzq383o"/></date> a washing day</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-19">19th<link target="http://tinyurl.com/zfqvrgu"/></date><note place="above"><unclear>SW</unclear></note><date when="1860-05-30">30th<link target="http://tinyurl.com/zu7wkss"/></date> &amp;<lb></lb>June <date when="1860-06-02">2<link target="http://tinyurl.com/zerj6ye"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>High winds</cell></td><td><cell></cell></td><td><cell><date when="1853-05-30">30th<link target="http://tinyurl.com/j589n4v"/></date> very windy</cell></td><td><cell><date when="1854-05-18">18<link target="http://tinyurl.com/jjzfpx3"/></date> high winds</cell></td><td><cell><date when="1855-05-26">26<link target="http://tinyurl.com/js2vqxp"/></date> strong cold NW wind<lb></lb><date when="1855-05-30">30<link target="http://tinyurl.com/hmwau9b"/></date> strong W wind<lb></lb><date when="1855-05-31">31<link target="http://tinyurl.com/zvju6tu"/></date> windy washing day<lb></lb>June <date when="1855-06-01">1<link target="http://tinyurl.com/jgpka27"/></date> &amp; <date when="1855-06-02">2<link target="http://tinyurl.com/gthsbo6"/></date><emph rend="underline">very windy</emph><lb></lb>making 4 days</cell></td><td><cell></cell></td><td><cell><date when="1857-05-11">11th<link target="http://tinyurl.com/z45ydk6"/></date> (very cold NW<lb></lb>wind<unclear>?</unclear>)</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-10">10th<link target="http://tinyurl.com/jpa8ndy"/></date><gap reason="unclear"></gap><lb></lb>&amp; have died away with<lb></lb>April<lb></lb><date when="1860-05-20">20<link target="http://tinyurl.com/ht7ylae"/></date> strong cold W wind</cell></td></tr><tr><td><cell></cell></td><td><cell><unclear>Leaves</unclear>blackened &amp; cold<lb></lb>wind</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>Hickory blackened &amp;<lb></lb>blowing in cold wind <date when="1856-05-31">31<link target="http://tinyurl.com/z2snc79"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>Sea turn</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1854-05-17">17<link target="http://tinyurl.com/gnfphr8"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1858-05-31">31st<link target="http://tinyurl.com/hmhvuht"/></date> slight in<lb></lb><unclear>Am</unclear><lb></lb><date when="1858-05-20">20<link target="http://tinyurl.com/zqrqp9x"/></date> perhaps a little</cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell><unclear>E winds</unclear><gap></gap><unclear>rain?</unclear></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>Cool &amp; wind in pm<lb></lb><date when="1855-05-13">13th<link target="http://tinyurl.com/j7xuy28"/></date></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><unclear>prevailing wind</unclear><lb></lb><gap extent="3 lines" reason="unclear"></gap><lb></lb>cool <unclear>wind</unclear><gap reason="unclear"></gap><unclear><date when="1860-05-19">19<link target="http://tinyurl.com/jcu2jnq"/></date></unclear><date when="1860-05-15">15<link target="http://tinyurl.com/jkcmztb"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>Fog</cell></td><td><cell><date when="1852-05-07">7th<link target="http://tinyurl.com/zvojsud"/></date> 1st fog very slight<lb></lb><date when="1852-05-29">29<link target="http://tinyurl.com/zhbq6h4"/></date> some slight fog<lb></lb>in the morning</cell></td><td><cell><date when="1853-05-12">12th<link target="http://tinyurl.com/juqc543"/></date> 1st considerable<lb></lb>one<lb></lb>June <date when="1853-06-01">1st<link target="http://tinyurl.com/zstutxt"/></date> quite a fog<lb></lb><gap reason="unclear"></gap> fogs begin</cell></td><td><cell><date when="1854-05-12">12<link target="http://tinyurl.com/zcml5f6"/></date> 1st fog <unclear>slight</unclear><lb></lb><date when="1854-05-24">24<link target="http://tinyurl.com/hlnklvu"/></date> consid fog<gap extent="2 lines" reason="unclear"></gap></cell></td><td><cell></cell></td><td><cell><date when="1856-05-15">15<link target="http://tinyurl.com/j8ayhhr"/></date> fog in morning<lb></lb><date when="1856-05-19">19<link target="http://tinyurl.com/gwzkv77"/></date> thick fog in morn<lb></lb>till late forenoon</cell></td><td><cell></cell></td><td><cell><date when="1858-05-30">30<link target="http://tinyurl.com/jb7horq"/></date> fog rising<lb></lb>over meadow<lb></lb>at evening</cell></td><td><cell></cell></td><td><cell><date when="1860-05-06">6<link target="http://tinyurl.com/znmqzpv"/></date><gap reason="unclear"></gap><lb></lb>morning<gap reason="unclear"></gap><lb></lb>week after<lb></lb><date when="1860-05-19">19<link target="http://tinyurl.com/zl68vwf"/></date> quite a fog till 8am<lb></lb><date when="1860-05-28">28<link target="http://tinyurl.com/hdl4hrx"/></date><gap reason="unclear"></gap>solid white fog<lb></lb><gap reason="unclear"></gap></cell></td></tr><tr><td><cell></cell></td><td><cell>Heavy Dew</cell></td><td><cell><add rend="pencil"><date when="1852-05-07">7<link target="http://tinyurl.com/zavston"/></date> - which wets<lb></lb>feet<lb></lb><date when="1852-05-11">11<link target="http://tinyurl.com/j752srb"/></date><gap reason="unclear"></gap></add></cell></td><td><cell></cell></td><td><cell><date when="1854-05-22">22<link target="http://tinyurl.com/jlcpc46"/></date> now wets<lb></lb>completely<lb></lb><date when="1854-05-12">12<link target="http://tinyurl.com/hgs4r9u"/></date> grass high<lb></lb>enough to be wet</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1860-05-12">12<link target="http://tinyurl.com/hgzgvna"/></date> very heavy dew<lb></lb><unclear><date when="1860-05-09">9<link target="http://tinyurl.com/j9q8w5x"/></date></unclear><gap extent="2 lines" reason="unclear"></gap><lb></lb><date when="1860-05-13">13<link target="http://tinyurl.com/hg7ntzl"/></date><unclear>beautiful</unclear> dew drops</cell></td></tr><tr><td><cell></cell></td><td><cell>meadow fragrance</cell></td><td><cell><del>26</del><date when="1852-05-27">27<link target="http://tinyurl.com/hdx7r6t"/></date><unclear>begins<lb></lb>much as meadows <date when="1852-06-24">24<link target="http://tinyurl.com/zjtmfo4"/></date></unclear><lb></lb><gap reason="unclear"></gap>June <date when="1852-06-27">27<link target="http://tinyurl.com/hdx7r6t"/></date><lb></lb><date when="1852-05-16">16<link target="http://tinyurl.com/h7u4an8"/></date></cell></td><td><cell><date when="1853-05-17">17<link target="http://tinyurl.com/h8g2ref"/></date> the first</cell></td><td><cell><date when="1854-05-22">22<link target="http://tinyurl.com/grgdk25"/></date> the 1st</cell></td><td><cell><date when="1855-05-27">27<link target="http://tinyurl.com/ja4pnb7"/></date></cell></td><td><cell><date when="1856-05-15">15<link target="http://tinyurl.com/zu4pr4n"/></date> &amp; <date when="1856-05-27">27<link target="http://tinyurl.com/hj422pu"/></date></cell></td><td><cell><date when="1857-05-25">25<link target="http://tinyurl.com/zv9m2zv"/></date></cell></td><td><cell><del><gap reason="unclear"></gap></del></cell></td><td><cell><date when="1859-05-11">11th<link target="http://tinyurl.com/jt2hh4b"/></date></cell></td><td><cell>June <date when="1860-06-04">4<link target="http://tinyurl.com/zum9gem"/></date></cell></td></tr><tr><td><cell></cell></td><td><cell>Peculiar fragrance<lb></lb>in air</cell></td><td><cell><date when="1852-05-26">26<link target="http://tinyurl.com/jbm3nxl"/></date> meadows<lb></lb>well most<lb></lb>of night</cell></td><td><cell></cell></td><td><cell><date when="1854-05-16">16<link target="http://tinyurl.com/jctczds"/></date> sweet scent<lb></lb>expand. leafets or other<lb></lb><unclear>cuases</unclear></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell><date when="1859-05-04">4<link target="http://tinyurl.com/jx6p2hu"/></date> a peculiar<lb></lb>fr. in air<gap reason="unclear"></gap><lb></lb><date when="1859-05-26">26<link target="http://tinyurl.com/z9p35qd"/></date><gap extent="2 lines" reason="unclear"></gap></cell></td><td><cell>June <date when="1860-06-04">4<link target="http://tinyurl.com/zum9gem"/></date><gap extent="2 lines" reason="unclear"></gap></cell></td></tr></table><div id="footer">
-                    <div id="lefty">
-                        <ul style="list-style: none;">
-                            <li>
-                                <a href="./resources/images/pages/genphenmay2.html" target="_new">See this manuscript page</a>    <a href="https://thoreauskalendar.org/resources/downloads/May2whole.zip">Download the full-size image</a>
-                            </li>
-                            <li style="font-size: 0.8em;">
-                                <br/>Manuscript images provided by: <a href="http://www.themorgan.org/default.asp" target="_blank">The Pierpont Morgan Library</a>, New York.</li>
-                        </ul>
-                    </div>
-                    <div id="righty">
-                        <script>
-                            $("#righty").load( "./colophon.html");
-                        </script>
-                    </div>
-                    <div id="nader">
-                        <br/>
-                        <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off"/>
-                        <button id="show">Search</button>
-                        <br/>
-                        <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
-                        <div id="search-help">
-                            <span>
-                                <ul>
-                                    <li>
-                                        <b>Searching:</b> You can search for items word by word, 
-                                <br/>or you can use multiple words like so: a, b, c</li>
-                                </ul>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
