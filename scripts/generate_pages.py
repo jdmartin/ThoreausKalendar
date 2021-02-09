@@ -20,9 +20,10 @@ with open("../data/april/NewApril.xml", "r") as file:
     with open("../pages/newapril.html", "a") as output:
         output.write("<table>")
         for row in rows:
-            line = print("<td>", row, "</td>")
-            output.write(str(line))
-        output.write("</table")
+            output.write(str("<td>"))
+            output.write(str(row))
+            output.write(str("</td>"))
+        output.write("</table>")
     output.close()
     file.close()
 
