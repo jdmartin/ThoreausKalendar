@@ -20,7 +20,7 @@ with open("../data/april/NewApril.xml", "r") as file:
 
     with open("../pages/newapril.html", "a") as output:
         #Create a container for the processed and prepared XML
-        output.write("<table>")
+        output.write('<table id="kalendar" border="1" cellpadding="1" cellspacing="0">')
         for row in rows:
             output.write("<tr>")
 
