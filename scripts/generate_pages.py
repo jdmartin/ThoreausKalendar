@@ -22,14 +22,17 @@ with open("../data/april/NewApril.xml", "r") as file:
         #Create a container for the processed and prepared XML
         output.write("<table>")
         for row in rows:
-            gathered_output = ""
-            gathered_output += "<tr>"
-            gathered_output += "<td>"
-            gathered_output += (str(row))
-            gathered_output += "</td>"
-            gathered_output += "</tr>"
-            gathered_output = str(gathered_output)
-            output.write(gathered_output)
+            output.write("<tr>")
+
+            children = row.find_all("cell")
+
+            for elem in list(children):
+                output.write("<td>")
+                output.write(str(elem))
+                output.write("</td>")
+
+            output.write("</tr>")
+
         output.write("</table>")
     output.close()
     file.close()
