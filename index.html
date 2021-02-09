@@ -1,66 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<html>
-    <head>
-        <title>Thoreau's Kalendar</title>
-        <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css"/>
-        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css"/>
-        <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"/>
-        <script type="text/javascript" src="./resources/js/jquery-ui.min.js"/>
-        <script type="text/javascript" src="./resources/js/kalendar.min.js"/>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-          ga('create', 'UA-53962529-1', 'auto');
-          ga('send', 'pageview');
-        </script>
-    </head>
-    <body>
-        <div class="hiddenmenu">
-                ☰
-                <div id="navmainpage">
+<head>
+    <meta charset="utf-8" />
+    <title>Thoreau's Kalendar</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./resources/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
+</head>
+
+<body>
+    <div class="hiddenmenu">
+        ☰
+        <div id="navmainpage">
+            <script>
+                $("#navmainpage").load("./navigation-menu.html");
+            </script>
+        </div>
+    </div>
+    <div id="main">
+        <div id="content">
+            <div id="banner">
+                <img src="./resources/images/newtestheader3.png" align="middle" />
+            </div>
+            <div id="quote"> “They go publishing the ‘chronological cycles’ and ‘movable festivals of the Church’ and
+                the like, but how insignificant are these compared with the annual phenomena of your life, which fall
+                within your experience! The signs of the zodiac are not nearly of that significance to me that the sight
+                of a dead sucker in the spring is. That is the occasion for an immovable festival in my church. Another
+                kind of lent.”
+                <p>
+                    – Henry David Thoreau, Journal, October 16, 1859
+                </p>
+            </div>
+            <br />
+            <br />
+            <div id="intro">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+        <div id="footer">
+            <div class="turvy">
                 <script>
-                    $("#navmainpage").load( "./navigation-menu.html");
+                    $(".turvy").load("./colophon.html");
                 </script>
             </div>
         </div>
-        <div id="main">
-            <div id="content">
-                <div id="banner">
-                    <img src="./resources/images/newtestheader3.png" align="middle"/>
-                </div>
-                <div id="quote"> “They go publishing the ‘chronological cycles’ and ‘movable festivals of the Church’ and the like, but how insignificant are these compared with the annual phenomena of your life, which fall within your experience! The signs of the zodiac are not nearly of that significance to me that the sight of a dead sucker in the spring is. That is the occasion for an immovable festival in my church. Another kind of lent.”
-        <p>
-– Henry David Thoreau, Journal, October 16, 1859
-        </p>
-                </div>
-                <br/>
-                <br/>
-                <div id="intro">
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                </div>
-            </div>
-            <div id="footer">
-                <div class="turvy">
-                    <script>
-                            $(".turvy").load( "./colophon.html");
-                        </script>
-                </div>
-            </div>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
