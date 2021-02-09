@@ -1,0 +1,27 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/Kalendar/resources/images/pages" version="1" owner="admin" group="dba" mode="755" created="2017-03-28T18:30:43-04:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="genphenapril.html" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T18:30:58-04:00" modified="2017-03-29T14:13:42-04:00" filename="genphenapril.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="genphenmay.html" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:39:48-04:00" modified="2017-03-29T14:14:08-04:00" filename="genphenmay.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="genphenjune4.html" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T21:48:11-04:00" modified="2017-03-29T14:14:02-04:00" filename="genphenjune4.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="genphenjune2.html" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T21:27:33-04:00" modified="2017-03-29T14:13:50-04:00" filename="genphenjune2.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="genphenapr2.html" skip="no" owner="admin" group="dba" mode="644" created="2017-03-29T11:40:29-04:00" modified="2017-03-29T14:10:50-04:00" filename="genphenapr2.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="genphenmay2.html" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:50:52-04:00" modified="2017-03-29T14:14:20-04:00" filename="genphenmay2.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="genphenjune3.html" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T21:38:33-04:00" modified="2017-03-29T14:13:55-04:00" filename="genphenjune3.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="genphenjune.html" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T21:14:03-04:00" modified="2017-03-29T14:13:46-04:00" filename="genphenjune.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

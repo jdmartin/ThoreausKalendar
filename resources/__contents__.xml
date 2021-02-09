@@ -1,0 +1,10 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/Kalendar/resources" version="1" owner="admin" group="dba" mode="775" created="2014-08-21T05:17:02-04:00">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="jquery-ui.min.js" skip="no" owner="admin" group="dba" mode="644" created="2015-03-11T12:34:53-04:00" modified="2020-06-17T16:34:59.01-04:00" filename="jquery-ui.min.js" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="css" filename="css"/>
+    <subcollection name="images" filename="images"/>
+    <subcollection name="downloads" filename="downloads"/>
+    <subcollection name="js" filename="js"/>
+</collection>

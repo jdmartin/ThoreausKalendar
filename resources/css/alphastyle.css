@@ -1,0 +1,408 @@
+/* Header Stuff Follows */
+
+#header {
+    position: fixed;
+    background-color: gray;
+    height: auto;
+    padding-bottom: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+#nav {
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 80%;
+  float: left;
+  background-color: gray;
+  overflow: hidden;
+}
+#navmainpage {
+    position: fixed;
+    top: -17px;
+    left: -10px;
+    padding-top: 0px;
+    z-index: 9999;
+}
+#navmainpage ul {
+    list-style-type: none;
+}
+.navbutton {
+	background-color:black;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:5px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#fff;
+	font-family: 'EB Garamond', serif;
+	font-size:15px;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:210px;
+	text-decoration:none;
+	text-align:left;
+}
+.navbutton:hover {
+	background-color:black;
+	color:#5F8EED;
+}
+.navbutton:active {
+	position:relative;
+	top:1px;
+}
+#banner  {
+    position: relative;
+    top: 0;
+    margin-top: 5px;
+	height: 150px;
+	width: 100%;
+	background-image: url('http://thoreauscalendar.umf.maine.edu/resources/images/background_test2.png');
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+#banner img {
+    padding-top: 15px;
+    display: block;
+    margin: auto;
+}
+/* Body Stuff Follows */
+
+#content {
+    background: #FFFFFF;
+    padding-top: 0px;
+    width: 100%;
+    height: auto;
+    font-family:Garamond, Georgia, serif;
+}
+#copy {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 75%;
+    text-align: center;
+    background: #FFF;
+    color: black;
+}
+#copy a {
+    color: #00498F;
+}
+#copy p {
+    text-align: left;
+}
+#copy ul {
+    margin-left: 0px;
+}
+#copy li {
+    padding-top: 10px;
+    list-style: none;
+    text-align: left;
+    text-indent: -45px;
+}
+#copy li:first-line {
+    
+    text-align: left;
+    list-style: none;
+}
+#copy h3 {
+    color: black;
+}
+#copy span {
+    padding-left: 30px; 
+    display: block;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+#intro {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+}
+#quote {
+    font-size: 1.2em;
+    font-family:Garamond, Georgia, serif;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10px;
+}
+#quote p {
+    text-align: center;
+    font-family:Garamond, Georgia, serif;
+}
+
+body {
+  margin-bottom: 120px;
+  background-color: white;
+  height: 100%;
+  font-family:Garamond, Georgia, serif;
+}
+/* Kalendar Display Stuff Follows */
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    font-family:Garamond, Georgia, serif;
+    padding: 3px;
+} 
+th td {
+    word-wrap: break-word;
+}
+lb {
+    display: inline;
+}
+
+lb:after {
+    content:"\a";
+    white-space: pre;
+}
+
+date {
+    font-weight: bold;
+    display: inline;
+    position: relative;
+}
+ref a {
+    color: #8A4E5D;
+}
+
+add[rend=pencil].active {
+    color: green;
+}
+.pencil {
+    box-shadow: inset 0px 0px 0px 1px #13DA13;
+}
+
+emph[rend=underline] {
+    text-decoration: underline;
+}
+
+.place {
+    box-shadow: inset 0px 0px 0px 1px #FF7500;
+}
+placeName.active {
+    color: #FF7500;
+}
+
+add.active {
+    color: #00F;
+}
+.add {
+    box-shadow: inset 0px 0px 0px 1px #00F;
+}
+
+persName.active {
+    color: #FF0000;
+}
+.person {
+    box-shadow: inset 0px 0px 0px 1px #FF0000;
+}
+gap {
+    display: none;
+}
+gap.active {
+    display: inline;
+    background: #E7C3C3;
+}
+#search-menu {
+    padding-top: 5px;
+    width: auto; 
+    margin: 0 auto;
+}
+#search-menu.sticky {
+    position: fixed;
+    top: 0;
+    left: 100px;
+    z-index: 999;
+}
+#search-menu button {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: 'EB Garamond', serif;
+  font-size: 12px;
+  border: 1px solid #dcdcdc;
+}
+#search-menu .red {
+    background-color:white;
+    color: black;
+}
+#search-menu .persbutton {
+    background-color: #F00;
+    color: #FEFCFC;
+}
+#search-menu .placebutton {
+    background-color: #FF7500;
+    color: #FEFCFC;
+}
+#search-menu .addbutton {
+    background-color: #00F;
+    color: #FEFCFC;
+}
+#search-menu .pencilbutton {
+    background-color: #008000;
+    color: #FEFCFC;
+}
+#helpbox {
+    display: none;
+}
+.helpactive {
+    position: fixed;
+    clear: both;
+    width: 40%;
+    padding-top: 0px;
+    background-color: black;
+    color: #fff;
+    z-index: 1000;
+}
+.helpactive b {
+    color: #9FBCD8;
+}
+.helpactive ul li {
+    list-style-type: none;
+}
+.alpha {
+    background: #f1f6ff;
+    background: -moz-linear-gradient(left, #f1f6ff 0%, #edf2fb 41%, #e8edf6 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f1f6ff), color-stop(41%,#edf2fb), color-stop(100%,#e8edf6));
+    background: -webkit-linear-gradient(left, #f1f6ff 0%,#edf2fb 41%,#e8edf6 100%);
+    background: -o-linear-gradient(left, #f1f6ff 0%,#edf2fb 41%,#e8edf6 100%);
+    background: -ms-linear-gradient(left, #f1f6ff 0%,#edf2fb 41%,#e8edf6 100%);
+    background: linear-gradient(to right, #f1f6ff 0%,#edf2fb 41%,#e8edf6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f6ff', endColorstr='#e8edf6',GradientType=1 );
+}
+a.info {
+    font-family:Garamond, Georgia, serif;
+    vertical-align: super;
+    font-size: 8px;
+}
+.hiddenclass{ 
+}
+.hiddenmenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 25px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    z-index: 999;
+    display: inline;
+}
+.blast { 
+    background-color: #BCE9F3; 
+}
+/* Footer Stuff Follows */
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    font-family:Garamond, Georgia, serif;
+    font-size: 14px;
+    color: #808080;
+}
+#footer a {
+    color: #9FBCD8;
+}
+#footer div ul li b {
+    color: #CBCBCB;
+}
+#footer button {
+    background: black;
+    font-family: Garamond,Georgia,serif;
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+}
+#footer input {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer input[placeholder] {
+    font-style: normal;
+    color: black;
+}
+#lefty {
+    width: 50%;
+    float: left;
+}
+#righty {
+    width: 50%;
+    float: right;
+}#topsy {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: bottom;
+}
+#turvy {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+#turvy ul {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+#search-help {
+    display: block;
+    position: fixed;
+    bottom: 97px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: white;
+    background-color: black;
+    z-index: 1000;
+}
+#search-help span ul li b {
+    color: #9FBCD8;
+}
+#search-help ul li {
+    display: block;
+    margin-left: 0px;
+    list-style-type: none;
+}
+/* Deprecated Stuff */

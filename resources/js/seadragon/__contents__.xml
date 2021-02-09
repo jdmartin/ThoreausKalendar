@@ -1,0 +1,117 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/Kalendar/resources/js/seadragon" version="1" owner="admin" group="dba" mode="755" created="2017-03-28T20:02:09-04:00">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="rotateleft_rest.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:27-04:00" modified="2020-06-17T16:35:21.002-04:00" filename="rotateleft_rest.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rotateright_grouphover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:27-04:00" modified="2020-06-17T16:35:21.003-04:00" filename="rotateright_grouphover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rotateright_hover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:27-04:00" modified="2020-06-17T16:35:21.005-04:00" filename="rotateright_hover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rotateright_pressed.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:28-04:00" modified="2020-06-17T16:35:21.007-04:00" filename="rotateright_pressed.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rotateright_rest.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:28-04:00" modified="2020-06-17T16:35:21.008-04:00" filename="rotateright_rest.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zoomin_grouphover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:28-04:00" modified="2020-06-17T16:35:21.01-04:00" filename="zoomin_grouphover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zoomin_hover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:28-04:00" modified="2020-06-17T16:35:21.011-04:00" filename="zoomin_hover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zoomin_pressed.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:28-04:00" modified="2020-06-17T16:35:21.013-04:00" filename="zoomin_pressed.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zoomin_rest.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:29-04:00" modified="2020-06-17T16:35:21.015-04:00" filename="zoomin_rest.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zoomout_grouphover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:29-04:00" modified="2020-06-17T16:35:21.017-04:00" filename="zoomout_grouphover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zoomout_hover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:29-04:00" modified="2020-06-17T16:35:21.018-04:00" filename="zoomout_hover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zoomout_pressed.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:29-04:00" modified="2020-06-17T16:35:21.021-04:00" filename="zoomout_pressed.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zoomout_rest.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:29-04:00" modified="2020-06-17T16:35:21.023-04:00" filename="zoomout_rest.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="changelog.txt" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:02:20-04:00" modified="2020-06-17T16:35:21.03-04:00" filename="changelog.txt" mimetype="text/plain">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="LICENSE.txt" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:02:20-04:00" modified="2020-06-17T16:35:21.032-04:00" filename="LICENSE.txt" mimetype="text/plain">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="openseadragon.js" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:02:22-04:00" modified="2020-06-17T16:35:21.034-04:00" filename="openseadragon.js" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="openseadragon.js.map" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:02:24-04:00" modified="2020-06-17T16:35:21.044-04:00" filename="openseadragon.js.map" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="openseadragon.min.js" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:02:26-04:00" modified="2020-06-17T16:35:21.065-04:00" filename="openseadragon.min.js" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="openseadragon.min.js.map" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:02:26-04:00" modified="2020-06-17T16:35:21.07-04:00" filename="openseadragon.min.js.map" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fullpage_grouphover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:23-04:00" modified="2020-06-17T16:35:21.075-04:00" filename="fullpage_grouphover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fullpage_hover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:23-04:00" modified="2020-06-17T16:35:21.077-04:00" filename="fullpage_hover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fullpage_pressed.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:23-04:00" modified="2020-06-17T16:35:21.079-04:00" filename="fullpage_pressed.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fullpage_rest.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:24-04:00" modified="2020-06-17T16:35:21.081-04:00" filename="fullpage_rest.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="home_grouphover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:24-04:00" modified="2020-06-17T16:35:21.083-04:00" filename="home_grouphover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="home_hover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:24-04:00" modified="2020-06-17T16:35:21.085-04:00" filename="home_hover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="home_pressed.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:24-04:00" modified="2020-06-17T16:35:21.086-04:00" filename="home_pressed.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="home_rest.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:25-04:00" modified="2020-06-17T16:35:21.088-04:00" filename="home_rest.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="next_grouphover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:25-04:00" modified="2020-06-17T16:35:21.09-04:00" filename="next_grouphover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="next_hover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:25-04:00" modified="2020-06-17T16:35:21.092-04:00" filename="next_hover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="next_pressed.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:25-04:00" modified="2020-06-17T16:35:21.094-04:00" filename="next_pressed.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="next_rest.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:25-04:00" modified="2020-06-17T16:35:21.096-04:00" filename="next_rest.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="previous_grouphover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:26-04:00" modified="2020-06-17T16:35:21.097-04:00" filename="previous_grouphover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="previous_hover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:26-04:00" modified="2020-06-17T16:35:21.099-04:00" filename="previous_hover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="previous_pressed.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:26-04:00" modified="2020-06-17T16:35:21.101-04:00" filename="previous_pressed.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="previous_rest.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:26-04:00" modified="2020-06-17T16:35:21.103-04:00" filename="previous_rest.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rotateleft_grouphover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:26-04:00" modified="2020-06-17T16:35:21.104-04:00" filename="rotateleft_grouphover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rotateleft_hover.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:27-04:00" modified="2020-06-17T16:35:21.106-04:00" filename="rotateleft_hover.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rotateleft_pressed.png" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T20:08:27-04:00" modified="2020-06-17T16:35:21.108-04:00" filename="rotateleft_pressed.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

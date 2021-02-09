@@ -1,0 +1,153 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/Kalendar/resources/images" version="1" owner="admin" group="dba" mode="775" created="2014-08-21T05:17:02-04:00">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="grey-box-rpt.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.116-04:00" filename="grey-box-rpt.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="code.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.12-04:00" filename="code.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bgmenuhi.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.131-04:00" filename="bgmenuhi.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="GP%20April%202.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T10:50:39-04:00" modified="2020-06-17T16:34:59.135-04:00" filename="GP April 2.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="GP%20April%201.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T10:50:35-04:00" modified="2020-06-17T16:34:59.185-04:00" filename="GP April 1.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="November%201%20whole.tif" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:22:12-05:00" modified="2020-06-17T16:34:59.227-04:00" filename="November 1 whole.tif" mimetype="image/tiff">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bgmenu.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.33-04:00" filename="bgmenu.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="body-base.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.337-04:00" filename="body-base.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Nov3scaled.png" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:23:49-05:00" modified="2020-06-17T16:34:59.339-04:00" filename="Nov3scaled.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="background_test1.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:32:36-04:00" modified="2020-06-17T16:34:59.345-04:00" filename="background_test1.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Nov2scaled.png" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:27:01-05:00" modified="2020-06-17T16:34:59.349-04:00" filename="Nov2scaled.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Nov1scaled.png" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:28:01-05:00" modified="2020-06-17T16:34:59.355-04:00" filename="Nov1scaled.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="June4.png" skip="no" owner="admin" group="dba" mode="644" created="2016-09-03T19:09:23-04:00" modified="2020-06-17T16:34:59.362-04:00" filename="June4.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="existdb.png" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.397-04:00" filename="existdb.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="italic.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.399-04:00" filename="italic.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="newtestheader3.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:35-04:00" modified="2020-06-17T16:34:59.402-04:00" filename="newtestheader3.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="horizontal.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.404-04:00" filename="horizontal.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="AboutIllustration.png" skip="no" owner="admin" group="dba" mode="644" created="2016-07-08T13:28:58-04:00" modified="2020-06-17T16:34:59.406-04:00" filename="AboutIllustration.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="page-edit-icon.png" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.413-04:00" filename="page-edit-icon.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="grey-box-bot.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.415-04:00" filename="grey-box-bot.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="May2whole.png" skip="no" owner="admin" group="dba" mode="644" created="2016-07-08T14:20:15-04:00" modified="2020-06-17T16:34:59.418-04:00" filename="May2whole.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="november%203%20whole.tif" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:22:22-05:00" modified="2020-06-17T16:34:59.485-04:00" filename="november 3 whole.tif" mimetype="image/tiff">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="November%202%20whole.tif" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:22:17-05:00" modified="2020-06-17T16:34:59.585-04:00" filename="November 2 whole.tif" mimetype="image/tiff">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="May1whole.png" skip="no" owner="admin" group="dba" mode="644" created="2016-07-08T14:12:31-04:00" modified="2020-06-17T16:34:59.685-04:00" filename="May1whole.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="GP%2520April%25201.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:19:50-04:00" modified="2020-06-17T16:34:59.751-04:00" filename="GP%20April%201.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="GP%2520April%25202.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:19:57-04:00" modified="2020-06-17T16:34:59.792-04:00" filename="GP%20April%202.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="hdt_banner4.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:02-04:00" modified="2020-06-17T16:34:59.835-04:00" filename="hdt_banner4.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="hdt_bannercontent7.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:02-04:00" modified="2020-06-17T16:34:59.842-04:00" filename="hdt_bannercontent7.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="image001.jpg" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:07-04:00" modified="2020-06-17T16:34:59.846-04:00" filename="image001.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="kalendarheader.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:29-04:00" modified="2020-06-17T16:34:59.85-04:00" filename="kalendarheader.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="grey-box-top.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.854-04:00" filename="grey-box-top.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="background_test2.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:32:36-04:00" modified="2020-06-17T16:34:59.857-04:00" filename="background_test2.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="newtestheader.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:35-04:00" modified="2020-06-17T16:34:59.861-04:00" filename="newtestheader.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mainbg.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:30-04:00" modified="2020-06-17T16:34:59.863-04:00" filename="mainbg.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nav.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.867-04:00" filename="nav.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junewhole2.png" skip="no" owner="admin" group="dba" mode="644" created="2016-08-06T14:13:50-04:00" modified="2020-06-17T16:34:59.87-04:00" filename="Junewhole2.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junewhole3.png" skip="no" owner="admin" group="dba" mode="644" created="2016-08-06T14:16:06-04:00" modified="2020-06-17T16:34:59.905-04:00" filename="Junewhole3.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junewhole.png" skip="no" owner="admin" group="dba" mode="644" created="2016-07-08T14:32:52-04:00" modified="2020-06-17T16:34:59.938-04:00" filename="Junewhole.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="new%2520header.jpg" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:35-04:00" modified="2020-06-17T16:34:59.966-04:00" filename="new%20header.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="newtestheader2.png" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:20:35-04:00" modified="2020-06-17T16:34:59.968-04:00" filename="newtestheader2.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nav-dropdown.png" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.971-04:00" filename="nav-dropdown.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="glyphicons-halflings.png" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.973-04:00" filename="glyphicons-halflings.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nav-dropdown.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.975-04:00" filename="nav-dropdown.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="delete-icon.png" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.978-04:00" filename="delete-icon.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="header.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.98-04:00" filename="header.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="body.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.982-04:00" filename="body.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bold.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:59.984-04:00" filename="bold.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Nov4scaled.png" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:11:51-05:00" modified="2020-06-17T16:34:59.986-04:00" filename="Nov4scaled.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="November%204%20whole.tif" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:11:56-05:00" modified="2020-06-17T16:34:59.993-04:00" filename="November 4 whole.tif" mimetype="image/tiff">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="pages" filename="pages"/>
+    <subcollection name="morgan" filename="morgan"/>
+    <subcollection name="tiled" filename="tiled"/>
+</collection>

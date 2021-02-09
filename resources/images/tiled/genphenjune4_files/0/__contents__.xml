@@ -1,0 +1,6 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/Kalendar/resources/images/tiled/genphenjune4_files/0" version="1" owner="admin" group="dba" mode="755" created="2017-03-28T21:48:42-04:00">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="0_0.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T21:49:20-04:00" modified="2020-06-17T16:35:09.779-04:00" filename="0_0.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

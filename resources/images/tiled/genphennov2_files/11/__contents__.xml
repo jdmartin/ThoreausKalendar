@@ -1,0 +1,87 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/Kalendar/resources/images/tiled/genphennov2_files/11" version="1" owner="admin" group="dba" mode="755" created="2017-03-28T22:00:18-04:00">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="2_1.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:42-04:00" modified="2020-06-17T16:35:01.359-04:00" filename="2_1.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="2_2.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:42-04:00" modified="2020-06-17T16:35:01.363-04:00" filename="2_2.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="2_3.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:42-04:00" modified="2020-06-17T16:35:01.366-04:00" filename="2_3.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="3_0.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:43-04:00" modified="2020-06-17T16:35:01.368-04:00" filename="3_0.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="3_1.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:43-04:00" modified="2020-06-17T16:35:01.371-04:00" filename="3_1.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="3_2.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:43-04:00" modified="2020-06-17T16:35:01.374-04:00" filename="3_2.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="3_3.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:43-04:00" modified="2020-06-17T16:35:01.377-04:00" filename="3_3.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="4_0.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:43-04:00" modified="2020-06-17T16:35:01.379-04:00" filename="4_0.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="4_1.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:44-04:00" modified="2020-06-17T16:35:01.382-04:00" filename="4_1.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="4_2.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:44-04:00" modified="2020-06-17T16:35:01.384-04:00" filename="4_2.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="4_3.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:44-04:00" modified="2020-06-17T16:35:01.387-04:00" filename="4_3.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="5_0.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:44-04:00" modified="2020-06-17T16:35:01.389-04:00" filename="5_0.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="5_1.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:45-04:00" modified="2020-06-17T16:35:01.392-04:00" filename="5_1.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="5_2.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:45-04:00" modified="2020-06-17T16:35:01.395-04:00" filename="5_2.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="5_3.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:45-04:00" modified="2020-06-17T16:35:01.398-04:00" filename="5_3.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="6_0.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:45-04:00" modified="2020-06-17T16:35:01.4-04:00" filename="6_0.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="6_1.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:45-04:00" modified="2020-06-17T16:35:01.404-04:00" filename="6_1.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="6_2.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:46-04:00" modified="2020-06-17T16:35:01.406-04:00" filename="6_2.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="6_3.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:46-04:00" modified="2020-06-17T16:35:01.409-04:00" filename="6_3.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="0_0.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:40-04:00" modified="2020-06-17T16:35:01.411-04:00" filename="0_0.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="0_1.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:40-04:00" modified="2020-06-17T16:35:01.414-04:00" filename="0_1.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="0_2.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:41-04:00" modified="2020-06-17T16:35:01.417-04:00" filename="0_2.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="0_3.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:41-04:00" modified="2020-06-17T16:35:01.42-04:00" filename="0_3.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="1_0.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:41-04:00" modified="2020-06-17T16:35:01.422-04:00" filename="1_0.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="1_1.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:41-04:00" modified="2020-06-17T16:35:01.425-04:00" filename="1_1.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="1_2.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:41-04:00" modified="2020-06-17T16:35:01.427-04:00" filename="1_2.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="1_3.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:42-04:00" modified="2020-06-17T16:35:01.43-04:00" filename="1_3.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="2_0.jpg" skip="no" owner="admin" group="dba" mode="644" created="2017-03-28T22:02:42-04:00" modified="2020-06-17T16:35:01.432-04:00" filename="2_0.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

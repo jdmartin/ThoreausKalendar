@@ -1,0 +1,15 @@
+
+.highlight { 
+    background-color: #BCE9F3; 
+}
+
+a.info {
+    font-family:Garamond, Georgia, serif;
+    vertical-align: super;
+    font-size: 8px;
+}
+#search-content {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,116 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/Kalendar" version="1" owner="admin" group="dba" mode="775" created="2014-08-21T05:17:02-04:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="dec4.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-16T20:14:16-05:00" modified="2018-04-21T01:45:57.203-04:00" filename="dec4.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="dec5.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-16T20:14:24-05:00" modified="2018-04-21T01:45:50.877-04:00" filename="dec5.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="about.html" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:22:59-04:00" modified="2018-04-21T01:46:16.807-04:00" filename="about.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="alphatest.html" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:26:39-04:00" modified="2017-05-04T04:27:26-04:00" filename="alphatest.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="datedemo.html" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:26:51-04:00" modified="2014-08-21T05:26:51-04:00" filename="datedemo.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="how.html" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:26:59-04:00" modified="2018-04-21T01:45:42.922-04:00" filename="how.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="newapril.html" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:27:13-04:00" modified="2018-04-21T01:44:48.311-04:00" filename="newapril.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="nov4.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:12:25-05:00" modified="2018-04-21T01:44:20.726-04:00" filename="nov4.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="nov3.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:13:03-05:00" modified="2018-04-21T01:44:27.72-04:00" filename="nov3.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="nov2.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:13:20-05:00" modified="2018-04-21T01:44:34.428-04:00" filename="nov2.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="nov1.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-17T18:13:27-05:00" modified="2018-04-21T01:44:41.665-04:00" filename="nov1.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="expath-pkg.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2014-08-21T17:39:49-04:00" filename="expath-pkg.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="repo.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2014-08-21T17:39:49-04:00" filename="repo.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="collection.xconf" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2014-08-21T05:17:04-04:00" filename="collection.xconf" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="error-page.html" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2017-05-04T04:28:07-04:00" filename="error-page.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index.html" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:02-04:00" modified="2018-04-21T01:45:36.505-04:00" filename="index.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="alldecember.html" skip="no" owner="admin" group="dba" mode="644" created="2017-01-25T12:12:58-05:00" modified="2018-04-21T01:46:09.996-04:00" filename="alldecember.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="may1.html" skip="no" owner="admin" group="dba" mode="644" created="2016-07-08T13:56:45-04:00" modified="2018-04-21T01:45:03.916-04:00" filename="may1.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="otherapril-dev.html" skip="no" owner="admin" group="dba" mode="644" created="2017-01-25T22:10:29-05:00" modified="2017-03-30T18:22:49-04:00" filename="otherapril-dev.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="otherapril.html" skip="no" owner="admin" group="dba" mode="644" created="2014-08-21T05:27:23-04:00" modified="2018-04-21T01:43:41.145-04:00" filename="otherapril.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="june.html" skip="no" owner="admin" group="dba" mode="644" created="2016-07-08T14:28:40-04:00" modified="2018-04-21T01:45:30.186-04:00" filename="june.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="colophon.html" skip="no" owner="admin" group="dba" mode="644" created="2017-01-25T13:01:11-05:00" modified="2017-08-14T16:59:50-04:00" filename="colophon.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="june4.html" skip="no" owner="admin" group="dba" mode="644" created="2016-09-03T19:11:10-04:00" modified="2018-04-21T01:45:10.283-04:00" filename="june4.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="search-menu.html" skip="no" owner="admin" group="dba" mode="644" created="2017-01-25T14:37:43-05:00" modified="2017-01-25T14:41:17-05:00" filename="search-menu.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="june2.html" skip="no" owner="admin" group="dba" mode="644" created="2016-08-06T13:59:05-04:00" modified="2018-04-21T01:45:23.99-04:00" filename="june2.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="june3.html" skip="no" owner="admin" group="dba" mode="644" created="2016-08-06T14:00:57-04:00" modified="2018-04-21T01:45:16.379-04:00" filename="june3.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="toolbar.html" skip="no" owner="admin" group="dba" mode="755" created="2017-03-29T21:36:29-04:00" modified="2017-03-29T21:40:46-04:00" filename="toolbar.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="may2.html" skip="no" owner="admin" group="dba" mode="644" created="2016-07-08T14:21:00-04:00" modified="2018-04-21T01:44:57.68-04:00" filename="may2.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="build.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-08-21T05:17:03-04:00" modified="2014-08-21T05:17:04-04:00" filename="build.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="oct1.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-16T20:13:48-05:00" modified="2018-04-21T01:44:13.652-04:00" filename="oct1.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="oct2.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-16T20:13:57-05:00" modified="2018-04-21T01:43:27.71-04:00" filename="oct2.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="dec3.html" skip="no" owner="admin" group="dba" mode="644" created="2017-02-16T20:14:09-05:00" modified="2018-04-21T01:46:03.379-04:00" filename="dec3.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pre-install.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:57.3-04:00" filename="pre-install.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="controller.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-08-21T05:17:02-04:00" modified="2020-06-17T16:34:57.31-04:00" filename="controller.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="navigation-menu.html" skip="no" owner="admin" group="dba" mode="755" created="2017-01-25T12:04:07-05:00" modified="2020-06-17T16:34:57.346-04:00" filename="navigation-menu.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name=".DS_Store" skip="no" owner="admin" group="dba" mode="644" created="2017-06-19T15:59:27-04:00" modified="2020-06-17T16:34:57.549-04:00" filename=".DS_Store" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="data" filename="data"/>
+    <subcollection name="templates" filename="templates"/>
+    <subcollection name="modules" filename="modules"/>
+    <subcollection name="resources" filename="resources"/>
+    <subcollection name="search" filename="search"/>
+</collection>
