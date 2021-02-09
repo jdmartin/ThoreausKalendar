@@ -1,0 +1,36 @@
+<div id="footer">
+                    <div id="lefty">
+                        <ul style="list-style: none;">
+                            <li>
+                                <a href="./resources/images/pages/genphenjune4.html" target="_new">See this manuscript page</a>    <a href="https://thoreauskalendar.org/resources/downloads/June4.zip">Download the full-size image</a>
+                            </li>
+                            <li style="font-size: 0.8em;">
+                                <br/>Manuscript images provided by: <a href="http://www.themorgan.org/default.asp" target="_blank">The Pierpont Morgan Library</a>, New York.</li>
+                        </ul>
+                    </div>
+                    <div id="righty">
+                        <script>
+                            $("#righty").load( "./colophon.html");
+                        </script>
+                    </div>
+                    <div id="nader">
+                        <br/>
+                        <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off"/>
+                        <button id="show">Search</button>
+                        <br/>
+                        <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
+                        <div id="search-help">
+                            <span>
+                                <ul>
+                                    <li>
+                                        <b>Searching:</b> You can search for items word by word, 
+                                <br/>or you can use multiple words like so: a, b, c</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
