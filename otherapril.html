@@ -2,274 +2,201 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title>General Phenomena for April</title>
-    <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="./resources/js/kalendar.js"></script>
-    <script async="async" type="text/javascript" src="./resources/js/jquery-ui.min.js"></script>
-    <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
-    <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
-</head>
-
-<body>
-    <div class="hiddenmenu">
-        ☰
-        <div id="navmainpage">
-            <script>
-                $("#navmainpage").load("./navigation-menu.html");
-            </script>
+        <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="./resources/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="./resources/js/kalendar.js"></script>
+        <script async="async" type="text/javascript" src="./resources/js/jquery-ui.min.js"></script>
+        <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
+        <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
+    </head>
+    <body>
+        <div class="hiddenmenu">
+                ☰
+                <div id="navmainpage">
+                <script>
+                    $("#navmainpage").load( "./navigation-menu.html");
+                </script>
+            </div>
         </div>
-    </div>
-    <div id="main">
-        <div id="content">
-            <div id="banner">
-                <img src="./resources/images/newtestheader3.png" align="middle" />
-            </div>
-            <div id="search-menu">
-                <table style="width: 80%;">
-                    <tr>
-                        <td style="padding-left: 20px;">
-                            <button id="pers">people</button>
-                            <button id="places">places</button>
-                            <button id="add">adds</button>
-                            <button id="pencils">pencil</button>
-                            <button id="gaps" class="red">gaps</button>
-                            <button id="help">help</button>
-                        </td>
-                        <td>
-                            <i>
-                                <script>
-                                    var pageTitle = $(document).attr('title');
-                                    document.write(pageTitle);
-                                </script>
-                            </i>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="helpbox">
-                <table cellpadding="1" cellspacing="0">
-                    <tr>
-                        <th colspan="2" style="width:100%">Clicking the buttons above will do the following:</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>People:  </b>
-                        </td>
-                        <td>Highlight person names.</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Places:  </b>
-                        </td>
-                        <td>Highlight place names.</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Adds:  </b>
-                        </td>
-                        <td>Highlight items marked 'add.' (Excluding: pencil additions)</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Pencil:  </b>
-                        </td>
-                        <td>Highlight additions done in pencil.</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Gaps:  </b>
-                        </td>
-                        <td>Toggles the display of textual gaps. (mouseover for details)</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Sources:</b>
-                        </td>
-                        <td>Source material links are the dates in <span style="color: #8A4E5D;">this color</span>.</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Unclear:</b>
-                        </td>
-                        <td>Words with a <span style="border-bottom: 1px dashed #999;">dashed underline</span> are
-                            unclear in the source text.</td>
-                    </tr>
-                </table>
-            </div>
-            <table id="kalendar" border="1" cellpadding="1" cellspacing="0">
-                <tr>
-                    <td>
-                        <cell>
-                            <add rend="pencil">2</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1851">51</date>-<date when="1852">2</date>
-                            <ref target="http://tinyurl.com/mmlzsle">"a good solid winter"</ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1852">52</date>
-                            <ref target="http://tinyurl.com/oz6peyq">the high water year</ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1853">53</date>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1854">54</date>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1855">55</date>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/kzg75pn">
-                                <date when="1856-04-16">16</date>
-                            </ref>
-                            <gap extent="6 words" reason="unclear"></gap>
-                            <date when="1865">56</date>meadow
+        <div id="main">
+            <div id="content">
+                <div id="banner">
+                    <img src="./resources/images/newtestheader3.png" align="middle"/>
+                </div>
+                <div id="search-menu">
+                    <table style="width: 80%;">
+                        <tr>
+                            <td style="padding-left: 20px;">
+                                <button id="pers">people</button>
+                                <button id="places">places</button>
+                                <button id="add">adds</button>
+                                <button id="pencils">pencil</button>
+                                <button id="gaps" class="red">gaps</button>
+                                <button id="help">help</button>
+                            </td>
+                            <td>
+                                <i>
+                                    <script>var pageTitle = $(document).attr('title'); document.write(pageTitle);</script>
+                                </i>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="helpbox">
+                    <table cellpadding="1" cellspacing="0">
+                        <tr>
+                            <th colspan="2" style="width:100%">Clicking the buttons above will do the following:</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>People:  </b>
+                            </td>
+                            <td>Highlight person names.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Places:  </b>
+                            </td>
+                            <td>Highlight place names.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Adds:  </b>
+                            </td>
+                            <td>Highlight items marked 'add.' (Excluding: pencil additions)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Pencil:  </b>
+                            </td>
+                            <td>Highlight additions done in pencil.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Gaps:  </b>
+                            </td>
+                            <td>Toggles the display of textual gaps. (mouseover for details)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Sources:</b>
+                            </td>
+                            <td>Source material links are the dates in <span style="color: #8A4E5D;">this color</span>.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Unclear:</b>
+                            </td>
+                            <td>Words with a <span style="border-bottom: 1px dashed #999;">dashed underline</span> are unclear in the source text.</td>
+                        </tr>
+                    </table>
+                </div><table id="kalendar" border="1" cellpadding="1" cellspacing="0"><tr><td><cell>
+<add rend="pencil">2</add>
+</cell></td><td><cell>
+<date when="1851">51</date>-<date when="1852">2</date>
+<ref target="http://tinyurl.com/mmlzsle">"a good solid winter"</ref>
+</cell></td><td><cell>
+<date when="1852">52</date>
+<ref target="http://tinyurl.com/oz6peyq">the high water year</ref>
+</cell></td><td><cell>
+<date when="1853">53</date>
+</cell></td><td><cell>
+<date when="1854">54</date>
+</cell></td><td><cell>
+<date when="1855">55</date>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/kzg75pn">
+<date when="1856-04-16">16</date>
+</ref><gap extent="6 words" reason="unclear"></gap>
+<date when="1865">56</date>meadow
                             <ref target="http://tinyurl.com/mz7lzdf">
-                                <date when="1856-04-12">12</date>
-                            </ref>
+<date when="1856-04-12">12</date>
+</ref>
                             wrack on meadow
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1857">57</date>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1858">58</date>
-                            <ref target="http://tinyurl.com/o76m7gx">
+                        </cell></td><td><cell>
+<date when="1857">57</date>
+</cell></td><td><cell>
+<date when="1858">58</date>
+<ref target="http://tinyurl.com/o76m7gx">
                                 1st lowest willow bare</ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1859">59</date>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1860">60</date>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>10</cell>
-                    </td>
-                    <td>
-                        <cell>River when lowest in April
-                            <gap reason="unclear"></gap>
-                            <lb></lb>
-                            <date when="1851-04-04">April 4</date>-<date when="1851-04-05">5</date>
-                            <date when="1851-04-06">6</date>
+</cell></td><td><cell>
+<date when="1859">59</date>
+</cell></td><td><cell>
+<date when="1860">60</date>
+</cell></td></tr><tr><td><cell>10</cell></td><td><cell>River when lowest in April
+                            <gap reason="unclear"></gap><lb></lb>
+<date when="1851-04-04">April 4</date>-<date when="1851-04-05">5</date>
+<date when="1851-04-06">6</date>
                             not yet so high by
                             <lb></lb>
                             4 or 5 feet as last
                             <emph rend="underline">winter</emph>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/qa9gpm6">
-                                <date when="1852-04-04">4</date>
-                            </ref>
-                            <gap reason="unclear"></gap>
-                            <lb></lb>of river
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/qa9gpm6">
+<date when="1852-04-04">4</date>
+</ref><gap reason="unclear"></gap><lb></lb>of river
                             <lb></lb>
-                            <ref target="http://tinyurl.com/lnm7egb">
-                                <date when="1852-05-15">May 15</date>
-                            </ref>(?)but still
+<ref target="http://tinyurl.com/lnm7egb">
+<date when="1852-05-15">May 15</date>
+</ref>(?)but still
                             <lb></lb>
-                            <unclear>prob.</unclear>
-                            <emph rend="underline">up</emph>
-                            <lb></lb>
-                            <add rend="pencil">2" water on meadows</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/knfvlr9">
-                                    <date when="1853-04-01">1st</date>
+<unclear>prob.</unclear>
+<emph rend="underline">up</emph><lb></lb>
+<add rend="pencil">2" water on meadows</add>
+</cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/knfvlr9">
+<date when="1853-04-01">1st</date>
                                     been going down a month
                                     <date when="1853-04-01">1 Ap
                                     </date>
-                                </ref>
-                                <lb></lb>
-                                <ref target="http://tinyurl.com/ljsqfgl">
-                                    <date when="1853-04-23">23rd</date>
-                                </ref>. lowest
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/n8vxuxm">
-                                    <date when="1854-04-03">3rd</date>
-                                </ref>gone down so
+</ref><lb></lb>
+<ref target="http://tinyurl.com/ljsqfgl">
+<date when="1853-04-23">23rd</date>
+</ref>. lowest</add>
+</cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/n8vxuxm">
+<date when="1854-04-03">3rd</date>
+</ref>gone down so
                                 <lb></lb>
                                 that I have to steer<lb></lb>
                                 carefully to avoid hummocks on
-                                <lb></lb>meadows
-                            </add>
-                            <lb></lb>
-                            <ref target="http://tinyurl.com/mtyxght">
-                                <date when="1854-04-23">23rd</date>
-                            </ref>
-                            just left bare for blackbirds
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mjoaal8">
-                                <date when="1855-05-04">May 4</date>
-                            </ref>
+                                <lb></lb>meadows</add><lb></lb>
+<ref target="http://tinyurl.com/mtyxght">
+<date when="1854-04-23">23rd</date>
+</ref>
+                            just left bare for blackbirds</cell></td><td><cell>
+<ref target="http://tinyurl.com/mjoaal8">
+<date when="1855-05-04">May 4</date>
+</ref>
                             generally
                             <lb></lb>
                             off meads.
                             <lb></lb>
-                            <emph rend="double underline">
-                                <date when="1855-04-01">first</date>
-                            </emph>
+<emph rend="double underline">
+<date when="1855-04-01">first</date>
+</emph>
                             very low
                             <ref target="http://tinyurl.com/lcu68mf">
-                                <date when="1855-04-29">29</date>
-                            </ref>
+<date when="1855-04-29">29</date>
+</ref>
                             rapidly going down
                             <lb></lb>
-                            <unclear>shows</unclear>
-                            grass on meadown
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mz7lzdf">
-                                <date when="1856-04-12">12</date>
-                            </ref>
+<unclear>shows</unclear>
+                            grass on meadown</cell></td><td><cell>
+<ref target="http://tinyurl.com/mz7lzdf">
+<date when="1856-04-12">12</date>
+</ref>
                             going down<lb></lb>
                             leaving its wrack
                             <lb></lb>
-                            <ref target="http://tinyurl.com/mcpaw85">
-                                <date when="1856-05-01">May 1st</date>
-                            </ref>
+<ref target="http://tinyurl.com/mcpaw85">
+<date when="1856-05-01">May 1st</date>
+</ref>
                             water in meads rapidly
                             <lb></lb>going down. am
                             <lb></lb>
@@ -277,325 +204,258 @@
                             <lb></lb>
                             most part
                             <lb></lb>
-                            <add place="left">Say</add>
-                            <ref target="http://tinyurl.com/jw7rszf">
-                                <date when="1856-04-03">3rd</date>
-                            </ref>
+<add place="left">Say</add>
+<ref target="http://tinyurl.com/jw7rszf">
+<date when="1856-04-03">3rd</date>
+</ref>
                             quite low (<ref target="http://tinyurl.com/o4xxcfr">
-                                <date when="1856-04-14">14</date>
-                            </ref>
+<date when="1856-04-14">14</date>
+</ref>
                             going down rapidly
                             <lb></lb>
-                            <placename>Hunt's causeway</placename>
-                            just bare)
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/n478nb6">
-                                <date when="1857-05-01">May 1st</date>
-                            </ref>
-                            (??)
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ptp9c2c">
-                                <date when="1858-04-03">3rd</date>
-                            </ref>
-                            <gap extent="1 word" reason="unclear"></gap>rock<lb></lb>
+<placename>Hunt's causeway</placename>
+                            just bare)</cell></td><td><cell>
+<ref target="http://tinyurl.com/n478nb6">
+<date when="1857-05-01">May 1st</date>
+</ref>
+                            (??)</cell></td><td><cell>
+<ref target="http://tinyurl.com/ptp9c2c">
+<date when="1858-04-03">3rd</date>
+</ref><gap extent="1 word" reason="unclear"></gap>rock<lb></lb>
                             more than 1 foot<lb></lb>
                             out and falling to
                             <del rend="crossed out">
-                                <date when="1858-04-06">6th
-                                </date>
-                                <lb></lb>at least
+<date when="1858-04-06">6th
+                                </date><lb></lb>at least
                             </del>
-                            <ref target="http://tinyurl.com/pgq6zrs">
-                                <date when="1858-04-09">
-                                    <add rend="pencil">to 9th</add>
-                                </date>
-                            </ref>
-                            <lb></lb>say 9th &amp;
+<ref target="http://tinyurl.com/pgq6zrs">
+<date when="1858-04-09">
+<add rend="pencil">to 9th</add>
+</date>
+</ref><lb></lb>say 9th &amp;
                             <emph rend="underline">prob.</emph>
                             below
-                            <gap extent="1 word" reason="unclear"></gap>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add place="above">Say
+                            <gap extent="1 word" reason="unclear"></gap></cell></td><td><cell>
+<add place="above">Say
                                 <date when="1859-04-10">10th</date>
-                            </add>
-                            <ref target="http://tinyurl.com/kdl6bbw">
-                                <date when="1859-04-10">10th</date>
-                            </ref>spring
+</add>
+<ref target="http://tinyurl.com/kdl6bbw">
+<date when="1859-04-10">10th</date>
+</ref>spring
                             <lb></lb>freshet ends<lb></lb>
                             began
                             <ref target="http://tinyurl.com/maunugf">
-                                <date when="1859-03-08">Mar. 8</date>
-                            </ref>
-                            <lb></lb>
+<date when="1859-03-08">Mar. 8</date>
+</ref><lb></lb>
                             (not to include the winter
                             <lb></lb>
                             one)
                             <ref target="http://tinyurl.com/khhfu69">
-                                <date when="1859-04-17">17</date>
-                            </ref>
+<date when="1859-04-17">17</date>
+</ref>
                             up again so that I
                             <gap extent="4 words" reason="unclear"></gap>
                             further to
                             <placename>Mantatuket's rock
-                            </placename>
-                            <lb></lb>
-                            but is already falling
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>Lowest for Mar.
+                            </placename><lb></lb>
+                            but is already falling</cell></td><td><cell>Lowest for Mar.
                             <lb></lb>the
                             <ref target="http://tinyurl.com/p3hagpz">
-                                <date when="1860-03-31">31st</date>
-                            </ref>
+<date when="1860-03-31">31st</date>
+</ref>
                             3 ft. be-<lb></lb>low
                             <placename ref="Hoar's wall">
-                                <persname ref="Ed Hoar">H</persname>'s wall
-                            </placename>
-                            <lb></lb>or 6 1/2 in above
+<persname ref="Ed Hoar">H</persname>'s wall</placename><lb></lb>or 6 1/2 in above
                             <lb></lb>
                             summer level
                             <lb></lb>
                             Lowest
                             <ref target="http://tinyurl.com/prpgotw">
-                                <date when="1860-04-30">ap. 30</date>
-                            </ref>
-                            <lb></lb>or 3+ inches below
+<date when="1860-04-30">ap. 30</date>
+</ref><lb></lb>or 3+ inches below
                             <lb></lb>- summer level<lb></lb>
-                            <emph rend="underline">very low</emph>
-                            <lb></lb>lowest as yet
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>16</cell>
-                    </td>
-                    <td>
-                        <cell>River when highest in April
+<emph rend="underline">very low</emph><lb></lb>lowest as yet</cell></td></tr><tr><td><cell>16</cell></td><td><cell>River when highest in April
                             <gap reason="unclear"></gap>high.
                             <lb></lb>(<date when="1850-05-31">May 31-50</date>
                             higher)<lb></lb>than it has been at this season for many years -
                             <lb></lb>
                             water over road
                             <emph>below</emph>
-                            <placename>master
+<placename>master
                                 <lb></lb>
                                 Cheney's</placename>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/oyufdcj">
-                                <date when="1852-04-10">10
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/oyufdcj">
+<date when="1852-04-10">10
                                 </date>
-                            </ref>high, but
+</ref>high, but
                             <lb></lb>
                             not high for
                             <lb></lb>
                             opening
                             <ref target="http://tinyurl.com/osbnm6w">
-                                <date when="1852-04-23">23rd</date>
-                            </ref>
-                            <emph rend="underline">high point</emph>
+<date when="1852-04-23">23rd</date>
+</ref>
+<emph rend="underline">high point</emph>
                             for
                             <lb></lb>year 8 1/2 inches
                             <lb></lb>
                             above horizontal truss
-                            <gap quantity="6" reason="unclear"></gap>
-                            <lb></lb>2" up but faltering
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nlgnec5">
-                                <date when="1853-04-07">7</date>
-                            </ref>
+                            <gap quantity="6" reason="unclear"></gap><lb></lb>2" up but faltering</cell></td><td><cell>
+<ref target="http://tinyurl.com/nlgnec5">
+<date when="1853-04-07">7</date>
+</ref>
                             river raised so that I can
                             <gap></gap>
-                            <unclear>great meadows</unclear>
-                            <lb></lb>
-                            <emph>
-                                <ref target="http://tinyurl.com/ozldty8">
-                                    <date when="1853-03-27">Mar 27</date>
-                                </ref>-
-                            </emph>
-                            <lb></lb>
-                            <ref target="http://tinyurl.com/nodl8qv">
-                                <date when="1853-04-08">8</date>
-                            </ref>
+<unclear>great meadows</unclear><lb></lb>
+<emph>
+<ref target="http://tinyurl.com/ozldty8">
+<date when="1853-03-27">Mar 27</date>
+</ref>-</emph><lb></lb>
+<ref target="http://tinyurl.com/nodl8qv">
+<date when="1853-04-08">8</date>
+</ref>
                             meadow but part-<lb></lb>ially flooded say
                             <ref target="http://tinyurl.com/pqz9rer">
-                                <date when="1853-04-07">7</date>
-                            </ref>
+<date when="1853-04-07">7</date>
+</ref>
                             (??) E
                             <lb></lb>
-                            <emph>not</emph>
-                            high.
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nrm7t7v">
-                                <date when="1854-04-30">30</date>
-                            </ref>
+<emph>not</emph>
+                            high.</cell></td><td><cell>
+<ref target="http://tinyurl.com/nrm7t7v">
+<date when="1854-04-30">30</date>
+</ref>
                             highest for April say
                             <ref target="http://tinyurl.com/pvtuzmn">
-                                <date when="1854-04-23">23rd</date>
-                            </ref>
+<date when="1854-04-23">23rd</date>
+</ref>
                             &amp; high
                             <ref target="http://tinyurl.com/lktzm7t">
-                                <date when="1854-04-24">24</date>
-                            </ref>
+<date when="1854-04-24">24</date>
+</ref>
                             rises a little
                             <add place="interliner">owing to rain if
                                 <ref target="http://tinyurl.com/pvtuzmn">
-                                    <date when="1854-04-22">22nd</date>
+<date when="1854-04-22">22nd</date>
                                     and
                                     <date when="1854-04-23">23rd</date>
-                                </ref>
-                            </add>
-                            <ref target="http://tinyurl.com/nrm7t7v">
-                                <date when="1854-04-29">29</date>
-                            </ref>
+</ref>
+</add>
+<ref target="http://tinyurl.com/nrm7t7v">
+<date when="1854-04-29">29</date>
+</ref>
                             nearly as high
                             <lb></lb>as anytime in this year
                             <ref target="http://tinyurl.com/pl85jhb">
-                                <date when="1854-05-05">May 5</date>
-                            </ref>
-                            <add place="interlinear">very high</add>
+<date when="1854-05-05">May 5</date>
+</ref>
+<add place="interlinear">very high</add>
                             highest in the year 54
-                            <gap reason="unclear"></gap>
-                            <lb></lb>(on ac.of rain
+                            <gap reason="unclear"></gap><lb></lb>(on ac.of rain
                             <lb></lb>
                             the
                             <ref target="http://tinyurl.com/pbmgwfh">
-                                <date when="1855-05-03">3rd
+<date when="1855-05-03">3rd
                                 </date>and
                                 <date when="1855-05-04">4th</date>
-                            </ref>)
-                            <gap reason="unclear"></gap>
-                            <lb></lb>
+</ref>)
+                            <gap reason="unclear"></gap><lb></lb>
                             quite
                             <gap reason="unclear"></gap>
                             - highest since
                             <ref target="http://tinyurl.com/osbnm6w">
-                                <date when="1852-04-23">23rd-52</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lwspykj">
-                                <date when="1855-04-14">14</date>
-                            </ref>
+<date when="1852-04-23">23rd-52</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/lwspykj">
+<date when="1855-04-14">14</date>
+</ref>
                             steadily rising
                             <lb></lb>since
                             <ref target="http://tinyurl.com/mkarj97">
-                                <date when="1855-04-01">1st</date>
-                            </ref>
-                            <lb></lb>
-                            <ref target="http://tinyurl.com/m5btuju">
-                                <date when="1855-04-19">19</date>
-                            </ref>
+<date when="1855-04-01">1st</date>
+</ref><lb></lb>
+<ref target="http://tinyurl.com/m5btuju">
+<date when="1855-04-19">19</date>
+</ref>
                             fallen a little
                             <lb></lb>
-                            <ref target="http://tinyurl.com/kp879kp">
-                                <date when="1855-04-21">21</date>
-                            </ref>
+<ref target="http://tinyurl.com/kp879kp">
+<date when="1855-04-21">21</date>
+</ref>
                             risen again a little
                             <lb></lb>on ac. of rain
                             <lb></lb>
-                            <ref target="http://tinyurl.com/lhdyx7n">
-                                <date when="1855-04-23">23</date>
-                            </ref>
+<ref target="http://tinyurl.com/lhdyx7n">
+<date when="1855-04-23">23</date>
+</ref>
                             at height for this was higher than before since winter
                             <add place="interliner">whole of
                                 <placename>Lee Meadow</placename>
-                                covered</add>
-                            <lb></lb>
-                            <ref target="http://tinyurl.com/owp472k">
-                                <date when="1855-04-28">28</date>
-                            </ref>
-                            <gap extent="2 words" reason="unclear"></gap>
-                            <ref target="http://tinyurl.com/pdudtx4">
-                                <date when="1855-04-26">A 26th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/n2okqc7">
-                                <date when="1856-04-11">11</date>
-                            </ref>
+                                covered</add><lb></lb>
+<ref target="http://tinyurl.com/owp472k">
+<date when="1855-04-28">28</date>
+</ref><gap extent="2 words" reason="unclear"></gap>
+<ref target="http://tinyurl.com/pdudtx4">
+<date when="1855-04-26">A 26th</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/n2okqc7">
+<date when="1856-04-11">11</date>
+</ref>
                             at its heights
                             <lb></lb>
-                            <add place="interlinear">(v.
-                                <date when="1856-04-23">23rd</date>)</add>
-                            <lb></lb>
-                            <ref target="http://tinyurl.com/lqdrj53">
-                                <date when="1856-04-23">23rd</date>
-                            </ref>
-                            <gap extent="3 words" reason="unclear"></gap>
+<add place="interlinear">(v.
+                                <date when="1856-04-23">23rd</date>)</add><lb></lb>
+<ref target="http://tinyurl.com/lqdrj53">
+<date when="1856-04-23">23rd</date>
+</ref><gap extent="3 words" reason="unclear"></gap>
                             over
                             <gap reason="unclear"></gap>
                             Hill
                             <gap extent="2 words" reason="unclear"></gap>
-                            <ref target="http://tinyurl.com/m4p27wm">
-                                <date when="1856-04-23">23rd
+<ref target="http://tinyurl.com/m4p27wm">
+<date when="1856-04-23">23rd
                                 </date>
-                            </ref>begins to fall<lb></lb>
-                            <ref target="http://tinyurl.com/kld5os3">
-                                <date when="1853-04-03">3rd</date>
-                            </ref>
+</ref>begins to fall<lb></lb>
+<ref target="http://tinyurl.com/kld5os3">
+<date when="1853-04-03">3rd</date>
+</ref>
                             rain at last-
                             <lb></lb>r. rapidly rises
                             <lb></lb>
-                            <ref target="http://tinyurl.com/nkhgqpj">
-                                <date when="1856-04-05">5</date>
-                            </ref>
-                            <unclear>over runs</unclear>
+<ref target="http://tinyurl.com/nkhgqpj">
+<date when="1856-04-05">5</date>
+</ref>
+<unclear>over runs</unclear>
                             meads
                             <ref target="http://tinyurl.com/mr86pyp">
-                                <date when="1856-04-08">8</date>
-                            </ref>
+<date when="1856-04-08">8</date>
+</ref>
                             higher
                             <ref target="http://tinyurl.com/lqdrj53">
-                                <date when="1856-04-23">23
+<date when="1856-04-23">23
                                 </date>
-                            </ref>? nearly as high as
+</ref>? nearly as high as
                             <ref target="http://tinyurl.com/mqpfxpy">
-                                <date when="1856-04-11">11</date>
-                            </ref>
+<date when="1856-04-11">11</date>
+</ref>
                             can just get over
                             <lb></lb>
-                            <placename>
-                                <persname>
-                                    E. Hosmer</persname>'s meadow
-                            </placename>
-                            <lb></lb>
-                            <ref target="http://tinyurl.com/jwjmuj5">
-                                <date when="1856-04-08">8th</date>
-                            </ref>
+<placename>
+<persname>
+                                    E. Hosmer</persname>'s meadow</placename><lb></lb>
+<ref target="http://tinyurl.com/jwjmuj5">
+<date when="1856-04-08">8th</date>
+</ref>
                             cannot get<lb></lb>
                             under
                             <placename>stone bridge</placename>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/k3yhkba">
-                                <date when="1857-04-24">24</date>
-                            </ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/k3yhkba">
+<date when="1857-04-24">24</date>
+</ref>
                             at its
                             <lb></lb>
                             height - higher
@@ -603,80 +463,65 @@
                             than before
                             <lb></lb>
                             (<ref target="http://tinyurl.com/knuadku">
-                                <date when="1867-04-22">22</date>
-                            </ref>
+<date when="1867-04-22">22</date>
+</ref>
                             higher than be-<lb></lb>fore &amp; rising ---
                             <lb></lb>cut off great bends
                             <lb></lb>
-                            <unclear>fairly</unclear>
+<unclear>fairly</unclear>
                             go over
                             <placename ref="Hubbard's Bridge causeway">H<gap extent="part word" reason="unclear"></gap>
                                 B. causeway</placename>)<lb></lb>
-                            owing to melting snow.
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/q9xdf3g">
-                                <date when="1858-04-14">14</date>
-                            </ref>
+                            owing to melting snow.</cell></td><td><cell>
+<ref target="http://tinyurl.com/q9xdf3g">
+<date when="1858-04-14">14</date>
+</ref>
                             a little higher
                             <lb></lb>on ac. of rain
                             <lb></lb>
                             but no rise of consequence Say
                             <ref target="http://tinyurl.com/phcrnll">
-                                <date when="1858-04-14">14
+<date when="1858-04-14">14
                                 </date>
-                            </ref>(?) but quite low (?)
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mn5w7n2">
-                                <date when="1859-04-01">1st</date>
-                            </ref>
+</ref>(?) but quite low (?)</cell></td><td><cell>
+<ref target="http://tinyurl.com/mn5w7n2">
+<date when="1859-04-01">1st</date>
+</ref>
                             to
-                            <placename>Assabet</placename>
-                            <lb></lb>
+                            <placename>Assabet</placename><lb></lb>
                             over meads in boat
                             <lb></lb>
-                            <ref target="http://tinyurl.com/nkxkpk6">
-                                <date when="1859-04-10">10</date>
-                            </ref>
+<ref target="http://tinyurl.com/nkxkpk6">
+<date when="1859-04-10">10</date>
+</ref>
                             cannot cross meads<lb></lb>
-                            <ref target="http://tinyurl.com/nlsqhs3">
-                                <date when="1859-04-28">28</date>
-                            </ref>
-                            <placename>Great Meadow</placename>
+<ref target="http://tinyurl.com/nlsqhs3">
+<date when="1859-04-28">28</date>
+</ref>
+<placename>Great Meadow</placename>
                             partly over X with
                             <persname ref="Blake and Brown">B+B
                             </persname>Say
                             <ref target="http://tinyurl.com/ne223dp">
-                                <date when="1859-04-01">1st</date>
-                            </ref>
+<date when="1859-04-01">1st</date>
+</ref>
                             (?) I
-                            <del>
-                                <gap reason="unclear"></gap>
-                            </del>
+                            <del><gap reason="unclear"></gap></del>
                             go to
                             <lb></lb>rock in boat
                             <unclear>again</unclear>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>rises
+</cell></td><td><cell>rises
                             <del rend="crossed out">some</del>
                             slightly
                             <lb></lb>
                             from
                             <ref target="http://tinyurl.com/oega5zr">
-                                <date when="1860-04-07">Ap. 7</date>
-                            </ref>
+<date when="1860-04-07">Ap. 7</date>
+</ref>
                             to
                             <ref target="http://tinyurl.com/kl46gey">
-                                <date when="1860-04-14">14th</date>
-                            </ref>
-                            <lb></lb>falls from
+<date when="1860-04-14">14th</date>
+</ref><lb></lb>falls from
                             <date when="1860-04-15">15th</date>
                             to end
                             <lb></lb>
@@ -684,2177 +529,803 @@
                             <lb></lb>
                             summer level
                             <lb></lb>
-                            <ref target="http://tinyurl.com/mctcwng">
-                                <date when="1860-04-24">the 24th</date>
-                            </ref>
+<ref target="http://tinyurl.com/mctcwng">
+<date when="1860-04-24">the 24th</date>
+</ref>
                             at summer level
                             <ref target="http://tinyurl.com/ko833z6">
-                                <date when="1860-04-26">26th</date>
-                            </ref>...<lb></lb>highest the
+<date when="1860-04-26">26th</date>
+</ref>...<lb></lb>highest the
                             <ref target="http://tinyurl.com/kl46gey">
-                                <date when="1860-04-14">14th</date>
-                            </ref>
-                            <lb></lb>
+<date when="1860-04-14">14th</date>
+</ref><lb></lb>
                             for Ap. but very little<lb></lb>
-                            on meads.
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>14</cell>
-                    </td>
-                    <td>
-                        <cell>Smooth reflecting water</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/qaftpsd">
-                                <date when="1852-04-11">11</date>
-                            </ref>
+                            on meads.</cell></td></tr><tr><td><cell>14</cell></td><td><cell>Smooth reflecting water</cell></td><td><cell>
+<ref target="http://tinyurl.com/qaftpsd">
+<date when="1852-04-11">11</date>
+</ref>
                             placid
                             <lb></lb>eve reflecting
                             <lb></lb>
-                            water
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/qb2ml9n">
-                                <date when="1854-04-26">26</date>
-                            </ref>
-                            - over cast
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/no5382h">
-                                <date when="1855-04-15">15</date>
-                            </ref>
+                            water</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/qb2ml9n">
+<date when="1854-04-26">26</date>
+</ref>
+                            - over cast</cell></td><td><cell>
+<ref target="http://tinyurl.com/no5382h">
+<date when="1855-04-15">15</date>
+</ref>
                             still cloudy day
                             <lb></lb>
                             water smooth &amp; full of
                             <lb></lb>
                             reflections<lb></lb>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/pll5uhr">
-                                    <date when="1855-04-05">5th</date>
-                                </ref>
+<add rend="pencil">
+<ref target="http://tinyurl.com/pll5uhr">
+<date when="1855-04-05">5th</date>
+</ref>
                                 or
                                 <ref target="http://tinyurl.com/q3566kg">
-                                    <date when="1855-04-06">6th</date>
-                                </ref>?
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/pfssamz">
-                                <date when="1856-04-15">15</date>
-                            </ref>
-                            <del rend="crossed out">
-                                <gap reason="unclear"></gap>
-                            </del>morning
-                            <del rend="crossed out">
-                                <gap reason="unclear"></gap>
-                            </del>overcast
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ohe8obg">
-                                <date when="1857-05-03">May 3-57 Sunday</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ply3g5b">
-                                <date when="1859-04-17">17</date>
-                            </ref>
-                            <gap extent="1 word" reason="unclear"></gap>
+<date when="1855-04-06">6th</date>
+</ref>?</add>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/pfssamz">
+<date when="1856-04-15">15</date>
+</ref>
+<del rend="crossed out"><gap reason="unclear"></gap></del>morning
+                            <del rend="crossed out"><gap reason="unclear"></gap></del>overcast</cell></td><td><cell>
+<ref target="http://tinyurl.com/ohe8obg">
+<date when="1857-05-03">May 3-57 Sunday</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/ply3g5b">
+<date when="1859-04-17">17</date>
+</ref><gap extent="1 word" reason="unclear"></gap>
                             &amp;
                             <gap extent="1 word" reason="unclear"></gap>
-                            &amp; no ripple
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>12 or before</cell>
-                    </td>
-                    <td>
-                        <cell>Ripples on ripple lakes</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nu3duwf">
-                                <date when="1859-04-09">9th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/pef8acu">
-                                <date when="1860-04-15">15</date>
-                            </ref>
-                            <placename ref="Fair Haven pond">F.H. pond</placename>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>13?</cell>
-                    </td>
-                    <td>
-                        <cell>Spearing</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/kf85xv3">
-                                <date when="1852-04-08">8th</date>
-                            </ref>
+                            &amp; no ripple</cell></td><td><cell></cell></td></tr><tr><td><cell>12 or before</cell></td><td><cell>Ripples on ripple lakes</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/nu3duwf">
+<date when="1859-04-09">9th</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/pef8acu">
+<date when="1860-04-15">15</date>
+</ref>
+<placename ref="Fair Haven pond">F.H. pond</placename>
+</cell></td></tr><tr><td><cell>13?</cell></td><td><cell>Spearing</cell></td><td><cell>
+<ref target="http://tinyurl.com/kf85xv3">
+<date when="1852-04-08">8th</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/lv24lpa">
-                                <date when="1852-04-30">30th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nclxgmk">
-                                <date when="1853-04-01">1st</date>
-                            </ref>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/kjh5v8e">
-                                    <date when="1853-04-07">-7</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ptg4nf2">
-                                <date when="1854-04-05">5th</date>
+<date when="1852-04-30">30th</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/nclxgmk">
+<date when="1853-04-01">1st</date>
+</ref>
+<add rend="pencil">
+<ref target="http://tinyurl.com/kjh5v8e">
+<date when="1853-04-07">-7</date>
+</ref>
+</add>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/ptg4nf2">
+<date when="1854-04-05">5th</date>
                                 to
                                 <date when="1854-04-08">8th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/l6z5fxh">
-                                <date when="1855-04-16">16</date>
-                            </ref>-<ref target="http://tinyurl.com/lfqlgvg">
-                                <date when="1855-04-25">25</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/orpmcqa">
-                                <date when="1856-04-25">25</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/kr6bxoq">
-                                <date when="1859-04-08">8th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/n9f2dtn">
-                                <date when="1860-04-26">26</date>
-                            </ref>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>Mar 25
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/l6z5fxh">
+<date when="1855-04-16">16</date>
+</ref>-<ref target="http://tinyurl.com/lfqlgvg">
+<date when="1855-04-25">25</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/orpmcqa">
+<date when="1856-04-25">25</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/kr6bxoq">
+<date when="1859-04-08">8th</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/n9f2dtn">
+<date when="1860-04-26">26</date>
+</ref>
+</cell></td></tr><tr><td><cell>Mar 25
                             <add rend="pencil">?</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>1st leave off greatcoat<lb></lb>
+</cell></td><td><cell>1st leave off greatcoat<lb></lb>
                             v
-                            <emph rend="underline">Mar.</emph>)</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mlyhmxv">
-                                <date when="1852-03-15">Mar 15</date>
-                            </ref>
-                            <lb></lb>next:
+                            <emph rend="underline">Mar.</emph>)</cell></td><td><cell>
+<ref target="http://tinyurl.com/mlyhmxv">
+<date when="1852-03-15">Mar 15</date>
+</ref><lb></lb>next:
                             <ref target="http://tinyurl.com/pa75odu">
-                                <date when="1852-04-26">Ap. 26</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/oxoob2t">
-                                <date when="1853-03-26">Mar 26th</date>
-                            </ref>
-                            <lb></lb>
-                            <ref target="http://tinyurl.com/qxtbll6">
-                                <date when="1853-04-13">Ap. 13</date>
-                            </ref>
-                            -<gap extent="2 words"></gap>
-                            <lb></lb>I take off in
+<date when="1852-04-26">Ap. 26</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/oxoob2t">
+<date when="1853-03-26">Mar 26th</date>
+</ref><lb></lb>
+<ref target="http://tinyurl.com/qxtbll6">
+<date when="1853-04-13">Ap. 13</date>
+</ref>
+                            -<gap extent="2 words"></gap><lb></lb>I take off in
                             <placename>Haverhill</placename>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/k3w7csc">
-                                <date when="1854-03-17">Mar 17
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/k3w7csc">
+<date when="1854-03-17">Mar 17
                                 </date>
-                            </ref>too warm
+</ref>too warm
                             <lb></lb>in one<lb></lb>
-                            <ref target="http://tinyurl.com/mz9zvpn">
-                                <date when="1854-04-25">Ap 25</date>
-                            </ref>
+<ref target="http://tinyurl.com/mz9zvpn">
+<date when="1854-04-25">Ap 25</date>
+</ref>
                             begin to take
                             <lb></lb>off<lb></lb>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/kopq7vd">
-                                    <date when="1854-04-05">April 5</date>
-                                </ref>
+<add rend="pencil">
+<ref target="http://tinyurl.com/kopq7vd">
+<date when="1854-04-05">April 5</date>
+</ref>
                                 &amp;
                                 <ref target="http://tinyurl.com/kohkbac">
-                                    <date when="1854-04-06">6</date>
-                                </ref>
-                                taken off
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/l8muvp9">
-                                <date when="1855-04-16">16
+<date when="1854-04-06">6</date>
+</ref>
+                                taken off</add>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/l8muvp9">
+<date when="1855-04-16">16
                                 </date>
-                            </ref>1st regret wearing
+</ref>1st regret wearing
                             <lb></lb>great coat
                             <lb></lb>
-                            <ref target="http://tinyurl.com/nlrr9dq">
-                                <date when="1855-04-17">17</date>
-                            </ref>-<ref target="http://tinyurl.com/odbsabh">
-                                <date when="1855-04-18">18</date>
-                            </ref>
+<ref target="http://tinyurl.com/nlrr9dq">
+<date when="1855-04-17">17</date>
+</ref>-<ref target="http://tinyurl.com/odbsabh">
+<date when="1855-04-18">18</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/q4l885a">
-                                <date when="1855-04-19">19</date>
-                            </ref>
+<date when="1855-04-19">19</date>
+</ref>
                             get warmer
                             <lb></lb>
                             &amp; go without greatcoat
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/q98atfh">
-                                <date when="1856-04-07">7th</date>
+                        </cell></td><td><cell>
+<ref target="http://tinyurl.com/q98atfh">
+<date when="1856-04-07">7th</date>
                                 &amp;
                                 <date when="1856-04-08">8</date>
-                            </ref>
+</ref>
                             warm
                             <lb></lb>enough to leave off
                             <lb></lb>put it on when I
                             <lb></lb>leave boat
                             <lb></lb>
-                            <ref target="http://tinyurl.com/qhxr9s7">
-                                <date when="1856-04-09">9th</date>
-                            </ref>
-                            leave it
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/optoeak">
-                                <date when="1867-02-25">Feb. 25
+<ref target="http://tinyurl.com/qhxr9s7">
+<date when="1856-04-09">9th</date>
+</ref>
+                            leave it</cell></td><td><cell>
+<ref target="http://tinyurl.com/optoeak">
+<date when="1867-02-25">Feb. 25
                                 </date>
-                            </ref>(65+°
+</ref>(65+°
                             <lb></lb>
                             left at home - single
                             <lb></lb>
-                            coat too much
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <del>
-                                <date when="1858-04-07">7</date>
-                            </del>
-                            <ref target="http://tinyurl.com/ljdmvua">
-                                <date when="1858-04-06">6</date>
+                            coat too much</cell></td><td><cell>
+<del>
+<date when="1858-04-07">7</date>
+</del>
+<ref target="http://tinyurl.com/ljdmvua">
+<date when="1858-04-06">6</date>
                                 &amp;
                                 <date when="1858-04-07">7th</date>
-                            </ref>
-                            <lb></lb>
+</ref><lb></lb>
                             put on great coat
-                            <emph rend="underline">again</emph>
-                            <lb></lb>
+                            <emph rend="underline">again</emph><lb></lb>
                             after a week of warm<lb></lb>
-                            weather
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nu6pk55">
-                                <date when="1859-03-17">Mar. 17</date>
-                            </ref>
+                            weather</cell></td><td><cell>
+<ref target="http://tinyurl.com/nu6pk55">
+<date when="1859-03-17">Mar. 17</date>
+</ref>
                             wear
                             <lb></lb>but one --
                             <lb></lb>weather for half-thick
                             <lb></lb>coat
                             <ref target="http://tinyurl.com/pbgqm95">
-                                <date when="1859-04-27">27th</date>
+<date when="1859-04-27">27th</date>
                                 &amp;
                                 <date when="1859-04-30">30th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/pkzltkd">
-                                <date when="1860-03-31">Mar 31st</date>
-                            </ref>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/pkzltkd">
+<date when="1860-03-31">Mar 31st</date>
+</ref>
                             1st leave off
                             <lb></lb>
-                            &amp; Ap. ?
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>25(?)</cell>
-                    </td>
-                    <td>
-                        <cell>Wear greatcoat again</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/pjrq2sj">
-                                <date when="1855-04-28">28</date>
+                            &amp; Ap. ?</cell></td></tr><tr><td><cell>25(?)</cell></td><td><cell>Wear greatcoat again</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/pjrq2sj">
+<date when="1855-04-28">28</date>
                                 –
                                 <date when="1855-04-29">29th</date>
                                 &amp;
                                 <date when="1855-04-30">30th 55</date>
-                            </ref>
-                            <lb></lb>
-                            <ref target="http://tinyurl.com/q8vxptr">
-                                <date when="1855-04-10">10th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ljdmvua">
-                                <date when="1858-04-07">7th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>am
+</ref><lb></lb>
+<ref target="http://tinyurl.com/q8vxptr">
+<date when="1855-04-10">10th</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/ljdmvua">
+<date when="1858-04-07">7th</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell>am
                             <gap></gap>
                             part of
-                            <lb></lb>
-                            <gap extent="1" reason="unclear"></gap>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>21</cell>
-                    </td>
-                    <td>
-                        <cell>begin to wear one coat
+                            <lb></lb><gap extent="1" reason="unclear"></gap></cell></td></tr><tr><td><cell>21</cell></td><td><cell>begin to wear one coat
                             <emph rend="underline">generally</emph>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/psj7apx">
-                                    <date when="1852-04-28">28</date>
-                                </ref>
-                                am getting greatcoat off
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <del rend="crossed out">
-                                <date when="1855-04-19">19th</date>
-                            </del>
-                            <ref target="http://tinyurl.com/opzakkt">
-                                <date when="1855-04-19">19</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/k7hhoef">
-                                <date when="1857-05-03">May 3rd</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ojxhaqz">
-                                <date when="1859-04-21">21</date>
-                            </ref>(?)
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/qdgjyof">
-                                <date when="1860-04-19">19-60
+</cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/psj7apx">
+<date when="1852-04-28">28</date>
+</ref>
+                                am getting greatcoat off</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<del rend="crossed out">
+<date when="1855-04-19">19th</date>
+</del>
+<ref target="http://tinyurl.com/opzakkt">
+<date when="1855-04-19">19</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/k7hhoef">
+<date when="1857-05-03">May 3rd</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/ojxhaqz">
+<date when="1859-04-21">21</date>
+</ref>(?)</cell></td><td><cell>
+<ref target="http://tinyurl.com/qdgjyof">
+<date when="1860-04-19">19-60
                                 </date>
-                            </ref>
+</ref>
                             wear but 1 coat the last
-                            <lb></lb>10 days of Ap
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>
-                            <del rend="crossed out">28</del>
-                            <gap></gap>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>sit
+                            <lb></lb>10 days of Ap</cell></td></tr><tr><td><cell>
+<del rend="crossed out">28</del><gap></gap></cell></td><td><cell>sit
                             <add place="below">below</add>
-                            without fire commonly</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <del rend="crossed out">
-                                <date when="1852-04-30">30</date>
-                            </del>-
+                            without fire commonly</cell></td><td><cell>
+<del rend="crossed out">
+<date when="1852-04-30">30</date>
+</del>-
                             <ref target="http://tinyurl.com/p92d9db">
-                                <date when="1852-04-30">30</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <del rend="crossed out">
-                                <date when="1854-04-26">26</date>
-                            </del>
-                            <ref target="http://tinyurl.com/kf9unwh">
-                                <date when="1854-04-26">26</date>
-                            </ref>
-                            do with little now
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/o3844u9">
-                                <date when="1858-05-01">May 1st</date>&amp;<date copyof="" when="1858-05-02">2nd</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <del rend="crossed out">
-                                <date when="1859-04-30">30</date>
-                            </del>
-                            <ref target="http://tinyurl.com/pxzzzob">
-                                <date when="1859-04-30">30</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <del rend="crossed out">20 begin to sit
+<date when="1852-04-30">30</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell>
+<del rend="crossed out">
+<date when="1854-04-26">26</date>
+</del>
+<ref target="http://tinyurl.com/kf9unwh">
+<date when="1854-04-26">26</date>
+</ref>
+                            do with little now</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/o3844u9">
+<date when="1858-05-01">May 1st</date>&amp;<date copyof="" when="1858-05-02">2nd</date>
+</ref>
+</cell></td><td><cell>
+<del rend="crossed out">
+<date when="1859-04-30">30</date>
+</del>
+<ref target="http://tinyurl.com/pxzzzob">
+<date when="1859-04-30">30</date>
+</ref>
+</cell></td><td><cell>
+<del rend="crossed out">20 begin to sit
                                 <gap extent="2" reason="unclear"></gap>
                                 without fires more commonly</del>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>27</cell>
-                    </td>
-                    <td>
-                        <cell>first am that I sit with open window</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lmjtkgj">
-                                <date when="1855-04-19">19th 55</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/m9tfqu7">
-                                <date when="1859-04-29">29</date>
-                            </ref>
+</cell></td></tr><tr><td><cell>27</cell></td><td><cell>first am that I sit with open window</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/lmjtkgj">
+<date when="1855-04-19">19th 55</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/m9tfqu7">
+<date when="1859-04-29">29</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/mb45xck">
-                                <date when="1859-04-30">30th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>weather for half-thick
-                            <lb></lb>coat</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/jw9b3bt">
-                                <date when="1860-04-28">28</date>
-                            </ref>
+<date when="1859-04-30">30th</date>
+</ref>
+</cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>weather for half-thick
+                            <lb></lb>coat</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/jw9b3bt">
+<date when="1860-04-28">28</date>
+</ref>
                             at 65
                             <gap extent="1" reason="unclear"></gap>but one thickish coat in
-                            <gap extent="1" reason="unclear"></gap>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>20</cell>
-                    </td>
-                    <td>
-                        <cell>Dark evening</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mu2troc">
-                                <date when="1854-04-26">26-54</date>
-                            </ref>
+                            <gap extent="1" reason="unclear"></gap></cell></td></tr><tr><td><cell>20</cell></td><td><cell>Dark evening</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/mu2troc">
+<date when="1854-04-26">26-54</date>
+</ref>
                             and
                             <gap reason="unclear"></gap>
-                            cloud
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/pqgm84d">
-                                <date when="1855-04-17">17th</date>
-                            </ref>
-                            rainy &amp; very dark
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/n3b4le6">
-                                <date when="1860-04-16">16th</date>
-                            </ref>
-                            rainy &amp; very dark
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>23</cell>
-                    </td>
-                    <td>
-                        <cell>Burning of brush
+                            cloud</cell></td><td><cell>
+<ref target="http://tinyurl.com/pqgm84d">
+<date when="1855-04-17">17th</date>
+</ref>
+                            rainy &amp; very dark</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/n3b4le6">
+<date when="1860-04-16">16th</date>
+</ref>
+                            rainy &amp; very dark</cell></td></tr><tr><td><cell>23</cell></td><td><cell>Burning of brush
                             <lb></lb>v
                             <unclear>winter</unclear>
-                            Mar 30)</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/n43pqv2">
-                                <date when="1854-04-23">23rd</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lww9sm2">
-                                <date when="1855-04-18">18</date>
-                            </ref>
-                            smokes in horizon
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lne2syp">
-                                <date when="1859-04-21">21)</date>
-                            </ref>
-                            <ref target="http://tinyurl.com/k5ucwql">
-                                <date when="1859-05-04">May 4th</date>
-                            </ref>
+                            Mar 30)</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/n43pqv2">
+<date when="1854-04-23">23rd</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/lww9sm2">
+<date when="1855-04-18">18</date>
+</ref>
+                            smokes in horizon</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/lne2syp">
+<date when="1859-04-21">21)</date>
+</ref>
+<ref target="http://tinyurl.com/k5ucwql">
+<date when="1859-05-04">May 4th</date>
+</ref>
                             dry leaves in woods time for fires
                             <ref target="http://tinyurl.com/lhf8yvl">
-                                <date when="1859-05-06">May 6</date>
-                            </ref>
-                            about end of very dry leaves
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mba6jex">
-                                <date when="1860-04-27">27</date>
-                            </ref>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>25
+<date when="1859-05-06">May 6</date>
+</ref>
+                            about end of very dry leaves</cell></td><td><cell>
+<ref target="http://tinyurl.com/mba6jex">
+<date when="1860-04-27">27</date>
+</ref>
+</cell></td></tr><tr><td><cell>25
                             <add rend="pencil">?</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>Fires in woods late in month</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lnyjncf">
-                                <date when="1852-04-28">28</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mba6jex">
-                                <date when="1860-04-27">27th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add place="above">a little</add>
+</cell></td><td><cell>Fires in woods late in month</cell></td><td><cell>
+<ref target="http://tinyurl.com/lnyjncf">
+<date when="1852-04-28">28</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/mba6jex">
+<date when="1860-04-27">27th</date>
+</ref>
+</cell></td></tr><tr><td><cell></cell></td><td><cell>
+<add place="above">a little</add>
                             plowing and planting going on generally
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/m4sz7s7">
-                                <date when="1852-04-17">17</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/l4ulvw7">
-                                <date when="1855-04-19">19</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/l7dxbux">
-                                <date when="1856-04-16">16 56</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/l65udwv">
-                                <date when="1858-05-15">15 May
+                        </cell></td><td><cell>
+<ref target="http://tinyurl.com/m4sz7s7">
+<date when="1852-04-17">17</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/l4ulvw7">
+<date when="1855-04-19">19</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/l7dxbux">
+<date when="1856-04-16">16 56</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/l65udwv">
+<date when="1858-05-15">15 May
                                 </date>
-                            </ref>
-                            <gap extent="1" reason="unclear"></gap>now
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <date when="1860-04-12">12</date>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">52</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">53</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">54</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">55</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">56</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">57</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">58</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">59</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">60</add>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>21</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <supplied>Scudding</supplied>
-                            clouds<figure></figure>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nx5u8wg">
-                                <date when="1857-04-21">21</date>-
+</ref><gap extent="1" reason="unclear"></gap>now</cell></td><td><cell></cell></td><td><cell>
+<date when="1860-04-12">12</date>
+</cell></td></tr><tr><td><cell></cell></td><td><cell></cell></td><td><cell>
+<add rend="pencil">52</add>
+</cell></td><td><cell>
+<add rend="pencil">53</add>
+</cell></td><td><cell>
+<add rend="pencil">54</add>
+</cell></td><td><cell>
+<add rend="pencil">55</add>
+</cell></td><td><cell>
+<add rend="pencil">56</add>
+</cell></td><td><cell>
+<add rend="pencil">57</add>
+</cell></td><td><cell>
+<add rend="pencil">58</add>
+</cell></td><td><cell>
+<add rend="pencil">59</add>
+</cell></td><td><cell>
+<add rend="pencil">60</add>
+</cell></td></tr><tr><td><cell>21</cell></td><td><cell>
+<supplied>Scudding</supplied>
+                            clouds<figure></figure></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/nx5u8wg">
+<date when="1857-04-21">21</date>-
                                 <date when="1857-04-24">24</date>
-                            </ref>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/orx2y7d">
-                                <date when="1857-04-25">5</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>10th</cell>
-                    </td>
-                    <td>
-                        <cell>dark barrel spring clouds</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ks8fld9">
-                                <date when="1852-04-10">10th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/maa8n54">
-                                <date when="1857-04-24">24</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>18
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>still almost sultry with
+<date when="1857-04-25">5</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell>10th</cell></td><td><cell>dark barrel spring clouds</cell></td><td><cell>
+<ref target="http://tinyurl.com/ks8fld9">
+<date when="1852-04-10">10th</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/maa8n54">
+<date when="1857-04-24">24</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell>18
+                        </cell></td><td><cell>still almost sultry with
                             <lb></lb>
                             wet looking clouds hanging
                             <lb></lb>
-                            about - 1st time</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nobh8n8">
-                                <date when="1855-04-18">18</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>21</cell>
-                    </td>
-                    <td>
-                        <cell>Sea Turn</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ptbkduz">
-                                <date when="1855-04-18">18</date>
-                            </ref>
+                            about - 1st time</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/nobh8n8">
+<date when="1855-04-18">18</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell>21</cell></td><td><cell>Sea Turn</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/ptbkduz">
+<date when="1855-04-18">18</date>
+</ref>
                             (a warm day
-                            <lb></lb>warmest yet)
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/py6b5bn">
-                                <date when="1856-04-24">24th</date>
-                            </ref>
+                            <lb></lb>warmest yet)</cell></td><td><cell>
+<ref target="http://tinyurl.com/py6b5bn">
+<date when="1856-04-24">24th</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/pc8vb3o">
-                                <date when="1856-04-28">28</date>
-                            </ref>-<ref target="http://tinyurl.com/pncx3a9">
-                                <date when="1856-04-29">29</date>
-                            </ref>
+<date when="1856-04-28">28</date>
+</ref>-<ref target="http://tinyurl.com/pncx3a9">
+<date when="1856-04-29">29</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/oqhtq6z">
-                                <date when="1856-04-30">30th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>7</cell>
-                    </td>
-                    <td>
-                        <cell>hazy</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/pmvoe3r">
-                                    <date when="1852-04-01">1st</date>
-                                </ref>
-                                <lb></lb>slight
+<date when="1856-04-30">30th</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell>7</cell></td><td><cell>hazy</cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/pmvoe3r">
+<date when="1852-04-01">1st</date>
+</ref><lb></lb>slight
                                 <ref target="http://tinyurl.com/osrvqdt">
-                                    <date when="1852-04-29">29th</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/q8g3tyv">
-                                    <date when="1853-04-01">1st</date>
-                                </ref>
+<date when="1852-04-29">29th</date>
+</ref>
+</add>
+</cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/q8g3tyv">
+<date when="1853-04-01">1st</date>
+</ref>
                                 &amp;
                                 <ref target="http://tinyurl.com/pb6hvz6">
-                                    <date when="1853-04-09">9th</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/okf534b">
-                                <date when="1854-04-03">3</date>
-                            </ref>
+<date when="1853-04-09">9th</date>
+</ref>
+</add>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/okf534b">
+<date when="1854-04-03">3</date>
+</ref>
                             1st time but<lb></lb>not so warm as<lb></lb>
-                            <ref target="http://tinyurl.com/ooglwvu">
-                                <date when="1854-03-17">Mar. 17th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/obalb5x">
-                                <date when="1855-04-24">24</date>
-                            </ref>cannot see distant hills
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/qdcvxhf">
-                                <date when="1856-04-12">12th</date>
-                            </ref>
+<ref target="http://tinyurl.com/ooglwvu">
+<date when="1854-03-17">Mar. 17th</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/obalb5x">
+<date when="1855-04-24">24</date>
+</ref>cannot see distant hills</cell></td><td><cell>
+<ref target="http://tinyurl.com/qdcvxhf">
+<date when="1856-04-12">12th</date>
+</ref>
                             hazy<lb></lb>
-                            <ref target="http://tinyurl.com/pztcr9q">
-                                <date when="1856-04-06">6th</date>
-                            </ref>
-                            first signt bluish<lb></lb>haze
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mk89x3c">
-                                <date when="1858-04-02">2nd</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>17
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>fog over river in morning</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <emph rend="underline">some</emph>
-                            <ref target="http://tinyurl.com/pesp3b8">
-                                <date when="1855-04-21">21st</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/njf6oyq">
-                                <date when="1856-04-28">28th</date>
-                            </ref>
-                            quite a fog
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/qjmbgkx">
-                                <date when="1858-04-06">6th</date>
-                            </ref>
-                            Mostly foggy for several mornings
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>24
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>cold in last half of month</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/noruhst">
-                                    <date when="1852-04-28">28</date>
-                                </ref>
-                                cold &amp; wintery
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/p9hcyrn">
-                                    <date when="1854-04-16">16</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/px285ax">
-                                <date when="1855-04-27">27</date>
-                            </ref>
+<ref target="http://tinyurl.com/pztcr9q">
+<date when="1856-04-06">6th</date>
+</ref>
+                            first signt bluish<lb></lb>haze</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/mk89x3c">
+<date when="1858-04-02">2nd</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell>17
+                        </cell></td><td><cell>fog over river in morning</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<emph rend="underline">some</emph>
+<ref target="http://tinyurl.com/pesp3b8">
+<date when="1855-04-21">21st</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/njf6oyq">
+<date when="1856-04-28">28th</date>
+</ref>
+                            quite a fog</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/qjmbgkx">
+<date when="1858-04-06">6th</date>
+</ref>
+                            Mostly foggy for several mornings</cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell>24
+                        </cell></td><td><cell>cold in last half of month</cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/noruhst">
+<date when="1852-04-28">28</date>
+</ref>
+                                cold &amp; wintery</add>
+</cell></td><td><cell></cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/p9hcyrn">
+<date when="1854-04-16">16</date>
+</ref>
+</add>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/px285ax">
+<date when="1855-04-27">27</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/pytc942">
-                                <date when="1855-04-28">28</date>
-                            </ref>
+<date when="1855-04-28">28</date>
+</ref>
                             good fires
-                            <lb></lb>required
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/p9wd2q7">
-                                <date when="1857-04-28">28</date>
-                            </ref>
+                            <lb></lb>required</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/p9wd2q7">
+<date when="1857-04-28">28</date>
+</ref>
                             icy cold NW
                             <lb></lb>
-                            wind
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/oo84859">
-                                <date when="1858-04-24">24</date>
-                            </ref>
+                            wind</cell></td><td><cell>
+<ref target="http://tinyurl.com/oo84859">
+<date when="1858-04-24">24</date>
+</ref>
                             cold NW
                             <lb></lb>wind no frogs out
                             <lb></lb>
-                            <unclear>&amp; after</unclear>
-                            3 or 4 days
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nddjovn">
-                                <date when="1860-04-18">18</date>
-                            </ref>
+<unclear>&amp; after</unclear>
+                            3 or 4 days</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/nddjovn">
+<date when="1860-04-18">18</date>
+</ref>
                             cold with strong wind 46+
                             <lb></lb>
-                            <ref target="http://tinyurl.com/nvtmmvk">
-                                <date when="1860-04-25">25</date>
-                            </ref>-47+
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>25
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>Mtns &amp; hills spotted with snow</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nep44wc">
-                                <date when="1852-04-01">1st</date>
-                            </ref>
+<ref target="http://tinyurl.com/nvtmmvk">
+<date when="1860-04-25">25</date>
+</ref>-47+</cell></td></tr><tr><td><cell>25
+                        </cell></td><td><cell>Mtns &amp; hills spotted with snow</cell></td><td><cell>
+<ref target="http://tinyurl.com/nep44wc">
+<date when="1852-04-01">1st</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/onqdn7u">
-                                <date when="1852-04-04">4th</date>
-                            </ref>
+<date when="1852-04-04">4th</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/mwzzrfe">
-                                <date when="1852-04-28">28</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/qghcqxh">
-                                <date when="1855-04-18">18th</date>
-                            </ref>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/q8q9t79">
-                                    <date when="1855-04-04">4</date>
-                                </ref>-<ref target="http://tinyurl.com/p9f5zmk">
-                                    <date when="1855-04-12">12</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mtsvksk">
-                                <date when="1857-04-28">28</date>
-                            </ref>
-                            <lb></lb>
+<date when="1852-04-28">28</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/qghcqxh">
+<date when="1855-04-18">18th</date>
+</ref>
+<add rend="pencil">
+<ref target="http://tinyurl.com/q8q9t79">
+<date when="1855-04-04">4</date>
+</ref>-<ref target="http://tinyurl.com/p9f5zmk">
+<date when="1855-04-12">12</date>
+</ref>
+</add>
+</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/mtsvksk">
+<date when="1857-04-28">28</date>
+</ref><lb></lb>
                             snow whitening the
-                            <lb></lb>mts
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>1st moon to walk by</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/kzgslnk">
-                                <date when="1854-04-11">11th 54</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>19
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>willow (?) peels</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/l7rkc7k">
-                                <date when="1853-04-19">19th</date>
-                            </ref>
-                            how long?
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mje2ajs">
-                                <date when="1854-04-27">27</date>
-                            </ref>
-                            how long?
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mxrx2la">
-                                <date when="1856-04-24">24</date>
-                            </ref>
+                            <lb></lb>mts</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>1st moon to walk by</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/kzgslnk">
+<date when="1854-04-11">11th 54</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell>19
+                        </cell></td><td><cell>willow (?) peels</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/l7rkc7k">
+<date when="1853-04-19">19th</date>
+</ref>
+                            how long?</cell></td><td><cell>
+<ref target="http://tinyurl.com/mje2ajs">
+<date when="1854-04-27">27</date>
+</ref>
+                            how long?</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/mxrx2la">
+<date when="1856-04-24">24</date>
+</ref>
                             peels several
-                            <lb></lb>days
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nx82vqo">
-                                <date when="1860-04-17">17</date>
-                            </ref>
+                            <lb></lb>days</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/nx82vqo">
+<date when="1860-04-17">17</date>
+</ref>
                             but not<lb></lb>
-                            4 or 5 days ago
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>19 (?)</cell>
-                    </td>
-                    <td>
-                        <cell>Bass peels</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/l7rkc7k">
-                                <date when="1853-04-19">19th</date>
-                            </ref>how long?
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>19 (?)</cell>
-                    </td>
-                    <td>
-                        <cell>s. discolor peels</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/qxtnhh2">
-                                <date when="1860-04-18">18</date>
-                            </ref>
-                            peels well
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>20</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <unclear>Tremula</unclear>
-                            aspen peels
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/q74oyg4">
-                                <date when="1860-04-18">18</date>
-                            </ref>
-                            just begun
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>14</cell>
-                    </td>
-                    <td>
-                        <cell>Rain after E wind</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/pfxbuan">
-                                <date when="1852-04-18">18</date>
-                            </ref>
+                            4 or 5 days ago</cell></td></tr><tr><td><cell>19 (?)</cell></td><td><cell>Bass peels</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/l7rkc7k">
+<date when="1853-04-19">19th</date>
+</ref>how long?</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell>19 (?)</cell></td><td><cell>s. discolor peels</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/qxtnhh2">
+<date when="1860-04-18">18</date>
+</ref>
+                            peels well</cell></td></tr><tr><td><cell>20</cell></td><td><cell>
+<unclear>Tremula</unclear>
+                            aspen peels</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/q74oyg4">
+<date when="1860-04-18">18</date>
+</ref>
+                            just begun</cell></td></tr><tr><td><cell>14</cell></td><td><cell>Rain after E wind</cell></td><td><cell>
+<ref target="http://tinyurl.com/pfxbuan">
+<date when="1852-04-18">18</date>
+</ref>
                             5 days
-                            <unclear>storm</unclear>
-                            <lb></lb>
+                            <unclear>storm</unclear><lb></lb>
                             begins after &amp; with
-                            <lb></lb>E wind
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/p9rydyu">
-                                <date when="1859-04-13">13</date>-<date when="1859-04-14">14</date>
-                            </ref>
-                            <ref target="http://tinyurl.com/kt29mgg">
-                                <date when="1859-03-08">Mar 8</date>
-                            </ref>
+                            <lb></lb>E wind</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/p9rydyu">
+<date when="1859-04-13">13</date>-<date when="1859-04-14">14</date>
+</ref>
+<ref target="http://tinyurl.com/kt29mgg">
+<date when="1859-03-08">Mar 8</date>
+</ref>
                             rain after E wind The
                             <ref target="http://tinyurl.com/mk2hbcm">
-                                <date when="1859-03-07">7th
+<date when="1859-03-07">7th
                                 </date>
-                            </ref>(beginning N. wind ?? E wind ? 22)
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ljbsqmj">
-                                <date when="1860-04-11">11th</date>
+</ref>(beginning N. wind ?? E wind ? 22)</cell></td><td><cell>
+<ref target="http://tinyurl.com/ljbsqmj">
+<date when="1860-04-11">11th</date>
                                 after E wind the
                                 <date when="1860-04-10">10th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>21</cell>
-                    </td>
-                    <td>
-                        <cell>white frosts</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mxfrevt">
-                                <date when="1852-05-01">May 1st</date>
-                            </ref>
+</ref>
+</cell></td></tr><tr><td><cell>21</cell></td><td><cell>white frosts</cell></td><td><cell>
+<ref target="http://tinyurl.com/mxfrevt">
+<date when="1852-05-01">May 1st</date>
+</ref>
                             platforms white with
                             <lb></lb>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/ocpfejt">
-                                    <date when="1852-05-05">5</date>
-                                </ref>
-                                wets feet
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lbyc3bf">
-                                <date when="1853-04-02">2</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lw47ama">
-                                <date when="1853-04-12">12</date>
-                            </ref>
+<add rend="pencil">
+<ref target="http://tinyurl.com/ocpfejt">
+<date when="1852-05-05">5</date>
+</ref>
+                                wets feet</add>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/lbyc3bf">
+<date when="1853-04-02">2</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/lw47ama">
+<date when="1853-04-12">12</date>
+</ref>
                             (after clear
-                            <lb></lb>moon light)
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/krmmflb">
-                                <date when="1854-04-21">21</date>
-                            </ref>
+                            <lb></lb>moon light)</cell></td><td><cell>
+<ref target="http://tinyurl.com/krmmflb">
+<date when="1854-04-21">21</date>
+</ref>
                             saves feet a
                             <lb></lb>wetting
                             <ref target="http://tinyurl.com/q2vyrzy">
-                                <date when="1853-04-08">8th</date>
-                            </ref>
-                            <add rend="pencil">- 16</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/orqcopx">
-                                <date when="1860-04-29">29th</date>
-                            </ref>
+<date when="1853-04-08">8th</date>
+</ref>
+<add rend="pencil">- 16</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/orqcopx">
+<date when="1860-04-29">29th</date>
+</ref>
                             &amp;
                             <ref target="http://tinyurl.com/osrsn26">
-                                <date when="1860-04-30">30th</date>
-                            </ref>
-                            <lb></lb>
+<date when="1860-04-30">30th</date>
+</ref><lb></lb>
                             melting<emph rend="underline">early</emph>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>17
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>evenings very consid. shortened</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lpydh5o">
-                                <date when="1860-04-17">17th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell>25</cell>
-                    </td>
-                    <td>
-                        <cell>very few leaves indeed on
-                            <lb></lb>young oaks</cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/mj23nbq">
-                                <date when="1860-04-26">26th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>Begin to sit without fire commonly</cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/p92d9db">
-                                <date when="1852-04-30">30</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/q36veh9">
-                                <date when="1854-04-26">26</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/nnpoq7a">
-                                <date when="1855-04-19">19th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/k2a9x9o">
-                                <date when="1857-05-03">May 3rd</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/keardrr">
-                                <date when="1858-05-01">May 1st</date>
+</cell></td></tr><tr><td><cell>17
+                        </cell></td><td><cell>evenings very consid. shortened</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/lpydh5o">
+<date when="1860-04-17">17th</date>
+</ref>
+</cell></td></tr><tr><td><cell>25</cell></td><td><cell>very few leaves indeed on
+                            <lb></lb>young oaks</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/mj23nbq">
+<date when="1860-04-26">26th</date>
+</ref>
+</cell></td></tr><tr><td><cell></cell></td><td><cell>Begin to sit without fire commonly</cell></td><td><cell>
+<ref target="http://tinyurl.com/p92d9db">
+<date when="1852-04-30">30</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/q36veh9">
+<date when="1854-04-26">26</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/nnpoq7a">
+<date when="1855-04-19">19th</date>
+</ref>
+</cell></td><td><cell></cell></td><td><cell>
+<ref target="http://tinyurl.com/k2a9x9o">
+<date when="1857-05-03">May 3rd</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/keardrr">
+<date when="1858-05-01">May 1st</date>
                                 &amp;
                                 <date when="1858-05-01">2</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/ljx3gxf">
-                                <date when="1859-04-30">30</date>
-                            </ref>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <ref target="http://tinyurl.com/lncb8r4">
-                                <date when="1860-04-20">20th</date>
-                            </ref>
-                        </cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">warm in last half of month</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/lahfwbw">
-                                    <date when="1854-04-20">20th</date>
-                                </ref>-<ref target="http://tinyurl.com/pf7rabb">
-                                    <date when="1854-04-27">27</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/ne459d6">
-                                    <date when="1855-04-18">18th</date>
-                                </ref>-<ref target="http://tinyurl.com/py2ov4j">
-                                    <date when="1855-04-19">19th</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/p9zpa3g">
-                                    <date when="1856-04-30">30h</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">flower-like scent</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/o9jaw66">
-                                    <date when="1854-04-21">21st</date>-<date when="1854-04-26">26</date>
-                                </ref>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">Dark night</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/p69ewb9">
-                                    <date when="1855-04-26">26th</date>
-                                </ref>
-                                thunder shower very
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">Last with sparrows</add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell>
-                            <add rend="pencil">
-                                <ref target="http://tinyurl.com/op7y4pk">
-                                    <date when="1855-04-16">16</date>
-                                </ref>
-                                <gap extent="5" reason="unclear"></gap>
-                            </add>
-                        </cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                    <td>
-                        <cell></cell>
-                    </td>
-                </tr>
-            </table>
-            <div id="footer">
-                <div id="lefty">
-                    <ul style="list-style: none;">
-                        <li>
-                            <a href="./resources/images/pages/genphenapr2.html" target="_new">See this manuscript
-                                page</a>    <a
-                                href="https://thoreauskalendar.org/resources/downloads/GPApril2Big.zip">Download the
-                                full-size image</a>
-                        </li>
-                        <li style="font-size: 0.8em;">
-                            <br />Manuscript images provided by: <a href="http://www.themorgan.org/default.asp"
-                                target="_blank">The Pierpont Morgan Library</a>, New York.</li>
-                    </ul>
-                </div>
-                <div id="righty">
-                    <script>
-                        $("#righty").load("./colophon.html");
-                    </script>
-                </div>
-                <div id="nader">
-                    <br />
-                    <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off" />
-                    <button id="show">Search</button>
-                    <br />
-                    <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
-                    <div id="search-help">
-                        <span>
-                            <ul>
-                                <li>
-                                    <b>Searching:</b> You can search for items word by word,
-                                    <br />or you can use multiple words like so: a, b, c</li>
-                            </ul>
-                        </span>
-                    </div>
-                </div>
-            </div>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/ljx3gxf">
+<date when="1859-04-30">30</date>
+</ref>
+</cell></td><td><cell>
+<ref target="http://tinyurl.com/lncb8r4">
+<date when="1860-04-20">20th</date>
+</ref>
+</cell></td></tr><tr><td><cell></cell></td><td><cell>
+<add rend="pencil">warm in last half of month</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/lahfwbw">
+<date when="1854-04-20">20th</date>
+</ref>-<ref target="http://tinyurl.com/pf7rabb">
+<date when="1854-04-27">27</date>
+</ref>
+</add>
+</cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/ne459d6">
+<date when="1855-04-18">18th</date>
+</ref>-<ref target="http://tinyurl.com/py2ov4j">
+<date when="1855-04-19">19th</date>
+</ref>
+</add>
+</cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/p9zpa3g">
+<date when="1856-04-30">30h</date>
+</ref>
+</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>
+<add rend="pencil">flower-like scent</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/o9jaw66">
+<date when="1854-04-21">21st</date>-<date when="1854-04-26">26</date>
+</ref>
+</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>
+<add rend="pencil">Dark night</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/p69ewb9">
+<date when="1855-04-26">26th</date>
+</ref>
+                                thunder shower very</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell>
+<add rend="pencil">Last with sparrows</add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell>
+<add rend="pencil">
+<ref target="http://tinyurl.com/op7y4pk">
+<date when="1855-04-16">16</date>
+</ref><gap extent="5" reason="unclear"></gap></add>
+</cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr><tr><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td><td><cell></cell></td></tr></table><div id="footer">
+    <div id="lefty">
+        <ul style="list-style: none;">
+            <li>
+                <a href="./resources/images/pages/genphenapr2.html" target="_new">See this manuscript page</a>    <a href="https://thoreauskalendar.org/resources/downloads/GPApril2Big.zip">Download the full-size image</a>
+            </li>
+            <li style="font-size: 0.8em;">
+                <br/>Manuscript images provided by: <a href="http://www.themorgan.org/default.asp" target="_blank">The Pierpont Morgan Library</a>, New York.</li>
+        </ul>
+    </div>
+    <div id="righty">
+        <script>
+            $("#righty").load( "./colophon.html");
+        </script>
+    </div>
+    <div id="nader">
+        <br/>
+        <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off"/>
+        <button id="show">Search</button>
+        <br/>
+        <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
+        <div id="search-help">
+            <span>
+                <ul>
+                    <li>
+                        <b>Searching:</b> You can search for items word by word, 
+                <br/>or you can use multiple words like so: a, b, c</li>
+                </ul>
+            </span>
         </div>
     </div>
+</div>
+</div>
+</div>
 </body>
-
 </html>
