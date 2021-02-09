@@ -36,12 +36,6 @@ jobs:
           echo test, and deploy your project.
   
       - name: Prettier Action
-        # You may pin to the exact commit or the version.
-        # uses: creyD/prettier_action@cb975d8aad896ac567efb5dffc07653fb42abdb7
         uses: creyD/prettier_action@v3.3
-        with:
-          # Commit message, will be ignored if used with same_commit
-          commit_message: Prettified Code! # optional, default is Prettified Code!
-          # Update the current commit instead of creating a new one
-          same_commit: false # optional
+
           
