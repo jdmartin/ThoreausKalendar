@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+from pprint import pprint
 
 with open("../page_heads/newapril", "r") as head:
     top = head.read()
@@ -14,16 +15,20 @@ with open("../data/april/NewApril.xml", "r") as file:
     #Make some soup
     soup = BeautifulSoup(contents, 'lxml')
 
-    #Test
+    #Geat all the TEI rows
     rows = soup.find_all("row")
 
     with open("../pages/newapril.html", "a") as output:
-        output.write("<table>")
+        #Create a container for the processed and prepared XML
+        gathered_output = ""
+        gathered_output += "<table>"
         for row in rows:
-            output.write(str("<td>"))
-            output.write(str(row))
-            output.write(str("</td>"))
-        output.write("</table>")
+            gathered_output += "<td>"
+            gathered_output += (str(row))
+            gathered_output += "</td>"
+        gathered_output += "</table>"
+        gathered_output = str(gathered_output)
+        output.write(gathered_output)
     output.close()
     file.close()
 
