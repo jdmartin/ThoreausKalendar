@@ -169,7 +169,7 @@ def maytwo():
         #Geat all the TEI rows
         rows = soup.find_all("row")
 
-        with open("may1.html", "a") as output:
+        with open("may2.html", "a") as output:
             #Create a container for the processed and prepared XML
             output.write('<table id="kalendar" border="1" cellpadding="1" cellspacing="0">')
             for row in rows:
