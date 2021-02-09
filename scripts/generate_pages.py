@@ -21,11 +21,13 @@ with open("../data/april/NewApril.xml", "r") as file:
     with open("../pages/newapril.html", "a") as output:
         #Create a container for the processed and prepared XML
         gathered_output = ""
-        gathered_output += "<table>"
+        output.write("<table>")
         for row in rows:
+            gathered_output += "<tr>"
             gathered_output += "<td>"
             gathered_output += (str(row))
             gathered_output += "</td>"
+            gathered_output += "</tr>"
             gathered_output = str(gathered_output)
             output.write(gathered_output)
         output.write("</table>")
