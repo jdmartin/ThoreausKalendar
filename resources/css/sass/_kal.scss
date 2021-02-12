@@ -58,6 +58,7 @@ persName.active {
 .personHighlight {
     background: #FFC8C8;
 }
+
 gap {
     display: inline;
     background: #feece9;
@@ -75,7 +76,7 @@ note{
         content: '\A';
     }
     [place="above"]:after {
-        @extend [place="below"]:before;
+        @extend [place=below], :before
     }
     [type="editorial"] {
         display: none;
