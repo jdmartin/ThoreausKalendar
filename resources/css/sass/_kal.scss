@@ -139,8 +139,6 @@ note{
 }
 .alpha {
     background: #f1f6ff;
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f1f6ff), color-stop(41%,#edf2fb), color-stop(100%,#e8edf6));
-    background: -webkit-linear-gradient(left, #f1f6ff 0%,#edf2fb 41%,#e8edf6 100%);
     background: linear-gradient(to right, #f1f6ff 0%,#edf2fb 41%,#e8edf6 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f6ff', endColorstr='#e8edf6',GradientType=1 );
 }
