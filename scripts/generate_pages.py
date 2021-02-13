@@ -1,6 +1,49 @@
+import os
 from bs4 import BeautifulSoup
 from html5print import HTMLBeautifier
-import os
+
+def get_choice():
+    #These are the menu choices and the corresponding functions:
+    options = {
+        '0': 'newapril',
+        '1': 'otherapril',
+        '2': 'mayone',
+        '3': 'maytwo',
+        '4': 'june',
+        '5': 'junetwo',
+        '6': 'junethree',
+        '7': 'junefour',
+        '8': 'octone',
+        '9': 'alldecember',
+        '10': 'build_all',
+        '11': 'cleanup_formatting'
+    }
+    choice = input("What would you like to do? Enter the number:")
+    
+    if choice in options.keys():
+        globals()[options[choice]]()
+    else:
+        print("Sorry, that's not a valid choice. Try again.\n")
+        get_choice()
+
+def menu():
+    print("\n")
+    print("Choose a month to build, or one of the global options:\n")
+    print("0.\tApril (New)")
+    print("1.\tApril (Other)")
+    print("2.\tMay 1")
+    print("3.\tMay 2")
+    print("4.\tJune 1")
+    print("5.\tJune 2")
+    print("6.\tJune 3")
+    print("7.\tJune 4")
+    print("8.\tOct 1")
+    print("9.\tDecember (All)")
+    print("\n")
+    print("10.\tRebuild All Months")
+    print("11.\tJust Beautify the HTML files")
+    print("\n")
+    get_choice()
 
 def newapril():
     ##Process NewApril.xml
@@ -509,15 +552,18 @@ def cleanup_formatting():
                 f.write(pretty)
                 f.close()
 
-newapril()
-otherapril()
-mayone()
-maytwo()
-june()
-junetwo()
-junethree()
-junefour()
-octone()
-alldecember()
+def build_all():
+    newapril()
+    otherapril()
+    mayone()
+    maytwo()
+    june()
+    junetwo()
+    junethree()
+    junefour()
+    octone()
+    alldecember()
 
-cleanup_formatting()
+    cleanup_formatting()
+
+menu()
