@@ -5,7 +5,7 @@
             firstClick();
             return false;
         }
-    });
+    })
     
     $("button#show").on('click', firstClick);
     
