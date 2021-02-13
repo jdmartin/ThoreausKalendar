@@ -5,7 +5,7 @@
             firstClick();
             return false;
         }
-    })
+    });
     
     $("button#show").on('click', firstClick);
     
@@ -16,8 +16,9 @@
         $.each(givenValues, function (index,value) {
             var alpha = (value);
             if (alpha === "") {
-                $("input#alphasearch").val('').attr('placeholder', 'Need Input...');
-                $("input#alphasearch").effect("shake", { times:2 }, 500);
+                $("input#alphasearch").val('')
+                    .attr('placeholder', 'Need Input...')
+                    .effect("shake", { times:2 }, 500);
             } 
             else {
                 blasterMaster(alpha);
