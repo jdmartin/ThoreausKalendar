@@ -18,10 +18,7 @@
             if (alpha === "") {
                 $("input#alphasearch").val('')
                     .attr('placeholder', 'Need Input...')
-                    //.effect("shake", { times:2 }, 500);
-                    .toggleClass('searcherror')
-                    .delay(2000)
-                    .removeClass('searcherror');
+                    .effect("shake", { times:2 }, 500);
             } 
             else {
                 blasterMaster(alpha);
