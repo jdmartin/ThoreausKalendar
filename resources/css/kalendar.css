@@ -363,6 +363,10 @@ note [type=editorial].active {
   background-color: #BCE9F3;
 }
 
+.searcherror {
+  background-color: pink;
+}
+
 /* Footer Stuff Follows */
 #footer {
   position: fixed;
