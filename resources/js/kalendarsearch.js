@@ -19,9 +19,9 @@
                 $("input#alphasearch").val('')
                     .attr('placeholder', 'Need Input...')
                     //.effect("shake", { times:2 }, 500);
-                    .addClass('searcherror')
+                    .toggleClass('searcherror')
                     .delay(2000)
-                    .removeClass('searcherror')
+                    .removeClass('searcherror');
             } 
             else {
                 blasterMaster(alpha);
