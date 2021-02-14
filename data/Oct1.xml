@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- The line above is the "XML declaration"; it is not --><!-- required, but we recommend using it. --><?oxygen RNGSchema="./exercise.rnc" type="compact"?><!-- The line above is a processing instruction for finding the schema; --><!-- it is intended for oXygen, but other software may use it, also. --><!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? --><?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!-- The line above is the "XML declaration"; it is not --><!-- required, but we recommend using it.  --><?oxygen RNGSchema="./exercise.rnc" type="compact"?><!-- The line above is a processing instruction for finding the schema; --><!-- it is intended for oXygen, but other software may use it, also. --><!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? --><?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
