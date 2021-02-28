@@ -9,7 +9,7 @@
                $stickyEl = $('#search-menu'),
                elTop = $stickyEl.offset().top;
 
-            window.onscroll(function() {
+            $(window).onscroll(function() {
                 $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
             });
         });
