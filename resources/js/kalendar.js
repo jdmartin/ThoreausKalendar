@@ -91,7 +91,7 @@
        var url = window.location.pathname;
         //$('#navmainpage a[href="'+url+'"]').toggleClass("navbutton activenavbutton");
         //$('#navmainpage a[href="'+url+'"]').parent().css("background-color", "#e2e2e2");
-        $('#navmainpage a[href="./'+url+'"]').prepend("<span style=\"color: #00f7ef;\">&#8594;  </span>");
+        $('#navmainpage a[href=".'+url+'"]').prepend("<span style=\"color: #00f7ef;\">&#8594;  </span>");
     });
 
     $('#search-toggle').click(function() {
