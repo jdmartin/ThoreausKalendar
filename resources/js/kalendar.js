@@ -91,7 +91,7 @@
        var url = window.location.href;
         //$('#navmainpage a[href="'+url+'"]').toggleClass("navbutton activenavbutton");
         //$('#navmainpage a[href="'+url+'"]').parent().css("background-color", "#e2e2e2");
-        $('#navmainpage a[href="'+url+'"]').prepend("<span style=\"color: #00f7ef;\">&#8594;  </span>");
+        $('#navmainpage a[href="https://thoreauskalendar.org/'+url+'"]').prepend("<span style=\"color: #00f7ef;\">&#8594;  </span>");
     });
 
     $('#search-toggle').click(function() {
