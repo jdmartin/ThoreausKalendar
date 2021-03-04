@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kalendar-2021"
+version = "1.03"
+description = "Python Rebuild of Thoreau's Kalendar"
+authors = ["jdmartin <jonsaccount+githubjd@icloud.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+beautifulsoup4 = "^4.9.3"
+html5print = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
