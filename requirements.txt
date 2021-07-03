@@ -32,9 +32,9 @@ soupsieve==2.2.1; python_version >= "3.6" \
 tinycss2==1.1.0; python_version >= "3.6" \
     --hash=sha256:0353b5234bcaee7b1ac7ca3dea7e02cd338a9f8dcbb8f2dcd32a5795ec1e5f9a \
     --hash=sha256:fbdcac3044d60eb85fdb2aa840ece43cf7dbe798e373e6ee0be545d4d134e18a
-urllib3==1.26.5; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version < "4" \
-    --hash=sha256:753a0374df26658f99d826cfe40394a686d05985786d946fbe4165b5148f5a7c \
-    --hash=sha256:a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098
+urllib3==1.26.6; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version < "4" \
+    --hash=sha256:39fb8672126159acb139a7718dd10806104dec1e2f0f6c88aab05d17df10c8d4 \
+    --hash=sha256:f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f
 webencodings==0.5.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6" \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
