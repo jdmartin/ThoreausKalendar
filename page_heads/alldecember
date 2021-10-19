@@ -41,7 +41,7 @@
                             </td>
                         <td>
                                 <i>
-                                    <script>var pageTitle = $(document).attr('title'); document.write(pageTitle);</script>
+                                    <script>var pageTitle = $(document).attr('title'); document.write(pageTitle).text();</script>
                                 </i>
                             </td>
                     </tr>
