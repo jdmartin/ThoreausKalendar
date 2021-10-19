@@ -38,7 +38,7 @@
                             </td>
                             <td>
                                 <i>
-                                    <script>var pageTitle = $(document).attr('title'); document.write(pageTitle).text();</script>
+                                    <script>var pageTitle = $(document).attr('title').text(); document.write(pageTitle);</script>
                                 </i>
                             </td>
                         </tr>
