@@ -14,6 +14,7 @@ $(document).ready(function(){
             var str3 = '</a></date>'; //Close that link element.  We put the date just before this.
             var link = str1.concat(theLink,str2,theStuff,str3); //Concatenate all the things!
 
-            $(this).parent('date').html(link); //Replace the parent 'date' element's content with the monster we just made.
+            var result = $(this).parent('date').html(link);
+            return result; //Replace the parent 'date' element's content with the monster we just made.
        });
 });
