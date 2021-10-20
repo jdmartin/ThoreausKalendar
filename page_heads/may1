@@ -41,9 +41,8 @@
                         <td>
                             <i>
                                 <script>
-                                    var pageTitle = $(document).attr('title');
-                                    var escapedTitle = pageTitle.toString();
-                                    document.write(escapedTitle);
+                                    var pageTitle = document.title;
+                                    document.write(pageTitle);
                                 </script>
                             </i>
                         </td>
