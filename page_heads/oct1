@@ -42,10 +42,7 @@
                             <i>
                                 <script>
                                     var pageTitle = $(document).attr('title');
-                                    var escapedTitle = escape(pageTitle);
-                                    var escapedTitle = escapedTitle.replaceAll('%20', ' ');
-                                    var escapedTitle = escapedTitle.replaceAll('%28', '(');
-                                    var escapedTitle = escapedTitle.replaceAll('%29', ')');
+                                    var escapedTitle = pageTitle.toString();
                                     document.write(escapedTitle);
                                 </script>
                             </i>
