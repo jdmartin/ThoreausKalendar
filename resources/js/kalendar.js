@@ -49,10 +49,29 @@
         var noteContent = $(this).text();
         var noteResult = '';
         noteResult += " " + noteContent + " ";
-        var str1 = '<span style="border-bottom:1px dotted; "title="';
+        var str1 = '<span style="border-bottom:1px dotted;" "title="';
         var str2 = '" ><span>[note]</span>';
         var link = str1.concat(noteResult,str2);
         $(this).html(link);
+    });
+
+    //Display some metadata
+    var $people = $('persname');
+    $people.each(function() {
+        var title = $(this).attr('ref');
+        if (typeof title != 'undefined') {
+            $(this).attr('title', title);
+            $(this).addClass('person-title');    
+        }
+    });
+
+    var $places = $('placename');
+    $places.each(function() {
+        var title = $(this).attr('ref');
+        if (typeof title != 'undefined') {
+            $(this).attr('title', title);
+            $(this).addClass('place-title');
+        }
     });
 
     $('#pers').click(function() {
