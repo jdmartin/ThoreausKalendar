@@ -5,3 +5,4 @@
 - Replace jQuery with JS
 - Provide access and editorial instructions as needed.
 - Update how.html
+- Add handler for editorial notes (only alldecember for now)
