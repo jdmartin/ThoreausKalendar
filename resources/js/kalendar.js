@@ -44,16 +44,16 @@
         $(this).append(link);
     });
 
-    var $editorial_notes = $("note[type='editorial']");
-    $editorial_notes.each(function() {
-        var noteContent = $(this).text();
-        var noteResult = '';
-        noteResult += " " + noteContent + " ";
-        var str1 = '<span style="border-bottom:1px dotted;" "title="';
-        var str2 = '" ><span>[note]</span>';
-        var link = str1.concat(noteResult,str2);
-        $(this).html(link);
-    });
+    // var $editorial_notes = $("note[type='editorial']");
+    // $editorial_notes.each(function() {
+    //     var noteContent = $(this).text();
+    //     var noteResult = '';
+    //     noteResult += " " + noteContent + " ";
+    //     var str1 = '<span style="border-bottom:1px dotted;" "title="';
+    //     var str2 = '" ><span>[note]</span>';
+    //     var link = str1.concat(noteResult,str2);
+    //     $(this).html(link);
+    // });
 
     //Display some metadata
     var $people = $('persname');
