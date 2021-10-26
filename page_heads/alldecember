@@ -18,7 +18,7 @@
         ☰
         <div id="navmainpage">
             <script>
-                $("#navmainpage").load("./navigation-menu.html");
+                $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
             </script>
         </div>
     </div>
@@ -36,7 +36,6 @@
                             <button id="add">adds</button>
                             <button id="pencils">pencil</button>
                             <button id="gaps" class="red">gaps</button>
-                            <button id="notes">notes</button>
                             <button id="help">help</button>
                         </td>
                         <td>
@@ -51,58 +50,7 @@
                 </table>
             </div>
             <div id="helpbox">
-                <table cellpadding="1" cellspacing="0">
-                    <tr>
-                        <th colspan="2" style="width:100%">Clicking the buttons above will do the following:</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>People:  </b>
-                        </td>
-                        <td>Highlight person names.</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Places:  </b>
-                        </td>
-                        <td>Highlight place names.</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Adds:  </b>
-                        </td>
-                        <td>Highlight items marked 'add.' (Excluding: pencil additions)</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Pencil:  </b>
-                        </td>
-                        <td>Highlight additions done in pencil.</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Gaps:  </b>
-                        </td>
-                        <td>Toggles the display of textual gaps. (mouseover for details)</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Notes:  </b>
-                        </td>
-                        <td>Toggles the display of editorial notes. (mouseover for content)</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Sources:</b>
-                        </td>
-                        <td>Source material links are the dates in <span style="color: #8A4E5D;">this color</span>.</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Unclear:</b>
-                        </td>
-                        <td>Words with a <span style="border-bottom: 1px dashed #999;">dashed underline</span> are
-                            unclear in the source text.</td>
-                    </tr>
-                </table>
+                <script>
+                    $("#helpbox").load("./resources/html_snippets/helpmenu.html");
+                </script>
             </div>

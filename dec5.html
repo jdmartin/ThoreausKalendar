@@ -22,7 +22,7 @@
             ☰
             <div id="navmainpage">
                 <script>
-                    $("#navmainpage").load("./navigation-menu.html");
+                    $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
                 </script>
             </div>
         </div>
@@ -68,93 +68,9 @@
                     </table>
                 </div>
                 <div id="helpbox">
-                    <table cellpadding="1" cellspacing="0">
-                        <tbody>
-                            <tr>
-                                <th colspan="2" style="width:100%">
-                                    Clicking the buttons above will do the following:
-                                </th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>
-                                        People:&nbsp;&nbsp;
-                                    </b>
-                                </td>
-                                <td>
-                                    Highlight person names.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>
-                                        Places:&nbsp;&nbsp;
-                                    </b>
-                                </td>
-                                <td>
-                                    Highlight place names.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>
-                                        Adds:&nbsp;&nbsp;
-                                    </b>
-                                </td>
-                                <td>
-                                    Highlight items marked 'add.' (Excluding: pencil additions)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>
-                                        Pencil:&nbsp;&nbsp;
-                                    </b>
-                                </td>
-                                <td>
-                                    Highlight additions done in pencil.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>
-                                        Gaps:&nbsp;&nbsp;
-                                    </b>
-                                </td>
-                                <td>
-                                    Toggles the display of textual gaps.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>
-                                        Sources:
-                                    </b>
-                                </td>
-                                <td>
-                                    Source material links are the dates in
-                                    <span style="color: #8A4E5D;">
-                                        this color
-                                    </span>
-                                    .
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>
-                                        Unclear:
-                                    </b>
-                                </td>
-                                <td>
-                                    Words with a
-                                    <span style="border-bottom: 1px dashed #999;">
-                                        dashed underline
-                                    </span>
-                                    are unclear in the source text.
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <script>
+                        $("#helpbox").load("./resources/html_snippets/helpmenu.html");
+                    </script>
                 </div>
                 <div style="width: 70%; height: 850px; margin: auto;">
                     <object data="./resources/downloads/Dec_5_Beinecke_DL_2056839%202.pdf" style="width: 100%; height: 100%;" type="application/pdf">
@@ -173,7 +89,7 @@
                             </div>
                             <div id="righty">
                                 <script>
-                                    $("#righty").load("./colophon.html");
+                                    $("#righty").load("./resources/html_snippets/colophon.html");
                                 </script>
                             </div>
                             <div id="nader">

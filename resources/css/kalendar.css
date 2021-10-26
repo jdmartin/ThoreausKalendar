@@ -279,6 +279,16 @@ note [type=editorial].active {
   background: antiquewhite;
 }
 
+.person-title {
+  border-style: dotted;
+  border-width: 1px;
+}
+
+.place-title {
+  border-style: dotted;
+  border-width: 1px;
+}
+
 #search-menu {
   padding-top: 0px;
   width: auto;
