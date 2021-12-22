@@ -1,126 +1,129 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="utf-8">
-        <title>
-   All Phenomena for December (Coming Soon)
-        </title>
-        <link href="./resources/css/kalendar.min.css" rel="stylesheet">
-        <script src="./resources/js/jquery-3.6.0.min.js">
-        </script>
-        <script src="./resources/js/kalendar.min.js">
-        </script>
-        <script async src="./resources/js/kalendarsearch.min.js">
-        </script>
-        <script async src="./resources/js/blast/jquery.blast.min.js">
-        </script>
-        <script src="./resources/js/linkmaker.min.js">
-        </script>
-    </head>
-    <body>
-        <div class="hiddenmenu" onclick>
-            ☰
-            <div id="navmainpage">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        All Phenomena for December (Coming Soon)
+    </title>
+    <link href="./resources/css/kalendar.min.css" rel="stylesheet">
+    <script src="./resources/js/jquery-3.6.0.min.js">
+    </script>
+    <script src="./resources/js/kalendar.min.js">
+    </script>
+    <script async src="./resources/js/kalendarsearch.min.js">
+    </script>
+    <script async src="./resources/js/blast/jquery.blast.min.js">
+    </script>
+    <script src="./resources/js/linkmaker.min.js">
+    </script>
+</head>
+
+<body>
+    <div class="hiddenmenu" onclick>
+        ☰
+        <div id="navmainpage">
+            <script>
+                $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
+            </script>
+        </div>
+    </div>
+    <div id="main">
+        <div id="content">
+            <div id="banner">
+                <img align="middle" src="./resources/images/newtestheader3.png">
+            </div>
+            <div id="search-menu">
+                <table style="width: 80%;">
+                    <tbody>
+                        <tr>
+                            <td style="padding-left: 20px;">
+                                <button id="pers">
+                                    people
+                                </button>
+                                <button id="places">
+                                    places
+                                </button>
+                                <button id="add">
+                                    adds
+                                </button>
+                                <button id="pencils">
+                                    pencil
+                                </button>
+                                <button class="red" id="gaps">
+                                    gaps
+                                </button>
+                                <button id="help">
+                                    help
+                                </button>
+                            </td>
+                            <td>
+                                <i>
+                                    <script>
+                                        var pageTitle = document.title;
+                                        document.write(pageTitle);
+                                    </script>
+                                </i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="helpbox">
                 <script>
-                    $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
+                    $("#helpbox").load("./resources/html_snippets/helpmenu.html");
                 </script>
             </div>
-        </div>
-        <div id="main">
-            <div id="content">
-                <div id="banner">
-                    <img align="middle" src="./resources/images/newtestheader3.png">
-                </div>
-                <div id="search-menu">
-                    <table style="width: 80%;">
-                        <tbody>
-                            <tr>
-                                <td style="padding-left: 20px;">
-                                    <button id="pers">
-                                        people
-                                    </button>
-                                    <button id="places">
-                                        places
-                                    </button>
-                                    <button id="add">
-                                        adds
-                                    </button>
-                                    <button id="pencils">
-                                        pencil
-                                    </button>
-                                    <button class="red" id="gaps">
-                                        gaps
-                                    </button>
-                                    <button id="help">
-                                        help
-                                    </button>
-                                </td>
-                                <td>
-                                    <i>
-                                        <script>
-                                            var pageTitle = document.title;
-                                            document.write(pageTitle);
-                                        </script>
-                                    </i>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div id="helpbox">
-                    <script>
-                        $("#helpbox").load("./resources/html_snippets/helpmenu.html");
-                    </script>
-                </div>
-                <div style="width: 70%; height: 850px; margin: auto;">
-                    <object data="./resources/downloads/Dec_4_Beinecke_DL_2056838%204.pdf" style="width: 100%; height: 100%;" type="application/pdf">
-                        <div id="footer">
-                            <div id="lefty">
-                                <ul style="list-style: none;">
-                                    <li style="font-size: 0.8em;">
+            <div style="width: 70%; height: 850px; margin: auto;">
+                <object data="./resources/downloads/Dec_4_Beinecke_DL_2056838%204.pdf"
+                    style="width: 100%; height: 100%;" type="application/pdf"></object>
+                <div id="footer">
+                    <div id="lefty">
+                        <ul style="list-style: none;">
+                            <li style="font-size: 0.8em;">
+                                <br>
+                                Manuscript images provided by:
+                                <a href="http://beinecke.library.yale.edu" target="_blank">
+                                    Beinecke Rare Book and Manuscript Library
+                                </a>
+                                , Yale University
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="righty">
+                        <script>
+                            $("#righty").load("./resources/html_snippets/colophon.html");
+                        </script>
+                    </div>
+                    <div id="nader">
+                        <br>
+                        <input autocomplete="off" id="alphasearch" placeholder="Search this page...">
+                        <button id="show">
+                            Search
+                        </button>
+                        <br>
+                        <a href="#" id="search-toggle" style="font-size: 0.8em;">
+                            search help
+                        </a>
+                        <div id="search-help">
+                            <span>
+                                <ul>
+                                    <li>
+                                        <b>
+                                            Searching:
+                                        </b>
+                                        You can search for items word by word,
                                         <br>
-                                        Manuscript images provided by:
-                                        <a href="http://beinecke.library.yale.edu" target="_blank">
-                                            Beinecke Rare Book and Manuscript Library
-                                        </a>
-                                        , Yale University
+                                        or you can use multiple words like so: a, b, c
                                     </li>
                                 </ul>
-                            </div>
-                            <div id="righty">
-                                <script>
-                                    $("#righty").load("./resources/html_snippets/colophon.html");
-                                </script>
-                            </div>
-                            <div id="nader">
-                                <br>
-                                <input autocomplete="off" id="alphasearch" placeholder="Search this page...">
-                                <button id="show">
-                                    Search
-                                </button>
-                                <br>
-                                <a href="#" id="search-toggle" style="font-size: 0.8em;">
-                                    search help
-                                </a>
-                                <div id="search-help">
-                                    <span>
-                                        <ul>
-                                            <li>
-                                                <b>
-                                                    Searching:
-                                                </b>
-                                                You can search for items word by word,
-                                                <br>
-                                                or you can use multiple words like so: a, b, c
-                                            </li>
-                                        </ul>
-                                    </span>
-                                </div>
-                            </div>
+                            </span>
                         </div>
-                    </object>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
