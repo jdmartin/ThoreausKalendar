@@ -1,6 +1,5 @@
 import os
 from bs4 import BeautifulSoup
-from html5print import HTMLBeautifier
 
 def get_choice():
     #These are the menu choices and the corresponding functions:
@@ -16,13 +15,10 @@ def get_choice():
         '8': 'octone',
         '9': 'alldecember',
         '10': 'all_pages',
-        '11': 'cleanup_formatting'
     }
     choice = input("What would you like to do? Enter the number:")
     
-    if choice in options.keys() and choice == "11":
-        cleanup_formatting()
-    elif choice in options.keys():
+    if choice in options.keys():
         build_page(options[choice])
     else:
         print("Sorry, that's not a valid choice. Try again.\n")
@@ -43,7 +39,6 @@ def menu():
     print("9.\tDecember (All)")
     print("\n")
     print("10.\tRebuild All Months")
-    print("11.\tJust Beautify the HTML files")
     print("\n")
     get_choice()
 
@@ -112,22 +107,5 @@ def build_page(page):
                 output.write(bottom)
             output.close()
             tail.close()
-
-def cleanup_formatting():
-    contents = ""
-    soup = ""
-    pretty = ""
-
-    for filename in os.scandir(path="."):
-        if (filename.path.endswith(".html")):
-            with open(filename, "r") as f:
-                contents = f.read()
-                soup = BeautifulSoup(contents, 'html.parser')
-                pretty = HTMLBeautifier.beautify(contents, 4)
-                f.close()
-
-            with open(filename, "w") as f:
-                f.write(pretty)
-                f.close()
 
 menu()
