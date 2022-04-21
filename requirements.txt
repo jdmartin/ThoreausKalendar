@@ -80,8 +80,9 @@ lxml==4.8.0; (python_version >= "2.7" and python_full_version < "3.0.0") or (pyt
     --hash=sha256:730766072fd5dcb219dd2b95c4c49752a54f00157f322bc6d71f7d2a31fecd79 \
     --hash=sha256:8b99ec73073b37f9ebe8caf399001848fced9c08064effdbfc4da2b5a8d07b93 \
     --hash=sha256:f63f62fc60e6228a4ca9abae28228f35e1bd3ce675013d1dfb828688d50c6e23
-ply==3.4 \
-    --hash=sha256:af435f11b7bdd69da5ffbc3fecb8d70a7073ec952e101764c88720cdefb2546b
+ply==3.11 \
+    --hash=sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3 \
+    --hash=sha256:096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce
 requests==2.27.1; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" \
     --hash=sha256:f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d \
     --hash=sha256:68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61
