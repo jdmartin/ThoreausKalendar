@@ -3,27 +3,26 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     inputs.addEventListener('keydown', (e) => {
         if (e.which == 13) {
-            clickHandler();
-            return false;
+            firstClick();
         }
     });
 
     var showButton = document.querySelector("#show");
-    showButton.addEventListener("click", clickHandler);
+    var resetButton = document.querySelector("#reset");
+    showButton.addEventListener("click", firstClick);
+    resetButton.addEventListener("click", resetHandler);
 
-    function clickHandler() {
-        if (showButton.getAttribute("value") === 'Reset') {
-            showButton.removeAttribute("value")
-            showButton.innerHTML = "Search"
-            secondClick()
-        } else {
-            showButton.value = "Reset"
-            showButton.innerHTML = "Reset"
-            firstClick()
-        }
+    function resetHandler() {
+        inputs.setAttribute('placeholder', 'Search this page...')
+        turnOutTheLights()
     }
 
     function firstClick() {
+        var blasted_items = document.getElementsByClassName("blast");
+        if (blasted_items.length > 0) {
+            turnOutTheLights();
+        }
+
         var givenValue = inputs.value.replace(/[!"#$%&()*+.\/:;<=>?@\[\\\]^`{|}~]/g, '').replace(/ /g, '');
         var givenValues = givenValue.split(",");
 
@@ -37,22 +36,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
         }
     }
 
-    function secondClick() {
-        if ($('.blast').length > 0) {
-            turnOutTheLights();
-        } else if (pieces > 0) {
-            $("cell").blast(false);
-            setTheRayToJerry();
-        }
-        inputs.setAttribute('placeholder', 'Search this page...')
-        inputs.value = '';
-        showButton.value = ""
-    }
-
     function blasterMaster(term) {
         var targets = document.getElementsByTagName("cell");
         for (var i = 0; i < targets.length; i++) {
-            targets[i].innerHTML = targets[i].innerHTML.replace(new RegExp(term, 'g'), "<span class='blast'>" + term + "</span>");
+            targets[i].innerHTML = targets[i].innerHTML.replace(new RegExp(term, 'gi'), "<span class='blast'>" + "$&" + "</span>");
         }
         blasted();
     }
@@ -69,12 +56,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
             setTheRayToJerry();
         }
+
     }
 
     function setTheRayToJerry() {
         blasted_items = document.getElementsByClassName("blast")
         for (var i = 0; i < blasted_items.length; i++) {
             blasted_items[i].parentElement.closest("td").setAttribute("class", "alpha")
+            showButton.setAttribute("value", "loaded")
         }
     }
 
@@ -84,5 +73,4 @@ document.addEventListener("DOMContentLoaded", function (event) {
             everything[i].classList.remove("blast", "alpha")
         }
     }
-
 });
