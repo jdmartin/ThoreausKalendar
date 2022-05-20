@@ -1,72 +1,88 @@
-    $(document).ready(function(){
-    
-    $('input#alphasearch').keypress(function (e) {
+document.addEventListener("DOMContentLoaded", function (event) {
+    var inputs = document.querySelector('#alphasearch');
+
+    inputs.addEventListener('keydown', (e) => {
         if (e.which == 13) {
-            firstClick();
+            clickHandler();
             return false;
         }
     });
-    
-    $("button#show").on('click', firstClick);
-    
-    function firstClick () {
-        var givenValue = $('input#alphasearch').val().replace(/[!"#$%&()*+.\/:;<=>?@\[\\\]^`{|}~]/g, '').replace(/ /g,'');
-        var givenValues = givenValue.split(",");
-      
-        $.each(givenValues, function (index,value) {
-            var alpha = (value);
-            if (alpha === "") {
-                $("input#alphasearch").val('')
-                    .attr('placeholder', 'Need Input...')
-                    .effect("shake", { times:2 }, 500);
-            } 
-            else {
-                blasterMaster(alpha);
-            } 
+
+    var showButton = document.querySelector("#show");
+    showButton.addEventListener("click", clickHandler);
+
+    function clickHandler() {
+        if (showButton.getAttribute("value") === 'Reset') {
+            showButton.removeAttribute("value")
+            showButton.innerHTML = "Search"
+            secondClick()
+        } else {
+            showButton.value = "Reset"
+            showButton.innerHTML = "Reset"
+            firstClick()
         }
-    )}
-    
-    function secondClick () {
+    }
+
+    function firstClick() {
+        var givenValue = inputs.value.replace(/[!"#$%&()*+.\/:;<=>?@\[\\\]^`{|}~]/g, '').replace(/ /g, '');
+        var givenValues = givenValue.split(",");
+
+        for (var i = 0; i < givenValues.length; i++) {
+            var alpha = (givenValues[i]);
+            if (alpha != "") {
+                blasterMaster(alpha);
+            } else {
+                inputs.setAttribute('placeholder', 'Need Input...')
+            }
+        }
+    }
+
+    function secondClick() {
         if ($('.blast').length > 0) {
             turnOutTheLights();
         } else if (pieces > 0) {
             $("cell").blast(false);
             setTheRayToJerry();
         }
-        $("input#alphasearch").attr('placeholder', 'Search this page...')
-            .val('');
-        $("button#show").html('Search')
-            .off('click').on('click', firstClick);
+        inputs.setAttribute('placeholder', 'Search this page...')
+        inputs.value = '';
+        showButton.value = ""
     }
-    
-    function blasterMaster (term) {
-        var target = $("cell").blast({search: term});
+
+    function blasterMaster(term) {
+        var targets = document.getElementsByTagName("cell");
+        for (var i = 0; i < targets.length; i++) {
+            targets[i].innerHTML = targets[i].innerHTML.replace(new RegExp(term, 'g'), "<span class='blast'>" + term + "</span>");
+        }
         blasted();
-    }   
-    
+    }
+
     function blasted() {
-        var pieces = $('.blast').length;
+        var pieces = document.getElementsByClassName("blast").length;
         if (pieces === 0) {
-            $("input#alphasearch").val('')
-                .attr('placeholder', 'No matches.')
-                .effect("shake", { times:2 }, 500);
+            inputs.value = ""
+            inputs.setAttribute('placeholder', 'No matches.');
         } else if (pieces > 0) {
             var reeses = pieces + " matches.";
-            $("input#alphasearch").val('')
-                .attr('placeholder', reeses);
-            $("button#show").html('Reset')
-                .off('click').on('click', secondClick);
+            inputs.value = ""
+            inputs.setAttribute('placeholder', reeses);
+
             setTheRayToJerry();
         }
     }
-    
-    function setTheRayToJerry () {
-        $('.blast').parentsUntil('tr').addClass('alpha');
+
+    function setTheRayToJerry() {
+        blasted_items = document.getElementsByClassName("blast")
+        for (var i = 0; i < blasted_items.length; i++) {
+            blasted_items[i].parentElement.closest("td").setAttribute("class", "alpha")
+        }
     }
-    
-    function turnOutTheLights () {
-        $('.blast').removeAttr('class')
-            .parentsUntil('tr').removeClass('alpha blast');
+
+    function turnOutTheLights() {
+        everything = document.querySelectorAll("*")
+        for (var i = 0; i < everything.length; i++) {
+            everything[i].classList.remove("blast", "alpha")
+        }
     }
-    
+
 });
