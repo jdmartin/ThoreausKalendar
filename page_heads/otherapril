@@ -8,6 +8,7 @@
     <script type="text/javascript" src="./resources/js/jquery-3.6.0.min.js"></script>
 
     <script type="text/javascript" src="./resources/js/kalendar.js"></script>
+    <script async="async" type="text/javascript" src="./resources/js/ref.min.js"></script>
     <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
     
 </head>
@@ -35,6 +36,7 @@
                             <button id="add">adds</button>
                             <button id="pencils">pencil</button>
                             <button id="gaps" class="red">gaps</button>
+                            <button id="notes">notes</button>
                             <button id="help">help</button>
                         </td>
                         <td>

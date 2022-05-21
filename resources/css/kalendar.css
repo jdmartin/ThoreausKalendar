@@ -267,13 +267,23 @@ unclear {
   border-bottom: 1px dashed #999;
 }
 
-note [place=below]:before, note [place=below][place=above]:after {
+/* note [place=below]:before, note [place=below][place=above]:after {
   display: block;
   content: "\a";
 }
 note [type=editorial] {
   display: none;
+} */
+
+note {
+  display: none;
 }
+
+note.active {
+  display: inline;
+  background: antiquewhite;
+}
+
 note [type=editorial].active {
   display: inline;
   background: antiquewhite;

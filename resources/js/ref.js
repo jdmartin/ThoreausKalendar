@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     for (var i = 0; i < theRefs.length; i++) {
         //If ref encloses a date, do stuff
         if (theRefs[i].querySelector('date')) {
-            console.log(theRefs[i]);
             if (theRefs[i].querySelector('date') !== null) {
                 var reftarget = theRefs[i].getAttribute("target");
                 var refdate = theRefs[i].querySelector('date').getAttribute("when");

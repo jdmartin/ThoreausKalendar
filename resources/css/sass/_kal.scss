@@ -70,20 +70,15 @@ gap {
 unclear {
     border-bottom: 1px dashed #999;
 }
-note{
-    [place="below"]:before {
-        display: block;
-        content: '\A';
-    }
-    [place="above"]:after {
-        @extend [place=below], :before
-    }
-    [type="editorial"] {
+note {
+    background: rgb(248, 245, 211);
+
+    .hidden {
         display: none;
     }
-    [type="editorial"].active {
+
+    .active {
         display: inline;
-        background: antiquewhite;
     }
 }
 

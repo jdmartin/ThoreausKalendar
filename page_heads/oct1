@@ -36,6 +36,7 @@
                             <button id="add">adds</button>
                             <button id="pencils">pencil</button>
                             <button id="gaps" class="red">gaps</button>
+                            <button id="notes">notes</button>
                             <button id="help">help</button>
                         </td>
                         <td>
