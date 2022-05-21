@@ -1,41 +1,24 @@
-/*!
-* SimpleKonami
-* Copyright: WTFPL
-* Version: 1
-* Requires: jQuery v1.3.2 or later
-*/
-//Set up our array of needed keys, and variables.
-neededkeys = [38,38,40,40,37,39,37,39,66,65], started = false, count = 0;
-$(document).keydown(function(e){
-key = e.keyCode;
-//Set start to true only if having pressed the first key in the konami sequence.
-if(!started){
-if(key == 38){
-started = true;
-}
-}
-//If we've started, pay attention to key presses, looking for right sequence.
-if(started){
-if(neededkeys[count] == key){
-//We're good so far.
-count++;
-} else {
-//Oops, not the right sequence, lets restart from the top.
-reset();
-}
-if(count == 10){
-//We made it! Put code here to do what you want when successfully execute konami sequence
-//Reset the conditions so that someone can do it all again.
-$('#copy').html("<p>It's dangerous to go alone.  <a href=\"http://youtu.be/r8AVKoqXbGc\" target=\"_blank\">Click this</a>.");
-reset();
-}
-} else {
-//Oops.
-reset();
-}
-});
-//Function used to reset us back to starting point.
-function reset() {
-started = false; count = 0;
-return;
-}
+var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+var current = 0;
+
+var keyHandler = function (event) {
+    // If the key isn't in the pattern, or isn't the current key in the pattern, reset
+    if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
+        current = 0;
+        return;
+    }
+
+    // Update how much of the pattern is complete
+    current++;
+
+    // If complete, alert and reset
+    if (pattern.length === current) {
+        current = 0;
+        document.querySelector('#copy').innerHTML = "<p>It's dangerous to go alone.  <a href=\"http://youtu.be/r8AVKoqXbGc\" target=\"_blank\">Click this</a>."
+    }
+
+};
+
+document.addEventListener('keydown', keyHandler, false);
+
+
