@@ -60,8 +60,12 @@ persName.active {
 }
 
 gap {
-    display: inline;
+    visibility: visible;
     background: #feece9;
+
+    .hidden {
+        visibility: hidden;
+    }
 }
 
 .hidden {
@@ -74,7 +78,7 @@ note {
     background: rgb(248, 245, 211);
 
     .hidden {
-        display: none;
+        visibility: hidden;
     }
 
     .active {

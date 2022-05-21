@@ -7,11 +7,9 @@
         How this all works
     </title>
     <link href="./resources/css/kalendar.min.css" rel="stylesheet">
-    <script src="./resources/js/jquery-3.6.0.min.js">
-    </script>
-    <script src="./resources/js/kalendar.min.js">
-    </script>
-    <script async src="./resources/js/konami.min.js">
+    <script src="./resources/js/how.min.js"></script>
+    <!--<script async src="./resources/js/konami.min.js"> -->
+    
     </script>
 </head>
 
@@ -20,8 +18,13 @@
         ☰
         <div id="navmainpage">
             <script>
-                $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
-            </script>
+                fetch("./resources/html_snippets/navigation-menu.html").then(data => {
+                    return data.text()
+                })
+                .then( data => {
+                    document.querySelector("#navmainpage").innerHTML = data;
+                })
+        </script>
         </div>
     </div>
     <div id="main">
@@ -120,7 +123,12 @@
             </div>
             <div id="righty">
                 <script>
-                    $("#righty").load("./resources/html_snippets/colophon.html");
+                    fetch("./resources/html_snippets/colophon.html").then(data => {
+                        return data.text()
+                    })
+                    .then( data => {
+                        document.querySelector("#righty").innerHTML = data;
+                    })
                 </script>
             </div>
         </div>

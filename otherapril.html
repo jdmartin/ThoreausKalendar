@@ -5,12 +5,10 @@
     <meta charset="utf-8" />
     <title>General Phenomena for April</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css" />
-    <script type="text/javascript" src="./resources/js/jquery-3.6.0.min.js"></script>
 
-    <script type="text/javascript" src="./resources/js/kalendar.js"></script>
+    <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
     <script async="async" type="text/javascript" src="./resources/js/ref.min.js"></script>
     <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
-    
 </head>
 
 <body>
@@ -18,7 +16,12 @@
         ☰
         <div id="navmainpage">
             <script>
-                $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
+                    fetch("./resources/html_snippets/navigation-menu.html").then(data => {
+                        return data.text()
+                    })
+                    .then( data => {
+                        document.querySelector("#navmainpage").innerHTML = data;
+                    })
             </script>
         </div>
     </div>
@@ -52,7 +55,12 @@
             </div>
             <div id="helpbox">
                 <script>
-                    $("#helpbox").load("./resources/html_snippets/helpmenu.html");
+                    fetch("resources/html_snippets/helpmenu.html").then(data => {
+                            return data.text()
+                        })
+                        .then( data => {
+                            document.querySelector("#helpbox").innerHTML = data;
+                        })
                 </script>
             </div><table id="kalendar" border="1" cellpadding="1" cellspacing="0"><tr><td><cell>
 <add rend="pencil">2</add>
@@ -1267,8 +1275,13 @@
     </div>
     <div id="righty">
         <script>
-            $("#righty").load("./resources/html_snippets/colophon.html");
-        </script>
+            fetch("./resources/html_snippets/colophon.html").then(data => {
+                return data.text()
+            })
+            .then( data => {
+                document.querySelector("#righty").innerHTML = data;
+            })
+    </script>
     </div>
     <div id="nader">
         <br/>

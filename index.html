@@ -6,18 +6,13 @@
    Thoreau's Kalendar
         </title>
         <link href="./resources/css/kalendar.min.css" rel="stylesheet">
-        <script src="./resources/js/jquery-3.6.0.min.js">
-        </script>
-        <script src="./resources/js/kalendar.min.js">
+        <script src="./resources/js/kalendar.home.min.js">
         </script>
     </head>
     <body>
         <div class="hiddenmenu">
             ☰
             <div id="navmainpage">
-                <script>
-                    $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
-                </script>
             </div>
         </div>
         <div id="main">
@@ -52,7 +47,20 @@
             <div id="footer">
                 <div class="turvy">
                     <script>
-                        $(".turvy").load("./resources/html_snippets/colophon.html");
+                        fetch("./resources/html_snippets/colophon.html").then(data => {
+                            return data.text()
+                        })
+                        .then( data => {
+                            document.querySelector(".turvy").innerHTML = data;
+                        })
+                    </script>
+                    <script>
+                        fetch("./resources/html_snippets/navigation-menu.html").then(data => {
+                            return data.text()
+                        })
+                        .then( data => {
+                            document.querySelector("#navmainpage").innerHTML = data;
+                        })
                     </script>
                 </div>
             </div>

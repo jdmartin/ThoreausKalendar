@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.querySelector('#search-help').style.display = "none";
         var searchToggle = document.querySelector('#search-toggle');
         searchToggle.addEventListener('click', searchHelpToggler);
-        var searchHelper = 0;
 
         var menuButton = document.querySelector('.hiddenmenu')
         menuButton.addEventListener('click', menuToggle);
@@ -31,18 +30,27 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         var notesButton = document.querySelector('button#notes');
         notesButton.addEventListener('click', notesButtonToggler);
+
+        //Store some values for later
+        const theGaps = document.querySelectorAll('gap');
+        var currentPageName = ""
+        var currentPageNameCount = 0
         
         //Helper Functions
         function menuToggle() {
-            let url = window.location.pathname;
             let currentState = document.querySelector('#navmainpage').style.display;
             if (currentState === "none") {
-               navMenu.style.display = "block";
-               let currentPosition = document.querySelector('#navmainpage').querySelector('a[href=".'+url+'"]');
-               currentPosition.innerHTML = "<span class='navarrow'>→</span>" + currentPosition.innerHTML;
+               navMenu.style.display = "block"; 
             }
             else {
                 navMenu.style.display = "none";
+            }
+            if (currentPageNameCount === 0) {
+                let url = window.location.pathname;
+                let currentPosition = document.querySelector('#navmainpage').querySelector('a[href=".'+url+'"]');
+                currentPageName = currentPosition.innerHTML;
+                currentPosition.innerHTML = "<span class='navarrow'>→ </span>" + currentPosition.innerHTML;
+                currentPageNameCount = 1;
             }
         }
 
@@ -52,110 +60,60 @@ document.addEventListener("DOMContentLoaded", function(event) {
             let theHelpBoxStyle = document.querySelector('div#helpbox').style.display;
             if (theHelpBoxStyle != "block") {
                 theHelpBox.style.display = "block";
-                theHelpBox.classList.add('helpactive');
-                helpButton.classList.add('red');
              }
              else {
                 theHelpBox.style.display = "none";
-                theHelpBox.classList.remove('helpactive');
-                helpButton.classList.remove('red');
              }
+             theHelpBox.classList.toggle('helpactive');
+             helpButton.classList.toggle('red');
         }
 
         function persButtonToggler() {
-            var persCount = document.getElementsByClassName("personHighlight").length;
+            persButton.classList.toggle('red');
             var persons = document.getElementsByTagName('persname');
-
-            if (persCount === 0) {
-                for (var i = 0; i < persons.length; i++) {
-                    persButton.classList.add('red');
-                    persons[i].classList.add('active');
-                    persons[i].parentElement.closest('td').setAttribute('class', 'personHighlight');
-                }
-            }
-            else {
-                for (var i = 0; i < persons.length; i++) {
-                    persButton.classList.remove('red');
-                    persons[i].classList.remove('active');
-                    persons[i].parentElement.closest('td').classList.remove('personHighlight');
-                }
+            for (var i = 0; i < persons.length; i++) {
+                persons[i].classList.toggle('active');
+                persons[i].parentElement.closest('td').classList.toggle('personHighlight');
             }
         }
 
         function addButtonToggler() {
-            var addCount = document.getElementsByClassName("addHighlight").length;
+            addButton.classList.toggle('red');
             var adds = document.querySelectorAll('add:not([rend="pencil"])')
-
-            if (addCount === 0) {
-                for (var i = 0; i < adds.length; i++) {
-                    addButton.classList.add('red');
-                    adds[i].classList.add('active');
-                    adds[i].parentElement.closest('td').setAttribute('class', 'addHighlight');
-                }
-            }
-            else {
-                for (var i = 0; i < adds.length; i++) {
-                    addButton.classList.remove('red');
-                    adds[i].classList.remove('active');
-                    adds[i].parentElement.closest('td').classList.remove('addHighlight');
-                }
+            for (var i = 0; i < adds.length; i++) {
+                adds[i].classList.toggle('active');
+                adds[i].parentElement.closest('td').classList.toggle('addHighlight');
             }
         }
 
         function placeButtonToggler() {
+            placeButton.classList.toggle('red');
             var placeCount = document.getElementsByClassName("redHighlight").length;
             var places = document.getElementsByTagName("add");
-
-            if (placeCount === 0) {
-                for (var i = 0; i < places.length; i++) {
-                    placeButton.classList.add('red');
-                    places[i].classList.add('active');
-                    places[i].parentElement.closest('td').setAttribute('class', 'redHighlight');
-                }
-            }
-            else {
-                for (var i = 0; i < places.length; i++) {
-                    placeButton.classList.remove('red');
-                    places[i].classList.remove('active');
-                    places[i].parentElement.closest('td').classList.remove('redHighlight');
-                }
+            for (var i = 0; i < places.length; i++) {
+                places[i].classList.toggle('active');
+                places[i].parentElement.closest('td').classList.toggle('redHighlight');
             }
         }
 
         function pencilButtonToggler() {
-            var pencilCount = document.getElementsByClassName("pencilHighlight").length;
+            pencilButton.classList.toggle('red');
             var pencils = document.querySelectorAll("add[rend='pencil']");
-
-            if (pencilCount === 0) {
-                for (var i = 0; i < pencils.length; i++) {
-                    pencilButton.classList.add('red');
-                    pencils[i].classList.add('active');
-                    pencils[i].parentElement.closest('td').setAttribute('class', 'pencilHighlight');
-                }
-            }
-            else {
-                for (var i = 0; i < pencils.length; i++) {
-                    pencilButton.classList.remove('red');
-                    pencils[i].classList.remove('active');
-                    pencils[i].parentElement.closest('td').classList.remove('pencilHighlight');
-                }
+            for (var i = 0; i < pencils.length; i++) {
+                pencils[i].classList.toggle('active');
+                pencils[i].parentElement.closest('td').classList.toggle('pencilHighlight');
             }
         }
 
         function gapsButtonToggler() {
-            var gapsCount = document.querySelectorAll("gap[class='hidden']").length;
+            gapsButton.classList.toggle('red');
             var gaps = document.querySelectorAll("gap");
-
-            if (gapsCount === 0) {
-                for (var i = 0; i < gaps.length; i++) {
-                    gapsButton.classList.remove('red');
-                    gaps[i].classList.add('hidden');
-                }
+            if (document.querySelectorAll('gap[class="hidden"]').length > 0) {
+                mindTheGaps();
             }
             else {
                 for (var i = 0; i < gaps.length; i++) {
-                    gapsButton.classList.add('red');
-                    gaps[i].classList.remove('hidden');
+                    gaps[i].classList.toggle('hidden');
                 }
             }
         }
@@ -173,18 +131,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
             let searchHelpStyle = document.querySelector('#search-help').style.display;
             let searchHelp = document.querySelector('#search-help');
             if (searchHelpStyle != "block") {
-                searchHelper = 1;
                 searchHelp.style.display = "block";
                 searchToggle.textContent = "hide help";
              }
              else {
-                searchHelper = 0;
                 searchHelp.style.display = "none";
                 searchToggle.textContent = "show help";
              }
         }
 
         //Layout and Formatting
+
         //Make the menu sticky on scroll
         window.addEventListener('scroll', function() {
             var header = document.querySelector('#search-menu');
@@ -207,25 +164,27 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
 
         //Prepare and show [gap] by default
-        theGaps = document.querySelectorAll('gap');
-        for (var i = 0; i < theGaps.length; i++) {
-            var extent = theGaps[i].getAttribute('extent');
-            var reason = theGaps[i].getAttribute('reason');
+        function mindTheGaps() {
+            for (var i = 0; i < theGaps.length; i++) {
+                var extent = theGaps[i].getAttribute('extent');
+                var reason = theGaps[i].getAttribute('reason');
 
-            var result = '';
+                var result = '';
 
-            if (extent != null) {
-                result += "Extent: " + extent + " |";
+                if (extent != null) {
+                    result += "Extent: " + extent + " |";
+                }
+                if (reason != null) {
+                    result += " Reason: " + reason + "  ";
+                }
+
+                var str1 = '<span style="border-bottom:1px dotted; "title="';
+                var str2 = '" ><span>[gap]</span> ';
+                var link = str1.concat(result,str2);
+                
+                theGaps[i].classList.remove('hidden');
+                theGaps[i].innerHTML = link;
             }
-            if (reason != null) {
-                result += " Reason: " + reason + "  ";
-            }
-
-            var str1 = '<span style="border-bottom:1px dotted; "title="';
-            var str2 = '" ><span>[gap]</span> ';
-            var link = str1.concat(result,str2);
-
-            theGaps[i].innerHTML = link;
         }
 
         //Prepare some persname info
@@ -289,4 +248,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
             theEdNotes[i].innerHTML = theEdNote;
             theEdNotes[i].classList.add("hidden");
         }
+
+    
+    //Execute on Page Load
+    mindTheGaps();
 });
