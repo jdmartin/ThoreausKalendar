@@ -69,39 +69,55 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
 
         function persButtonToggler() {
-            persButton.classList.toggle('red');
             var persons = document.getElementsByTagName('persname');
-            for (var i = 0; i < persons.length; i++) {
-                persons[i].classList.toggle('active');
-                persons[i].parentElement.closest('td').classList.toggle('personHighlight');
+            if (persons.length === 0) {
+                persButton.classList.toggle('no-matches');
+            } else {
+                persButton.classList.toggle('red');
+                for (var i = 0; i < persons.length; i++) {
+                    persons[i].classList.toggle('active');
+                    persons[i].parentElement.closest('td').classList.toggle('personHighlight');
+                }
             }
         }
 
         function addButtonToggler() {
-            addButton.classList.toggle('red');
             var adds = document.querySelectorAll('add:not([rend="pencil"])')
-            for (var i = 0; i < adds.length; i++) {
-                adds[i].classList.toggle('active');
-                adds[i].parentElement.closest('td').classList.toggle('addHighlight');
+            if (adds.length === 0) {
+                addButton.classList.toggle('no-matches');
+            } else {
+                addButton.classList.toggle('red');
+                for (var i = 0; i < adds.length; i++) {
+                    adds[i].classList.toggle('active');
+                    adds[i].parentElement.closest('td').classList.toggle('addHighlight');
+                }
             }
         }
 
         function placeButtonToggler() {
-            placeButton.classList.toggle('red');
-            var placeCount = document.getElementsByClassName("redHighlight").length;
-            var places = document.getElementsByTagName("add");
-            for (var i = 0; i < places.length; i++) {
-                places[i].classList.toggle('active');
-                places[i].parentElement.closest('td').classList.toggle('redHighlight');
+            var places = document.getElementsByTagName("placename");
+            if (places.length === 0) {
+                placeButton.classList.toggle('no-matches');
+            } else {
+                placeButton.classList.toggle('red');
+                for (var i = 0; i < places.length; i++) {
+                    places[i].classList.toggle('active');
+                    places[i].parentElement.closest('td').classList.toggle('redHighlight');
+                }
             }
         }
 
         function pencilButtonToggler() {
-            pencilButton.classList.toggle('red');
             var pencils = document.querySelectorAll("add[rend='pencil']");
-            for (var i = 0; i < pencils.length; i++) {
-                pencils[i].classList.toggle('active');
-                pencils[i].parentElement.closest('td').classList.toggle('pencilHighlight');
+            if (pencils.length === 0) {
+                pencilButton.classList.toggle('no-matches');
+            }
+            else {
+                pencilButton.classList.toggle('red');
+                for (var i = 0; i < pencils.length; i++) {
+                    pencils[i].classList.toggle('active');
+                    pencils[i].parentElement.closest('td').classList.toggle('pencilHighlight');
+                }
             }
         }
 
@@ -119,11 +135,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
 
         function notesButtonToggler() {
-            notesButton.classList.toggle('red');
             allNotes = document.querySelectorAll('note');
-            for (var i = 0; i < allNotes.length; i++) {
-                allNotes[i].classList.toggle('hidden');
-                allNotes[i].classList.toggle('active');
+            if (allNotes.length === 0) {
+                notesButton.classList.toggle('no-matches');
+            } else {
+                notesButton.classList.toggle('red');
+                for (var i = 0; i < allNotes.length; i++) {
+                    allNotes[i].classList.toggle('hidden');
+                    allNotes[i].classList.toggle('active');
+                }
             }
         }
 
@@ -160,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         for (var i = 0; i < theUnclear.length; i++) {
             let new_node = document.createElement('span');
             theUnclear[i].parentNode.insertBefore(new_node, theUnclear[i].nextSibling);
-            theUnclear[i].textContent = " " + theUnclear[i].textContent;
+            theUnclear[i].textContent = " " + theUnclear[i].textContent + " ";
         }
 
         //Prepare and show [gap] by default
@@ -191,11 +211,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var people = document.querySelectorAll('persname');
         for (var i = 0; i < people.length; i++) {
             let title = people[i].getAttribute('ref');
-            if (typeof people[i] != 'undefined') {
-                if (title != null) {
-                    people[i].setAttribute('title', title);
+            if (title != 'undefined') {
+                if (typeof people[i] != 'undefined') {
+                    if (title != null) {
+                        people[i].setAttribute('title', title);
+                        people[i].classList.add('person-title');
+                    }
                 }
-                people[i].classList.add('person-title');
             }
         }
 
@@ -203,11 +225,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var places = document.querySelectorAll('placename');
         for (var i = 0; i < places.length; i++) {
             let title = places[i].getAttribute('ref');
-            if (typeof places[i] != 'undefined') {
-                if (title != null) {
-                    places[i].setAttribute('title', title);
+            if (title != 'undefined') {
+                if (typeof places[i] != 'undefined') {
+                    if (title != null) {
+                        places[i].setAttribute('title', title);
+                        places[i].classList.add('place-title');
+                    }
                 }
-                places[i].classList.add('place-title');
             }
         }
 
