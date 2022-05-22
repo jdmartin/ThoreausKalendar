@@ -161,6 +161,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
         window.addEventListener('scroll', function() {
             var header = document.querySelector('#search-menu');
             header.classList.toggle("sticky", window.scrollY > 0);
+            //Close main menu if scrolling past 100
+            if (this.window.scrollY > 100) {
+                navMenu.style.display = "none";
+            }
         });
 
         //Take <lb> in source and insert a line break in HTML
