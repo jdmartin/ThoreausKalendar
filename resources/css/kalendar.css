@@ -464,7 +464,7 @@ note .active {
   float: left;
 }
 #nader #alphasearch {
-  font-weight: 600;
+  font-weight: normal;
 }
 #nader input.horizontal-shake {
   animation: horizontal-shaking 0.5s;
