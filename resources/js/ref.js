@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 var reftarget = theRefs[i].getAttribute("target");
                 var refdate = theRefs[i].querySelector('date').getAttribute("when");
                 var shortdate = theRefs[i].querySelector('date').textContent;
-                var str1 = '<a href="' + reftarget + '" title="' + refdate + '" target="_blank">' + '<date>' + shortdate + '</date></a> ';
+                var str1 = '<a href="' + reftarget + '" title="' + refdate + '" target="_blank">' + '<date>' + shortdate + '</date></a>';
                 
                 theRefs[i].querySelector('date').innerHTML = str1;
             }
@@ -30,9 +30,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 var refdate = theRefs[i].getAttribute('when');
                 var shortdate = theRefs[i].nextElementSibling.textContent;
                 theRefs[i].innerHTML = theRefs[i].innerHTML.replace(new RegExp(shortdate, 'gi'), "<date>" + "$&" + "</date>");
-                
             }
         }
-
     }
 });

@@ -15,9 +15,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
             var str1 = '<a href="'; //The start of our link code.
             var str2 = '" target="_blank" style="color: #8A4E5D;" title="'; //The end of our link element.  We put theLink between 1 and 2.
-            var str3 = '</a></date> '; //Close that link element.  We put the date just before this.
+            var str3 = '</a>'; //Close that link element.  We put the date just before this.
             var link = str1.concat(targetLink,str2,theWhen,'">',theStuff,str3); //Concatenate all the things!
-            console.log(link)
             dates[i].innerHTML = link; //Replace the parent 'date' element's content with the monster we just made.
         }
     };
