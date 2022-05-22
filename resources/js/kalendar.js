@@ -198,8 +198,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                     result += " Reason: " + reason + "  ";
                 }
 
-                var str1 = '<span style="border-bottom:1px dotted; "title="';
-                var str2 = '" ><span>[gap]</span> ';
+                var str1 = '<span type="gap" style="border-bottom:1px dotted; "title="';
+                var str2 = '"><span>[gap]</span>';
                 var link = str1.concat(result,str2);
                 
                 theGaps[i].classList.remove('hidden');
@@ -249,8 +249,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 result += " Content: " + content + "  ";
             }
 
-            let str1 = '<span style="border-bottom:1px dotted; "title="';
-            let str2 = '" ><span>[note]</span> ';
+            let str1 = '<span type="note" style="border-bottom:1px dotted; "title="';
+            let str2 = '" ><span>[note]</span>';
             let placeNote = str1.concat(result,str2);
 
             thePlaceNotes[i].innerHTML = placeNote;
@@ -265,8 +265,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 result += "Note: " + ednote + " ";
             }
 
-            let str1 = '<span style="border-bottom:1px dotted; "title="';
-            let str2 = '" ><span>[note]</span> ';
+            let str1 = '<span type="note" style="border-bottom:1px dotted; "title="';
+            let str2 = '" ><span>[note]</span>';
             let theEdNote = str1.concat(result,str2);
 
             theEdNotes[i].innerHTML = theEdNote;

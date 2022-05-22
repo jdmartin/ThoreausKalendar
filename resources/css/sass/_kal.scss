@@ -15,6 +15,12 @@ date {
     font-weight: bold;
     display: inline;
     position: relative;
+
+}
+
+date::after {
+    content: " ";
+    white-space: pre;
 }
 
 ref a {
@@ -60,12 +66,17 @@ persName.active {
 }
 
 gap {
-    visibility: visible;
+    display: inline;
     background: #feece9;
 
     .hidden {
         visibility: hidden;
     }
+}
+
+span[type=gap]::before, span[type=gap]::after , span[type=note]::before, span[type=note]::after{
+    content: " ";
+    white-space: pre;
 }
 
 .hidden {
