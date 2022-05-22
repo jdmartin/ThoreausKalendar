@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 }
 
                 var str1 = '<span type="gap" style="border-bottom:1px dotted; "title="';
-                var str2 = '"><span>[gap]</span>';
+                var str2 = '" ><span>[gap]</span>';
                 var link = str1.concat(result,str2);
                 
                 theGaps[i].classList.remove('hidden');
