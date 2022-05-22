@@ -124,14 +124,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         function gapsButtonToggler() {
             gapsButton.classList.toggle('red');
             var gaps = document.querySelectorAll("gap");
-            if (document.querySelectorAll('gap[class="hidden"]').length > 0) {
-                mindTheGaps();
-            }
-            else {
-                for (var i = 0; i < gaps.length; i++) {
-                    gaps[i].classList.toggle('hidden');
-                }
-            }
+            for (var i = 0; i < gaps.length; i++) {            
+                gaps[i].classList.toggle('hidden');
+            }    
         }
 
         function notesButtonToggler() {
@@ -272,7 +267,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
             theEdNotes[i].innerHTML = theEdNote;
             theEdNotes[i].classList.add("hidden");
         }
-
     
     //Execute on Page Load
     mindTheGaps();

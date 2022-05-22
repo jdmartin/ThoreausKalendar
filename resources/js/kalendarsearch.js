@@ -1,9 +1,10 @@
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", function() {
     var inputs = document.querySelector('#alphasearch');
 
     inputs.addEventListener('keydown', (e) => {
         if (e.which == 13) {
             firstClick();
+            return false;
         }
     });
 
@@ -11,15 +12,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
     var resetButton = document.querySelector("#reset");
     showButton.addEventListener("click", firstClick);
     resetButton.addEventListener("click", resetHandler);
-
-    function sleep(ms) {
-        // add ms millisecond timeout before promise resolution
-        return new Promise(resolve => setTimeout(resolve, ms))
-      }
     
     function resetHandler() {
         inputs.setAttribute('placeholder', 'Search this page...')
         turnOutTheLights()
+        return false
     }
 
     function firstClick() {
@@ -39,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 inputs.setAttribute('placeholder', 'Need Input...')
             }
         }
+        return false
     }
 
     function blasterMaster(term) {
@@ -47,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             targets[i].innerHTML = targets[i].innerHTML.replace(new RegExp(term, 'gi'), "<span class='blast'>" + "$&" + "</span>");
         }
         blasted();
+        return false
     }
 
     function blasted() {
@@ -54,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         if (pieces === 0) {
             inputs.value = ""
             inputs.setAttribute('placeholder', 'No matches.');
+
             shakingThrough();
         } else if (pieces > 0) {
             var reeses = pieces + " matches.";
@@ -62,13 +62,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
             setTheRayToJerry();
         }
-
+        return false
     }
 
-    async function shakingThrough() {
+    function shakingThrough() {
         document.querySelector('#alphasearch').classList.add('horizontal-shake');
-        await sleep(1000);
-        document.querySelector('#alphasearch').classList.remove('horizontal-shake');
+        setTimeout(function (){
+            document.querySelector('#alphasearch').classList.remove('horizontal-shake');
+        }, 1000);
+        return false
     }
 
     function setTheRayToJerry() {
@@ -77,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             blasted_items[i].parentElement.closest("td").setAttribute("class", "alpha")
             showButton.setAttribute("value", "loaded")
         }
+        return false
     }
 
     function turnOutTheLights() {
@@ -84,5 +87,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         for (var i = 0; i < everything.length; i++) {
             everything[i].classList.remove("blast", "alpha")
         }
+        return false
     }
+    
 });
