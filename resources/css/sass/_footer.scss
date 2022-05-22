@@ -73,6 +73,23 @@
 #nader {
     width: 20%;
     float: left;
+
+    #alphasearch {
+        font-weight: 600;
+    }
+
+    input.horizontal-shake {
+        animation: horizontal-shaking 0.5s; 
+        animation-iteration-count: 2;
+      }
+    
+    @keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+    }
 }
 #search-help {
     position: fixed;

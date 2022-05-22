@@ -313,6 +313,10 @@ note .active {
   background-color: white;
   color: black;
 }
+#search-menu .no-matches {
+  background-color: grey;
+  color: black;
+}
 
 #search-menu.sticky {
   position: fixed;
@@ -448,6 +452,30 @@ note .active {
 #nader {
   width: 20%;
   float: left;
+}
+#nader #alphasearch {
+  font-weight: 600;
+}
+#nader input.horizontal-shake {
+  animation: horizontal-shaking 0.5s;
+  animation-iteration-count: 2;
+}
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 #search-help {
