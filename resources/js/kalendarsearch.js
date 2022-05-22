@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
     showButton.addEventListener("click", firstClick);
     resetButton.addEventListener("click", resetHandler);
 
+    function sleep(ms) {
+        // add ms millisecond timeout before promise resolution
+        return new Promise(resolve => setTimeout(resolve, ms))
+      }
+    
     function resetHandler() {
         inputs.setAttribute('placeholder', 'Search this page...')
         turnOutTheLights()
@@ -49,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         if (pieces === 0) {
             inputs.value = ""
             inputs.setAttribute('placeholder', 'No matches.');
+            shakingThrough();
         } else if (pieces > 0) {
             var reeses = pieces + " matches.";
             inputs.value = ""
@@ -57,6 +63,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
             setTheRayToJerry();
         }
 
+    }
+
+    async function shakingThrough() {
+        document.querySelector('#alphasearch').classList.add('horizontal-shake');
+        await sleep(1000);
+        document.querySelector('#alphasearch').classList.remove('horizontal-shake');
     }
 
     function setTheRayToJerry() {
