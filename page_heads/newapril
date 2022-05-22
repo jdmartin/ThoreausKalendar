@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css" />
 
     <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
-    <script async="async" type="text/javascript" src="./resources/js/ref.min.js"></script>
-    <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>    
+    <script type="text/javascript" src="./resources/js/ref.min.js"></script>
+    <script type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>    
 </head>
 
 <body>
