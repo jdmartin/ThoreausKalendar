@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "kalendar-2021"
+name = "ThoreausKalendar"
 version = "1.03"
-description = "Python Rebuild of Thoreau's Kalendar 2021"
+description = "Python Rebuild of Thoreau's Kalendar"
 authors = ["jdmartin <jonsaccount+githubjd@icloud.com>"]
 license = "MIT"
 
