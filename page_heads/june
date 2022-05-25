@@ -46,12 +46,4 @@
                 </table>
             </div>
             <div id="helpbox">
-                <script>
-                    fetch("resources/html_snippets/helpmenu.html").then(data => {
-                            return data.text()
-                        })
-                        .then( data => {
-                            document.querySelector("#helpbox").innerHTML = data;
-                        })
-                </script>
             </div>

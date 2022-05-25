@@ -175,6 +175,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
             document.querySelector("#navmainpage").innerHTML = data;
         })
 
+        //Prepare the Helpbox
+        fetch("resources/html_snippets/helpmenu.html").then(data => {
+            return data.text()
+        })
+        .then( data => {
+            document.querySelector("#helpbox").innerHTML = data;
+        })
+
         //Take <lb> in source and insert a line break in HTML
         theLB = document.querySelectorAll('lb');
         for (var i = 0; i < theLB.length; i++) {
