@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         seenElements.push('span');
         seenElements.push('note');
         reducedSetElements = new Set(seenElements);
+        console.log(reducedSetElements);
         return reducedSetElements
     }
 
@@ -45,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         for (var i = 0; i < givenValues.length; i++) {
             var alpha = (givenValues[i]);
-            if (listOfElementsInPage.has(alpha)) {
+            if (listOfElementsInPage.has(alpha.toUpperCase())) {
                 inputs.setAttribute('placeholder', 'Search this page...')
                 document.querySelector('#alphasearch').value = ''
                 continue
@@ -65,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function blasterMaster(term) {
         var targets = document.querySelectorAll("cell");
-        let bracketTest = new RegExp(`<${term}>`);
+        let bracketTest = new RegExp(`<${term}.*>`);
         //Make sure our term is a word and not part of a word
         for (var i = 0; i < targets.length; i++) {
             //If the element is hidden, then searching it only leads to sadness with that newly created <span>
