@@ -45,11 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         for (var i = 0; i < givenValues.length; i++) {
             var alpha = (givenValues[i]);
-            if (listOfElementsInPage.has(alpha.toUpperCase())) {
-                inputs.setAttribute('placeholder', 'Search this page...')
-                document.querySelector('#alphasearch').value = ''
-                continue
-            }
             if (alpha.length > 2) {
                 if (alpha != "") {
                     blasterMaster(alpha);
@@ -64,25 +59,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function blasterMaster(term) {
-        var targets = document.querySelectorAll("cell");
-        let bracketTest = new RegExp(`<.*${term}.*>`);
-        //Make sure our term is a word and not part of a word
-        for (var i = 0; i < targets.length; i++) {
-            //If the element is hidden, then searching it only leads to sadness with that newly created <span>
-            var style = window.getComputedStyle(targets[i]);
-            if ((style.display === 'none') || (style.visibility === 'hidden')) {
-                continue
-            }
-            else if (bracketTest.test(targets[i].innerHTML)) {
-                continue
-            }
-            else {
-                //Find our search term, make sure it has a space before it, or it's the start of a new line.
-                //Make sure it isn't followed by an '=' or a '"', both signs we're in an attribute and not text.
-                //Allow any number of characters to follow to get word forms, but stop at a space.
-                targets[i].innerHTML = targets[i].innerHTML.replace(new RegExp(`\\s{0,1}${term}(?!(\=|\"))\\s*?`, 'gi'), "<span class='blast'>" + "$&" + "</span>");
-            }
-        }
+        findAndReplaceDOMText(document.getElementById('kalendar'), {
+            find: term,
+            wrap: 'span',
+            wrapClass: 'blast'
+        });
         blasted();
     }
 

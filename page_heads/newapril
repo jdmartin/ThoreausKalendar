@@ -8,7 +8,6 @@
 
     <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
     <script type="text/javascript" src="./resources/js/ref.min.js"></script>
-    <script type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>    
 </head>
 
 <body>
