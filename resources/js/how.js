@@ -28,4 +28,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .then( data => {
             document.querySelector("#navmainpage").innerHTML = data;
         })
+
+        //Prepare the Colophon
+        fetch("./resources/html_snippets/colophon.html").then(data => {
+            return data.text()
+        })
+        .then( data => {
+            document.querySelector("#righty").innerHTML = data;
+        })
 });

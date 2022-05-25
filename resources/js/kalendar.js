@@ -176,11 +176,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
         })
 
         //Prepare the Helpbox
-        fetch("resources/html_snippets/helpmenu.html").then(data => {
+        fetch("./resources/html_snippets/helpmenu.html").then(data => {
             return data.text()
         })
         .then( data => {
             document.querySelector("#helpbox").innerHTML = data;
+        })
+
+        //Prepare the Colophon
+        fetch("./resources/html_snippets/colophon.html").then(data => {
+            return data.text()
+        })
+        .then( data => {
+            document.querySelector("#righty").innerHTML = data;
         })
 
         //Take <lb> in source and insert a line break in HTML
