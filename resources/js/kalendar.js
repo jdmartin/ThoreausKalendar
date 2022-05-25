@@ -167,6 +167,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
         });
 
+        //Prepare the NavMenu
+        fetch("./resources/html_snippets/navigation-menu.html").then(data => {
+            return data.text()
+        })
+        .then( data => {
+            document.querySelector("#navmainpage").innerHTML = data;
+        })
+
         //Take <lb> in source and insert a line break in HTML
         theLB = document.querySelectorAll('lb');
         for (var i = 0; i < theLB.length; i++) {

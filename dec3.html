@@ -9,7 +9,7 @@
     <link href="./resources/css/kalendar.min.css" rel="stylesheet">
     <script src="./resources/js/kalendar.min.js">
     </script>
-    <script async src="./resources/js/kalendarsearch.min.js">
+    <script src="./resources/js/kalendarsearch.min.js">
     </script>
     <script src="./resources/js/linkmaker.min.js">
     </script>
@@ -19,14 +19,6 @@
     <div class="hiddenmenu" onclick>
         ☰
         <div id="navmainpage">
-            <script>
-                fetch("./resources/html_snippets/navigation-menu.html").then(data => {
-                    return data.text()
-                })
-                .then( data => {
-                    document.querySelector("#navmainpage").innerHTML = data;
-                })
-            </script>
         </div>
     </div>
     <div id="main">

@@ -20,4 +20,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 navMenu.style.display = "none";
             }
         }
+
+        //Prepare the NavMenu
+        fetch("./resources/html_snippets/navigation-menu.html").then(data => {
+            return data.text()
+        })
+        .then( data => {
+            document.querySelector("#navmainpage").innerHTML = data;
+        })
 });
