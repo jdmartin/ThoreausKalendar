@@ -54,6 +54,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
         }
 
+        function sanitize(string) {
+            return string
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+        }
+
         //Editor Button Helpers
         function helpMenuToggler() {
             let theHelpBox = document.querySelector('div#helpbox');
@@ -215,10 +224,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 var result = '';
 
                 if (extent != null) {
-                    result += "Extent: " + extent + " |";
+                    result += "Extent: " + sanitize(extent) + " |";
                 }
                 if (reason != null) {
-                    result += " Reason: " + reason + "  ";
+                    result += " Reason: " + sanitize(reason) + "  ";
                 }
 
                 var str1 = '<span type="gap" style="border-bottom:1px dotted; "title="';
@@ -266,10 +275,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
             let result = '';
 
             if (place != null) {
-                result += "Location: " + place + " |";
+                result += "Location: " + sanitize(place) + " |";
             }
             if (content != null) {
-                result += " Content: " + content + "  ";
+                result += " Content: " + sanitize(content) + "  ";
             }
 
             let str1 = '<span type="note" style="border-bottom:1px dotted; "title="';
@@ -285,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             let result = '';
 
             if (ednote != null) {
-                result += "Note: " + ednote + " ";
+                result += "Note: " + sanitize(ednote) + " ";
             }
 
             let str1 = '<span type="note" style="border-bottom:1px dotted; "title="';
