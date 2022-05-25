@@ -42,3 +42,10 @@ Some of the site's pages are awaiting TEI, and these are built separately.  Each
 
 **Student Assistants**: Diana Allen, Carinne Haigis, and Richard Johnson
 
+## 4. Code Credits
+
+Code from the following projects has been used in this site:
+
+- [findAndReplaceDOMText](https://github.com/padolsey/findAndReplaceDOMText) - used in search functionality.
+- [OpenSeadragon](https://openseadragon.github.io/) - used to display manuscript pages.
+
