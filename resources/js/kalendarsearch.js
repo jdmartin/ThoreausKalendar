@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
         seenElements.push('span');
         seenElements.push('note');
         reducedSetElements = new Set(seenElements);
-        console.log(reducedSetElements);
         return reducedSetElements
     }
 
