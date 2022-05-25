@@ -1,190 +1,301 @@
-    $(document).ready(function(){
-        $('#navmainpage').hide();
-        $('#search-help').hide();
-        var searchHelper = 0;
+document.addEventListener("DOMContentLoaded", function(event) {
+        //Useful variables for UI elements
+        document.querySelector('#navmainpage').style.display = "none";
+        var navMenu = document.querySelector('#navmainpage');
 
-    if ($("#search-menu").length > 0) {
-        $(window).bind("load", function() {
-            var $window = $(window),
-               $stickyEl = $('#search-menu'),
-               elTop = $stickyEl.offset().top;
+        document.querySelector('#search-help').style.display = "none";
+        var searchToggle = document.querySelector('#search-toggle');
+        searchToggle.addEventListener('click', searchHelpToggler);
 
-            $(window).scroll(function() {
-                $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
-            });
+        var menuButton = document.querySelector('.hiddenmenu')
+        menuButton.addEventListener('click', menuToggle);
+
+        var helpButton = document.querySelector('button#help');
+        helpButton.addEventListener('click', helpMenuToggler);
+
+        var persButton = document.querySelector('button#pers');
+        persButton.addEventListener('click', persButtonToggler);
+
+        var addButton = document.querySelector('button#add');
+        addButton.addEventListener('click', addButtonToggler);
+
+        var placeButton = document.querySelector('button#places');
+        placeButton.addEventListener('click', placeButtonToggler);
+
+        var pencilButton = document.querySelector('button#pencils');
+        pencilButton.addEventListener('click', pencilButtonToggler);
+
+        var gapsButton = document.querySelector('button#gaps');
+        gapsButton.addEventListener('click', gapsButtonToggler);
+
+        var notesButton = document.querySelector('button#notes');
+        notesButton.addEventListener('click', notesButtonToggler);
+
+        //Store some values for later
+        const theGaps = document.querySelectorAll('gap');
+        var currentPageName = ""
+        var currentPageNameCount = 0
+        
+        //Helper Functions
+        function menuToggle() {
+            let currentState = document.querySelector('#navmainpage').style.display;
+            if (currentState === "none") {
+               navMenu.style.display = "block"; 
+            }
+            else {
+                navMenu.style.display = "none";
+            }
+            if (currentPageNameCount === 0) {
+                let url = window.location.pathname;
+                let currentPosition = document.querySelector('#navmainpage').querySelector('a[href=".'+url+'"]');
+                currentPageName = currentPosition.innerHTML;
+                currentPosition.innerHTML = "<span class='navarrow'>→ </span>" + currentPosition.innerHTML;
+                currentPageNameCount = 1;
+            }
+        }
+
+        //Editor Button Helpers
+        function helpMenuToggler() {
+            let theHelpBox = document.querySelector('div#helpbox');
+            let theHelpBoxStyle = document.querySelector('div#helpbox').style.display;
+            if (theHelpBoxStyle != "block") {
+                theHelpBox.style.display = "block";
+             }
+             else {
+                theHelpBox.style.display = "none";
+             }
+             theHelpBox.classList.toggle('helpactive');
+             helpButton.classList.toggle('red');
+        }
+
+        function persButtonToggler() {
+            var persons = document.getElementsByTagName('persname');
+            if (persons.length === 0) {
+                persButton.classList.toggle('no-matches');
+            } else {
+                persButton.classList.toggle('red');
+                for (var i = 0; i < persons.length; i++) {
+                    persons[i].classList.toggle('active');
+                    persons[i].parentElement.closest('td').classList.toggle('personHighlight');
+                }
+            }
+        }
+
+        function addButtonToggler() {
+            var adds = document.querySelectorAll('add:not([rend="pencil"])')
+            if (adds.length === 0) {
+                addButton.classList.toggle('no-matches');
+            } else {
+                addButton.classList.toggle('red');
+                for (var i = 0; i < adds.length; i++) {
+                    adds[i].classList.toggle('active');
+                    adds[i].parentElement.closest('td').classList.toggle('addHighlight');
+                }
+            }
+        }
+
+        function placeButtonToggler() {
+            var places = document.getElementsByTagName("placename");
+            if (places.length === 0) {
+                placeButton.classList.toggle('no-matches');
+            } else {
+                placeButton.classList.toggle('red');
+                for (var i = 0; i < places.length; i++) {
+                    places[i].classList.toggle('active');
+                    places[i].parentElement.closest('td').classList.toggle('redHighlight');
+                }
+            }
+        }
+
+        function pencilButtonToggler() {
+            var pencils = document.querySelectorAll("add[rend='pencil']");
+            if (pencils.length === 0) {
+                pencilButton.classList.toggle('no-matches');
+            }
+            else {
+                pencilButton.classList.toggle('red');
+                for (var i = 0; i < pencils.length; i++) {
+                    pencils[i].classList.toggle('active');
+                    pencils[i].parentElement.closest('td').classList.toggle('pencilHighlight');
+                }
+            }
+        }
+
+        function gapsButtonToggler() {
+            gapsButton.classList.toggle('red');
+            var gaps = document.querySelectorAll("gap");
+            for (var i = 0; i < gaps.length; i++) {            
+                gaps[i].classList.toggle('hidden');
+            }    
+        }
+
+        function notesButtonToggler() {
+            allNotes = document.querySelectorAll('note');
+            if (allNotes.length === 0) {
+                notesButton.classList.toggle('no-matches');
+            } else {
+                notesButton.classList.toggle('red');
+                for (var i = 0; i < allNotes.length; i++) {
+                    allNotes[i].classList.toggle('hidden');
+                    allNotes[i].classList.toggle('active');
+                }
+            }
+        }
+
+        function searchHelpToggler() {
+            let searchHelpStyle = document.querySelector('#search-help').style.display;
+            let searchHelp = document.querySelector('#search-help');
+            if (searchHelpStyle != "block") {
+                searchHelp.style.display = "block";
+                searchToggle.textContent = "hide help";
+             }
+             else {
+                searchHelp.style.display = "none";
+                searchToggle.textContent = "show help";
+             }
+        }
+
+        //Layout and Formatting
+
+        //Make the menu sticky on scroll
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('#search-menu');
+            header.classList.toggle("sticky", window.scrollY > 0);
+            //Close main menu if scrolling past 100
+            if (this.window.scrollY > 100) {
+                navMenu.style.display = "none";
+            }
         });
-    }
 
-    var $refs = $('ref');
-    $refs.each(function() {
-        var reftarget = $(this).attr("target");
-        var refdate = $(this).children('date').attr("when");
-        var str1 = '<a href="' + reftarget + '" title="' + refdate + '" target="_blank"></a>';
-        $(this).children('date').wrap(str1);
-    });
+        //Prepare the NavMenu
+        fetch("./resources/html_snippets/navigation-menu.html").then(data => {
+            return data.text()
+        })
+        .then( data => {
+            document.querySelector("#navmainpage").innerHTML = data;
+        })
 
-    $('lb').after('<br/>');
+        //Prepare the Helpbox
+        fetch("./resources/html_snippets/helpmenu.html").then(data => {
+            return data.text()
+        })
+        .then( data => {
+            document.querySelector("#helpbox").innerHTML = data;
+        })
 
-    $('unclear').after('<span> </span>');
+        //Prepare the Colophon
+        fetch("./resources/html_snippets/colophon.html").then(data => {
+            return data.text()
+        })
+        .then( data => {
+            document.querySelector("#righty").innerHTML = data;
+        })
 
-    var $gaps = $('gap');
-    $gaps.each(function() {
-        var extent = $(this).attr('extent');
-        var reason = $(this).attr('reason');
-        var result = '';
-        if (typeof extent != 'undefined') {
-            result += "Extent: " + extent + "  |";
+        //Take <lb> in source and insert a line break in HTML
+        theLB = document.querySelectorAll('lb');
+        for (var i = 0; i < theLB.length; i++) {
+            let new_node = document.createElement('br');
+            theLB[i].parentNode.insertBefore(new_node, theLB[i].nextSibling);
         }
-        if (typeof reason != 'undefined') {
-            result += " Reason: " + reason + "  ";
+
+        //Insert spans after <unclear>
+        theUnclear = document.getElementsByTagName('unclear');
+        for (var i = 0; i < theUnclear.length; i++) {
+            let new_node = document.createElement('span');
+            theUnclear[i].parentNode.insertBefore(new_node, theUnclear[i].nextSibling);
+            theUnclear[i].textContent = " " + theUnclear[i].textContent + " ";
         }
-        var str1 = '<span style="border-bottom:1px dotted; "title="';
-        var str2 = '" ><span>[gap]</span>';
-        var link = str1.concat(result,str2);
-        $(this).append(link);
-    });
 
-    // var $editorial_notes = $("note[type='editorial']");
-    // $editorial_notes.each(function() {
-    //     var noteContent = $(this).text();
-    //     var noteResult = '';
-    //     noteResult += " " + noteContent + " ";
-    //     var str1 = '<span style="border-bottom:1px dotted;" "title="';
-    //     var str2 = '" ><span>[note]</span>';
-    //     var link = str1.concat(noteResult,str2);
-    //     $(this).html(link);
-    // });
+        //Prepare and show [gap] by default
+        function mindTheGaps() {
+            for (var i = 0; i < theGaps.length; i++) {
+                var extent = theGaps[i].getAttribute('extent');
+                var reason = theGaps[i].getAttribute('reason');
 
-    //Display some metadata
-    var $people = $('persname');
-    $people.each(function() {
-        var title = $(this).attr('ref');
-        if (typeof title != 'undefined') {
-            $(this).attr('title', title);
-            $(this).addClass('person-title');    
+                var result = '';
+
+                if (extent != null) {
+                    result += "Extent: " + extent + " |";
+                }
+                if (reason != null) {
+                    result += " Reason: " + reason + "  ";
+                }
+
+                var str1 = '<span type="gap" style="border-bottom:1px dotted; "title="';
+                var str2 = '" ><span>[gap]</span>';
+                var link = str1.concat(result,str2);
+                
+                theGaps[i].classList.remove('hidden');
+                theGaps[i].innerHTML = link;
+            }
         }
-    });
 
-    var $places = $('placename');
-    $places.each(function() {
-        var title = $(this).attr('ref');
-        if (typeof title != 'undefined') {
-            $(this).attr('title', title);
-            $(this).addClass('place-title');
+        //Prepare some persname info
+        var people = document.querySelectorAll('persname');
+        for (var i = 0; i < people.length; i++) {
+            let title = people[i].getAttribute('ref');
+            if (title != 'undefined') {
+                if (typeof people[i] != 'undefined') {
+                    if (title != null) {
+                        people[i].setAttribute('title', title);
+                        people[i].classList.add('person-title');
+                    }
+                }
+            }
         }
-    });
 
-    $('#pers').click(function() {
-        $(this).toggleClass('red');
-        $('persName').toggleClass('active');
-        $('persName').parentsUntil('tr').toggleClass('personHighlight');
-        return false;
-    });
+        //Prepare some place info
+        var places = document.querySelectorAll('placename');
+        for (var i = 0; i < places.length; i++) {
+            let title = places[i].getAttribute('ref');
+            if (title != 'undefined') {
+                if (typeof places[i] != 'undefined') {
+                    if (title != null) {
+                        places[i].setAttribute('title', title);
+                        places[i].classList.add('place-title');
+                    }
+                }
+            }
+        }
 
-    $('#add').click(function() {
-        $(this).toggleClass('red');
-        $("add[rend != 'pencil']").toggleClass('active');
-        $("add[rend != 'pencil']").parentsUntil('tr').toggleClass('addHighlight');
-        return false;
-    });
+        //Prepare some notes
+        var thePlaceNotes = document.querySelectorAll('note:not([type="editorial"])');
+        for (var i = 0; i < thePlaceNotes.length; i++) {
+            let place = thePlaceNotes[i].getAttribute('place');
+            let content = thePlaceNotes[i].textContent;
+            let result = '';
 
-    $('#places').click(function() {
-        $(this).toggleClass('red');
-        $('placeName').toggleClass('active');
-        $('placeName').parentsUntil('tr').toggleClass('redHighlight');
-        return false;
-    });
+            if (place != null) {
+                result += "Location: " + place + " |";
+            }
+            if (content != null) {
+                result += " Content: " + content + "  ";
+            }
 
-    $('#pencils').click(function() {
-        $(this).toggleClass('red');
-        $('[rend=pencil]').toggleClass('active');
-        $("[rend=pencil]").parentsUntil('tr').toggleClass('pencilHighlight');
-        return false;
-    });
+            let str1 = '<span type="note" style="border-bottom:1px dotted; "title="';
+            let str2 = '" ><span>[note]</span>';
+            let placeNote = str1.concat(result,str2);
 
-    $('.hiddenmenu').click(function() {
-        $('#navmainpage').toggle();
-    });
+            thePlaceNotes[i].innerHTML = placeNote;
+            thePlaceNotes[i].classList.add("hidden");
+        }
+        var theEdNotes = document.querySelectorAll('note[type="editorial"]');
+        for (var i = 0; i < theEdNotes.length; i++) {
+            let ednote = theEdNotes[i].textContent;
+            let result = '';
 
-    $('.hiddenmenu').one("click", function(){
-       var url = window.location.pathname;
-        //$('#navmainpage a[href="'+url+'"]').toggleClass("navbutton activenavbutton");
-        //$('#navmainpage a[href="'+url+'"]').parent().css("background-color", "#e2e2e2");
-        $('#navmainpage a[href=".'+url+'"]').prepend("<span style=\"color: #00f7ef;\">&#8594;  </span>");
-    });
+            if (ednote != null) {
+                result += "Note: " + ednote + " ";
+            }
 
-    $('#search-toggle').click(function() {
-       $('#search-help').toggle();
-       if (searchHelper === 0) {
-            $('#search-toggle').text("hide help");
-            searchHelper = 1;
-       } else if (searchHelper === 1) {
-            $('#search-toggle').text("show help");
-            searchHelper = 0;
-       }
-            return false;
-    });
+            let str1 = '<span type="note" style="border-bottom:1px dotted; "title="';
+            let str2 = '" ><span>[note]</span>';
+            let theEdNote = str1.concat(result,str2);
 
-    $("button#gaps").on('click', showGapsClick);
-    function showGapsClick () {
-        $(this).toggleClass('red');
-        $('gap').toggleClass('hidden');
-        $("button#gaps").html('gaps')
-            .off('click').on('click', hideGapsClick);
-        return false;
-    }
-
-    function hideGapsClick () {
-        $(this).toggleClass('red');
-        $('gap').toggleClass('hidden');
-        $("button#gaps").html('gaps')
-            .off('click').on('click', showGapsClick);
-        return false;
-    }
-
-    $("button#notes").on('click', showNotesClick);
-    function showNotesClick () {
-        $(this).toggleClass('red');
-        $('note').toggleClass('active');
-        $("button#notes").html('notes')
-            .off('click').on('click', hideNotesClick);
-        return false;
-    }
-
-    function hideNotesClick () {
-        $(this).toggleClass('red');
-        $('note').toggleClass('active');
-        $("button#notes").html('notes')
-            .off('click').on('click', showNotesClick);
-        return false;
-    }
-
-    $("button#help").on('click', showHelpClick);
-    function showHelpClick () {
-        $(this).toggleClass('red');
-        $('div#helpbox').show()
-            .toggleClass('helpactive');
-        $("button#help").off('click').on('click', hideHelpClick);
-        return false;
-    }
-
-    function hideHelpClick () {
-        $(this).toggleClass('red');
-        $('div#helpbox').toggleClass('helpactive')
-            .hide();
-        $("button#help").off('click').on('click', showHelpClick);
-        return false;
-    }
-
-    $(window).on('scroll', function () {
-        $("div.hiddenmenu").css({opacity:0.5});
-    });
-
-    $(window).scroll(function() {
-        clearTimeout($.data(this, 'scrollTimer'));
-        $.data(this, 'scrollTimer', setTimeout(function() {
-            $("div.hiddenmenu").css({opacity:1.0});
-    }, 150));
-});
-
+            theEdNotes[i].innerHTML = theEdNote;
+            theEdNotes[i].classList.add("hidden");
+        }
+    
+    //Execute on Page Load
+    mindTheGaps();
 });

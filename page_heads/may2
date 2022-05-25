@@ -5,11 +5,9 @@
     <meta charset="utf-8" />
     <title>General Phenomena for May</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/kalendar.min.css" />
-    <script type="text/javascript" src="./resources/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="./resources/js/jquery-ui.min.js"></script>
+
     <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
-    <script async="async" type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>
-    <script async="async" type="text/javascript" src="./resources/js/blast/jquery.blast.min.js"></script>
+    <script type="text/javascript" src="./resources/js/kalendarsearch.min.js"></script>    
     <script type="text/javascript" src="./resources/js/linkmaker.min.js"></script>
 </head>
 
@@ -17,9 +15,6 @@
     <div class="hiddenmenu" onclick="">
         ☰
         <div id="navmainpage">
-            <script>
-                $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
-            </script>
         </div>
     </div>
     <div id="main">
@@ -36,6 +31,7 @@
                             <button id="add">adds</button>
                             <button id="pencils">pencil</button>
                             <button id="gaps" class="red">gaps</button>
+                            <button id="notes">notes</button>
                             <button id="help">help</button>
                         </td>
                         <td>
@@ -50,7 +46,4 @@
                 </table>
             </div>
             <div id="helpbox">
-                <script>
-                    $("#helpbox").load("./resources/html_snippets/helpmenu.html");
-                </script>
             </div>

@@ -6,13 +6,9 @@
    General Phenomena for November (Coming Soon)
         </title>
         <link href="./resources/css/kalendar.min.css" rel="stylesheet">
-        <script src="./resources/js/jquery-3.6.0.min.js">
-        </script>
         <script src="./resources/js/kalendar.js">
         </script>
-        <script async src="./resources/js/kalendarsearch.min.js">
-        </script>
-        <script async src="./resources/js/blast/jquery.blast.min.js">
+        <script src="./resources/js/kalendarsearch.min.js">
         </script>
         <script src="./resources/js/linkmaker.min.js">
         </script>
@@ -21,9 +17,6 @@
         <div class="hiddenmenu" onclick>
             ☰
             <div id="navmainpage">
-                <script>
-                    $("#navmainpage").load("./resources/html_snippets/navigation-menu.html");
-                </script>
             </div>
         </div>
         <div id="main">
@@ -51,6 +44,7 @@
                                     <button class="red" id="gaps">
                                         gaps
                                     </button>
+                                    <button id="notes">notes</button>
                                     <button id="help">
                                         help
                                     </button>
@@ -68,9 +62,6 @@
                     </table>
                 </div>
                 <div id="helpbox">
-                    <script>
-                        $("#helpbox").load("./resources/html_snippets/helpmenu.html");
-                    </script>
                 </div>
                 <div>
                     Use the Menu or your scroll wheel to zoom.
@@ -106,9 +97,6 @@
                             </ul>
                         </div>
                         <div id="righty">
-                            <script>
-                                $("#righty").load("./resources/html_snippets/colophon.html");
-                            </script>
                         </div>
                         <div id="nader">
                             <br>
@@ -116,6 +104,7 @@
                             <button id="show">
                                 Search
                             </button>
+                            <button id="reset">Reset</button>
                             <br>
                             <a href="#" id="search-toggle" style="font-size: 0.8em;">
                                 search help

@@ -15,6 +15,12 @@ date {
     font-weight: bold;
     display: inline;
     position: relative;
+
+}
+
+date::after {
+    content: " ";
+    white-space: pre;
 }
 
 ref a {
@@ -62,6 +68,15 @@ persName.active {
 gap {
     display: inline;
     background: #feece9;
+
+    .hidden {
+        display: none;
+    }
+}
+
+span[type=gap]::before, span[type=gap]::after , span[type=note]::before, span[type=note]::after{
+    content: " ";
+    white-space: pre;
 }
 
 .hidden {
@@ -70,20 +85,15 @@ gap {
 unclear {
     border-bottom: 1px dashed #999;
 }
-note{
-    [place="below"]:before {
-        display: block;
-        content: '\A';
+note {
+    background: rgb(248, 245, 211);
+
+    .hidden {
+        visibility: hidden;
     }
-    [place="above"]:after {
-        @extend [place=below], :before
-    }
-    [type="editorial"] {
-        display: none;
-    }
-    [type="editorial"].active {
+
+    .active {
         display: inline;
-        background: antiquewhite;
     }
 }
 
@@ -116,6 +126,11 @@ note{
 
     .red {
         background-color:white;
+        color: black;
+    }
+
+    .no-matches {
+        background-color: grey;
         color: black;
     }
 }

@@ -47,6 +47,9 @@
 #navmainpage a:hover {
   color: #6BFBF7;
 }
+#navmainpage span.navarrow {
+  color: #6BFBF7;
+}
 
 .activenavbutton {
   background-color: #e2e2e2;
@@ -202,6 +205,11 @@ date {
   position: relative;
 }
 
+date::after {
+  content: " ";
+  white-space: pre;
+}
+
 ref a {
   color: #8A4E5D;
 }
@@ -258,6 +266,14 @@ gap {
   display: inline;
   background: #feece9;
 }
+gap .hidden {
+  display: none;
+}
+
+span[type=gap]::before, span[type=gap]::after, span[type=note]::before, span[type=note]::after {
+  content: " ";
+  white-space: pre;
+}
 
 .hidden {
   display: none;
@@ -267,16 +283,14 @@ unclear {
   border-bottom: 1px dashed #999;
 }
 
-note [place=below]:before, note [place=below][place=above]:after {
-  display: block;
-  content: "\a";
+note {
+  background: rgb(248, 245, 211);
 }
-note [type=editorial] {
-  display: none;
+note .hidden {
+  visibility: hidden;
 }
-note [type=editorial].active {
+note .active {
   display: inline;
-  background: antiquewhite;
 }
 
 .person-title {
@@ -307,6 +321,10 @@ note [type=editorial].active {
 }
 #search-menu .red {
   background-color: white;
+  color: black;
+}
+#search-menu .no-matches {
+  background-color: grey;
   color: black;
 }
 
@@ -444,6 +462,30 @@ note [type=editorial].active {
 #nader {
   width: 20%;
   float: left;
+}
+#nader #alphasearch {
+  font-weight: normal;
+}
+#nader input.horizontal-shake {
+  animation: horizontal-shaking 0.5s;
+  animation-iteration-count: 2;
+}
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 #search-help {

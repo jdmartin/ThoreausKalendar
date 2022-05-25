@@ -13,13 +13,19 @@
                     </div>
                     <div id="righty">
                         <script>
-                            $("#righty").load("./resources/html_snippets/colophon.html");
-                        </script>
+                            fetch("./resources/html_snippets/colophon.html").then(data => {
+                                return data.text()
+                            })
+                            .then( data => {
+                                document.querySelector("#righty").innerHTML = data;
+                            })
+                    </script>
                     </div>
                     <div id="nader">
                         <br/>
                         <input type="text" id="alphasearch" placeholder="Search this page..." autocomplete="off"/>
                         <button id="show">Search</button>
+                        <button id="reset">Reset</button>
                         <br/>
                         <a id="search-toggle" href="#" style="font-size: 0.8em;">search help</a>
                         <div id="search-help">
