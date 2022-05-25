@@ -59,8 +59,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function blasterMaster(term) {
-        findAndReplaceDOMText(document.getElementById('kalendar'), {
+        let initialLetterIsCapital = term.charAt(0).toUpperCase() + term.slice(1);
+        let theKalendar = document.getElementById('kalendar');
+        //Find the term as given
+        findAndReplaceDOMText(theKalendar, {
             find: term,
+            wrap: 'span',
+            wrapClass: 'blast'
+        });
+        //Find the term if the first letter is a capital
+        findAndReplaceDOMText(theKalendar, {
+            find: initialLetterIsCapital,
             wrap: 'span',
             wrapClass: 'blast'
         });
