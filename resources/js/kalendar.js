@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
         }
 
+        //Make textContent safer
         function sanitize(string) {
             return string
             .replace(/&/g, "&amp;")
@@ -61,6 +62,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
             .replace(/>/g, "&gt;")
             .replace(/"/g, "&quot;")
             .replace(/'/g, "&#039;");
+        }
+
+        //Prepare page title
+        function putPageTitle() {
+            let pageTitle = sanitize(document.title);
+            let target = document.getElementById('title_location');
+            target.textContent = pageTitle;
         }
 
         //Editor Button Helpers
@@ -306,5 +314,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
     
     //Execute on Page Load
+    putPageTitle();
     mindTheGaps();
 });

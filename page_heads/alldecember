@@ -34,11 +34,7 @@
                             <button id="help">help</button>
                         </td>
                         <td>
-                            <i>
-                                <script>
-                                    var pageTitle = document.title;
-                                    document.write(pageTitle);
-                                </script>
+                            <i><span id="title_location"></span>
                             </i>
                         </td>
                     </tr>
