@@ -10,7 +10,7 @@ This site is designed to work as well offline as it does online.  This is both t
 To run your own copy, follow these steps.
 
     git clone https://github.com/jdmartin/ThoreausKalendar.git
-    cd Kalendar-2021
+    cd ThoreausKalendar
     python -m http.server --bind 127.0.0.1 1337
 
     (Note: the above assumes python3, and the port can be changed to suit your needs)
