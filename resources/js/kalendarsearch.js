@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
             turnOutTheLights();
         }
 
-        var givenValue = inputs.value.replace(/[!"#$%&()*+.\/:;<=>?@\[\\\]^`{|}~]/g, '').replace(/ /g, '');
+        var givenValue = inputs.value.replace(/[!"#$%&()*+.\/:;<=>?@\[\\\]^`{|}~]/g, '');
         var givenValues = givenValue.split(",");
 
         for (var i = 0; i < givenValues.length; i++) {
