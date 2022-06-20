@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>General Phenomena for November</title>
+    <link rel="stylesheet" type="text/css" href="/resources/css/kalendar.min.css" />
+</head>
+
+<body>
+    <div>Use the Menu or your scroll wheel to zoom.<br />Click and hold to drag/move around the image.</div>
+    <div><a href="javascript:window.open('','_self').close();">[close]</a></div>
+    <div id="openseadragon1" style="width: 100%; height: 800px;" />
+    <script src="/resources/js/seadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon1",
+            prefixUrl: "/resources/js/seadragon/",
+            tileSources: "/resources/images/tiled/nov2.dzi"
+        });
+    </script>
+</body>
+
+</html>
