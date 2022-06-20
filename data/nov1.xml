@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- The line above is the "XML declaration"; it is not -->
+<!-- required, but we recommend using it. -->
+<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
+<!-- The line above is a processing instruction for finding the schema; -->
+<!-- it is intended for oXygen, but other software may use it, also. -->
+<!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
+<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Charts of General Phenomena</title>
+        <author>
+          <persName>Henry David Thoreau</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <ab><!-- copyright or copyleft information here --></ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="section">
+        <head>General Phenomena for November</head>
+        <table rows="13" cols="12">
+          <head>General Phenomena for  </head>
+          <row role="label">
+            <cell/>
+            <cell/>
+            <cell>52</cell>
+            <cell>53</cell>
+            <cell>54</cell>
+            <cell>55</cell>
+            <cell><add place="above">very pleasant Nov.<lb/>was in <placeName>Perth Amboy</placeName></add>56</cell>
+            <cell>57</cell>
+            <cell>58</cell>
+            <cell>59</cell>
+            <cell>60</cell>
+            <cell>61</cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">6+</add></cell>
+            <cell><add place="above">Nov <date when="1851-11-09">9<link
+                    target="https://tinyurl.com/y9qb5efw"/></date> fallen more than 1 foot<lb/>since
+                last observed</add>River lowest<add place="below"><add rend="pencil">say <date
+                    when="1851-11-10">10</date></add></add></cell>
+            <cell/>
+            <cell><add place="above"><add rend="pencil">lowest say <date when="1853-11-30"
+              >30</date></add><lb/>at highest Oct <date when="1853-10-31">31<link target="https://tinyurl.com/y5bta68b"></link></date></add><date
+                when="1853-11-05">5<link target="https://tinyurl.com/y2hwrfa9"></link></date> recent flood gone down<lb/>in a great measure<lb/><date
+                  when="1853-11-14">14<link target="https://tinyurl.com/y4w3jzpb"></link></date> risen surprisingly to<lb/> spring height owing to
+              rain<lb/>of <date when="1853-11-13">13th</date> - higher than before <lb/>since spring
+              - <date when="1853-11-15">15<link target="https://tinyurl.com/yxqplwkk"></link></date> still<lb/>higher so I cross
+              <placeName>Hubbard</placeName><lb/>with ease - <date when="1853-11-16">16<link target="https://tinyurl.com/yxzl33u5"></link></date>
+              still higher<lb/>paddle from Boat to <unclear>I.</unclear> straight</cell>
+            <cell><add place="above"><add rend="pencil">say 1st lowest</add></add><date
+              when="1854-11-02">2<link target="https://tinyurl.com/y5atnowl"></link></date> begins to rise -<lb/><date when="1854-11-10">10<link target="https://tinyurl.com/y2mlcy7f"></link></date>
+              still at sum. level<lb/><date when="1854-11-13">13<link target="https://tinyurl.com/yxloz4jq"></link></date> at last decidedly<lb/>rising
+              on ac. of of rain<lb/>of <date when="1854-11-11">11</date>-<date when="1854-11-12"
+                >12</date>-<date when="1854-11-13">13</date> - <date when="1854-11-14">14<link target="https://tinyurl.com/y635zjo5"></link></date>
+              sight-<lb/>ly over meadows -<lb/><date when="1854-11-16">16<link target="https://tinyurl.com/y3vojdpt"></link></date> almost all
+                <unclear>cabins</unclear><lb/>covered - but R. not<lb/>nearly as high as
+              last<lb/>year -</cell>
+            <cell><add place="above"><add rend="pencil">say lowest 1st</add></add><date
+              when="1855-11-04">4<link target="https://tinyurl.com/y2mvc3qg"></link></date> though ap. risen consid.<lb/>is not more than 9 or 10 in
+              above<lb/>"Lowest S.L."<lb/><date when="1855-11-07">7<link target="https://tinyurl.com/yykp9k9s"></link></date> risen a little more.
+                <placeName>Assabet</placeName><lb/>esp. &amp;  <unclear>more</unclear> at other<lb/><date when="1855-11-14"
+                  >14<link target="https://tinyurl.com/yy9q3gn2"></link></date> rain has raised R. an ad.<lb/>ditional foot or more - is<lb/>creeping
+              over the weeds -</cell>
+            <cell/>
+            <cell><date when="1857-11-02">2<link target="https://tinyurl.com/yywp7vsk"></link></date> falling fast - push<lb/>direct over
+                <placeName>Lee's mead</placeName><lb/>prob. for the last time - scraping
+              the<lb/><unclear>ground</unclear></cell>
+            <cell><date when="1858-11-22">22<link target="https://tinyurl.com/y6kdma9x"></link></date> quite low - almost<lb/>as low as it has been - for<lb/>it has not been very low<lb/><add rend="pencil">lowest prob 1st</add></cell>
+            <cell><add place="above"><add rend="pencil">lowest 6 (<gap reason="unclear"
+              extent="1 word"/>)</add></add><date when="1859-11-06">6<link target="https://tinyurl.com/y6tzoayo"></link></date> quite low - 3¼
+              in<lb/>meadows S.L. - lower than<lb/>before this year - <date when="1859-11-24">24<link target="https://tinyurl.com/y3xe3msa"></link></date><lb/>risen consid. at last owing<lb/>to rain of <date when="1859-11-22">22</date> - had been<lb/>very low before</cell>
+            <cell><add place="above"><add rend="pencil">Lowest say 1st</add></add><date
+              when="1860-11-10">10<link target="https://tinyurl.com/yyhmbbhy"></link></date> &amp; <date when="1860-11-11">11<link target="https://tinyurl.com/yyhmbbhy"></link></date> raining raising
+              R<lb/>consid. onto meadow<lb/><date when="1860-11-14">14<link target="https://tinyurl.com/y5yajzj8"></link></date> 2 ft 4 in above
+              S.L.<lb/>accordingly &amp; at height<lb/><date when="1860-11-30">30<link target="https://tinyurl.com/yxtvozy9"></link></date> rain
+              raising R. some<lb/>what</cell>
+            <cell><add place="above"><add rend="pencil">Lowest say 1st</add></add><date
+                when="1861-11-05">5</date> rasied 8 1/8 <unclear>not</unclear><lb/>above S.L. <gap
+                reason="unclear" extent="1 word"/> rain<lb/>of <date when="1861-11-02"
+                >2</date>-<date when="1861-11-03">3</date> night<lb/><date when="1861-11-14"
+                >14</date> 2½ in above S.L.<lb/><date when="1861-11-17">17</date> about 1¼ in<lb/>below S.L.</cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">5<lb/>14+</add></cell>
+            <cell><add place="above">Nov <date when="1851-11-01">1<link target="https://tinyurl.com/yy82tpxf"></link></date> raised at least 2
+                feet<lb/>by rain in night of Oct <date when="1851-10-30">30</date> the<lb/><gap reason="unclear" extent="1 word"></gap>
+              stems of but-bush submerged<lb/>&amp; - Nov <date when="1851-11-02">2<link target="https://tinyurl.com/y32mupux"></link></date>
+                muskrat cabins<lb/>mostly covered<lb/></add>River highest<add place="below"><date
+                  when="1851-11-21">21<link target="https://tinyurl.com/y2d92vad"></link></date> rained hard &amp; so R. raised much<lb/>higher than it
+                has been this fall</add></cell>
+            <cell/>
+            <cell><date when="1853-11-19">19<link target="https://tinyurl.com/y3xmsmgl"></link></date> ab. at same level<lb/><date when="1853-11-20"
+              >20<link target="https://tinyurl.com/y4xstxro"></link></date> begins to fall unchecked<lb/>by rain of <date when="1853-11-21">21<link target="https://tinyurl.com/y5f5fgh7"></link></date>
+              - <date when="1853-11-23">23<link target="https://tinyurl.com/y388qwzh"></link></date> going<lb/>down but still far over meadow<lb/><date
+                when="1853-11-25">25<link target="https://tinyurl.com/y4ks8lcj"></link></date> meadows rapidly becoming bare<lb/><add rend="pencil"
+                >highest say <date when="1853-11-18">18th</date></add></cell>
+            <cell><date when="1854-11-28">28<link target="https://tinyurl.com/y4adhshn"></link></date> not so high as <date when="1854-11-16"
+              >16th</date><lb/>- <date when="1854-11-30">30<link target="https://tinyurl.com/y6e3ot3y"></link></date> slightly
+                over<lb/>meadows<lb/><add rend="pencil">highest <date when="1854-11-16"
+                >16</date></add></cell>
+            <cell><date when="1855-11-15">15<link target="https://tinyurl.com/y6zulokp"></link></date> rising<lb/><add rend="pencil">Highest <add
+                  rend="underline">say</add> 15th or later<lb/>perhaps <gap reason="unclear" extent="1 word"></gap> S.L.</add></cell>
+            <cell/>
+            <cell><add rend="pencil">prob 1st highest</add></cell>
+            <cell><date when="1858-11-05">5<link target="https://tinyurl.com/y5njtv7u"></link></date> rises some on ac. of<lb/>rain of <date when="1858-11-04">4th</date> &amp; Oct <date when="1858-10-30">30th</date> so<lb/>lowest the <date when="1858-10-30">30th</date></cell>
+            <cell><add rend="pencil">Highest say 24</add></cell>
+            <cell><add rend="pencil">Highest say 14th</add></cell>
+            <cell><date when="1861-11-20">20</date> almost 1½ in.<lb/>below S.L.<lb/><add
+                rend="pencil">Highest 5th</add><lb/><date when="1861-11-28">28th</date> 2 <add
+                rend="underline">PM</add><lb/>2¼  above S.L.</cell>
+            
+          </row>
+          <row>
+            <cell><add rend="pencil"><del>11</del><lb/>9</add></cell>
+            <cell><add place="above"><date when="1851-11-15">15<link target="https://tinyurl.com/y76sxx7w"></link></date> rainy day has me in house</add>Rain in first half</cell>
+            <cell><date when="1852-11-12">12<link target="https://tinyurl.com/ycxn293v"></link></date> 4 <add rend="underline">PM</add> clears
+              off</cell>
+            <cell><date when="1853-11-08">8</date>-<date when="1853-11-09">9<link target="https://tinyurl.com/y6jr9e8t"></link></date> rain in
+              night<lb/>&amp; hard rain in <add rend="underline">PM</add> <date when="1853-11-09">9th<link target="https://tinyurl.com/y42k2p5m"></link></date><lb/><date
+                when="1853-11-13">13<link target="https://tinyurl.com/y5a5ohyz"></link></date> rain all day</cell>
+            <cell><date when="1854-11-11">11th<link target="https://tinyurl.com/yykbbcxp"></link></date> <date when="1854-11-12">12<link target="https://tinyurl.com/yykbbcxp"></link></date> &amp; <date when="1854-11-13">13th<link target="https://tinyurl.com/yykbbcxp"></link></date> <add rend="underline">hard</add></cell>
+            <cell><date when="1855-11-12">12</date>-<date when="1855-11-13">13<link target="https://tinyurl.com/y642twng"></link></date> heavy rain in night</cell>
+            <cell/>
+            <cell><date when="1857-11-09">9<link target="https://tinyurl.com/yyctwdts"></link></date> rainy in <add rend="underline">AM</add><lb/><date when="1857-11-13">13<link target="https://tinyurl.com/yxebdhk5"></link></date> some rain in night</cell>
+            <cell><date when="1858-11-04">4<link target="https://tinyurl.com/y526fnk9"></link></date> a rainy day<date when="1858-11-06">6<link target="https://tinyurl.com/yywkh8ld"></link></date> another rainy day &amp; night<lb/>much <add rend="underline">fair</add> weather last 3<lb/>months</cell>
+            <cell><date when="1859-11-10">10<link target="https://tinyurl.com/y4bceazb"></link></date> warm rain</cell>
+            <cell><date when="1860-11-03">3<link target="https://tinyurl.com/y3lk6gth"></link></date> more or less rainy<lb/><date when="1860-11-06">6<link target="https://tinyurl.com/y2qy55gp"></link></date> a shower in <add rend="underline">PM</add><lb/><date when="1860-11-10">10<link target="https://tinyurl.com/y5539tn6"></link></date> &amp; <date when="1860-11-11">11<link target="https://tinyurl.com/y5539tn6"></link></date> rainy</cell>
+            <cell><del><date when="1861-11-02">2</date><add rend="underline">fine</add> rain in <add rend="underline">PM</add></del><lb/><date when="1861-11-09">9</date> ill day consid.<lb/><date when="1861-11-11">11</date> rain</cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">22</add></cell>
+            <cell><add place="above"><date when="1851-11-21">21st<link target="https://tinyurl.com/y4gjxsev"></link></date> rained hard</add>Rain in last half</cell>
+            <cell/>
+            <cell><date when="1853-11-18">18<link target="https://tinyurl.com/y4a6rgrm"></link></date> a drizzling day </cell>
+            <cell/>
+            <cell>x</cell>
+            <cell/>
+            <cell><date when="1857-11-17">17<link target="https://tinyurl.com/y28ljych"></link></date> last night<lb/><date when="1857-11-23">23<link target="https://tinyurl.com/y3mrxozz"></link></date> evening &amp; night, heavy</cell>
+            <cell/>
+            <cell><date when="1859-11-22">22<link target="https://tinyurl.com/y5h6pyn3"></link></date> after snow</cell>
+            <cell><date when="1860-11-30">30<link target="https://tinyurl.com/yxkjptor"></link></date> rain</cell>
+            <cell><date when="1861-11-23">23</date>
+              <add rend="underline">PM</add> a mizzling<lb/>rain with a very little<lb/>fine hail -
+              in night<lb/>becomes a NE rain<lb/>storm <gap reason="unclear" extent="6 words"></gap> &amp;<lb/><unclear>spring like</unclear></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">17</add></cell>
+            <cell><add place="above"><date when="1850-11-26">26<link target="https://tinyurl.com/yccnhya5"></link></date>-<date when="1850-11-28"
+              >8<link target="https://tinyurl.com/ybtk3vjv"></link></date>-<date when="1850-11-29">9<link target="https://tinyurl.com/y9y2ncxy"></link></date> - 50</add>Drizzling &amp; misty
+              rain</cell>
+            <cell><date when="1852-11-01">1st</date><link target="https://tinyurl.com/ycbp7sef"></link> warm mizzling rain<lb/>today &amp; 2 days past</cell>
+            <cell><date when="1853-11-18">18<link target="https://tinyurl.com/y4x4yzwl"></link></date> a drizzling day <date when="1853-11-21">21<link target="https://tinyurl.com/y25q9uau"></link></date> a fine mizzling day all<lb/>night &amp; to-day <date when="1853-11-24">24<link target="https://tinyurl.com/y3xbjxon"></link></date> drizzling forenoon</cell>
+            <cell> </cell>
+            <cell><date when="1855-11-06">6<link target="https://tinyurl.com/yy5nlyuv"/></date>
+              mizzling rain drives me<lb/>home - a great many miz-<lb/>zling days the last
+              fortning<lb/>yet little rain <date when="1855-11-07">7<link
+                  target="https://tinyurl.com/yy7vupsm"/></date> another<lb/>mizzling day as fine a
+              mist as can<lb/>fall</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-11-24">24<link target="https://tinyurl.com/y6cluog3"></link></date> dark &amp; drizzling still<lb/>with a little snow falling</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1861-11-02">2</date> fine rain in <add rend="underline">PM</add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">18</add></cell>
+            <cell>NE storm</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell> </cell>
+            <cell/>
+            <cell><date when="1858-11-23">23<link target="https://tinyurl.com/y3w2bavn"></link></date> with sugarings of<lb/>snow</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1861-11-03">3</date> last night<lb/>till noon<unclear>to</unclear>day - <lb/>&amp; night wreck<lb/><date when="1861-11-23">23</date> (v above)</cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">22<lb/><del>25</del></add></cell>
+            <cell>Thunder &amp; lightning</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-11-23">23<link target="https://tinyurl.com/y3plj2es"></link></date> after warm S.W. wind</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil"><del></del><lb/>9</add></cell>
+            <cell><lb/>Rainbow</cell>
+            <cell><date when="1852-11-12">12<link target="https://tinyurl.com/ya3p3omp"></link></date> <add rend="underline">PM</add> a very bright<lb/>rainbow</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">3 &amp; 4</add></cell>
+            <cell><add place="above"><date when="1850-11-03">3</date> - 50 a cloudy still moist<lb/><add rend="underline">PM</add></add>Still cloudy day</cell>
+            <cell/>
+            <cell><date when="1853-11-03">3rd<link target="https://tinyurl.com/y4gq3vn9"></link></date> rather cloudy <add rend="pencil">PM</add></cell>
+            <cell/>
+            <cell><date when="1855-11-04">4<link target="https://tinyurl.com/y367sroh"></link></date> dark almost rainy day<lb/><date when="1855-11-07">7<link target="https://tinyurl.com/yxwhh79u"></link></date> still, dark, mizzling<lb/><add rend="underline">thoughtful PM</add></cell>
+            <cell/>
+            <cell><date when="1857-11-01">1st<link target="https://tinyurl.com/y66dj6ka"></link></date> cloudy <add rend="underline">PM</add> after clear<lb/>morning</cell>
+            <cell><date when="1858-11-05">5<link target="https://tinyurl.com/y2e88zyt"></link></date>a still cloudy day<lb/><date when="1858-11-28">28<link target="https://tinyurl.com/y6l66vph"></link></date> a gray overcast still<lb/>day.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">23</add></cell>
+            <cell><add rend="pencil">rain &amp; clears <unclear>off</unclear> <gap reason="unclear" extent="1 word"></gap> at night</add><lb/><unclear>Foul</unclear> in <add
+                rend="underline">AM</add>, pleasant in <add rend="underline">PM</add></cell>
+            <cell/>
+            <cell><date when="1853-11-24">24th<link target="https://tinyurl.com/y48zevu7"></link></date> but very cold</cell>
+            <cell/>
+            <cell><date when="1855-11-11">11<link target="https://tinyurl.com/yyaj6cww"></link></date> warm &amp; pleasant <add rend="underline">PM</add><lb/><date when="1855-11-14">14<link target="https://tinyurl.com/y68pucpf"></link></date>clear bright warm <add rend="underline">PM</add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><add rend="1860-11-02">2<link target="https://tinyurl.com/y4z6jl2a"></link></add> as several days past<lb/>cloudy &amp; misty in morning<lb/>&amp; fairer warmer if not<lb/><del><add rend="underline">PM</add></del>Ind. sum. in <add rend="underline">PM</add></cell>
+            <cell><date when="1861-11-22">22nd</date> cloudy <add rend="underline">AM</add><lb/>PM
+              all in after-<lb/>glow</cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">13<lb/><del>12</del></add></cell>
+            <cell>Fog in morning</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-11-08">8<link target="https://tinyurl.com/y22gjogy"></link></date> quite warm &amp; foggy morn.<lb/>ing - <date when="1855-11-13">13<link target="https://tinyurl.com/y2jdh5j5"></link></date> misty morn</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-11-17">17<link target="https://tinyurl.com/y2n2wh5v"></link></date> &amp; <date when="1859-11-18">18<link target="https://tinyurl.com/y2n2wh5v"></link></date> <gap reason="unclear" extent="1 word"></gap> almost<lb/>over</cell>
+            <cell/>
+            <cell><date when="1861-11-06">6</date> touch of Ind.<lb/> sum in <add rend="underline">PM</add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil"><del>16</del><lb/>14</add></cell>
+            <cell>1st wreck line</cell>
+            <cell/>
+            <cell><date when="1853-11-05">5<link target="https://tinyurl.com/y5lebfgu"></link></date> river wreck<lb/><date when="1853-11-07">7<link target="https://tinyurl.com/y5s3356u"></link></date> water wreck</cell>
+            <cell><date when="1854-11-14">14<link target="https://tinyurl.com/y2brob23"></link></date> 1st observable</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">14</add><lb/><del>15<lb/>13?</del></cell>
+            <cell><add place="above"><date when="1850-11-19">19<link target="https://tinyurl.com/yd68gkqn"></link></date> - 50 1st really cold
+              day</add><add rend="pencil">perhaps <date when="1851-11-11">11<link target="https://tinyurl.com/y8pw4ahg"></link></date></add>1st
+              really cold and windy weather</cell>
+            <cell><add rend="pencil"><date when="1852-11-16">16<link target="https://tinyurl.com/y82nec7e"></link></date> colder weather</add></cell>
+            <cell><add rend="pencil"><date when="1853-11-11">11<link target="https://tinyurl.com/y5l7ctpd"></link></date> ice on River <unclear>bank</unclear><lb/><date
+              when="1853-11-05">5<link target="https://tinyurl.com/yxednxs2"></link></date> or <date when="1853-11-06">6<link target="https://tinyurl.com/y3gut4yt"></link></date> <gap reason="unclear" extent="3 words"></gap></add></cell>
+            <cell><add rend="pencil"><date when="1854-11-06">6<link target="https://tinyurl.com/yxb3smnp"></link></date> dif to drive<lb/>stake in frozen ground</add></cell>
+            <cell><add rend="pencil"><date when="1855-11-20">20<link target="https://tinyurl.com/yxuugqsn"></link></date> a cold day</add></cell>
+            <cell/>
+            <cell><date when="1857-11-14">14<link target="https://tinyurl.com/y3lmfj8o"/></date>
+              very much colder than<lb/>before - hands stiff - then<lb/>27° at 6 <add rend="underline"
+                >PM</add></cell>
+            <cell><add rend="pencil"><date when="1858-11-12">12<link target="https://tinyurl.com/y45nhny7"></link></date>much the coldest<lb/>day yet</add></cell>
+            <cell/>
+            <cell><add rend="pencil"><date when="1860-11-20">20th<link target="https://tinyurl.com/y6pnyzat"></link></date> &amp; <date when="1860-11-21">21st<link target="https://tinyurl.com/y3cfcyx5"></link></date> cold</add></cell>
+            <cell><date when="1861-11-16">16</date> colder</cell>
+         
+          </row>
+          <row>
+            <cell><add rend="pencil">10</add></cell>
+            <cell><add place="above"><date when="1851-11-11">11<link
+                    target="https://tinyurl.com/ybthbpjw"/></date> - 51 bright but cold day
+            </add>Cold day 1st walk <add place="below"><date when="1851-11-13">13<link target="https://tinyurl.com/ybm7nwd4"></link></date> cold
+                &amp; dark <add rend="underline">PM</add></add></cell>
+            <cell/>
+            <cell><date when="1853-11-07">7<link target="https://tinyurl.com/yyhrb5sn"></link></date> shallow pools in woods<lb/>skimmed over<lb/>clear cold frosty morning</cell>
+            <cell><date when="1854-11-06">6<link target="https://tinyurl.com/y32gpmrh"></link></date> sudden cold-<lb/>looks clear</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-11-15">15<link target="https://tinyurl.com/y2qkx8yn"></link></date> pools in woods skimmed<lb/>over</cell>
+            <cell><date when="1858-11-03">3rd<link target="https://tinyurl.com/y4ehsttn"/></date>
+                colder<lb/><date when="1858-11-11">11<link target="https://tinyurl.com/y4fxq3o8"
+                /></date> a cold day<lb/><date when="1858-11-12">12<link
+                  target="https://tinyurl.com/y45nhny7"/></date> much the coldest day<lb/><date when="1858-11-14">14<link target="https://tinyurl.com/yy3zxcqk"></link></date> very cold</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil"><del>26</del><lb/>28 &amp; 29</add></cell>
+            <cell><add place="above"><date when="1850-11-19">19th<link target="https://tinyurl.com/y8rf2ce2"></link></date> - 50 <date
+              when="1851-11-22">22<link target="https://tinyurl.com/ychvjmxb"></link></date> cool <add rend="underline">PM</add></add>Cold day last
+              half<add place="below"><date when="1850-11-23">23<link target="https://tinyurl.com/yaq8v2x3"></link></date> - 50 finger cold
+                during<lb/>day <date when="1850-11-28">28<link target="https://tinyurl.com/y8dlo9v6"></link></date> gloves com-<lb/>fortable a day or 2
+                past</add></cell>
+            <cell><date when="1852-11-16">16<link target="https://tinyurl.com/y82nec7e"></link></date> colder weather<lb/><date when="1852-11-21"
+              >21<link target="https://tinyurl.com/yao4hona"></link></date> river skimmed over<lb/><date when="1852-11-23">23<link target="https://tinyurl.com/y8z94tby"></link></date>
+              <placeName>F. H. P.</placeName> skimmed over<lb/></cell>
+            <cell><date when="1852-11-24">24<link target="https://tinyurl.com/y59ybgfn"></link></date> wintry freezing cold in <add rend="underline"
+                >PM</add><lb/><unclear> mild swell early</unclear>
+              <date when="1852-11-25">25<link target="https://tinyurl.com/y4pzvct2"></link></date> cold<lb/><date when="1852-11-27">27<link target="https://tinyurl.com/y5emmqcb"></link></date> - <date
+                when="1852-11-28">28<link target="https://tinyurl.com/yyqy6gyt"></link></date></cell>
+            <cell/>
+            <cell><date when="1855-11-20">20<link target="https://tinyurl.com/yxuugqsn"></link></date> a cold day<lb/><date when="1855-11-24">24<link target="https://tinyurl.com/y2ymbep5"></link></date> last 3 or 4 days<lb/>quite cold sidewalks a glare of ice<lb/><date when="1855-11-30">30<link target="https://tinyurl.com/y4nnlgk5"></link></date> river skimmed over</cell>
+            <cell/>
+            <cell><date when="1857-11-24">24<link target="https://tinyurl.com/y2arockh"></link></date>-<date when="1857-11-25">25<link target="https://tinyurl.com/y39wb9d3"></link></date> cold Thanks-<lb/>giving weather</cell>
+            <cell><date when="1858-11-16">16<link target="https://tinyurl.com/yyzchk48"></link></date> cold &amp; blustering <add rend="underline">PM</add><lb/><date when="1858-11-18">18<link target="https://tinyurl.com/yykojvd4"></link></date> <placeName>F. H. P. </placeName>completely frozen<lb/> during last 4 days<lb/><date when="1858-11-29">29<link target="https://tinyurl.com/yxzl8kdx"></link></date> river froze</cell>
+            <cell/>
+            <cell>cold <date when="1860-11-20">20th<link target="https://tinyurl.com/y3m2jgpp"></link></date> &amp; <date when="1860-11-21">21st<link target="https://tinyurl.com/y3cfcyx5"></link></date><lb/><date when="1860-11-25">25<link target="https://tinyurl.com/y6xr8f9f"></link></date> very cold</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil"><del>17</del> 16</add></cell>
+            <cell><add place="above">Perhaps <date when="1851-11-13">13th<link target="https://tinyurl.com/ybm7nwd4"></link></date> <add rend="underline">PM</add></add><lb/>Cool gray day</cell>
+            <cell><date when="1852-11-18">18<link target="https://tinyurl.com/ycgrq44n"></link></date> cold gray day</cell>
+            <cell/>
+            <cell><date when="18534-11-17">17<link target="https://tinyurl.com/y5rebadx"></link></date> raw cloudy<lb/><add rend="underline">PM</add></cell>
+            <cell><date when="1855-11-17">17<link target="https://tinyurl.com/y4v8f9dx"></link></date> chilly <add rend="underline">PM</add> with<lb/> cold gray clouds<lb/><date when="1855-11-19">19<link target="https://tinyurl.com/y34zgadg"></link></date> cold gray day</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-11-02">2<link target="https://tinyurl.com/yxnn5pem"></link></date> a cool gray day</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1861-11-16">16</date><lb/><date when="1861-11-21">21</date></cell>
+          </row>
+        </table>
+      </div>
+    </body>
+  </text>
+</TEI>

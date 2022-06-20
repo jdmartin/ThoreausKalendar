@@ -1,0 +1,656 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- The line above is the "XML declaration"; it is not -->
+<!-- required, but we recommend using it. -->
+<!-- The line above is a processing instruction for finding the schema; -->
+<!-- it is intended for oXygen, but other software may use it, also. -->
+<!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
+<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
+<TEI> xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.tei-c.org/ns/1.0 oxygen RNGSchema="./exercise.rnc" type="compact"
+  xmlns="http://www.tei-c.org/ns/1.0"> <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Charts of General Phenomena</title>
+        <author>
+          <persName>Henry David Thoreau</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <ab><!-- copyright or copyleft information here --></ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->All Phenomena for
+          October</bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="section">
+        <table rows="13" cols="12">
+          <head>1. All Phenomena for October</head>
+          <row role="label">
+            <cell/>
+            <cell> </cell>
+            <cell>52</cell>
+            <cell>53</cell>
+            <cell>54</cell>
+            <cell>55</cell>
+            <cell>56</cell>
+            <cell>57</cell>
+            <cell>58</cell>
+            <cell>59</cell>
+            <cell>60</cell>
+            <cell>61</cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">26</add></cell>
+            <cell> Cool white sunset</cell>
+            <cell/>
+            <cell><date when="1853-11-02">Nov. 2<link target="https://tinyurl.com/y82cu7x5"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-10-17">Oct 17<link target="https://tinyurl.com/y956hb2e"></link></date></cell>
+            <cell><date when="1858-10-27">27<link target="https://tinyurl.com/yck92obz"></link></date> cool white <lb/>Novem-<lb/>berish sunset</cell>
+            <cell><add rend="pencil">November pleasant<lb/>er than October</add></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">16</add></cell>
+            <cell><add place="above"><add rend="pencil"><unclear>1st</unclear>
+                  <gap reason="unclear" extent="1 word"/></add></add>Mts darker &amp;
+              distincter</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-10-17">Oct 17<link target="https://tinyurl.com/ybo8cen4"></link></date><del/></cell>
+            <cell><date when="1858-10-09">9<link target="https://tinyurl.com/y6wc4wgq"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>
+              <add rend="pencil">16</add>
+              <add rend="pencil">16</add></cell>
+            <cell>Mts. purple tinged above<lb/>
+              <add place="below"><add rend="pencil">cold &amp; blustering (v
+              below)</add></add></cell>
+            <cell><date when="1852-10-26">26<link target="https://tinyurl.com/ycf9pqer"></link></date> on ac. of<lb/>coolness?</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell>Oct <date when="1857-10-07">7th<link target="https://tinyurl.com/y9pqyemv"></link></date>
+              <lb/>
+              <add rent="pencil">Nov <date when="1857-11-04">4<link target="https://tinyurl.com/y4mlymax"></link></date> decidedly</add></cell>
+            <cell/>
+            <cell><del>3rd</del></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">16</add></cell>
+            <cell>Look sunny &amp; sheltered place <lb/><add place="below"><add rend="pencil">&amp;
+                    <unclear>perhaps</unclear> Sep.</add></add></cell>
+            <cell><date when="1852-10-26">26<link target="https://tinyurl.com/y9dj77va"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell>Sep <date when="1857-09-21">21<link target="https://tinyurl.com/yxb39pbl"></link></date> beg. to appre-<lb/>ciate warmth of
+              sun<lb/>again<lb/>Oct <date when="1857-10-21">21<link target="https://tinyurl.com/yam44wuq"></link></date> now as in spring</cell>
+            <cell/>
+            <cell><date when="1859-10-03">3rd<link target="https://tinyurl.com/y2j93mfa"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">27 + 8</add></cell>
+            <cell>Cool gray weather walk<lb/> more adventurous</cell>
+            <cell/>
+            <cell><date when="1853-10-26">26<link target="https://tinyurl.com/y7brjvcl"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">21 or 19<lb/>&amp; in Sep<lb/>perhaps 27</add></cell>
+            <cell><add rend="pencil">say from <unclear>the start of</unclear> Sep to mid of
+                Nov.</add><lb/>Gathering driftwood</cell>
+            <cell/>
+            <cell><date when="1853-10-21">21st<link target="https://tinyurl.com/yxva86cd"></link></date></cell>
+            <cell/>
+            <cell>Sep <date when="1855-09-27">27<link target="https://tinyurl.com/y3whwobp"></link></date><lb/> Oct <date when="1855-10-12">12th<link target="https://tinyurl.com/y4g42o5p"></link></date>
+              to <date when="1855-10-20">20th<link target="https://tinyurl.com/yartbrea"></link></date> &amp; Nov <date when="1855-11-01"
+                >1st <link target="https://tinyurl.com/y57djoko"></link></date><lb/> Nov. <date when="1855-11-01">1st<link target="https://tinyurl.com/y57djoko"></link></date> - <date when="1855-11-06"
+                  >6th <link target="https://tinyurl.com/yd49tqc3"></link></date> - &amp; <date when="1855-11-09">9th<link target="https://tinyurl.com/yy6skywo"></link></date>
+            </cell>
+            <cell/>
+            <cell><date when="1957-10-21">21<link target="https://tinyurl.com/yxs8ckqz"></link></date></cell>
+            <cell><add rend="pencil">Nov <date when="1858-11-01">1st<link target="https://tinyurl.com/ydeyrvtd"></link></date> Goodwin
+                  <unclear>splits</unclear></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">31</add></cell>
+            <cell>Winter-like morning</cell>
+            <cell/>
+            <cell><date when="1853-10-31">31<link target="https://tinyurl.com/y74eq2ay"></link></date> looking from<lb/>hill at vapor<lb/>&amp; frozen
+              mist</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><gap reason="unclear"/></cell>
+            <cell><add place="above">snake summer cricket day (Oct <date when="1851-10-09">9<link target="https://tinyurl.com/y9sytkwp"></link></date>
+              &amp; <date when="1851-10-10">10<link target="https://tinyurl.com/y946tapt"></link></date> - 51<lb/>snake summer or week</add>Harvest
+              day (or in Sep.) <add rend="below">finest in year</add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-10-05">5</date> to <date when="1857-10-15">15<link target="https://tinyurl.com/y8cee6dd"></link></date> inc.
+              reign<lb/>of crickets</cell>
+            <cell/>
+            <cell/>
+            <cell>Sep <date when="1860-09-18">18<link target="https://tinyurl.com/y7q6ag3s"></link></date> beautiful<lb/>harvest day</cell>
+            <cell><gap reason="unclear"/><unclear>day</unclear><lb/>of Sep. - &amp; 1st
+                <unclear>week</unclear><lb/>of Oct. <add rend="pencil">As Oct<lb/><date
+                  when="1861-10-04">4</date> &amp; <date when="1861-10-08">8</date><add
+                  emph="underline">earlier</add></add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">say<lb/>20-24 inc</add></cell>
+            <cell><add place="above">Oct <date when="1851-10-07">7th<link
+                    target="https://tinyurl.com/yboprewr"/></date> very still warm &amp; <add
+                  place="below">bright</add> Oct <date when="1851-10-08">8<link
+                    target="https://tinyurl.com/ycohqjka"/></date> - 51 <add place="above"
+                  >hazy</add> - (prob <date when="1851-10-09">9th<link
+                    target="https://tinyurl.com/y77h9wyn"/></date>) <date when="1851-10-10"
+                    >10th<link target="https://tinyurl.com/yaotapka"/></date></add> Ind. Summer<add
+                place="below"> &amp; <date when="1851-10-11">11th<link
+                    target="https://tinyurl.com/yyqdgtcf"/></date> Toronto Oct - 6 to 11th
+                inc<lb/>Toronto mean of 20 yrs (1840-59 inc) ; Oct 27 -<lb/>Nov 2 or 6 days.
+                </add><add rend="pencil">perhaps Oct <date when="1850-10-31">31<link
+                    target="https://tinyurl.com/y4lefybe"/></date> - 50</add></cell>
+            <cell><add place="above">Toronto Nov. 16-21 inc</add><date when="1852-10-23">23<link
+                  target="https://tinyurl.com/yay99hc6"/></date>-<date when="1852-10-24">4th<link
+                  target="https://tinyurl.com/y9zfkdba"/></date> &amp; <date when="1852-10-25"
+                  >25<link target="https://tinyurl.com/y7vlxyzz"/></date><lb/>Ind. sum hazy &amp;
+                warm<add rend="pencil">Oct <date when="1852-10-13">13th<link
+                    target="https://tinyurl.com/y3o6gxyu"/></date> a clear warm &amp;<lb/><add
+                  emph="underline">rather</add> Ind. S. day</add><lb/></cell>
+            <cell><add place="above">Toronto Oct 12-20</add><date when="1853-10-14">14<link
+                  target="https://tinyurl.com/y7vlxyzz"/></date>
+              <add emph="underline">fine clear In. sum.</add> a week or more of<lb/>it ends - with
+                <date when="1853-10-21">21st<link target="https://tinyurl.com/ycnmn54n"/></date>
+                inc.<lb/><date when="1853-10-31">31<link target="https://tinyurl.com/ycrbnuxp"
+                /></date> Ind. summer <add rend="undreline">PM</add><lb/>Nov <date when="1853-11-19"
+                  >19<link target="https://tinyurl.com/ybxtxdte"/></date>Ind. summer <add
+                emph="underline">PM</add></cell>
+            <cell><add place="above">Toronto Oct 24-28</add><date when="1854-10-22">22<link
+                  target="https://tinyurl.com/yberqwa8"/></date> Ind. sum last 2 days<lb/>also <date
+                when="1854-10-26">26<link target="https://tinyurl.com/y9dkcv47"/></date>-<date
+                when="1854-10-27">7</date>-<date when="1854-10-28">8</date>-<date when="1854-10-29"
+                >9</date>-<date when="1854-11-30">30</date> &amp; <date when="1854-10-31">31st<link
+                  target="https://tinyurl.com/y6oof6t8"/></date><lb/>remarkably warm, sit<lb/>with
+              open windows</cell>
+            <cell><add place="above">Toronto Oct 16-26 inc<lb/>not well marked</add><date
+                when="1855-10-17">17<link target="https://tinyurl.com/y9ryjgj5"/></date> Ind.
+                summer<lb/><date when="1855-10-19">19th<link target="https://tinyurl.com/y4oj9lhz"
+                /></date> haze of Ind. sum.<lb/>
+              <date when="1855-10-25">25<link target="https://tinyurl.com/y3hq925z"/></date>quite
+              cool after pleas-<lb/>ant warm day<lb/>Nov <date when="1855-11-01">1st<link
+                  target="https://tinyurl.com/ycpajy5o"/></date> Ind. sum. day</cell>
+            <cell><add place="above">Toronto Oct 19-22<lb/><add rend="pencil"> add
+                12th</add></add><date when="1856-10-10">10th<link
+                  target="https://tinyurl.com/y9a4v6co"/></date> &amp; <date when="1856-10-11"
+                  >11th<link target="https://tinyurl.com/y687fgtv"/></date> finest days<lb/>in year
+              - <add rend="pencil"><gap reason="unclear" extent="3 words"/></add><lb/>
+              <date when="1856-10-21">21<link target="https://tinyurl.com/y2pjy3l9"/></date> Ind.
+              sum. &amp; hazy</cell>
+            <cell><add place="above">Toronto Oct 5-12 inc &amp; Nov 2<lb/>to 8 inc Nov. 6 &amp; 7
+                also 4th</add><date when="1857-10-05">5<link target="https://tinyurl.com/yapqmale"
+                /></date> 10 days of Ind. sum.<lb/>began after thick clothing<lb/> &amp; fires -
+              glorious weather<lb/>the finest in the year<lb/><date when="1857-10-11">11<link
+                  target="https://tinyurl.com/ybbel2pc"/></date>perhaps call these "Harvest
+              days"<lb/>also "cricket days"</cell>
+            <cell><add place="above">Toronto Oct 18-28</add><date when="1858-10-19">19th<link
+                  target="https://tinyurl.com/yc9yg6os"/></date> &amp; <date when="1858-10-20"
+                  >20th<link target="https://tinyurl.com/ycab5yn2"/></date><add rend="pencil">(<date
+                  when="1858-10-21">21<link target="https://tinyurl.com/yaqvqw3w"/></date> - cooler
+                yet pleasant)</add><lb/><date when="1858-10-28">28<link
+                  target="https://tinyurl.com/y5bhcsta"/></date>not as warm as <date
+                when="1858-10-19">19th</date> &amp;<lb/><date when="1858-10-20"
+                >20th</date><lb/><date when="1858-10-31">31st<link
+                  target="https://tinyurl.com/y855v5ax"/></date> Ind. sum. <add emph="underline"
+                >like</add></cell>
+            <cell><add place="above">Toronto Nov. 2-8</add>Oct <date when="1859-10-04">4<link
+                  target="https://tinyurl.com/yaptrk6b"/></date> Ind. sum. <add emph="underline"
+                >like<lb/>PM</add><lb/><date when="1859-10-14">14<link
+                  target="https://tinyurl.com/y935kcye"/></date> Ind. summer day<lb/><lb/>Nov. <date
+                when="1859-11-05">5<link target="https://tinyurl.com/y5uf9z3w"/></date> in
+                <placeName>Long Wharf</placeName> 1st Ind. summer day<lb/>Nov <date
+                when="1859-11-09">9<link target="https://tinyurl.com/y9mndz29"/></date> fine Ind.
+              sum day &amp;<lb/>pleasant a week past<lb/><add place="below">also Nov <date
+                  when="1859-11-15">15<link target="https://tinyurl.com/y83ohftx"/></date> + <date
+                  when="1859-11-16">16</date>
+                <date when="1859-11-17"> 17<link target="https://tinyurl.com/y84q35f3"
+                /></date></add></cell>
+            <cell><add place="above"><add rend="pencil">prob. not much
+              ob-<lb>served</lb></add></add><date when="1860-10-19">19th<link target="https://tinyurl.com/y8yur8uo"></link></date> Ind. sum.
+              like<lb/>Nov <date when="1860-11-01">1<link target="https://tinyurl.com/y9w6rhbq"></link></date> perfect Ind.<lb/>summer (72° at 1 <add
+                emph="underline">PM</add>)<lb/>also <date when="1860-11-15">15<link target="https://tinyurl.com/y5zf22lh"></link></date></cell>
+            <cell><gap reason="unclear"></gap> of in <add emph="underline">PM</add><lb/><date when="1861-10-17">17th</date>
+              &amp; <date when="1861-10-23">23rd</date><lb/><date when="1861-10-30">30th</date> Ind.
+              sum.</cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">22</add></cell>
+            <cell><del><gap reason="unclear" extent="1 word"/></del> Hazy</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-10-11">11<link target="https://tinyurl.com/y4alx4ds"></link></date> hazy - sun of mid<lb/><add emph="underline"
+              >PM</add> almost shorn of rays<lb/><date when="1856-10-21">21st<link target="https://tinyurl.com/ybbat5r3"></link></date></cell>
+            <cell><date when="1857-10-14">14<link target="https://tinyurl.com/y4ol7xpv"></link></date> thick haze in <add emph="underline">PM</add><add
+              rend="pencil">Oct <date when="1857-10-24">24<link target="https://tinyurl.com/y9zwedy9"></link></date><gap reason="unclear"
+              /></add></cell>
+            <cell/>
+            <cell><add rend="pencil">Nov <date when="1859-11-30">30<link target="https://tinyurl.com/yaddf2jo"></link></date><gap reason="unclear"/>
+                <date when="1859-11-01">1st</date><date when="1859-11-02">2nd</date><lb/>remarkably
+              warm <unclear>spring like day</unclear></add><lb/>Nov <date when="1859-11-09">9th<link target="https://tinyurl.com/y4dy2ow4"></link></date> a very
+              thick haze</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell><add place="above">Oct <date when="1851-10-08">8<link target="https://tinyurl.com/yye7qeyh"></link></date> - 51 &amp; the moon rises
+                red</add>Sun sets red</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>22</cell>
+            <cell><add place="above">very warm day Oct <date when="1851-10-08">8<link target="https://tinyurl.com/yya8np49"></link></date> - 51 warmer
+              than for 3 weeks at least<lb/><date when="1851-10-10">10</date>-<date when="1851-10-11">11<link target="https://tinyurl.com/y4l3by44"></link></date> &amp; another warm night - at eve sit with door
+                and window</add> Very warm day <add place="below">open in a thin coat</add></cell>
+            <cell>Oct <date when="1852-10-02">2<link target="https://tinyurl.com/ydxftbm6"></link></date></cell>
+            <cell><date when="1853-10-20">20<link target="https://tinyurl.com/y7zbpka5"></link></date> quite warm<lb/>work in shirt sleeves</cell>
+            <cell><add rend="pencil"><date when="1854-10-26">26<link target="https://tinyurl.com/ycg3bucc"></link></date>sit with win-<lb/>dows open
+                  <date when="1854-10-26">26</date>-<date when="1854-10-27">7</date><lb/><date when="1854-10-28">8</date> - <date when="1854-10-29">9</date> -
+              <date when="1854-10-30">30<link target="https://tinyurl.com/ya5cetrv"></link></date></add></cell>
+            <cell/>
+            <cell><date when="1856-11-11">11th<link target="https://tinyurl.com/y3zukcq3"></link></date> 80° + in <add emph="underline"
+              >PM</add><lb/>lie with open window<lb/>&amp; one sheet at night<lb/><date
+                when="1856-10-21">21<link target="https://tinyurl.com/ybtfl2qo"></link></date> too warm for thick coat</cell>
+            <cell><date when="1857-11-14">14<link target="https://tinyurl.com/y4q6wpe5"></link></date> sat &amp; slept with an open<lb/>window the past
+              5 or <unclear>so</unclear> days</cell>
+            <cell>74° + at 1 <add emph="underline">PM</add>
+              <date when="1858-10-19">19th<link target="https://tinyurl.com/ydbyxjum"></link></date></cell>
+            <cell/>
+            <cell><date when="1860-10-10">30th<link target="https://tinyurl.com/y94fudj6"></link></date><add emph="underline">PM</add>
+              quite<lb>sultry</lb>Nov <date when="1860-11-01">1<link target="https://tinyurl.com/yb55lt5k"></link></date> - 72° at 1 <add
+                emph="underline">PM</add></cell>
+            <cell><date when="1861-10-04">4</date> quite warm<lb/><date when="1861-10-05">5</date>
+              very <gap reason="unclear" extent="1 word"/> in <add emph="underline">PM</add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">26</add></cell>
+            <cell> High wind</cell>
+            <cell/>
+            <cell><date when="1853-10-09">9<link target="https://tinyurl.com/y7tznkxv"></link></date> high wind S of W <lb/> (<date when="1853-10-06"
+              >6</date> + <date when="1853-10-07">7<link target="https://tinyurl.com/ycbecp4z"></link></date>windy) <lb/>
+              <date when="1853-10-25>25">25<link target="https://tinyurl.com/y8yuwrdh"></link></date> high cold W. wind</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-10-17">17<link target="https://tinyurl.com/ybo6cq7a"></link></date> very high in night<lb/>shaking house</cell>
+            <cell>Sep. <date when="1858-09-16">16<link target="https://tinyurl.com/y9mxrfad"></link></date> S.E. storm &amp; wind<lb/>breaking
+                tree<lb/><del>Sep <date when="1858-09-30">30</date> &amp; Oct <date when="1858-10-01">1st</date></del> windy night the last 2 Oct <date
+                  when="1858-10-02">2<link target="https://tinyurl.com/y8qxfqab"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">28</add></cell>
+            <cell>Strong N.W. wind <lb/>
+              <add place="below"><add rend="pencil">or cold &amp; blustering</add></add></cell>
+            <cell><date when="1853-10-22">22<link target="https://tinyurl.com/y5sbmmea"></link></date> cool N.W. winds<lb/>now for some time</cell>
+            <cell>strong N.W. wind<lb/>rolls in <add emph="underline">PM</add>
+              <date when="1853-10-25">25th<link target="https://tinyurl.com/yb95sjxo"></link></date></cell>
+            <cell/>
+            <cell><date when="1855-10-27">27<link target="https://tinyurl.com/yaxeu8jf"></link></date>cold N.W. wind</cell>
+            <cell/>
+            <cell><date when="1857-10-20">20th<link target="https://tinyurl.com/ybm8e8je"></link></date> strong N.W. wind<lb/>&amp; cool<lb/><date
+              when="1857-10-21">21<link target="https://tinyurl.com/y828adcb"></link></date> cool &amp; windy <unclear>PM</unclear></cell>
+            <cell>Oct <date when="1858-10-02">2<link target="https://tinyurl.com/y8qxfqab"></link></date> - &amp; <date when="1858-10-04"
+              >4th<link target="https://tinyurl.com/yxzudfr9"></link></date><lb/>also <date when="1858-10-08">8th<link target="https://tinyurl.com/ybs5uucc"></link></date> &amp; <date when="1858-10-09">9th<link target="https://tinyurl.com/y2vzgdp7"></link></date></cell>
+            <cell/>
+            <cell><date when="1860-10-06">6<link target="https://tinyurl.com/y8z6uogq"></link></date> strong wind N shakes down limbs</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Strong S. wind shakes<lb/>house</cell>
+            <cell/>
+            <cell><date when="1853-10-24">24</date>-<date when="1853-10-05">5<link target="https://tinyurl.com/y2aruycu"></link></date> night strong<lb/>S. wind shakes house<lb/>&amp; blows down
+                <unclear>trees</unclear></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Cold &amp; blustering <add rend="pencil">day</add></cell>
+            <cell><add rend="pencil">Perhaps Oct <date when="1852-10-20">20th<link target="https://tinyurl.com/ya2g77ly"></link></date> &amp;<lb/>after</add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-10-15">15<link target="https://tinyurl.com/y9tgus3d"></link></date> cold blustering <lb/>N.W. wind <lb/><add
+              rend="pencil"><date when="1859-10-21">21<link target="https://tinyurl.com/yc5wuyvh"></link></date> very cold &amp;
+              blustering</add></cell>
+            <cell>Oct <date when="1860-10-06">6th<link target="https://tinyurl.com/y8z6uogq"></link></date> strong &amp; blus-<lb/>tering N.W.
+              wind</cell>
+            <cell><date when="1861-10-22">22</date> rather <gap reason="unclear" extent="2 words"
+              /><lb/>E. wind<lb/><date when="1861-10-24">24</date> decidedly &amp; N.W.
+                wind<lb/><add rend="pencil"><date when="1861-10-28">28</date></add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">17</add></cell>
+            <cell>Reflection from river more <lb/>distinct</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell>Oct <date when="1858-10-17">17th<link target="https://tinyurl.com/yd6p8jfa"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row role="label">
+            <cell/>
+            <cell/>
+            <cell>52</cell>
+            <cell>53</cell>
+            <cell>54</cell>
+            <cell>55</cell>
+            <cell>56</cell>
+            <cell>57</cell>
+            <cell>58</cell>
+            <cell>59</cell>
+            <cell>60</cell>
+            <cell>61</cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">24</add></cell>
+            <cell>Double shadow on <lb/>banks<add place="below"><add rend="pencil">Nov. <date
+              when="1853-11-15">15<link target="https://tinyurl.com/y2jdzgtf"/></date>
+                  53</add></add></cell>
+            <cell/>
+            <cell><date when="1853-10-18">18<link target="https://tinyurl.com/ybwquz83"></link></date></cell>
+            <cell><date when="1854-11-02">Nov. 2nd<link target="https://tinyurl.com/ycadualx"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">29th</add></cell>
+            <cell>Rosy light from <unclear>sunset</unclear><add place="below"><add rend="pencil"
+                    ><emph emph="underline">Perhaps</emph> on Ind. sum. like day</add></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date emph="1858-10-19">19th<link target="https://tinyurl.com/y8672j8e"></link></date><lb/>Nov <date when="1858-11-08"
+              >8th<link target="https://tinyurl.com/ybjmtz8l"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil"><del>? 26</del><lb/>v Nov. </add></cell>
+            <cell><add place="above"><add rend="pencil">Nov. <date when="1850-11-11">11<link target="https://tinyurl.com/y5hjd37g"></link></date> - 50
+                  at <placeName>Nut Meadow</placeName></add></add> Peculiar yel light in E<lb/>from
+              sun just before setting<lb/></cell>
+            <cell><add rend="pencil">Perhaps Oct <date when="1853-10-22">22<link target="https://tinyurl.com/ybkn343x"></link></date><lb/>Oct <date
+              when="1853-10-28">28<link target="https://tinyurl.com/yctxgsjo"></link></date></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-10-21">21<link target="https://tinyurl.com/yc7yy5qc"></link></date><lb/><date when="1857-10-28">28<link target="https://tinyurl.com/y66z6tsj"></link></date> bright
+              gleam before<lb/>sunset after day storm</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">8th</add></cell>
+            <cell>Glittering golden sunset<lb/>(from west in street) after clouds</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1860-10-09">9th<link target="https://tinyurl.com/yasyz99l"></link></date> 2 or more<lb/>nights past</cell>
+            <cell>about <date when="1861-10-07">7th</date></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">25</add></cell>
+            <cell>Dark night</cell>
+            <cell/>
+            <cell>25-<date when="1853-10-25">5<link target="https://tinyurl.com/ycxukeos"></link></date> night</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">1st</add></cell>
+            <cell><add place="above"><add rend="pencil">Oct <date when="1851-10-01">1st<link target="https://tinyurl.com/y94f3w2v"></link></date>
+                  51</add></add>Twilight much shorter <lb/>than a month ago</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil"><gap reason="unclear" extent="1 word"/> 20<lb/><add
+                  emph="underline">much</add> 31</add></cell>
+            <cell><add place="above"><add rend="pencil">Nov. <date when="1851-11-01">1<link target="https://tinyurl.com/y9522ct5"></link></date> - 51 remarkable <lb/>a
+                  bright clear warm day -</add></add>Gossamer <add place="below"
+                  ><add rend="pencil">say Nov <date when="1850-11-06">6</date><lb/><del/><add emph="underline">an Ind.
+                    Sum. day</add><lb/> Oct <date when="1850-10-31">31<link target="https://tinyurl.com/y5p8hnmc"></link></date> - 50 much <lb/> a still dry
+                  clear &amp; warm <lb/>day </add></add></cell>
+            <cell><add rend="pencil">Dec. <date when="1852-12-06">6<link target="https://tinyurl.com/yakbnd6d"></link></date> across corner <lb/>
+                causeway - very warm <lb/>&amp; pleasant day</add></cell>
+            <cell><date when="1853-10-31">31<link target="https://tinyurl.com/y9umaqq5"></link></date> a gossamer day on water<lb/>Nov. <date
+              when="1853-11-19">19<link target="https://tinyurl.com/y5u47s24"></link></date> a gossamer<lb/>day. not as perfect<lb/>as Oct <date when="1853-10-31">31</date></cell>
+            <cell><date when="1854-10-26">26<link target="https://tinyurl.com/ydhbwwwn"></link></date> consid. on<lb/>causeway</cell>
+            <cell><date when="1855-10-17">17<link target="https://tinyurl.com/yav9dydj"></link></date> much <date when="1855-10-18">18th<link target="https://tinyurl.com/ybku3xam"></link></date><lb/>shoes
+              whitened <lb/>
+              <add rend="pencil">Dec. <date when="1855-12-20">20<link target="https://tinyurl.com/yc7trs8h"></link></date> - 55</add> some on weeds
+              <lb/> above ice</cell>
+            <cell><date whhen="1856-10-20">20th<link target="https://tinyurl.com/yaojcpqc"></link></date>some on hill side -<lb/><add rend="pencil"
+              >Nov. <date when="1856-11-07">7<link target="https://tinyurl.com/y5zgk5ks"></link></date> much &amp;<lb/>some<date when="1856-11-13"
+                >13th<link target="https://tinyurl.com/y5zgk5ks"></link></date> Nov after<lb/>rain</add></cell>
+            <cell><date when="1857-10-14">14<link target="https://tinyurl.com/y7nxc73c"></link></date> a very little</cell>
+            <cell>consid. <date when="1858-10-31">31st<link target="https://tinyurl.com/yyozyj4d"></link></date><add place="below"><date
+              when="1858-10-20">20th<link target="https://tinyurl.com/yd6lasqo"></link></date> look not<lb/>remarkably abundant</add></cell>
+            <cell>Nov. <date when="1859-10-15">15<link target="https://tinyurl.com/y9rgogbp"></link></date></cell>
+            <cell><add rend="pencil"><add place="above">Sep <date when="1860-09-30">30<link target="https://tinyurl.com/yy8n9tjn"></link></date> pretty
+              thick<lb>on meadow</lb></add></add><date when="1860-10-19">19th<link target="https://tinyurl.com/y56cmh3f"></link></date> some
+              <lb/>Nov. <date when="1860-11-01">1st<link target="https://tinyurl.com/y2q7q6ev"></link></date><emph emph="underline">much</emph></cell>
+            <cell><date when="1861-10-21">21</date> some <lb/>
+              <add rend="pencil"><date when="1861-10-30">30</date>consid. Nov <date
+                  when="1861-11-22">22</date> some</add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">say<lb/>10th</add></cell>
+            <cell><add place="above">Oct. <date when="1851-10-06">6th<link target="https://tinyurl.com/y9dbvtap"></link></date> &amp;<date
+              when="1851-10-16">16th<link target="https://tinyurl.com/y9dasdnw"></link></date> - 51 </add>Spearing</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><add rend="pencil">24th</add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">? - 31</add></cell>
+            <cell>Fishing over</cell>
+            <cell/>
+            <cell><date when="1853-10-31">31<link target="https://tinyurl.com/y79sx9oj"></link></date>can't reach banks</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><add rend="pencil"><date when="1861-10-25">25th</date> River<lb/><unclear>so low
+                  dry</unclear><gap reason="unclear" extent="5 words"/>&amp; <date when="1861-10-30"
+                  >30th</date></add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">18</add></cell>
+            <cell>Winter rye shows green (&amp; grows laid down)</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-10-19">19th<link target="https://tinyurl.com/y9ttj4kz"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1860-10-17">17th<link target="https://tinyurl.com/yah5husl"></link></date></cell>
+            <cell><date when="1861-10-18">18th</date></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">31</add></cell>
+            <cell><add rend="pencil"><add emph="underline"><gap reason="unclear" extent="1 word"
+                  /></add> much Gossamer<lb/>on <add emph="underline">Ind. sum.
+              day</add></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add rend="pencil">22<lb/>or 23</add></cell>
+            <cell><add rend="pencil"><add place="above">Nov. <date when="1851-11-07">7<link target="https://tinyurl.com/ybppxl86"></link></date> - 51
+                    <placeName>Dudley P.</placeName></add>Sparkle on pond<lb/></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><add rend="pencil">Oct <date when="1857-10-14">14<link target="https://tinyurl.com/y2aykxlq"></link></date>
+                <placeName><unclear>White</unclear></placeName></add></cell>
+            <cell><add rend="pencil">Oct <date when="1858-10-20">20<link target="https://tinyurl.com/y4kedwn6"></link></date>
+                <placeName>White P.</placeName></add></cell>
+            <cell/>
+            <cell/>
+            <cell><add rend="pencil">Oct <date when="1861-10-17">17</date> Wald<lb/>en</add></cell>
+          </row>
+          <row>
+            <cell><add rend="pencil">say<lb/>26</add></cell>
+            <cell><add rend="pencil"><add place="above">Oct <date when="1851-10-16">16<link target="https://tinyurl.com/ybfbzona"></link></date> - 51
+                  Shadbush newly<lb/>leafing</add>Shadbush <unclear>to be</unclear> leaf<lb/>after
+                Ind. summer ?</add></cell>
+            <cell/>
+            <cell><add rend="pencil">Nov <date when="1853-11-01">1<link target="https://tinyurl.com/yal6x2mj"></link></date> &amp; <date
+              when="1853-11-06">6<link target="https://tinyurl.com/y9funjhv"></link></date> shad bush</add></cell>
+            <cell><add rend="pencil">Nov <date when="1854-11-04">4<link target="https://tinyurl.com/y8r4p2we"></link></date> shadbush<lb/>Sep <date
+              when="1854-09-19">19<link target="https://tinyurl.com/yb2bvkpc"></link></date> hardhack<lb/>puts forth new leaves</add></cell>
+            <cell><add rend="pencil">Oct <date when="1855-10-22">22<link target="https://tinyurl.com/yaddc3sy"></link></date> shadbush<lb>leafing
+              again</lb>Nov <date when="1855-11-05">5<link target="https://tinyurl.com/y9p8ohp4"></link></date> checked by frost</add></cell>
+            <cell/>
+            <cell><add rend="pencil">Nov <date when="1857-11-08">8<link target="https://tinyurl.com/ybgzux32"></link></date> swamp pyrus<lb/>also
+                clethra decidedly<lb/>expanded showing leafets</add></cell>
+            <cell><add rend="pencil">Nov <date when="1858-11-25">25<link target="https://tinyurl.com/y8zz8rmb"></link></date> some high<lb/>blueberry
+                bushes fairly<lb/>started into red leafets</add></cell>
+            <cell><add rend="pencil">Oct <date when="1859-10-13">13<link target="https://tinyurl.com/y8ge6ff6"></link></date> swamp
+                  <unclear>shadbush</unclear></add></cell>
+            <cell/>
+            <cell/>
+          </row>
+        </table>
+      </div>
+    </body>
+  </text>
+</TEI>
