@@ -15,7 +15,8 @@ def get_choice():
         '8': 'octone',
         '9': 'nov1',
         '10': 'nov2',
-        '11': 'alldecember',
+        '11': 'nov3',
+        '12': 'alldecember',
         'A': 'all_pages',
     }
     choice = input("What would you like to do? Enter the number:")
@@ -40,7 +41,8 @@ def menu():
     print("8.\tOct 1")
     print("9.\tNovember 1")
     print("10.\tNovember 2")
-    print("11.\tDecember (All)")
+    print("11.\tNovember 3")
+    print("12.\tDecember (All)")
     print("\n")
     print("A.\tRebuild All Months")
     print("\n")
@@ -59,6 +61,7 @@ def build_page(page):
         "oct1",
         "nov1",
         "nov2",
+        "nov3",
         "alldecember"
     ]
 
