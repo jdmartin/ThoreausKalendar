@@ -40,12 +40,13 @@ Some of the site's pages are awaiting TEI, and these are built separately.  Each
 
 **Consultant**: Beth Witherell, UC Santa Barbara
 
-**Student Assistants**: Diana Allen, Carinne Haigis, and Richard Johnson
+**Student Assistants**: Diana Allen, Carinne Haigis, Richard Johnson, Anastasia Mertz, and Liz Niznik
 
 ## 4. Code Credits
 
 Code from the following projects has been used in this site:
 
 - [findAndReplaceDOMText](https://github.com/padolsey/findAndReplaceDOMText) - used in search functionality.
+- [MagickSlicer](https://github.com/VoidVolker/MagickSlicer) - used to create the tiled images for OpenSeadragon.
 - [OpenSeadragon](https://openseadragon.github.io/) - used to display manuscript pages.
 
