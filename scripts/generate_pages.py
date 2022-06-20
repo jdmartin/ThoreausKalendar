@@ -1,19 +1,24 @@
 from bs4 import BeautifulSoup
 
+
 def get_choice():
     #These are the menu choices and the corresponding functions:
     options = {
         '0': 'newapril',
         '1': 'otherapril',
-        '2': 'mayone',
-        '3': 'maytwo',
+        '2': 'may1',
+        '3': 'may2',
         '4': 'june',
-        '5': 'junetwo',
-        '6': 'junethree',
-        '7': 'junefour',
-        '8': 'octone',
-        '9': 'alldecember',
-        '10': 'all_pages',
+        '5': 'june2',
+        '6': 'june3',
+        '7': 'june4',
+        '8': 'oct1',
+        '9': 'oct2',
+        '10': 'nov1',
+        '11': 'nov2',
+        '12': 'nov3',
+        '13': 'alldecember',
+        'A': 'all_pages',
     }
     choice = input("What would you like to do? Enter the number:")
     
@@ -34,10 +39,14 @@ def menu():
     print("5.\tJune 2")
     print("6.\tJune 3")
     print("7.\tJune 4")
-    print("8.\tOct 1")
-    print("9.\tDecember (All)")
+    print("8.\tOctober 1")
+    print("9.\tOctober 2")
+    print("10.\tNovember 1")
+    print("11.\tNovember 2")
+    print("12.\tNovember 3")
+    print("13.\tDecember (All)")
     print("\n")
-    print("10.\tRebuild All Months")
+    print("A.\tRebuild All Months")
     print("\n")
     get_choice()
 
@@ -52,6 +61,10 @@ def build_page(page):
         "june3",
         "june4",
         "oct1",
+        "oct2",
+        "nov1",
+        "nov2",
+        "nov3",
         "alldecember"
     ]
 
