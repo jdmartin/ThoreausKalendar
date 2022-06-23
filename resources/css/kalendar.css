@@ -1,15 +1,12 @@
-/* Include Constituent Parts */
-/* Header Stuff Follows */
+/* Include Constituent Parts */ /* Header Stuff Follows */
 /* Fonts */
 /* eb-garamond-regular - latin-ext_latin */
 @font-face {
   font-family: "EB Garamond";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff") format("woff"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.svg#EBGaramond") format("svg");
-  /* Legacy iOS */
+  src: url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff") format("woff"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.svg#EBGaramond") format("svg"); /* Legacy iOS */
 }
 * {
   font-family: "EB Garamond", serif;
@@ -17,10 +14,6 @@
   text-rendering: optimizeLegibility;
   text-rendering: geometricPrecision;
   font-smooth: always;
-  font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 #header {
@@ -70,8 +63,7 @@
   font-style: normal;
   height: 25px;
   line-height: 25px;
-  width: 260px;
-  /*Change this value to change the width of menu items on the nav. menu */
+  width: 260px; /*Change this value to change the width of menu items on the nav. menu */
   text-decoration: none;
   text-align: left;
 }
@@ -434,7 +426,9 @@ note .active {
   float: left;
 }
 #footer .turvy ul {
-  width: 30%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
   list-style: none;
@@ -467,8 +461,27 @@ note .active {
   font-weight: normal;
 }
 #nader input.horizontal-shake {
+  -webkit-animation: horizontal-shaking 0.5s;
   animation: horizontal-shaking 0.5s;
+  -webkit-animation-iteration-count: 2;
   animation-iteration-count: 2;
+}
+@-webkit-keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 @keyframes horizontal-shaking {
   0% {

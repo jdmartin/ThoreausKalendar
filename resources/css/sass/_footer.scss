@@ -42,7 +42,9 @@
     float: left;
 
     ul {
-        width: 30%;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
         margin-left: auto;
         margin-right: auto;
         list-style: none;
@@ -79,9 +81,19 @@
     }
 
     input.horizontal-shake {
-        animation: horizontal-shaking 0.5s; 
-        animation-iteration-count: 2;
+        -webkit-animation: horizontal-shaking 0.5s;
+                animation: horizontal-shaking 0.5s; 
+        -webkit-animation-iteration-count: 2; 
+                animation-iteration-count: 2;
       }
+    
+    @-webkit-keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+    }
     
     @keyframes horizontal-shaking {
     0% { transform: translateX(0) }
