@@ -60,13 +60,21 @@
             </div>
             <div id="helpbox">
             </div>
-            <div style="width: 70%; height: 850px; margin: auto;">
-                <object data="./resources/downloads/Dec_4_Beinecke_DL_2056838%204.pdf"
-                    style="width: 100%; height: 100%;" type="application/pdf"></object>
+            <div id="openseadragon1" style="width: 100%; height: 800px;" />
+            <script src="/resources/js/seadragon/openseadragon.min.js"></script>
+            <script type="text/javascript">
+                var viewer = OpenSeadragon({
+                    id: "openseadragon1",
+                    prefixUrl: "/resources/js/seadragon/",
+                    tileSources: "/resources/images/tiled/dec4.dzi"
+                });
+            </script>
                 <div id="footer">
                     <div id="lefty">
                         <ul style="list-style: none;">
                             <li style="font-size: 0.8em;">
+                                <li>
+                                    <a href="./resources/images/pages/dec4.html" target="_new">See this manuscript page</a>    <a href="./resources/downloads/dec4.zip">Download the full-size image</a></li>
                                 <br>
                                 Manuscript images provided by:
                                 <a href="http://beinecke.library.yale.edu" target="_blank">
