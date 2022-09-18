@@ -1,0 +1,726 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- The line above is the "XML declaration"; it is not -->
+<!-- required, but we recommend using it. -->
+<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
+<!-- The line above is a processing instruction for finding the schema; -->
+<!-- it is intended for oXygen, but other software may use it, also. -->
+<!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
+<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Charts of General Phenomena</title>
+        <author>
+          <persName>Henry David Thoreau</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <ab><!-- copyright or copyleft information here --></ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="section">
+        <head>General Phenomena for December 2</head>
+        <table rows="13" cols="11">
+          <head>General Phenomena for December 2</head>
+          <row role="label">
+            <cell>50 51</cell>
+            <cell>52</cell>
+            <cell>53</cell>
+            <cell>54</cell>
+            <cell>55</cell>
+            <cell>56</cell>
+            <cell>57</cell>
+            <cell>58</cell>
+            <cell>59</cell>
+            <cell>60</cell>
+            <cell>61</cell>
+          </row>
+          <row>
+            <cell>Birds feeding on seeds above<lb/>the snow</cell>
+            <cell/>
+            <cell/>
+            <cell><del rend="strikethrough">20</del></cell>
+            <cell/>
+            <cell><date when="1856-12-01">1st<link target="https://tinyurl.com/2p8af6ts"></link></date> &amp; <date when="1856-12-04">4th <link target="https://tinyurl.com/bde6z8a3"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-17">17<link target="https://tinyurl.com/33ek9mw2"></link></date> - (<date when="1859-12-19">19<link target="https://tinyurl.com/pzfmtakt"></link></date>-<date
+              when="1859-12-22">22<link target="https://tinyurl.com/bdh36p52"></link></date>-<date when="1859-12-23">3<link target="https://tinyurl.com/3rxhfhpr"></link></date>-<date when="1859-12-25"
+                >5<link target="https://tinyurl.com/umfksjc"></link></date>-<date when="1859-12-29">9<link target="https://tinyurl.com/576wdztj"></link></date> &amp; <lb/>on <date when="1859-12-31"
+                  >31st<link target="https://tinyurl.com/4dp4kawy"></link></date>)<lb/><date when="1859-12-31">31st<link target="https://tinyurl.com/4dp4kawy"></link></date> hemlock seeds</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Blue shadows</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-20">20<link target="https://tinyurl.com/k476bybb"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Got in boat</cell>
+            <cell><date when="1851-12-28">28<link target="https://tinyurl.com/2p9bmsuu"></link></date> from Walden</cell>
+            <cell><date when="1852-12-05">5<link target="https://tinyurl.com/sdp4n7ju"></link></date></cell>
+            <cell><date when="1853-12-02">2<link target="https://tinyurl.com/3emd86zz"></link></date></cell>
+            <cell><date when="1854-11-30">Nov. 30<link target="https://tinyurl.com/2p85fn3h"></link></date></cell>
+            <cell><date when="1855-12-02">2<link target="https://tinyurl.com/4euwpd2k"></link></date></cell>
+            <cell/>
+            <cell><date when="1858-11-26">Nov. 26<link target="https://tinyurl.com/2p9c6r6n"></link></date> on ac. of<lb/>fence</cell>
+            <cell><date when="1859-12-10">10<link target="https://tinyurl.com/5fy3sah7"></link></date></cell>
+            <cell><date when="1860-11-29">Nov. 29<link target="https://tinyurl.com/4j7vrymd"></link></date></cell>
+            <cell>not taken out <lb/>in 61</cell>
+          </row>
+          <row>
+            <cell>Sheets of ice float down river in <unclear>warmth</unclear> (in eve)</cell>
+            <cell/>
+            <cell><date when="1853-12-08">8th<link target="https://tinyurl.com/ab65psmj"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1861-11-19">Nov. 19</date> at eve</cell>
+          </row>
+          <row>
+            <cell>1st <emph rend="underline">cold</emph> morning say 14° +</cell>
+            <cell><date when="1852-12-12">12<link target="https://tinyurl.com/m27vftds"></link></date> cold at last</cell>
+            <cell><date when="1853-12-04">4<link target="https://tinyurl.com/2bwb87cj"/></date>
+              coldest day yet +<lb/>clear with consid.<lb/>wind - after 1st cloudless<lb/>morn. for
+              a week or 2<lb/><date when="1853-12-24">24th<link
+                  target="https://tinyurl.com/yc4ypb4f"/></date> is cold</cell>
+            <cell>
+              <date when="1854-12-05">5<link target="https://tinyurl.com/2p8zbwcf"></link></date> very cold last<lb/>night</cell>
+            <cell/>
+            <cell><add place="above"><date when="1856-12-05">5th<link target="https://tinyurl.com/58mxvaer"></link></date> clear cold winter
+                weather</add>
+              <date when="1856-12-08">8th<link target="https://tinyurl.com/3ceh978c"></link></date> at 8<emph rend="underline">am</emph> 8°+
+              prob<lb/>coldest day yet <lb/><date when="1856-12-10">10<link target="https://tinyurl.com/4mx4ktda"></link></date> at 7 ½ 3°+<add
+                place="below"><date when="1856-12-17">17<link target="https://tinyurl.com/593dxv6c"></link></date>cold with wind</add></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-03">3rd<link target="https://tinyurl.com/2tyuame9"/></date>
+              suddenly quite cold<lb/>freezes in the house<add place="right"><date when="1859-12-09"
+                    >9th<link target="https://tinyurl.com/2p9bwf7k"/></date>sudden cold last
+                night</add></cell>
+            <cell/>
+            <cell><date when="1861-12-03">3</date> colder yet<lb/>14°+<lb/><gap reason="unclear" extent="2 words"></gap>
+              4° at 7 am</cell>
+          </row>
+          <row>
+            <cell>Clears off cold after rain</cell>
+            <cell/>
+            <cell><date when="1853-12-18">18th<link target="https://tinyurl.com/42sfypbe"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1851-12-17">17<link target="https://tinyurl.com/y6hvux92"></link></date> piercing cold PM</add>Very
+              cold, zero or below</cell>
+            <cell><date when="1852-12-18">18<link target="https://tinyurl.com/peujc52e"></link></date> very cold windy day</cell>
+            <cell><date when="1853-12-28">28<link target="https://tinyurl.com/4p9emcsj"></link></date> perhaps coldest<lb/>night - pump
+              slightly<lb/>frozen</cell>
+            <cell><date when="1854-12-20">20<link target="https://tinyurl.com/3uxjey8x"></link></date> said to be coldest<lb/>morning yet<lb/><date
+              when="1854-12-31">31<link target="https://tinyurl.com/58dz8d7v"></link></date> a very cold day</cell>
+            <cell><del rend="strikethrough">31<link target="https://tinyurl.com/58dz8d7v"></link></del></cell>
+            <cell><date when="1856-12-18">18<link target="https://tinyurl.com/5fw3766b"></link></date> very cold - go<lb/>to <placeName ref="Amherst"
+                >Amherst</placeName></cell>
+            <cell/>
+            <cell><date when="1858-12-23">23<link target="https://tinyurl.com/yrcepjat"></link></date> colder</cell>
+            <cell><date when="1859-12-24">24<link target="https://tinyurl.com/58zer385"></link></date> cold wind<lb/><add place="right"><date
+              when="1859-12-25">25<link target="https://tinyurl.com/58au2rsx"></link></date> the last the<lb/>coldest night yet</add><date
+                when="1859-12-28">28<link target="https://tinyurl.com/ekec5er9"></link></date> cold. <date when="1859-12-29">29<link target="https://tinyurl.com/4wtw32s4"></link></date>-at
+              8am<lb/>15°⁠—</cell>
+            <cell/>
+            <cell>
+              <add rend="pencil"><date when="1861-12-26">26</date>5°— coldest<lb/>morning
+                yet</add>
+            </cell>
+          </row>
+          <row>
+            <cell><placeName ref="Fair Haven Pond">F.H.P.</placeName> frozen again</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>River frozen again</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1861-12-21">21</date> skimming<lb/>over again</cell>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-16">Dec 16<link
+                    target="https://tinyurl.com/ynshh6kj"/></date></add><placeName
+                ref="Flint's Pond">Flint P.</placeName> frozen</cell>
+            <cell><date when="1852-12-22">22<link target="https://tinyurl.com/yck74fnk"></link></date> yesterday</cell>
+            <cell><date when="1853-12-04">4<link target="https://tinyurl.com/ynm9rdrc"></link></date> only skimmed a little<lb/>at the shore<lb/><date
+                when="1853-12-05">Dec. 5</date></cell>
+            <cell><date when="1854-12-11">11<link target="https://tinyurl.com/skwzyxkw"></link></date> how long</cell>
+            <cell/>
+            <cell><date when="1856-12-09">9<link target="https://tinyurl.com/3upnvvvc"></link></date> at least 4 inch thick<lb/>yesterday</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-26">26<link
+                    target="https://tinyurl.com/bw68mf4c"/></date>not more than 1/2 frozen<lb/><date
+                  when="1850-12-17">17<link target="https://tinyurl.com/4v7pew88"/></date> it was
+                only slightly skimmed</add><placeName ref="Walden">Walden</placeName> begun to
+                freeze<add place="below">a rod from shore on the <date when="1850-12-23">23<link
+                    target="https://tinyurl.com/5n94838r"/></date>1/3 frozen</add></cell>
+            <cell><date when="1852-12-27">27<link target="https://tinyurl.com/za49xdu5"></link></date> no ice in to-day</cell>
+            <cell><date when="1853-12-22">22</date> a few acres of it freeze<lb/><date
+              when="1853-12-24">24<link target="https://tinyurl.com/ye6az2ff"></link></date> almost entirely open<lb/>again - <date when="1853-12-30"
+                >30<link target="https://tinyurl.com/5n8my7kk"></link></date> not quite</cell>
+            <cell/>
+            <cell><date when="1855-12-21">21<link target="https://tinyurl.com/2nu7h2sh"/></date> all
+              but an acre<lb/>in my cove<add place="right"><date when="1855-12-29">29<link target="https://tinyurl.com/udexy8bc"></link></date>8 or 10
+                acres open</add></cell>
+            <cell><date when="1856-12-09">9<link target="https://tinyurl.com/5n74j9d6"></link></date> scarcely a particle of ice</cell>
+            <cell><date when="1857-12-27">27<link target="https://tinyurl.com/3edkvrbc"></link></date> almost skimmed over<lb/>will be to-night</cell>
+            <cell><date when="1858-12-11">11<link target="https://tinyurl.com/veca3d59"></link></date> 1/3 skimmed over <lb/><date when="1858-12-13"
+              >13<link target="https://tinyurl.com/4r8mfr73"></link></date> not so much as <date when="1858-12-11">11th</date><lb/><date
+                when="1858-12-18">18<link target="https://tinyurl.com/495jsp88"></link></date> merely a little edges<lb/><date when="1858-12-20"
+                  >20<link target="https://tinyurl.com/4pts8szr"></link></date> frozen except 2 spots in mid.<add place="below"> same<date
+                    when="1858-12-23">23<link target="https://tinyurl.com/yckprh8s"></link></date></add></cell>
+            <cell><date when="1859-12-24">24<link target="http://tinyurl.com/bdf2m6rz"></link></date> ½ for more than<lb/>a week - an acre or 2
+              open<lb/> yet</cell>
+            <cell/>
+            <cell><date when="1861-12-21">21</date> none is there</cell>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-27">27<link
+                    target="http://tinyurl.com/4ky9f5tp"/></date>(?)</add><placeName ref="Walden"
+                >Walden</placeName> frozen</cell>
+            <cell><date when="1853-01-05">Jan. 5<link target="https://tinyurl.com/56ur6ejc"></link></date> (52-3)</cell>
+            <cell>night of <date when="1853-12-31">30-31st<link target="http://tinyurl.com/yay8n699"></link></date></cell>
+            <cell>ap. 2 inch thick<lb/>prob night of <date when="1854-12-18">18th <link target=" http://tinyurl.com/4stdhra6 "></link></date></cell>
+            <cell>
+              <add place="right">prob night of <date when="1855-12-30">30<link target="https://tinyurl.com/mry94mha"></link></date></add>
+            </cell>
+            <cell><date when="1856-12-19">19<link target="http://tinyurl.com/2p9dsj3n"></link></date> last night - <date when="1856-12-21">21<link target="http://tinyurl.com/yz2xymfn"></link></date>
+              open in mid.<lb/>owing to rain of 20th - <date when="1856-12-27">27<link target="http://tinyurl.com/bd8mpaa2"></link></date> still
+              open<lb/> in one place - <date when="1856-12-28">28<link target="http://tinyurl.com/6yu4wrv6"></link></date> froze again<add
+                place="below">last night</add></cell>
+            <cell><date when="1857-12-28">Dec. 28<link target="http://tinyurl.com/4k6ryb6t"></link></date></cell>
+            <cell><date when="1858-12-25">25<link target="http://tinyurl.com/3vxs9dte"></link></date> at length was skimmed<lb/>over last night</cell>
+            <cell><date when="1854-12-25">24-5<link target="http://tinyurl.com/y2fynth9"></link></date></cell>
+            <cell>C says 1st frozen<lb/>the <date when="1860-12-16">16th<link target="http://tinyurl.com/5c6y65yn"></link></date></cell>
+            <cell>
+              <add rend="pencil"><date when="1861-12-29">29</date></add>
+            </cell>
+          </row>
+          <row>
+            <cell><placeName ref="Goose Pond">Goose Pond</placeName> skimmed over</cell>
+            <cell><date when="1852-12-13">13 <link target="https://tinyurl.com/yefhw4zv"></link></date></cell>
+            <cell><date when="1852-12-31">31st <link target="https://tinyurl.com/3c83t36a"></link></date> 1st <unclear>first</unclear>frozen<lb/>(was skimmed over night<lb/>of
+              <date when="1853-12-03">3-4<link target="https://tinyurl.com/4bt2kh6h"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-12-13">13<link target="https://tinyurl.com/ynapjruy"></link></date> just frozen to bear</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Sturdy ice crystals</cell>
+            <cell/>
+            <cell><date when="1853-12-10">10<link target=" https://tinyurl.com/ycxxvdn5"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-19">19<link target="https://tinyurl.com/5n8cys3h"></link></date></add>Wild apples
+              frozen</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>1st walk up river</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-12">12<link target="https://tinyurl.com/5f96kc48"></link></date> on ice to <placeName ref="Fair Haven Hill">F. H.
+              Hill</placeName><lb/>also <date when="1858-12-25">25<link target="https://tinyurl.com/mvc7avja"></link></date> to <placeName
+                ref="Walden">Pond</placeName></cell>
+            <cell><date when="1859-12-13">13<link target="https://tinyurl.com/2p8wynyy"></link></date> to <placeName ref="Fair Haven Pond"
+                >F.H.P.</placeName></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Skating <add place="right"><date when="1851-12-14">14<link target="https://tinyurl.com/ytd6pkux"></link></date> boys been
+                skating<lb/>a week</add></cell>
+            <cell><date when="1852-12-18">18th<link target="https://tinyurl.com/9mknac7e"></link></date>
+              <placeName ref="Loring's Pond">Lorings P.</placeName></cell>
+            <cell>Nov. <date when="1853-11-28">28<link target="https://tinyurl.com/3tb5958s"></link></date> in <placeName ref="Cambridgeport"
+              >Cambridge</placeName><lb/>Dec. <date when="1853-12-22">22<link target="https://tinyurl.com/2p8szhv8"></link></date> 10 days old</cell>
+            <cell><date when="1854-12-06">6<link target="https://tinyurl.com/2p998mun"></link></date> on way to Providence<lb/>from prob. the 5</cell>
+            <cell><date when="1855-12-15">15<link target="https://tinyurl.com/mvrmxnm"></link></date> boys 2 or 3 days<lb/>but not firm for men
+              yet<lb/><date when="1855-12-20">20<link target="https://tinyurl.com/2p8t7dje"></link></date> pretty good</cell>
+            <cell><date when="1856-12-06">6<link target="https://tinyurl.com/2ezdt74y>"></link></date> fairly begun</cell>
+            <cell><date when="1857-12-13">13<link target="https://tinyurl.com/23vcv9hk"></link></date>
+              <placeName ref="Goose Pond">Goose pond</placeName></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1860-11-26">Nov. 26<link target="https://tinyurl.com/2p8w3ykv"></link></date> some boys skated on <placeName
+                ref="Goose Pond">G. pond</placeName></cell>
+            <cell><date when="1861-12-23">23</date> only on <placeName ref="Goose Pond"
+                >G.<lb/>Pond</placeName>
+              <emph rend="underline">occuring</emph> for a week or<lb/>2 past</cell>
+          </row>
+          <row>
+            <cell>Good skating</cell>
+            <cell><date when="1852-12-18">18th<link target="https://tinyurl.com/9mknac7e"></link></date>
+              <placeName ref="Lorings Pond">Lorings Pond</placeName><lb/>good there</cell>
+            <cell><date when="1853-12-24">24<link target="https://tinyurl.com/2p9x5z48"></link></date> skate across<lb/><placeName ref="Flints Pond"
+                >Flints P.</placeName>
+              <lb/><date when="1853-12-25">25<link target="https://tinyurl.com/ekpt28vh"></link></date> skate to <placeName ref="Fair Haven Pond">F.
+                Haven</placeName> &amp; <gap reason="unclear"/></cell>
+            <cell><date when="1854-12-19">19th<link target="https://tinyurl.com/mwzyuswh"></link></date> tolerable<lb/>skating - <date
+              when="1854-12-20">20<link target="https://tinyurl.com/3z4re6ts"></link></date> skate to<lb/><placeName ref="Fair Haven Pond">F.
+                Haven</placeName></cell>
+            <cell><date when="1855-12-20">20<link target="https://tinyurl.com/2p8t7dje"></link></date> pretty good on mead.<lb/>over side of
+              river</cell>
+            <cell><date when="1856-12-07">7<link target="https://tinyurl.com/727k62e9"></link></date> to <placeName ref="Fair Haven Pond"
+                >F.H.P.</placeName></cell>
+            <cell/>
+            <cell><date when="1858-12-29">29<link target="https://tinyurl.com/yes796ff"></link></date> to <persName ref="Israel Rice">I.
+                Rice's</persName></cell>
+            <cell><date when="1859-12-26">26<link target="https://tinyurl.com/2d7bupxs"></link></date> to <placeName ref="Lee's bridge">Lee's
+              bridge</placeName><lb/><date when="1859-12-29">29<link target="https://tinyurl.com/mryvrjzn"></link></date> to <placeName
+                ref="Ball's Hill">Ball's Hill</placeName></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1851-12-17">17<link target="https://tinyurl.com/yxc8xhzx"></link></date></add> Attend to bees</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>
+              <add rend="pencil">Rosettes on ice</add>
+            </cell>
+            <cell/>
+            <cell/>
+            <cell>
+              <add rend="pencil"><date when="1854-12-20">20<link target="https://tinyurl.com/23rwfh66"></link></date> on river<lb/><date
+                when="1854-12-21">21<link target="https://tinyurl.com/j5w4r9hv"></link></date> on <placeName ref="Walden">Walden</placeName></add>
+            </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell>
+              <add rend="pencil"><date when="1859-12-29">29<link target="https://tinyurl.com/4wm6z7pb"></link></date></add>
+            </cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>
+              <add rend="pencil"><add place="above">50 51</add>Spring like days</add>
+            </cell>
+            <cell>
+              <add rend="pencil">52</add>
+            </cell>
+            <cell>
+              <add rend="pencil">53</add>
+            </cell>
+            <cell>
+              <add rend="pencil">54</add>
+            </cell>
+            <cell>
+              <add rend="pencil"><add place="above"><date when="1855-12-17"
+                >17<link target="https://tinyurl.com/2p8t7dje"></link></date>remarkably fine spring<lb/>like morning</add>55<add place="below"><date when="1855-12-23"
+                  >23<link target="https://tinyurl.com/32hedkvn"></link></date>&amp; some previous days- pleas<lb/>ant &amp; spring like
+                weather</add></add>
+            </cell>
+            <cell>
+              <add rend="pencil">56</add>
+            </cell>
+            <cell>
+              <add rend="pencil">57</add>
+            </cell>
+            <cell>
+              <add rend="pencil">58</add>
+            </cell>
+            <cell>
+              <add rend="pencil"><add place="above"><date when="1859-11-30">Nov. 30</date> &amp;
+                    <date when="1859-12-01">1</date> &amp; <date when="1859-12-02"
+                      >2<link target="https://tinyurl.com/45m796jn"></link></date></add>59</add>
+            </cell>
+            <cell>
+              <add rend="pencil">60</add>
+            </cell>
+            <cell>
+              <add rend="pencil">61</add>
+            </cell>
+          </row>
+          <row>
+            <cell>River ap. frozen everywhere</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-19">19<link target="https://tinyurl.com/j2j2jytk"></link></date> last night so cold <lb/>R. closed almost
+              every<lb/>where - <date when="1854-12-20">20<link target="https://tinyurl.com/dmd4s7ru"></link></date> ap. every-<lb/>where</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Turtle under ice</cell>
+            <cell/>
+            <cell><date when="1853-12-02">3rd<link target="https://tinyurl.com/2p868nsc"></link></date> (<date when="1853-12-07">7<link target="https://tinyurl.com/yc3yk9yn"></link></date> in a
+              brook?)<lb/><date when="1853-12-09">9th<link target="https://tinyurl.com/2t4vh443"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-12-02">2<link target="https://tinyurl.com/49e4w6fw"></link></date> &amp; <date when="1857-12-13">13<link target="https://tinyurl.com/3rsnx4ve"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Lizards under ice</cell>
+            <cell/>
+            <cell><date when="1853-12-04">4<link target="https://tinyurl.com/mr22ht72"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-03">3<link target="https://tinyurl.com/2rkcj7f6"></link></date> &amp; <date when="1858-12-05">5<link target="https://tinyurl.com/w3awbhsh"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Ice whoops</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-20">20<link target="https://tinyurl.com/3n6d6kpa"></link></date> at eve</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-28">28<link target="https://tinyurl.com/3cbpwaf4"></link></date> how the ice cracks</cell>
+            <cell><date when="1859-12-23">23<link target="https://tinyurl.com/yeyjs4fk"></link></date> at eve 24-3</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Boys skate on crust</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-27">27<link target="https://tinyurl.com/mrxwkfdv"></link></date> &amp; <date when="1855-12-28">28<link target="https://tinyurl.com/mrxwkfdv"></link></date> in
+              streets</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Level bars of frozen mist</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-10">10<link target="https://tinyurl.com/2pc6c98w"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Raked-toothed icicles</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-15">15<link target="https://tinyurl.com/2s393nft"></link></date> Walden on ac. of<lb/>wind of morning</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Kill fishes under ice</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-18">18<link target="https://tinyurl.com/4tty6765"></link></date> at <placeName ref="Walden Pond"
+                >Walden</placeName></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Ground cracks</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-18">18<link target="https://tinyurl.com/ymyypfpw"></link></date> at Amherst (v.<date when="1856-12-23"
+              >23</date>)</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Walk on <placeName ref="Walden Pond">Walden</placeName> &amp; look <unclear>at</unclear><lb/>shores</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-28">28th<link target="https://tinyurl.com/jryhf2sx"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Vapor from open parts of<lb/>river in morning</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-29">29<link target="https://tinyurl.com/97catkhd"></link></date> (v.<date when="1859-12-31">31</date>)</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Teaming ice</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-29">29<link target="https://tinyurl.com/4yn9s59m"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-14">14<link target="https://tinyurl.com/yc5rpsd7"></link></date> sweet gale etc &amp;c at
+                  <placeName ref="Loring's Pond">Loring P</placeName>
+              </add>Plants, buds, fruits &amp;c above<lb/>ice</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-14">14<link target="https://tinyurl.com/4r85n3jk"></link></date> along river</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-25">25<link target="https://tinyurl.com/eubt4j6r"></link></date> sweet gale<lb/><date when="1859-12-31"
+              >31<link target="https://tinyurl.com/zs4rvm35"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><unclear><date when="1850-12-04">4<link target="https://tinyurl.com/4ere852r"></link></date></unclear> beautiful - almost In. summer<lb/>pure glassy air</add>Ind.
+              summer-like day</cell>
+            <cell><date when="1852-11-30">Nov 29-30</date> &amp;<date when="1852-12-01">Dec 1<link target="https://tinyurl.com/269b963a"></link></date>
+              pleasant-<lb/>est day since Nov. came in <add place="left"><date when="1852-12-06"
+                >6<link target="https://tinyurl.com/3stwzpr6"></link></date> warmest &amp; pleasantest yet</add><date when="1852-12-07">7<link target="https://tinyurl.com/56wjuj79"></link></date>
+              True Ind. summer day<lb/><date when="1852-12-08">8<link target="https://tinyurl.com/ycku3nce"></link></date> another </cell>
+            <cell><date when="1853-12-11">11<link target="https://tinyurl.com/4pszw3pk"></link></date> almost Ind. sum.<lb/>clear &amp; warm -
+              with-<lb/>out greatcoat</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-03">3<link target="https://tinyurl.com/5n8hdmva"></link></date> delicious mild <emph rend="underline"
+              >pm</emph><lb/>through gr. covered with snow</cell>
+            <cell><date when="1859-11-30">Nov 30</date>- <date when="1859-12-01">Dec 1</date> &amp;
+              <date when="1859-12-02">2<link target="https://tinyurl.com/2p92w5ks"></link></date> very warm<lb/>&amp; spring-like</cell>
+            <cell/>
+            <cell><date when="1860-12-07">7</date> &amp; esp. <date when="1861-12-08"
+              >8th</date><lb/>when 60° + at 1 ½ <lb/><emph rend="underline">pm</emph></cell>
+          </row>
+          <row>
+            <cell>Gnats in air</cell>
+            <cell><date when="1852-12-06">6th<link target="https://tinyurl.com/ynmucrs3"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1860-12-07">7</date> in a thaw</cell>
+          </row>
+          <row>
+            <cell>Gossamer</cell>
+            <cell><date when="1852-12-06">6<link target="https://tinyurl.com/5n6z88jr"></link></date> across <placeName ref="Corner causeway">Corner
+                causeway</placeName></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Mornings of creation</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-14">14<link target="https://tinyurl.com/2abx5f69"></link></date> a fine winter morn-<lb/>ing<lb/><date
+              when="1855-12-31">31<link target="https://tinyurl.com/yckwbt32"></link></date></cell>
+            <cell><date when="1856-12-10">10<link target="https://tinyurl.com/kc463kz8"></link></date> (?)</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Can walk in road, enough to see sky &amp;<lb/>breathe air</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-31">31<link target="https://tinyurl.com/y2f2p45r"></link></date> beautiful clear<lb/><emph rend="underline">very
+                cold</emph> day</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-22">22<link target="https://tinyurl.com/2p82e4sp"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Fine day though cold</cell>
+            <cell><add place="left"><date when="1852-12-02">2nd<link target="https://tinyurl.com/3u2am48h"></link></date> pleasantest day of
+                all</add>v. Ind. sum. days</cell>
+            <cell><date when="1852-12-09">9<link target="https://tinyurl.com/4zu24fmk"></link></date> 3 glorious days - clear<lb/>&amp; not too
+              cold<lb/><date when="1852-12-10">10<link target="https://tinyurl.com/4zu24fmk"></link></date> another, among finest<lb/>in year</cell>
+            <cell><date when="1854-12-20">20<link target="https://tinyurl.com/48b3rrex"></link></date> sharp clear air<lb/>&amp; still- white snow
+              &amp; pol-<lb/>ished ice - <date when="1854-12-21">21<link target="https://tinyurl.com/2hk8w8uk"></link></date> among<lb/>finest in
+              year</cell>
+            <cell><date when="1855-12-03">3rd<link target="https://tinyurl.com/45wf3jse"></link></date> &amp; <date when="1855-12-04">4th<link target="https://tinyurl.com/yr9jdkjj"></link></date>
+              <date when="1855-12-23">23<link target="https://tinyurl.com/mt6ackjw"></link></date> a remarkab-<lb/>ly bright &amp; pleasant
+              day<lb/>with a very soft wind a little<lb/>N of W</cell>
+            <cell/>
+            <cell><date when="1857-12-06">6<link target="https://tinyurl.com/5x7xb75r"></link></date> amid sweet fern<lb/><date when="1857-12-27"
+              >27<link target="https://tinyurl.com/2p8t5u24"></link></date></cell>
+            <cell/>
+            <cell><date when="1859-12-21">21<link target="https://tinyurl.com/yz9hssxm"></link></date> rather mild<lb/><date when="1859-12-22"
+              >22<link target="https://tinyurl.com/3jnwe793"></link></date> &amp; <date when="1859-12-23">23<link target="https://tinyurl.com/2t9vackz"></link></date> all fine<lb/>clear bright &amp;
+              rather mild</cell>
+            <cell/>
+            <cell><date when="1861-12-12">12</date> lot <emph rend="underline"
+              >colder</emph><lb/>(20°+ at 8 <emph rend="underline">am</emph>)<add place="below"
+                >&amp; several<gap reason="unclear" extent="2 words"/><lb/> this &amp; <date
+                  when="1861-12-18">18</date></add></cell>
+          </row>
+          <row>
+            <cell>A leaf frost on trees &amp; <unclear>rails</unclear> </cell>
+            <cell/>
+            <cell><date when="1853-12-09">9th<link target="https://tinyurl.com/4zu24fmk"></link></date> — <date when="1853-12-16">16<link target="https://tinyurl.com/2hem4ksv"></link></date></cell>
+            <cell/>
+            <cell><date when="1855-12-31">31<link target="https://tinyurl.com/32m5ndam"></link></date> after mist in night<lb/>fog AM</cell>
+            <cell><date when="1856-12-10">10<link target="https://tinyurl.com/ybk639sw"></link></date> small one</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-31">31<link target="https://tinyurl.com/4ac4uk3t"></link></date> some</cell>
+            <cell/>
+            <cell><date when="1861-12-12">12</date>—</cell>
+          </row>
+        </table>
+      </div>
+    </body>
+  </text>
+</TEI>
