@@ -2,7 +2,7 @@
 name = "ThoreausKalendar"
 version = "1.03"
 description = "Python Rebuild of Thoreau's Kalendar"
-authors = ["jdmartin <jonsaccount+githubjd@icloud.com>"]
+authors = ["jdmartin"]
 license = "MIT"
 
 [tool.poetry.dependencies]
