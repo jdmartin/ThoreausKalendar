@@ -1,0 +1,680 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- The line above is the "XML declaration"; it is not -->
+<!-- required, but we recommend using it. -->
+<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
+<!-- The line above is a processing instruction for finding the schema; -->
+<!-- it is intended for oXygen, but other software may use it, also. -->
+<!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
+<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Charts of General Phenomena</title>
+        <author>
+          <persName>Henry David Thoreau</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <ab><!-- copyright or copyleft information here --></ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="section">
+        <head>General Phenomena for December 4</head>
+        <table rows="13" cols="11">
+          <head>General Phenomena for December 4</head>
+          <row role="label">
+            <cell/>
+            <cell>52</cell>
+            <cell>53</cell>
+            <cell>54</cell>
+            <cell>55</cell>
+            <cell>56</cell>
+            <cell>57</cell>
+            <cell>58</cell>
+            <cell>59</cell>
+            <cell>60</cell>
+            <cell>61</cell>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1851-12-14">14<link target="https://tinyurl.com/5n6n47v3"></link></date> gone down about 2 feet
+                leav<lb/>ing ice for most part without<lb/>water on mead.</add>River when
+              lowest<add place="below"><add rend="pencil">say <date when="1851-12-15">15</date></add></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-07">7 <link target="https://tinyurl.com/379jj9jn"></link></date> rather low - am con<lb/>fined skating to a very
+              narrow<lb/>strip of ice on mead. ride on<lb/>button bush.<lb/>was raised by rain of
+              <date when="1856-12-14">14 <link target="https://tinyurl.com/28zfdz9w"></link></date><lb/>&amp; ran partly over meadow<note
+                place="below">the <date when="1856-12-17">17 <link target="https://tinyurl.com/5hnhu3ch"></link></date></note></cell>
+            <cell/>
+            <cell>
+              <date when="1858-12-26">26 <link target="https://tinyurl.com/2rbyk83h "></link></date> river being low</cell>
+            <cell/>
+            <cell/>
+            <cell><add place="above"><add rend="pencil">prob 1st</add></add><date when="1861-12-08"
+                >8</date> 2 <emph rend="underline">PM</emph> 4 ¼<lb/>inch above <abbr
+                ana="summer level">SL.</abbr></cell>
+          </row>
+          <row>
+            <cell>River when highest<add place="below"><add rend="pencil">Say <date
+                    when="1851-12-01">1st</date></add></add></cell>
+            <cell><date when="1852-12-02">2 <link target="https://tinyurl.com/ptvcu53m "></link></date> risen a few feet since last<lb/>rain &amp;
+              partially floods mead.</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-20">20</date> mead. somewhat<lb/>overflowed<add place="below"
+                  ><add rend="below">say <date when="1855-12-24">24</date></add></add></cell>
+            <cell><add rend="pencil">say <date when="1856-12-22">22</date></add></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-23">23 <link target="https://tinyurl.com/5n6sbmch"></link></date> Great mead. more<lb/>than half covered with
+              ice</cell>
+            <cell>Rain of yesterday (<date when="1860-11-30">Nov. 30 <link target="https://tinyurl.com/2p9cd4m3"></link></date>)<lb/>raising R.
+              somewhat</cell>
+            <cell><add rend="pencil">prob. end of<lb/>month</add></cell>
+          </row>
+          <row>
+            <cell>Rains<add place="above"><add rend="pencil">1st half</add></add><add place="below"
+                  ><add rend="pencil">last half</add></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-22">22 <link target="https://tinyurl.com/bdf4kef6"></link></date> warm rain again in <emph rend="pencil"
+              >PM</emph></cell>
+            <cell><date when="1856-12-12">12 <link target="https://tinyurl.com/5f3nf92e"></link></date> began yesterday <emph rend="underline"
+              >PM</emph><lb/>snow turns to rain all day<lb/><date when="1856-12-14">14 <link target="https://tinyurl.com/4hpc6npx"></link></date>
+              <date when="1856-12-20">20 <link target="https://tinyurl.com/bddd3y94"></link></date> more or less all day</cell>
+            <cell><date when="1857-12-31">31 <link target="https://tinyurl.com/ub7hzd9w"></link></date> some yesterday</cell>
+            <cell/>
+            <cell><date when="1859-12-18">18</date></cell>
+            <cell/>
+            <cell><date when="1861-12-02">2</date> warm rain<lb/>last night<lb/><add rend="pencil"
+                >23 - 24 - 27</add></cell>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1851-12-28">28<link target="https://tinyurl.com/48rrut4y"></link></date></add>Drizzling rain &amp;
+              driving mists</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-16">16 <link target="https://tinyurl.com/fhnnxbk6"></link></date>
+              <emph rend="underline">PM</emph> steady gentle warm rain<lb/>&amp; mist &amp;
+              mizzling</cell>
+            <cell><date when="1856-12-03">3 <link target="https://tinyurl.com/bdfj55p7"></link></date> mizzles &amp; rains all day</cell>
+            <cell/>
+            <cell><date when="1858-12-05">5 <link target="https://tinyurl.com/yfhs8sp8"></link></date> fine mizzling<lb/><date when="1858-12-13"
+              >13 <link target="https://tinyurl.com/4wp2h994"></link></date> fine mizzling rain</cell>
+            <cell><date when="1859-12-18">18 <link target="https://tinyurl.com/u3mabjht"></link></date> misty rain in <emph rend="pencil"
+              >PM</emph></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1851-12-29">29 <link target="https://tinyurl.com/2x7f3suv"></link></date> - <date when="1851-12-30"
+              >30 <link target="https://tinyurl.com/3xzfsmv5"></link></date> - <date when="1851-12-31">31 <link target="https://tinyurl.com/yd7x9vhb"></link></date></add>Warm foggy day<add
+                rend="pencil"><add place="below"> this with <unclear>some</unclear> 
+                thaw</add></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Mist revealing snow of yest.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-16">16 <link target="https://tinyurl.com/ysj7kvjp"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-06">6 <link target="https://tinyurl.com/22dkz875"></link></date> Walden in mist</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>P. pine <unclear>green</unclear> like lichen</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-18">18 <link target="https://tinyurl.com/5n893pv3"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Rain here snow on Mts</cell>
+            <cell><date when="1852-12-12">12 <link target="https://tinyurl.com/53xsh3b6"></link></date> last night's rain snow<lb/>there</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Rain ends in snow</cell>
+            <cell/>
+            <cell><date when="1853-12-23">23 <link target="https://tinyurl.com/mf6ckjdk"></link></date></cell>
+            <cell><del rend="strikethough">23</del></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above">night of <date when="1850-12-06">6<link target="https://tinyurl.com/z2rc9zkp"></link></date> 1st snow &amp; now
+              covered 2 inch the 8 <link target="https://tinyurl.com/z2rc9zkp"></link><lb/><lb/><date when="1851-12-23">23 <link target="https://tinyurl.com/yck2rz7m"></link></date> snow in
+                forenoon</add>Whitening snow</cell>
+            <cell><date when="1852-12-13">13 <link target="https://tinyurl.com/3zvjj2bn"></link></date> the 3rd snow</cell>
+            <cell><date when="1853-12-05">5<link target="https://tinyurl.com/4w8t2h7j"></link></date> a little this morn.<lb/><date when="1853-12-22"
+              >22<link target="https://tinyurl.com/2p9bem4t "></link></date> slight last eve - 2nd<lb/> in winter<lb/><date when="1853-12-23"
+                >23 <link target="https://tinyurl.com/ys3ce4tk"></link></date></cell>
+            <cell><date when="1854-12-18">18 <link target="https://tinyurl.com/mwxu7cdd"></link></date> a little finely last<lb/>night &amp; this <emph
+              rend="underline">am</emph><lb/><date when="1854-12-21">21 <link target="https://tinyurl.com/43a4a8z4"></link></date>1/2 inch this <emph
+                rend="underline">am</emph><lb/><date when="1854-12-24">24 <link target="https://tinyurl.com/c559ufsv"></link></date> some 3 inch last
+              night</cell>
+            <cell><date when="1855-12-13">13 <link target="https://tinyurl.com/mr323wbu"></link></date> snowing &amp; ground whitened<lb/>day &amp; snow
+              again in eve.<lb/><date when="1855-12-15">15 <link target="https://tinyurl.com/bdehpr6u"></link></date> this morn ap. in earnest</cell>
+            <cell><date when="1856-12-03">3 <link target="https://tinyurl.com/5s2aanvr"></link></date>about as much as <date when="1856-12-29"
+              >29 <link target="https://tinyurl.com/2n9yzwzf"></link></date><lb/>fell last night<lb/><date when="1856-12-23">23 <link target="https://tinyurl.com/4twnb893"></link></date> all day one inch
+              or 2</cell>
+            <cell><date when="1857-12-05">5 <link target="https://tinyurl.com/47a4k2rz"></link></date> a few flakes at noon<lb/><date when="1857-12-16"
+              >16 <link target="https://tinyurl.com/3hems8wp"></link></date> a whitening</cell>
+            <cell><date when="1858-12-05">5 <link target="https://tinyurl.com/2p8r36ku"></link></date> yesterday<emph rend="underline">PM</emph> 3 or 4
+              inch</cell>
+            <cell><date when="1859-12-10">10 <link target="https://tinyurl.com/2zb9s9j6"></link></date> 2 <emph rend="underline">PM</emph> till night -
+              still<lb/>storm &amp; large flakes<lb/><date when="1859-12-14">14 <link target="https://tinyurl.com/mrf3xxxw"></link></date> 2 <emph
+                rend="underline">PM</emph> again fine &amp; dry -<lb/>horizontally - 3
+              inch<lb/><date when="1859-12-26">26 <link target="https://tinyurl.com/2p86zeze"></link></date> little</cell>
+            <cell><del rend="strikethrough"/></cell>
+            <cell><date when="1861-12-01">1st</date> a little late<lb/><add rend="pencil"><date
+                  when="1861-12-23">23</date> 2 inch North 6 <gap reason="unclear" extent="1 word"
+                  /><lb/><date when="1861-12-24">24</date>
+                <gap reason="unclear" extent="3 words"/></add></cell>
+          </row>
+          <row>
+            <cell><add place="above">Fairly set in say <date when="1850-12-06">6th <link target="https://tinyurl.com/y8vwr3ar"></link></date> (?) <date
+              when="1851-12-13">13<link target="https://tinyurl.com/yxwm44e8"></link></date> think of  into<lb/>winter quarters</add> Winter setting in</cell>
+            <cell>winter may be said<lb/>to have begun the <date when="1852-12-12"
+              >12th<link target="https://tinyurl.com/2bj94y52"></link></date></cell>
+            <cell>perhaps about <date when="1853-12-12">12</date>, if<lb/>not <date
+              when="1853-12-05">5th<link target="https://tinyurl.com/bdf5fzwz"></link></date></cell>
+            <cell>say <date when="1854-12-04">4<link target="https://tinyurl.com/2p8zbwcf"></link></date></cell>
+            <cell>ap. about <date when="1855-12-13">13 <link target="https://tinyurl.com/4kj8dbpt"></link></date></cell>
+            <cell>Say <date when="1856-11-30">Nov. 30<link target="https://tinyurl.com/3mvbr9pm"></link></date></cell>
+            <cell><del rend="strikethrough">v. <gap reason="strikethough"/></del></cell>
+            <cell>v. * - (<date when="1858-11-14">14<link target="https://tinyurl.com/rvy299np"></link></date> (?) geneial Nature<lb/>sealed up leaves you outside<lb/><date when="1858-12-29">29<link target="https://tinyurl.com/yc3s8bf4"></link></date> winter landscape &amp;
+              phenom-<lb/>-ena - a dear pleasant <lb/>winter day v 30</cell>
+            <cell>say <date when="1859-12-04">4<link target="https://tinyurl.com/bdd4unar"></link></date></cell>
+            <cell><date when="1860-11-25">Nov. 25<link target="https://tinyurl.com/2xbunr3h"></link></date> now for<lb/>winter</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>Snow turns to rain</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-24">24<link target="https://tinyurl.com/2p8j99tj "></link></date> fine rain</cell>
+            <cell><date when="1855-12-09">9th<link target="https://tinyurl.com/yf3acvkx"></link></date><lb/><date when="1855-12-15">15<link target="https://tinyurl.com/3yutrfpp"></link></date> turn to
+              gentle warm rain<lb/>in <emph rend="underline">pm</emph><lb/><date when="1855-12-25"
+                >25<link target="https://tinyurl.com/cme4yxub"></link></date> pm NE turn partly to rain &amp;<lb/>hail at midday</cell>
+            <cell><date when="1856-12-14">14<link target="https://tinyurl.com/bdz354ex"></link></date> turns to rain all day</cell>
+            <cell><date when="1857-12-01">30-1<link target="https://tinyurl.com/bdffjk9r"></link></date></cell>
+            <cell/>
+            <cell><date when="1859-12-08">8<link target="https://tinyurl.com/mt5jhkh3"></link></date> in night<lb/><date when="1859-12-20">20<link target="https://tinyurl.com/5n8jekz7"></link></date>
+              fast &amp; large flakes<lb/>&amp; very lodging snow - rain<lb/>in <emph
+                rend="underline">pm</emph> when 3 or 4 inch</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Deeper snow - 3 inch or more<add place="above"><date when="1851-11-25">Nov
+              25<link target="https://tinyurl.com/34u8ruu8"></link></date> deeper than before<lb/>still like the <date when="1851-11-30"
+                >30<link target="https://tinyurl.com/yck94zds"></link></date></add><add place="below"><date when="1851-12-15">Dec. 15<link target="https://tinyurl.com/3apbb65u"></link></date> half a
+                foot</add></cell>
+            <cell/>
+            <cell><date when="1853-12-26">26<link target="https://tinyurl.com/4uue64bx"></link></date> in am 3 inch deep<lb/>1st snow of any
+              consequence<lb/>2 more added night before<lb/><date when="1853-12-27">27<link target="https://tinyurl.com/ympt35d8"></link></date></cell>
+            <cell><date when="1854-12-03">3<link target="https://tinyurl.com/4rsrdxn9"></link></date> 5 or 6 inch</cell>
+            <cell><date when="1855-12-30">30<link target="https://tinyurl.com/2p92ppyj"></link></date> began last night &amp; is now<lb/>a foot deep -
+              ceases at 9 <emph rend="underline">am</emph><lb/>much the most yet</cell>
+            <cell><date when="1856-12-24">24<link target="https://tinyurl.com/2p8yxmz5"></link></date> snow in the night<lb/>making 9 or 10
+              inches<lb/>pm still snowing<add place="below"><date when="1856-11-29">Nov. 29<link target="https://tinyurl.com/2a8yhfb9"></link></date>
+                all day, with a little hail<lb/>several inches</add></cell>
+            <cell><date when="1857-12-26">26<link target="https://tinyurl.com/bdus87yx"></link></date> all day - 1st consequence<lb/>3 or 4 inch in
+              all</cell>
+            <cell><date when="1858-11-28">Nov. 28<link target="https://tinyurl.com/2s36rt47"></link></date> at length a reg. snow storm<lb/>3 inch in
+              eve - <date when="1858-11-30">Nov. 30<link target="https://tinyurl.com/yc5rsy8y"></link></date> see it<lb/>snow 20 miles off</cell>
+            <cell><add place="left"><date when="1859-12-04">4<link target="https://tinyurl.com/hzh48ec6"></link></date> awake to winter &amp;
+                snow<lb/>2 or 3 inch deep- 1st of any con-<lb/>sequence</add><date when="1859-12-20"
+                  >20<link target="https://tinyurl.com/2av6dby3"></link></date> 3 or 4 inches<lb/><date when="18591-12-14">14<link target="https://tinyurl.com/4a6n2vrn"></link></date>
+              <emph rend="underline">pm</emph> &amp; night 3 inch.<lb/><date when="1859-12-30"
+                >30<link target="https://tinyurl.com/5n7kv3a8"></link></date> fast - 7 or inches fallen<lb/>deepest yet</cell>
+            <cell>1st snow 4 or 5 inch<lb/>this eve - <date when="1860-12-04">4<link target="https://tinyurl.com/4zh6xcax"></link></date><lb/><date
+              when="1860-12-22">22<link target="https://tinyurl.com/2dny442b"></link></date> 2nd important snow<lb/><date when="1860-12-23">23<link target="https://tinyurl.com/2p8bx966"></link></date>
+              7 or 8 in at least now</cell>
+            <cell><date when="1861-11-25">Nov 25</date> from NE<lb/>last night say 2<lb/>inch new
+              snowr <unclear>really</unclear> all 25"</cell>
+          </row>
+          <row>
+            <cell>Thick boots, with 1st deeper snow</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-03">3<link target="https://tinyurl.com/5n8braak"></link></date> 5-<date when="1856-12-06">6<link target="https://tinyurl.com/yc3a966k"></link></date> on ac. of<lb/>slosh</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-05">5</date> (v and of <date when="1859-12-06">6<link target="https://tinyurl.com/hzwv7fka"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Bring home box traps</cell>
+            <cell/>
+            <cell><date when="1853-12-05">5<link target="https://tinyurl.com/bdfxjyh5"></link></date> too late to use them</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>A great snow Snow storm<add place="below">old fashioned snow storm <date
+              when="1850-12-23">23<link target="https://tinyurl.com/2mf9nr6d"></link></date> said to be 3 feet above us </add></cell>
+            <cell/>
+            <cell><date when="1853-12-29">29<link target="https://tinyurl.com/bdheveee"></link></date> driving &amp; blocking<lb/>up - no travel 20 inch<lb/><date when="1853-12-31">31<link target="https://tinyurl.com/5bjxyacj"></link></date> 4
+              inch more last night<lb/>in all 2 feet</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-24">24 <link target="https://tinyurl.com/5n8h5fzd"></link></date></add>Snow blows over crust on ice<lb/>like
+              steam</cell>
+            <cell/>
+            <cell><date when="1853-12-27">27<link target="https://tinyurl.com/4z4tu3fz"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><del rend="strikethough">24</del>Snow lodged on trees <add place="above"><date
+              when="1851-12-17">17-<link target="https://tinyurl.com/3j944hwv"></link></date> &amp; <date when="1851-12-23">23<link target="https://tinyurl.com/2aa5rzfw"></link></date></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-24">24<link target="https://tinyurl.com/muu8d9cj"></link></date> light snow</cell>
+            <cell><date when="1857-12-27">27<link target="https://tinyurl.com/yckzmesa"></link></date></cell>
+            <cell/>
+            <cell><date when="1859-12-10">10<link target="https://tinyurl.com/sfem57m5"></link></date> - <date when="1859-12-20">20<link target="https://tinyurl.com/vbacwzkr"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Damp snow plasters trees</cell>
+            <cell/>
+            <cell><date when="1853-12-27">27 <link target="https://tinyurl.com/y26a2ehc"></link></date></cell>
+            <cell><date when="1854-12-04">4<link target="https://tinyurl.com/tdpbj4wh"></link></date> NE sides</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Slosh</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell>
+              <date when="1856-12-03">3rd<link target="https://tinyurl.com/3w32x943"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1851-12-02">2<link target="https://tinyurl.com/yrxdrr4e"></link></date> no snow<lb/> before it was mostly bare frozen<lb/>ground</add> 50 51<add 
+              place="below">Snow on ground</add><add place="below"><date when="1850-12-20">20<link target="https://tinyurl.com/3mem3789"></link></date> since 15th ground covered 1/2 foot or more</add></cell>
+            <cell>52</cell>
+            <cell>53</cell>
+            <cell>54<add place="below"><del rend="strikethrough">9 <gap reason="unclear"
+                /></del></add></cell>
+            <cell>55 <add place="below"><date when="1855-12-03">3<link target="https://tinyurl.com/yvybmhyd"></link></date> no snow yet since the
+                1st<lb/>whitening which lasted so long</add></cell>
+            <cell><add place="above"><date when="1856-12-18">18<link target="https://tinyurl.com/y677dcmh"></link></date> now enough to whiten ground
+                be-<lb/>yong <placeName ref="Littleton">Littleton</placeName></add>56<add
+                  place="below"><date when="1856-12-12">12<link target="https://tinyurl.com/yb38nnhw"></link></date> in one <unclear>storm</unclear> 1/2
+                  the snow<lb/>gone<lb/><date when="1856-12-13">13<link target="https://tinyurl.com/ycktbveh"></link></date> snow mostly
+              gone</add></cell>
+            <cell>57<add place="below"><del rend="strikethrough">11 snow on ground</del><lb/><add
+              rend="pencil"><date when="1857-12-31">31<link target="https://tinyurl.com/h2je25x3"></link></date> ground still white<lb/>more snow
+                  last night </add></add></cell>
+            <cell><add place="above"><add rend="pencil"><date when="1858-12-03">Dec. 3<link target="https://tinyurl.com/38fx26zs"></link></date>
+                  <unclear>cover</unclear> with snow</add></add>58<add place="below"><date
+                    when="1858-12-11">11<link target="https://tinyurl.com/2xzdzxm6"></link></date> snow on ground</add></cell>
+            <cell>59<add place="Below"><date when="1859-12-20">20<link target="https://tinyurl.com/mt66weja"></link></date> since <date
+              when="1859-12-04">Dec. 4<link target="https://tinyurl.com/2x78uc7x"></link></date></add></cell>
+            <cell>60</cell>
+            <cell>61</cell>
+          </row>
+          <row>
+            <cell>Sloshing snow frozen solid</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-05">5<link target="https://tinyurl.com/3akmuaer"></link></date> snow with water<lb/>beneath 5-6 inch
+              deep<lb/>frozen solid bears well</cell>
+            <cell><date when="1855-12-26">26<link target="https://tinyurl.com/ymwwy38s"></link></date> inch or 2 of crusted snow<lb/>on
+              ground<lb/><date when="1855-12-29">29<link target="https://tinyurl.com/4zsff72n"></link></date> 3 days hard crust snow<lb/>skate
+              anywhere</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1851-12-23">23<link target="https://tinyurl.com/c4uz9tae"></link></date> snow of last
+                7 or 10 days<lb/>remarkably light &amp; dry</add>Dry snow squeaks</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-20">20<link target="https://tinyurl.com/4cb98sby"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Sleighing</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-14">14<link target="https://tinyurl.com/2awjkp2n"></link></date> good still with but<lb/>little snow<lb/><date
+              when="1854-12-26">26<link target="https://tinyurl.com/4vsbbvn7"></link></date> excellent since the 5th</cell>
+            <cell/>
+            <cell><date when="1856-12-01">1st<link target="https://tinyurl.com/ywc5kj8"></link></date> still pretty good sled-<lb/>ding with the
+              little snow<lb/>the <date when="1856-11-29">29<link target="https://tinyurl.com/2n9yzwzf"></link></date> ult.</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1860-12-22">22<link target="https://tinyurl.com/mvtuzu6r "></link></date> since the 4th</cell>
+            <cell><add rend="pencil"><date when="1861-12-24">24</date> 1st sleighs</add></cell>
+          </row>
+          <row>
+            <cell><unclear>North</unclear> snow</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><link target="https://tinyurl.com/4yhvck4t"></link><date when="1855-12-14">14</date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Coarsened &amp; furrowed snow surface</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-30">30<link target="https://tinyurl.com/47389d7c"></link></date></cell>
+            <cell><date when="1856-12-04">4<link target="https://tinyurl.com/4v9p2d3t"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-21">21<link target="https://tinyurl.com/5dkrfrmf"></link></date> (v. end of <date when="1859-12-22">22</date>)
+              for<lb/>figure</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Snow rolled up by wind</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-13">13<link target="https://tinyurl.com/yaftemsr"></link></date> yesterday night</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Drifts</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><del rend="strikethough">14</del><lb/><date when="1855-12-30">30<link target="https://tinyurl.com/snthaveu"></link></date></cell>
+            <cell><date when="1856-12-25">25<link target="https://tinyurl.com/7umpc2hr "></link></date> so drifted there were<lb/>as many carts as
+              sleighs</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1851-12-25">25<link target="https://tinyurl.com/2446hdmf"></link></date>connected</add>Wall
+              drifts</cell>
+            <cell/>
+            <cell><date when="1853-12-27">27<link target="https://tinyurl.com/ys2yk4k8"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-25">25<link target="https://tinyurl.com/2p99f7ps"></link></date> with a strong N.W. wind</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-15">15<link target="https://tinyurl.com/2v3zea3a"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-08">8<link target="https://tinyurl.com/bdzhzcjs"></link></date> (<gap reason="unclear" extent="1 word"></gap>) <date when="1850-12-17"
+              >17<link target="https://tinyurl.com/3xer3wra"></link></date></add>Day lengthened by reflected<lb/>light</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-28">28<link target="https://tinyurl.com/yntwx8m6"></link></date> since snow of <date when="1856-12-23"
+                >23rd</date> days<lb/>seen consid. lengthened<lb/>owing to increased light
+              af.<lb/>ter night</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-08">8<link target="https://tinyurl.com/bdzhzcjs"></link></date></add>Moon reflected from
+              snowcrust</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-08">8<link target="https://tinyurl.com/y3jfk6xe"></link></date></add>Cows kept at home</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><date when="1850-12-19">19<link target="https://tinyurl.com/yc8khxcn"></link></date> Tracks</cell>
+            <cell><date when="1852-12-22">22<link target="https://tinyurl.com/2p9xsjeh"></link></date></cell>
+            <cell><date when="1853-12-27">27<link target="https://tinyurl.com/3xpcf6df"></link></date><add place="above"><date when="1853-12-26">26<link target="https://tinyurl.com/5ypc8uzj"></link></date>&amp;</add></cell>
+            <cell><date when="1854-12-08">18<link target="https://tinyurl.com/4vvhrsmc"></link></date>-<date when="1854-12-31">31st<link target="https://tinyurl.com/2p8v7ptk"></link></date></cell>
+            <cell><date when="1855-12-14">14<link target="https://tinyurl.com/5sc4f3mp"></link></date> in ½ inch snow<lb/><date when="1855-12-30"
+              >30<link target="https://tinyurl.com/25d536wd"></link></date></cell>
+            <cell><date when="1856-12-06">6<link target="https://tinyurl.com/yc4wp5nv"></link></date> rabbits in slosh</cell>
+            <cell><date when="1857-12-27">27<link target="https://tinyurl.com/2p8ee6vu"></link></date>mice &amp;c</cell>
+            <cell><date when="1858-12-22">22<link target="https://tinyurl.com/82cyzmrd"></link></date> -&amp; <date when="1858-12-25">25<link target="https://tinyurl.com/hdxk7s9h"></link></date></cell>
+            <cell><date when="1859-12-12">12<link target="https://tinyurl.com/ywfm5mpk"></link></date>-<date when="1859-12-13">13<link target="https://tinyurl.com/584em3v2"></link></date>-<date when="1859-12-17">17<link target="https://tinyurl.com/2p992pds"></link></date><lb/><date when="1859-12-24">24<link target="https://tinyurl.com/s93pnauk"></link></date> partridge</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Quails <unclear>revealed</unclear></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-05">5<link target="https://tinyurl.com/k7ryeuc5"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Hunters out with dogs</cell>
+            <cell/>
+            <cell><date when="1853-12-26">26<link target="https://tinyurl.com/4cac7caf "></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-13">13<link target="https://tinyurl.com/4vjmam4a "></link></date> yesterday</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-22">22<link target="https://tinyurl.com/5dum6drf "></link></date></add><unclear>Grass</unclear> plants in &amp; above
+              snow<add place="above"><date when="1851-12-14">14<link target="https://tinyurl.com/2p9xfuvm"></link></date> blue curls</add></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1853-12-15">15<link target="https://tinyurl.com/3ew3ctks"></link></date> sweet fern</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-31">31<link target="https://tinyurl.com/2kbbv48f"></link></date> sweet gale &amp;c</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above">blue-curls full since <date when="1850-12-08"
+              >8th<link target="https://tinyurl.com/ycxwjd5j"></link></date></add>Weeds above snow (also blue-curls <unclear>ly-<lb/>copodium</unclear> &amp;c<lb/></cell>
+            <cell><date when="1852-12-14">14<link target="https://tinyurl.com/38tfxn59"></link></date> rhexia</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-29">29<link target="https://tinyurl.com/yckcd9rv"></link></date></cell>
+            <cell><date when="1855-12-01">1'<link target="https://tinyurl.com/2p82h83y"></link></date>
+              <date when="1856-12-02">2'<link target="https://tinyurl.com/dhnrfnuv"></link></date>
+              <date when="1856-12-03">3'<link target="https://tinyurl.com/2p87533f "></link></date>
+              <date when="1856-12-04">4'<link target="https://tinyurl.com/2s3rwjrx"></link></date> - <date when="1856-12-05">5<link target="https://tinyurl.com/3rvr54bp"></link></date>- <date
+                when="1856-12-06">6<link target="https://tinyurl.com/4p558c98"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-09">9<link target="https://tinyurl.com/2jn6avxa"></link></date> &amp; <date when="1859-12-14">14<link target="https://tinyurl.com/mreemdpc"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell><add place="above"><date when="1850-12-24">24<link target="https://tinyurl.com/mrxr9mct"></link></date></add>Many pine needles on snow</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-12">12<link target="https://tinyurl.com/4ux62826"></link></date></cell>
+            <cell><del rend="strikethrough"><gap></gap></del></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell>Birch scales on snow</cell>
+            <cell><date when="1852-12-18">18<link target="https://tinyurl.com/2u5tpm7c"></link></date></cell>
+            <cell/>
+            <cell><date when="1854-12-04">4<link target="https://tinyurl.com/7kwwvtcu"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-06">6<link target="https://tinyurl.com/msmymwc4"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          
+          <row>
+            <cell><add place="above"><date when="1850-12-22">22<link target="https://tinyurl.com/2m6xkhku"></link></date></add>See what red-squirrels<lb/>have eaten</cell>
+            <cell><date when="1852-12-18">18<link target="https://tinyurl.com/2m6xkhku"></link> 
+            </date> sweet-briar hips</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-22">22<link target="https://tinyurl.com/3hfbuay7"></link></date> chestnut burs</cell>
+            <cell> </cell>
+            <cell/>
+          </row>
+        </table>
+      </div>
+    </body>
+  </text>
+</TEI>

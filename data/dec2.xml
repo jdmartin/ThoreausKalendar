@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- The line above is the "XML declaration"; it is not -->
+<!-- required, but we recommend using it. -->
+<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
+<!-- The line above is a processing instruction for finding the schema; -->
+<!-- it is intended for oXygen, but other software may use it, also. -->
+<!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
+<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Charts of General Phenomena</title>
+        <author>
+          <persName>Henry David Thoreau</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <ab><!-- copyright or copyleft information here --></ab>
+        </availability> 
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->All Phenomena for
+          June</bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+  
+    <body>
+    
+      <div type="section">
+        <table rows="13" cols="12">
+          <head>1. All Phenomena for December </head>
+          <row role="label">
+            <cell/>
+            <cell> 50    51</cell>
+            <cell>52</cell>
+            <cell>53</cell>
+            <cell>54</cell>
+            <cell>55</cell>
+            <cell>56</cell>
+            <cell>57</cell>
+            <cell>58</cell>
+            <cell>59</cell>
+            <cell>60</cell>
+            <cell>61</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Hooting Owl</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-09">9th-<link target="https://tinyurl.com/yckwhrpb"></link></date><date when="1856-12-19">19th<link target="https://tinyurl.com/2nuy7n3m"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>woodcock shrill</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-17">17<link target="https://tinyurl.com/24s4jnwb"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Partridge in snare</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-12-15">15<link target="https://tinyurl.com/422hvpd7"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Black drake in <placeName ref="Walden Pond">Walden</placeName></cell>
+            <cell><date when="1852-12-27">27<link target="https://tinyurl.com/3eubksa4"></link></date>a black and white <lb/>duck on it</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-03">3<link target="https://tinyurl.com/3r7v3kud"></link></date>duck in</cell>
+            <cell><date when="1859-12-10">10<link target="https://tinyurl.com/54sy5953"></link></date>sheldrake<lb/><date
+              when="1859-12-17">17<link target="https://tinyurl.com/92vas9aa"></link></date>duck in</cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Golden-crested wren</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-25">25<link target="https://tinyurl.com/4ae6c28b"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>Perch rise on<placeName ref="Walden">Walden</placeName>?</cell>
+            <cell><date when="1852-12-05">5th<link target="https://tinyurl.com/2p9az5j3"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>1st Fish through ice</cell>
+            <cell/>
+            <cell><date when="1853-12-15">15<link target="https://tinyurl.com/2ducksrb"></link></date>yesterday on<lb/><placeName ref="Flint's Pond">Flint's</placeName>&amp; 
+              <placeName ref="Fair Haven">F.H.</placeName><add rend="underline">first</add></cell>
+            <cell/>
+            <cell><date when="1855-12-21">21<link target="https://tinyurl.com/32ump57h"></link></date> yesterday fish on<lb/><placeName ref="Fair Haven Pond">F.H.P.</placeName></cell>
+            <cell><date when="1856-12-07">7<link target="https://tinyurl.com/57kw96u5"></link></date>some fishers on <placeName ref="Fair Haven Pond">F.H.P.</placeName><lb/>yesterday<lb/>
+              <date when="1856-12-28">28<link target="https://tinyurl.com/2s4d65f4"></link></date>on water ice about<lb/>4 inches thick</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-22">22<link target="https://tinyurl.com/ycxhum2b"></link></date>on <placeName ref="Flint's Pond">Flint P.</placeName></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Trout</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-29">29<link target="https://tinyurl.com/mrjvspvb"></link></date>a mills brook</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Dig up frog</cell>
+            <cell/>
+            <cell><date when="1853-12-03">3rd<link target="https://tinyurl.com/2j6pzu62"></link></date>at a spring</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Bullfrog out</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-12-31">31<link target="https://tinyurl.com/24ha82tj"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>First larva &amp;c on ice</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-15">15<link target="https://tinyurl.com/26t6h3tr"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-29">29th<link target="https://tinyurl.com/mtmh2893"></link></date></cell>
+            <cell><date when="1859-12-25">25<link target="https://tinyurl.com/2p8t5mjj"></link></date></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>ants in winter quarters</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1857-12-03">3<link target="https://tinyurl.com/bdz8uxuj"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Dogwood fruit <add place="above"><date when="1851-12-21">21<link target="https://tinyurl.com/ysrs6sy9"></link></date></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>prino berries<add place="above"><date when="1851-12-21">21<link target="https://tinyurl.com/3dce5eyf"></link></date></add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>woodchopping fairly begun<add place="above"><date when="1850-12-19">19<link target="https://tinyurl.com/kykud7nv"></link></date>sound of in all woods</add></cell>
+            <cell/>
+            <cell><date when="1853-12-23">23<link target="https://tinyurl.com/yckb4cxu"></link></date><persName ref="Alek Therien">Therien</persName>in rain</cell>
+            <cell/>
+            <cell><date when="1855-12-14">14<link target="https://tinyurl.com/2t628frd"></link></date>hear sound of</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>winter sunset from <placeName ref="Fair Haven Hill">F.H.H.</placeName>&amp; <gap></gap><add place="above"><date when="1851-12-23">23-<link target="https://tinyurl.com/mrxfckdk"></link></date>
+              <date when="1851-12-24">4<link target="https://tinyurl.com/35kff7zv"></link></date>&amp;<date when="1851-12-27">27th<link target="https://tinyurl.com/2sxku2cs"></link></date></add></cell>
+            <cell><date when="1852-12-14">14<link target="https://tinyurl.com/23yzyda9"></link></date></cell>
+            <cell><date when="1853-12-27">27<link target="https://tinyurl.com/4vhjyszz"></link></date></cell>
+            <cell/>
+            <cell><date when="1855-12-26">26<link target="https://tinyurl.com/fbc6mfcu"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1858-12-03">3rd<link target="https://tinyurl.com/ekwv72sc"></link></date>warm sunset</cell>
+            <cell><date when="1859-12-13">13<link target="https://tinyurl.com/37rtr4nx"></link></date>from <placeName ref="The Deep Cut">D.C.</placeName></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>splendid sunsets</cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1854-12-08">8<link target="https://tinyurl.com/5n7hzrz7"></link></date>a <unclear>glorious</unclear><lb/><date when="1854-12-11">11th<link target="https://tinyurl.com/55v56wma"></link></date>early still clear win<lb/>ter sunset now</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-11">11th</date>splendid glitter<lb/>ing
+                scarlet sunset</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>water color of wood <unclear>9 cut</unclear></cell>
+            <cell><date when="1852-12-22">22<link target="https://tinyurl.com/2p8ks6ee"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Reflection in over part<lb/>of river</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-20">20<link target="https://tinyurl.com/37pzdv7j"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>River Green</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-30">30<link target="https://tinyurl.com/5edx2vud"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Mother O' pearls sky<add place="above">50 51</add></cell>
+            <cell>52</cell>
+            <cell>53</cell>
+            <cell>54<lb/><date when="1854-12-20">20th<link target="https://tinyurl.com/mv8xvkjk"></link></date>at sunrise</cell>
+            <cell>55<lb/><date when="1855-12-30">30<link target="https://tinyurl.com/5n6epytp"></link></date></cell>
+            <cell>56</cell>
+            <cell>57</cell>
+            <cell>58</cell>
+            <cell>59</cell>
+            <cell>60</cell>
+            <cell>61</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>walk in swamps</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-29">29<link target="https://tinyurl.com/5n9369au"></link></date>good <unclear>walk</unclear></cell>
+            <cell><date when="1856-12-06">6th<link target="https://tinyurl.com/2um364me"></link></date>hard dry swamp <lb/> fruit</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>walk eats his heart</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1855-12-08">8<link target="https://tinyurl.com/y67n8mmw"></link></date><unclear>solitdue &amp; dream<lb/>in my walk now</unclear></cell>
+            <cell><date when="1856-12-17">17th<link target="https://tinyurl.com/3c9hh3zy"></link></date>poor picking out</cell>
+            <cell/>
+            <cell><date when="1858-12-25">25<link target="https://tinyurl.com/435hrece"></link></date>hard dec <unclear>get thro'</unclear></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Shrub <abbr corresp="oak">O.</abbr> leaves <gap></gap></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-01">1st<link target="https://tinyurl.com/3axm2jyv"></link></date>&amp;<date when="1856-12-17">17-<link target="https://tinyurl.com/2473acz3"></link></date><date when="1856-12-19">19th<link target="https://tinyurl.com/mmhyfnr2"></link></date><lb/><date when="1856-12-06">6th<link target="https://tinyurl.com/4a585wrc"></link></date>
+            far greater part fallen</cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row><row>
+            <cell/>
+            <cell>Short<add rend="underline">PM</add></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-10">10th<link target="https://tinyurl.com/mr3c2fkv"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell><date when="1859-12-05">5th<link target="https://tinyurl.com/yjb6f8cm"></link></date>early candle light<lb/><date when="1859-12-12">12th<link target="https://tinyurl.com/22wcmd68"></link></date>short <add rend="underline">PM</add></cell>
+            <cell/>
+            <cell/>
+          </row>
+          <row>
+            <cell/>
+            <cell>Winter eve of </cell>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell/>
+            <cell><date when="1856-12-09">9<link target="https://tinyurl.com/489d5e74"></link></date>(v look <date when="1856-12-15">15th<link target="https://tinyurl.com/489d5e74"></link></date></cell>
+            <cell/>
+            <cell><date when="1858-12-25">25th<link target="https://tinyurl.com/u34bccpk"></link></date></cell>
+            <cell/>
+            <cell/>
+            <cell/>
+          </row>
+        </table>
+      </div>
+    </body>
+  </text>
+</TEI>
+<?oxy_options track_changes="on"?>
