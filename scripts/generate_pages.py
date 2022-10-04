@@ -1,60 +1,42 @@
 from bs4 import BeautifulSoup
 
 
-def get_choice():
-    #These are the menu choices and the corresponding functions:
-    options = {
-        '0': 'newapril',
-        '1': 'otherapril',
-        '2': 'may1',
-        '3': 'may2',
-        '4': 'june',
-        '5': 'june2',
-        '6': 'june3',
-        '7': 'june4',
-        '8': 'oct1',
-        '9': 'oct2',
-        '10': 'nov1',
-        '11': 'nov2',
-        '12': 'nov3',
-        '13': 'alldecember',
-        '14': 'dec2',
-        '15': 'dec3',
-        '16': 'dec4',
-        'A': 'all_pages',
-    }
-    choice = input("What would you like to do? Enter the number:")
-    
-    if choice in options.keys():
-        build_page(options[choice])
-    else:
-        print("Sorry, that's not a valid choice. Try again.\n")
-        get_choice()
-
 def menu():
+    choice = ""
+    options = {
+    '0': ['newapril', 'April (New)'],
+    '1': ['otherapril', 'April (Other)'],
+    '2': ['may1', 'May 1'],
+    '3': ['may2', 'May 2'],
+    '4': ['june', 'June 1'],
+    '5': ['june2', 'June 2'],
+    '6': ['june3', 'June 3'],
+    '7': ['june4', 'June 4'],
+    '8': ['oct1', 'October 1'],
+    '9': ['oct2', 'October 2'],
+    '10': ['nov1', 'November 1'],
+    '11': ['nov2', 'November 2'],
+    '12': ['nov3', 'November 3'],
+    '13': ['alldecember', 'December 1'],
+    '14': ['dec2', 'December 2'],
+    '15': ['dec3', 'December 3'],
+    '16': ['dec4', 'December 4'],
+    'A': ['all_pages', 'Rebuild All Months'],
+}
+
     print("\n")
     print("Choose a month to build, or one of the global options:\n")
-    print("0.\tApril (New)")
-    print("1.\tApril (Other)")
-    print("2.\tMay 1")
-    print("3.\tMay 2")
-    print("4.\tJune 1")
-    print("5.\tJune 2")
-    print("6.\tJune 3")
-    print("7.\tJune 4")
-    print("8.\tOctober 1")
-    print("9.\tOctober 2")
-    print("10.\tNovember 1")
-    print("11.\tNovember 2")
-    print("12.\tNovember 3")
-    print("13.\tDecember 1")
-    print("14.\tDecember 2")
-    print("15.\tDecember 3")
-    print("16.\tDecember 4")
+    for option, item in options.items():
+        print(f"{option}.\t{item[1]}")
+
     print("\n")
-    print("A.\tRebuild All Months")
-    print("\n")
-    get_choice()
+    while choice not in options.keys():
+        choice = input("What would you like to do? Enter the number: ")
+        if choice in options.keys():
+            build_page(options[choice][0])
+        else:
+            print("Sorry, that's not a valid choice. Try again.\n")
+
 
 def build_page(page):
     pages = [
@@ -110,10 +92,12 @@ def build_page(page):
 
                     children = row.find_all("cell")
 
+                    i = 0
                     for elem in list(children):
-                        output.write("<td>")
+                        output.write(f'<td num="{i}">')
                         output.write(str(elem))
                         output.write("</td>")
+                        i += 1
 
                     output.write("</tr>")
 
