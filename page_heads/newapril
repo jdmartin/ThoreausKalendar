@@ -8,6 +8,7 @@
 
     <script type="text/javascript" src="./resources/js/kalendar.min.js"></script>
     <script type="text/javascript" src="./resources/js/ref.min.js"></script>
+    <script type="text/javascript" src="./resources/js/linkmaker.min.js"></script>
 </head>
 
 <body>
