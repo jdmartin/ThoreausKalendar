@@ -17,10 +17,11 @@ def menu():
     '10': ['nov1', 'November 1'],
     '11': ['nov2', 'November 2'],
     '12': ['nov3', 'November 3'],
-    '13': ['alldecember', 'December 1'],
-    '14': ['dec2', 'December 2'],
-    '15': ['dec3', 'December 3'],
-    '16': ['dec4', 'December 4'],
+    '13': ['nov4', 'November 4'],
+    '14': ['alldecember', 'December 1'],
+    '15': ['dec2', 'December 2'],
+    '16': ['dec3', 'December 3'],
+    '17': ['dec4', 'December 4'],
     'A': ['all_pages', 'Rebuild All Months'],
 }
 
@@ -53,6 +54,7 @@ def build_page(page):
         "nov1",
         "nov2",
         "nov3",
+        "nov4",
         "alldecember",
         "dec2",
         "dec3",
