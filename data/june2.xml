@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- The line above is the "XML declaration"; it is not --><!-- required, but we recommend using it.  --><?oxygen RNGSchema="./exercise.rnc" type="compact"?><!-- The line above is a processing instruction for finding the schema; --><!-- it is intended for oXygen, but other software may use it, also. --><!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? --><?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
+<!-- The line above is the "XML declaration"; it is not --><!-- required, but we recommend using it.  --><!-- The line above is a processing instruction for finding the schema; --><!-- it is intended for oXygen, but other software may use it, also. --><!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -10,9 +10,7 @@
                 </author>
             </titleStmt>
             <publicationStmt>
-                <availability>
                     <ab>                        <!-- copyright or copyleft information here --></ab>
-                </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -41,7 +39,7 @@
                     </row>
                     <row>
                         <cell/>
-                        <cell>Hot in 1st half</cell>
+                        <cell><emph rend="bold">Hot in 1st half</emph></cell>
                         <cell>
                             <date when="1852-06-03">3rd<link target="http://tinyurl.com/zs2zhxx"/>
                             </date> sultry<lb/>
@@ -49,7 +47,7 @@
                         </date> hot weather</cell>
                     <cell>
                         <date when="1853-06-14">14<link target="http://tinyurl.com/zbt8mrw"/>
-                        </date> <emph rend="underline">warm</emph>- warm-<lb/>
+                        </date> warm - warm-<lb/>
 est pm yet<lb/>
                 <date when="1853-06-16">16<link target="http://tinyurl.com/jodnn67"/>
                 </date> warmer for fort-<lb/>
@@ -77,20 +75,20 @@ night past</cell>
 <cell>
     <date when="1859-06-15">15<link target="http://tinyurl.com/zbu5khe"/>
     </date> suddenly hot<lb/>
-90 after very cool days</cell>
+90 after very cool day</cell>
 <cell>
     <date when="1860-06-04">4th<link target="http://tinyurl.com/hl6gfeq"/>
     </date> uncomfortably<lb/>
- warm<gap reason="unclear"/>
+ warm in 
 walking<lb/>
 <date when="1860-06-15">15th<link target="http://tinyurl.com/htd22f5"/>
 </date> warmer since<lb/>
 the <date when="1860-06-12">12<link target="http://tinyurl.com/htd22f5"/>
-</date> 85+ 2pm</cell>
+</date> 85+ at 2pm</cell>
 </row>
 <row>
 <cell/>
-<cell>Hot in last half<lb/>
+    <cell><emph rend="bold">Hot in last half</emph><lb/>
 <date when="1851-06-30">30<link target="http://tinyurl.com/jly79py"/>
 </date> - 51 oppressively warm<lb/>
 <date when="1860-06-25">25<link target="http://tinyurl.com/hkexner"/>
@@ -102,7 +100,7 @@ the <date when="1860-06-12">12<link target="http://tinyurl.com/htd22f5"/>
 or more of warm<lb/>
 days &amp; nights<lb/>
 <date when="1852-06-15">15<link target="http://tinyurl.com/zjf9o5p"/>
-</date>-<date when="1852-06-16">16<link target="https://tinyurl.com/mux8myhe"/>
+</date>-<date when="1852-06-16">16<link target="http://tinyurl.com/zjf9o5p"/>
 </date> sultry night<lb/>
 <date when="1852-06-16">16<link target="http://tinyurl.com/gwdmmkm"/>
 </date> very hot</cell>
@@ -144,7 +142,7 @@ hotter still - &amp; muggy<lb/>
 <emph rend="underline">June</emph>
 <lb/>
 <date when="1860-06-29">29<link target="http://tinyurl.com/jsfw4wh"/>
-</date> 6pm 91 war- <lb/>mest of month
+</date> 6pm 91 warm-<lb/> -est of month
 <lb/>
 85 at 2pm<lb/>
 the <date when="1860-06-23">23rd<link target="http://tinyurl.com/zeyvptt"/>
@@ -156,13 +154,13 @@ the <date when="1860-06-23">23rd<link target="http://tinyurl.com/zeyvptt"/>
 <cell>
 <del>Cold in 1st half</del>
 <lb/>
-Sultry night</cell>
+    <emph rend="bold">Sultry night</emph></cell>
 <cell/>
 <cell>
 <date when="1853-06-20">20<link target="http://tinyurl.com/jntfoy4"/>
 </date>
 <lb/>
-<date when="1853-06-21">21<link target="https://tinyurl.com/3xkfz8e7"/>
+<date when="1853-06-21">21<link target="http://tinyurl.com/jntfoy4"/>
 </date> perhaps warmest<lb/>
 night of year up<lb/>
 to <date when="1853-06-29">29th<link target="http://tinyurl.com/zfsvdoz"/>
@@ -171,7 +169,7 @@ in their yards<lb/>
 <date when="1853-06-21">21<link target="http://tinyurl.com/z2zgshg"/>
 </date>-<date when="1853-06-22">2<link target="http://tinyurl.com/z2zgshg"/>
 </date>
-exceedingly
+<gap reason="unclear"/>
 </cell>
 <cell/>
 <cell/>
@@ -183,8 +181,8 @@ exceedingly
 </row>
 <row>
 <cell/>
-<cell>Debauched look of<lb/>
-streets in morn.</cell>
+<cell><emph rend="bold">Debauched look of<lb/>
+    streets in morn.</emph></cell>
 <cell>
 <date when="1852-06-16">16<link target="http://tinyurl.com/zm5mf9o"/>
 </date>
@@ -200,7 +198,7 @@ streets in morn.</cell>
 </row>
 <row>
 <cell/>
-<cell>Leave off flannel</cell>
+    <cell><emph rend="bold">Leave off flannel</emph></cell>
 <cell/>
 <cell/>
 <cell/>
@@ -216,9 +214,9 @@ streets in morn.</cell>
 </row>
 <row>
 <cell></cell>
-<cell>
+<cell><emph rend="bold">
 <abbr corresp="Begin">Beg.</abbr> to sleep with open window<lb/>
-commonly</cell>
+    commonly</emph></cell>
 <cell/>
 <cell/>
 <cell/>
@@ -234,7 +232,7 @@ commonly</cell>
 </row>
 <row>
 <cell/>
-<cell>Beg. to wear thin sack</cell>
+    <cell><emph rend="bold">Beg. to wear thin sack</emph></cell>
 <cell>
 <date when="1852-06-15">15<link target="http://tinyurl.com/h3j354w"/>
 </date> now <emph rend="underline">for</emph>
@@ -263,7 +261,7 @@ past</cell>
 <row>
 <cell/>
 <cell>
-<unclear>Have sack</unclear> or ribbon</cell>
+    <emph rend="bold">Have sack or ribbon</emph></cell>
 <cell/>
 <cell>
 <date when="1853-06-20">20<link target="http://tinyurl.com/h5dxtb8"/>
@@ -286,7 +284,7 @@ past</cell>
 <row>
 <cell/>
 <cell>
-<unclear>Bring some ice</unclear>
+    <emph rend="bold">Bring some ice</emph>
 </cell>
 <cell/>
 <cell/>
@@ -300,7 +298,7 @@ past</cell>
 </row>
 <row>
 <cell/>
-<cell>Cold in 1st half</cell>
+    <cell><emph rend="bold">Cold in 1st half</emph></cell>
 <cell>
 <date when="1852-06-10">10<link target="http://tinyurl.com/jhmmbxo"/>
 </date> some cold wind<lb/>
@@ -327,7 +325,7 @@ N.W. wind 58 at<lb/>
 </row>
 <row>
 <cell/>
-<cell>Cold in last half</cell>
+    <cell><emph rend="bold">Cold in last half</emph></cell>
 <cell>
 <date when="1852-06-24">24<link target="http://tinyurl.com/hq4xxw4"/>
 </date> uncommonly cold<lb/>
@@ -339,8 +337,7 @@ of warm days &amp; nights</cell>
 (<date when="1853-06-24">24<link target="http://tinyurl.com/zfsvdoz"/>
 </date> to <date when="1853-06-27">27<link target="http://tinyurl.com/zfsvdoz"/>
 </date>
-<abbr corresp="inclusive">inc.</abbr>
- cool)</cell>
+<abbr corresp="inclusive">inc.</abbr> cool)</cell>
 <cell/>
 <cell/>
 <cell/>
@@ -359,9 +356,9 @@ northerly wind</cell>
 </row>
 <row>
 <cell/>
-<cell>Have a fire</cell>
+    <cell><emph rend="bold">Have a fire</emph></cell>
 <cell>
-<date when="1852-06-15">15<link target="https://tinyurl.com/5x9jttf2"/>
+    <date when="1852-06-15">15<link target="https://tinyurl.com/2wads9e8"/>
 </date> part of the<lb/>
 past week</cell>
 <cell/>
@@ -378,14 +375,14 @@ for 10 days past</cell>
 <cell>
 <date when="1860-06-06">6<link target="http://tinyurl.com/hhvmfcy"/>
 </date> on <abbr corresp="account">ac.</abbr> of rain<lb/>
-<date when="1860-06-21">21<link target="https://tinyurl.com/2p96y6hr"/>
+<date when="1860-06-21">21<link target="http://tinyurl.com/hopna88"/>
 </date> cooled by rain<gap reason="unclear"/>
 <lb/>
 day - must have fires</cell>
 </row>
 <row>
 <cell/>
-<cell>Thick coat again</cell>
+    <cell><emph rend="bold">Thick coat again</emph></cell>
 <cell/>
 <cell/>
 <cell>
@@ -404,7 +401,7 @@ at 12 1/2 pm</cell>
 </row>
 <row>
 <cell/>
-<cell>Cool eve</cell>
+    <cell><emph rend="bold">Cool eve</emph></cell>
 <cell/>
 <cell/>
 <cell/>
