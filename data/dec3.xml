@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- The line above is the "XML declaration"; it is not -->
 <!-- required, but we recommend using it. -->
-<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
 <!-- The line above is a processing instruction for finding the schema; -->
 <!-- it is intended for oXygen, but other software may use it, also. -->
 <!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
-<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -16,9 +14,7 @@
         </author>
       </titleStmt>
       <publicationStmt>
-        <availability>
           <ab><!-- copyright or copyleft information here --></ab>
-        </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -47,7 +43,7 @@
             <cell>61</cell>
           </row>
           <row>
-            <cell>Birds feeding on seeds above<lb/>the snow</cell>
+            <cell><emph rend="bold">Birds feeding on seeds above<lb/>the snow</emph></cell>
             <cell/>
             <cell/>
             <cell><del rend="strikethrough">20</del></cell>
@@ -63,7 +59,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Blue shadows</cell>
+            <cell><emph rend="bold">Blue shadows</emph></cell>
             <cell/>
             <cell/>
             <cell><date when="1854-12-20">20<link target="https://tinyurl.com/k476bybb"></link></date></cell>
@@ -76,7 +72,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Got in boat</cell>
+            <cell><emph rend="bold">Got in boat</emph></cell>
             <cell><date when="1851-12-28">28<link target="https://tinyurl.com/2p9bmsuu"></link></date> from Walden</cell>
             <cell><date when="1852-12-05">5<link target="https://tinyurl.com/sdp4n7ju"></link></date></cell>
             <cell><date when="1853-12-02">2<link target="https://tinyurl.com/3emd86zz"></link></date></cell>
@@ -89,7 +85,7 @@
             <cell>not taken out <lb/>in 61</cell>
           </row>
           <row>
-            <cell>Sheets of ice float down river in <unclear>warmth</unclear> (in eve)</cell>
+            <cell><emph rend="bold">Sheets of ice float down river in <unclear>warmth</unclear> (in eve)</emph></cell>
             <cell/>
             <cell><date when="1853-12-08">8th<link target="https://tinyurl.com/ab65psmj"></link></date></cell>
             <cell/>
@@ -102,7 +98,7 @@
             <cell><date when="1861-11-19">Nov. 19</date> at eve</cell>
           </row>
           <row>
-            <cell>1st <emph rend="underline">cold</emph> morning say 14° +</cell>
+            <cell><emph rend="bold">1st <emph rend="underline">cold</emph> morning say 14° +</emph></cell>
             <cell><date when="1852-12-12">12<link target="https://tinyurl.com/m27vftds"></link></date> cold at last</cell>
             <cell><date when="1853-12-04">4<link target="https://tinyurl.com/2bwb87cj"/></date>
               coldest day yet +<lb/>clear with consid.<lb/>wind - after 1st cloudless<lb/>morn. for
@@ -114,12 +110,12 @@
             <cell><add place="above"><date when="1856-12-05">5th<link target="https://tinyurl.com/58mxvaer"></link></date> clear cold winter
                 weather</add>
               <date when="1856-12-08">8th<link target="https://tinyurl.com/3ceh978c"></link></date> at 8<emph rend="underline">am</emph> 8°+
-              prob<lb/>coldest day yet <lb/><date when="1856-12-10">10<link target="https://tinyurl.com/4mx4ktda"></link></date> at 7 ½ 3°+<add
+              prob<lb/>coldest day yet <lb/><date when="1856-12-10">10<link target="https://tinyurl.com/4mx4ktda"></link></date> at 7 ½ 3°+ <lb/><add
                 place="below"><date when="1856-12-17">17<link target="https://tinyurl.com/593dxv6c"></link></date>cold with wind</add></cell>
             <cell/>
             <cell/>
             <cell><date when="1859-12-03">3rd<link target="https://tinyurl.com/2tyuame9"/></date>
-              suddenly quite cold<lb/>freezes in the house<add place="right"><date when="1859-12-09"
+              suddenly quite cold<lb/>freezes in the house <add place="right"><date when="1859-12-09"
                     >9th<link target="https://tinyurl.com/2p9bwf7k"/></date>sudden cold last
                 night</add></cell>
             <cell/>
@@ -127,7 +123,7 @@
               4° at 7 am</cell>
           </row>
           <row>
-            <cell>Clears off cold after rain</cell>
+            <cell><emph rend="bold">Clears off cold after rain</emph></cell>
             <cell/>
             <cell><date when="1853-12-18">18th<link target="https://tinyurl.com/42sfypbe"></link></date></cell>
             <cell/>
@@ -140,8 +136,8 @@
             <cell/>
           </row>
           <row>
-            <cell><add place="above"><date when="1851-12-17">17<link target="https://tinyurl.com/y6hvux92"></link></date> piercing cold PM</add>Very
-              cold, zero or below</cell>
+            <cell><add place="above"><date when="1851-12-17">17<link target="https://tinyurl.com/y6hvux92"></link></date> piercing cold PM</add> <lb/><emph rend="bold">Very
+              cold, zero or below</emph></cell>
             <cell><date when="1852-12-18">18<link target="https://tinyurl.com/peujc52e"></link></date> very cold windy day</cell>
             <cell><date when="1853-12-28">28<link target="https://tinyurl.com/4p9emcsj"></link></date> perhaps coldest<lb/>night - pump
               slightly<lb/>frozen</cell>
@@ -163,7 +159,7 @@
             </cell>
           </row>
           <row>
-            <cell><placeName ref="Fair Haven Pond">F.H.P.</placeName> frozen again</cell>
+            <cell><emph rend="bold"><placeName ref="Fair Haven Pond">F.H.P.</placeName> frozen again</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -176,7 +172,7 @@
             <cell/>
           </row>
           <row>
-            <cell>River frozen again</cell>
+            <cell><emph rend="bold">River frozen again</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -190,8 +186,8 @@
           </row>
           <row>
             <cell><add place="above"><date when="1850-12-16">Dec 16<link
-                    target="https://tinyurl.com/ynshh6kj"/></date></add><placeName
-                ref="Flint's Pond">Flint P.</placeName> frozen</cell>
+                    target="https://tinyurl.com/ynshh6kj"/></date></add><lb/> <emph rend="bold"><placeName
+                      ref="Flint's Pond">Flint P.</placeName> frozen</emph></cell>
             <cell><date when="1852-12-22">22<link target="https://tinyurl.com/yck74fnk"></link></date> yesterday</cell>
             <cell><date when="1853-12-04">4<link target="https://tinyurl.com/ynm9rdrc"></link></date> only skimmed a little<lb/>at the shore<lb/><date
                 when="1853-12-05">Dec. 5</date></cell>
@@ -208,8 +204,8 @@
             <cell><add place="above"><date when="1850-12-26">26<link
                     target="https://tinyurl.com/bw68mf4c"/></date>not more than 1/2 frozen<lb/><date
                   when="1850-12-17">17<link target="https://tinyurl.com/4v7pew88"/></date> it was
-                only slightly skimmed</add><placeName ref="Walden">Walden</placeName> begun to
-                freeze<add place="below">a rod from shore on the <date when="1850-12-23">23<link
+                only slightly skimmed</add><lb/><emph rend="bold"><placeName ref="Walden">Walden</placeName> begun to
+                  freeze</emph><lb/><add place="below">a rod from shore on the <date when="1850-12-23">23<link
                     target="https://tinyurl.com/5n94838r"/></date>1/3 frozen</add></cell>
             <cell><date when="1852-12-27">27<link target="https://tinyurl.com/za49xdu5"></link></date> no ice in to-day</cell>
             <cell><date when="1853-12-22">22</date> a few acres of it freeze<lb/><date
@@ -224,7 +220,7 @@
             <cell><date when="1858-12-11">11<link target="https://tinyurl.com/veca3d59"></link></date> 1/3 skimmed over <lb/><date when="1858-12-13"
               >13<link target="https://tinyurl.com/4r8mfr73"></link></date> not so much as <date when="1858-12-11">11th</date><lb/><date
                 when="1858-12-18">18<link target="https://tinyurl.com/495jsp88"></link></date> merely a little edges<lb/><date when="1858-12-20"
-                  >20<link target="https://tinyurl.com/4pts8szr"></link></date> frozen except 2 spots in mid.<add place="below"> same<date
+                  >20<link target="https://tinyurl.com/4pts8szr"></link></date> frozen except 2 spots in mid. <lb/><add place="below">same<date
                     when="1858-12-23">23<link target="https://tinyurl.com/yckprh8s"></link></date></add></cell>
             <cell><date when="1859-12-24">24<link target="http://tinyurl.com/bdf2m6rz"></link></date> ½ for more than<lb/>a week - an acre or 2
               open<lb/> yet</cell>
@@ -233,8 +229,8 @@
           </row>
           <row>
             <cell><add place="above"><date when="1850-12-27">27<link
-                    target="http://tinyurl.com/4ky9f5tp"/></date>(?)</add><placeName ref="Walden"
-                >Walden</placeName> frozen</cell>
+                    target="http://tinyurl.com/4ky9f5tp"/></date>(?)</add><lb/> <emph rend="bold"><placeName ref="Walden"
+                      >Walden</placeName> frozen</emph></cell>
             <cell><date when="1853-01-05">Jan. 5<link target="https://tinyurl.com/56ur6ejc"></link></date> (52-3)</cell>
             <cell>night of <date when="1853-12-31">30-31st<link target="http://tinyurl.com/yay8n699"></link></date></cell>
             <cell>ap. 2 inch thick<lb/>prob night of <date when="1854-12-18">18th <link target=" http://tinyurl.com/4stdhra6 "></link></date></cell>
@@ -254,7 +250,7 @@
             </cell>
           </row>
           <row>
-            <cell><placeName ref="Goose Pond">Goose Pond</placeName> skimmed over</cell>
+            <cell><emph rend="bold"><placeName ref="Goose Pond">Goose Pond</placeName> skimmed over</emph></cell>
             <cell><date when="1852-12-13">13 <link target="https://tinyurl.com/yefhw4zv"></link></date></cell>
             <cell><date when="1852-12-31">31st <link target="https://tinyurl.com/3c83t36a"></link></date> 1st <unclear>first</unclear>frozen<lb/>(was skimmed over night<lb/>of
               <date when="1853-12-03">3-4<link target="https://tinyurl.com/4bt2kh6h"></link></date></cell>
@@ -268,7 +264,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Sturdy ice crystals</cell>
+            <cell><emph rend="bold">Sturdy ice crystals</emph></cell>
             <cell/>
             <cell><date when="1853-12-10">10<link target=" https://tinyurl.com/ycxxvdn5"></link></date></cell>
             <cell/>
@@ -281,8 +277,8 @@
             <cell/>
           </row>
           <row>
-            <cell><add place="above"><date when="1850-12-19">19<link target="https://tinyurl.com/5n8cys3h"></link></date></add>Wild apples
-              frozen</cell>
+            <cell><add place="above"><date when="1850-12-19">19<link target="https://tinyurl.com/5n8cys3h"></link></date></add><lb/><emph rend="bold">Wild apples
+              frozen</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -295,7 +291,7 @@
             <cell/>
           </row>
           <row>
-            <cell>1st walk up river</cell>
+            <cell><emph rend="bold">1st walk up river</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -311,7 +307,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Skating <add place="right"><date when="1851-12-14">14<link target="https://tinyurl.com/ytd6pkux"></link></date> boys been
+            <cell><emph rend="bold">Skating</emph> <add place="right"><date when="1851-12-14">14<link target="https://tinyurl.com/ytd6pkux"></link></date> boys been
                 skating<lb/>a week</add></cell>
             <cell><date when="1852-12-18">18th<link target="https://tinyurl.com/9mknac7e"></link></date>
               <placeName ref="Loring's Pond">Lorings P.</placeName></cell>
@@ -332,7 +328,7 @@
               <emph rend="underline">occuring</emph> for a week or<lb/>2 past</cell>
           </row>
           <row>
-            <cell>Good skating</cell>
+            <cell><emph rend="bold">Good skating</emph></cell>
             <cell><date when="1852-12-18">18th<link target="https://tinyurl.com/9mknac7e"></link></date>
               <placeName ref="Lorings Pond">Lorings Pond</placeName><lb/>good there</cell>
             <cell><date when="1853-12-24">24<link target="https://tinyurl.com/2p9x5z48"></link></date> skate across<lb/><placeName ref="Flints Pond"
@@ -356,7 +352,7 @@
             <cell/>
           </row>
           <row>
-            <cell><add place="above"><date when="1851-12-17">17<link target="https://tinyurl.com/yxc8xhzx"></link></date></add> Attend to bees</cell>
+            <cell><add place="above"><date when="1851-12-17">17<link target="https://tinyurl.com/yxc8xhzx"></link></date></add> <lb/><emph rend="bold">Attend to bees</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -370,7 +366,7 @@
           </row>
           <row>
             <cell>
-              <add rend="pencil">Rosettes on ice</add>
+              <emph rend="bold"><add rend="pencil">Rosettes on ice</add></emph>
             </cell>
             <cell/>
             <cell/>
@@ -390,7 +386,7 @@
           </row>
           <row>
             <cell>
-              <add rend="pencil"><add place="above">50 51</add>Spring like days</add>
+              <add rend="pencil"><add place="above">50 51</add><lb/> <emph rend="bold">Spring like days</emph></add>
             </cell>
             <cell>
               <add rend="pencil">52</add>
@@ -403,7 +399,7 @@
             </cell>
             <cell>
               <add rend="pencil"><add place="above"><date when="1855-12-17"
-                >17<link target="https://tinyurl.com/2p8t7dje"></link></date>remarkably fine spring<lb/>like morning</add>55<add place="below"><date when="1855-12-23"
+                >17<link target="https://tinyurl.com/2p8t7dje"></link></date>remarkably fine spring<lb/>like morning</add> <lb/>55 <lb/><add place="below"><date when="1855-12-23"
                   >23<link target="https://tinyurl.com/32hedkvn"></link></date>&amp; some previous days- pleas<lb/>ant &amp; spring like
                 weather</add></add>
             </cell>
@@ -419,7 +415,7 @@
             <cell>
               <add rend="pencil"><add place="above"><date when="1859-11-30">Nov. 30</date> &amp;
                     <date when="1859-12-01">1</date> &amp; <date when="1859-12-02"
-                      >2<link target="https://tinyurl.com/45m796jn"></link></date></add>59</add>
+                      >2<link target="https://tinyurl.com/45m796jn"></link></date></add><lb/>59</add>
             </cell>
             <cell>
               <add rend="pencil">60</add>
@@ -429,7 +425,7 @@
             </cell>
           </row>
           <row>
-            <cell>River ap. frozen everywhere</cell>
+            <cell><emph rend="bold">River ap. frozen everywhere</emph></cell>
             <cell/>
             <cell/>
             <cell><date when="1854-12-19">19<link target="https://tinyurl.com/j2j2jytk"></link></date> last night so cold <lb/>R. closed almost
@@ -443,7 +439,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Turtle under ice</cell>
+            <cell><emph rend="bold">Turtle under ice</emph></cell>
             <cell/>
             <cell><date when="1853-12-02">3rd<link target="https://tinyurl.com/2p868nsc"></link></date> (<date when="1853-12-07">7<link target="https://tinyurl.com/yc3yk9yn"></link></date> in a
               brook?)<lb/><date when="1853-12-09">9th<link target="https://tinyurl.com/2t4vh443"></link></date></cell>
@@ -457,7 +453,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Lizards under ice</cell>
+            <cell><emph rend="bold">Lizards under ice</emph></cell>
             <cell/>
             <cell><date when="1853-12-04">4<link target="https://tinyurl.com/mr22ht72"></link></date></cell>
             <cell/>
@@ -470,7 +466,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Ice whoops</cell>
+            <cell><emph rend="bold">Ice whoops</emph></cell>
             <cell/>
             <cell/>
             <cell><date when="1854-12-20">20<link target="https://tinyurl.com/3n6d6kpa"></link></date> at eve</cell>
@@ -483,7 +479,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Boys skate on crust</cell>
+            <cell><emph rend="bold">Boys skate on crust</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -497,7 +493,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Level bars of frozen mist</cell>
+            <cell><emph rend="bold">Level bars of frozen mist</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -510,7 +506,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Raked-toothed icicles</cell>
+            <cell><emph rend="bold">Raked-toothed icicles</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -523,7 +519,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Kill fishes under ice</cell>
+            <cell><emph rend="bold">Kill fishes under ice</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -537,7 +533,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Ground cracks</cell>
+            <cell><emph rend="bold">Ground cracks</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -551,7 +547,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Walk on <placeName ref="Walden Pond">Walden</placeName> &amp; look <unclear>at</unclear><lb/>shores</cell>
+            <cell><emph rend="bold">Walk on <placeName ref="Walden Pond">Walden</placeName> &amp; look <unclear>at</unclear><lb/>shores</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -564,7 +560,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Vapor from open parts of<lb/>river in morning</cell>
+            <cell><emph rend="bold">Vapor from open parts of<lb/>river in morning</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -577,7 +573,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Teaming ice</cell>
+            <cell><emph rend="bold">Teaming ice</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -592,7 +588,7 @@
           <row>
             <cell><add place="above"><date when="1850-12-14">14<link target="https://tinyurl.com/yc5rpsd7"></link></date> sweet gale etc &amp;c at
                   <placeName ref="Loring's Pond">Loring P</placeName>
-              </add>Plants, buds, fruits &amp;c above<lb/>ice</cell>
+            </add> <lb/><emph rend="bold">Plants, buds, fruits &amp;c above<lb/>ice</emph></cell>
             <cell/>
             <cell/>
             <cell><date when="1854-12-14">14<link target="https://tinyurl.com/4r85n3jk"></link></date> along river</cell>
@@ -606,11 +602,11 @@
             <cell/>
           </row>
           <row>
-            <cell><add place="above"><unclear><date when="1850-12-04">4<link target="https://tinyurl.com/4ere852r"></link></date></unclear> beautiful - almost In. summer<lb/>pure glassy air</add>Ind.
-              summer-like day</cell>
+            <cell><add place="above"><unclear><date when="1850-12-04">4<link target="https://tinyurl.com/4ere852r"></link></date></unclear> beautiful - almost In. summer<lb/>pure glassy air</add> <lb/><emph rend="bold">Ind.
+              summer-like day</emph></cell>
             <cell><date when="1852-11-30">Nov 29-30</date> &amp;<date when="1852-12-01">Dec 1<link target="https://tinyurl.com/269b963a"></link></date>
               pleasant-<lb/>est day since Nov. came in <add place="left"><date when="1852-12-06"
-                >6<link target="https://tinyurl.com/3stwzpr6"></link></date> warmest &amp; pleasantest yet</add><date when="1852-12-07">7<link target="https://tinyurl.com/56wjuj79"></link></date>
+                >6<link target="https://tinyurl.com/3stwzpr6"></link></date> warmest &amp; pleasantest yet</add> <date when="1852-12-07">7<link target="https://tinyurl.com/56wjuj79"></link></date>
               True Ind. summer day<lb/><date when="1852-12-08">8<link target="https://tinyurl.com/ycku3nce"></link></date> another </cell>
             <cell><date when="1853-12-11">11<link target="https://tinyurl.com/4pszw3pk"></link></date> almost Ind. sum.<lb/>clear &amp; warm -
               with-<lb/>out greatcoat</cell>
@@ -627,7 +623,7 @@
               >8th</date><lb/>when 60° + at 1 ½ <lb/><emph rend="underline">pm</emph></cell>
           </row>
           <row>
-            <cell>Gnats in air</cell>
+            <cell><emph rend="bold">Gnats in air</emph></cell>
             <cell><date when="1852-12-06">6th<link target="https://tinyurl.com/ynmucrs3"></link></date></cell>
             <cell/>
             <cell/>
@@ -640,7 +636,7 @@
             <cell><date when="1860-12-07">7</date> in a thaw</cell>
           </row>
           <row>
-            <cell>Gossamer</cell>
+            <cell><emph rend="bold">Gossamer</emph></cell>
             <cell><date when="1852-12-06">6<link target="https://tinyurl.com/5n6z88jr"></link></date> across <placeName ref="Corner causeway">Corner
                 causeway</placeName></cell>
             <cell/>
@@ -654,7 +650,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Mornings of creation</cell>
+            <cell><emph rend="bold">Mornings of creation</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -668,7 +664,7 @@
             <cell/>
           </row>
           <row>
-            <cell>Can walk in road, enough to see sky &amp;<lb/>breathe air</cell>
+            <cell><emph rend="bold">Can walk in road, enough to see sky &amp;<lb/>breathe air</emph></cell>
             <cell/>
             <cell/>
             <cell><date when="1854-12-31">31<link target="https://tinyurl.com/y2f2p45r"></link></date> beautiful clear<lb/><emph rend="underline">very
@@ -682,9 +678,9 @@
             <cell/>
           </row>
           <row>
-            <cell>Fine day though cold</cell>
+            <cell><emph rend="bold">Fine day though cold</emph></cell>
             <cell><add place="left"><date when="1852-12-02">2nd<link target="https://tinyurl.com/3u2am48h"></link></date> pleasantest day of
-                all</add>v. Ind. sum. days</cell>
+                all</add> v. Ind. sum. days</cell>
             <cell><date when="1852-12-09">9<link target="https://tinyurl.com/4zu24fmk"></link></date> 3 glorious days - clear<lb/>&amp; not too
               cold<lb/><date when="1852-12-10">10<link target="https://tinyurl.com/4zu24fmk"></link></date> another, among finest<lb/>in year</cell>
             <cell><date when="1854-12-20">20<link target="https://tinyurl.com/48b3rrex"></link></date> sharp clear air<lb/>&amp; still- white snow
@@ -707,7 +703,7 @@
                   when="1861-12-18">18</date></add></cell>
           </row>
           <row>
-            <cell>A leaf frost on trees &amp; <unclear>rails</unclear> </cell>
+            <cell><emph rend="bold">A leaf frost on trees &amp; <unclear>rails</unclear></emph> </cell>
             <cell/>
             <cell><date when="1853-12-09">9th<link target="https://tinyurl.com/4zu24fmk"></link></date> — <date when="1853-12-16">16<link target="https://tinyurl.com/2hem4ksv"></link></date></cell>
             <cell/>
