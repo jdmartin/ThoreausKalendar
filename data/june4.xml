@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- The line above is the "XML declaration"; it is not --><!-- required, but we recommend using it.  --><?oxygen RNGSchema="./exercise.rnc" type="compact"?><!-- The line above is a processing instruction for finding the schema; --><!-- it is intended for oXygen, but other software may use it, also. --><!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? --><?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
+<!-- The line above is the "XML declaration"; it is not --><!-- required, but we recommend using it.  --><!-- The line above is a processing instruction for finding the schema; --><!-- it is intended for oXygen, but other software may use it, also. --><!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -10,9 +10,7 @@
                 </author>
             </titleStmt>
             <publicationStmt>
-                <availability>
                     <ab>                        <!-- copyright or copyleft information here --></ab>
-                </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -41,8 +39,7 @@
                     </row>
                     <row>
                         <cell/>
-                        <cell>
-                            Fear a frost</cell>
+                        <cell><emph rend="bold">Fear a frost</emph></cell>
                         <cell/>
                         <cell/>
                         <cell>
@@ -57,7 +54,7 @@
                     </row>
                     <row>
                         <cell/>
-                        <cell>Water cooled by rain</cell>
+                        <cell><emph rend="bold">Water cooled by rain</emph></cell>
                         <cell/>
                         <cell/>
                         <cell/>
@@ -67,16 +64,16 @@
                         <cell/>
                         <cell/>
                         <cell>
-                            <date when="1860-06-06">6<link target="https://tinyurl.com/4b5est32"/>
+                            <date when="1860-06-06">6<link target="http://tinyurl.com/hhvmfcy"/>
                             </date>
                         </cell>
                     </row>
                     <row>
                         <cell/>
-                        <cell>Effects of recent frost in<lb/>
-hollows<lb/>
+                        <cell><emph rend="bold">Effects of recent frost in<lb/>
+                            hollows</emph><lb/>
                     <del>
-                        <gap/>
+                        15-5
                     </del>
                 </cell>
                 <cell>
@@ -85,8 +82,7 @@ hollows<lb/>
                 </cell>
                 <cell>
                     <date when="1853-06-01">1st<link target="http://tinyurl.com/zwkcy8o"/>
-                    </date> of last night<lb/>
-                <unclear>earlier</unclear>
+                    </date> of last night<lb/>earlier
                 <lb/>
                 <date when="1853-06-14">14<link target="http://tinyurl.com/h3wrt9u"/>
                 </date> great show
@@ -94,7 +90,7 @@ hollows<lb/>
 cut off some weeks ago</cell>
         <cell>
             <date when="1854-06-01">1st<link target="http://tinyurl.com/hwyjrwj"/>
-            </date> of <unclear>this am</unclear>
+            </date> of this <emph rend="bold">am</emph>
         </cell>
         <cell/>
         <cell/>
@@ -109,16 +105,15 @@ killed by frost of <date when="1858-05-28">28th<link target="http://tinyurl.com/
 </date> of May</cell>
 <cell>
 <date when="1859-06-11">11<link target="http://tinyurl.com/jp2zpwq"/>
-</date>
-<unclear>some</unclear> scent of<lb/>
+</date> some scent of<lb/>
 ferns killed last<lb/>
 month</cell>
 <cell/>
 </row>
 <row>
 <cell/>
-<cell>Leaves <unclear>torn</unclear> &amp; blackened<lb/>
-by cold wind<lb/>
+<cell><emph rend="bold">Leaves torn &amp; blackened<lb/>
+    by cold wind</emph><lb/>
 <date when="1851-06-15">15<link target="http://tinyurl.com/z4bjtbn"/>
 </date> - 51 hickory blackened by frosts<lb/>
 lately</cell>
@@ -137,13 +132,13 @@ lately</cell>
 <cell/>
 <cell/>
 <cell>
-<date when="1860-06-10">10<link target="https://tinyurl.com/4334sttj"/>
+<date when="1860-06-10">10<link target="http://tinyurl.com/jfnzxhn4"/>
 </date> by a very strong<lb/>
 &amp; cold N.W. wind</cell>
 </row>
 <row>
 <cell/>
-<cell>Frost in <emph rend="underline">Low</emph> ground</cell>
+    <cell><emph rend="bold">Frost in <emph rend="underline">Low</emph> ground</emph></cell>
 <cell/>
 <cell/>
 <cell>
@@ -159,13 +154,13 @@ lately</cell>
 <date when="1860-06-22">22<link target="http://tinyurl.com/haqamm8"/>
 </date> this am<lb/>
 killed flowering<lb/>
-ferns in <unclear>river</unclear>
+ferns in river
 <abbr corresp="meadows">meads</abbr>
 </cell>
 </row>
 <row>
-<cell/>
-<cell>Dark shadow of Elms<lb/>
+<cell></cell>
+    <cell><emph rend="bold">Dark shadow of Elms</emph><lb/>
 June <date when="1860-06-21">21<link target="http://tinyurl.com/gu8fffg"/>
 </date> - 60 1st within days full<lb/>
 of dark shadows at dusk</cell>
@@ -174,8 +169,7 @@ of dark shadows at dusk</cell>
 </date> hold a good deal<lb/>
 of shade rich - heavy<lb/>
 <date when="1852-06-19">19<link target="http://tinyurl.com/hmbe6kp"/>
-</date> dark grateful shade<lb/>
-<unclear>of at dist.</unclear>
+</date> dark grateful shade<lb/>of at dist.
 </cell>
 <cell>
 <date when="1853-06-10">10<link target="http://tinyurl.com/zspgycf"/>
@@ -186,17 +180,14 @@ May <date when="1853-05-27">27<link target="http://tinyurl.com/jgrxgcp"/>
 </date> Leaves with<lb/>
 shadows</cell>
 <cell>
-<unclear>
 <date when="1854-06-11">11<link target="http://tinyurl.com/jbwahh9"/>
 </date>
-</unclear>
-<gap/>
-<unclear>mine forms</unclear>
+<gap/> mine forms
 </cell>
 <cell>
 <date when="1855-06-11">11<link target="http://tinyurl.com/h5avzzg"/>
 </date> observe the dark<lb/>
-<emph rend="underline">evergreen</emph>of June</cell>
+    <emph rend="underline">ever green</emph> of June</cell>
 <cell>
 <date when="1856-06-09">9<link target="http://tinyurl.com/zckuprf"/>
 </date> black elm tops
@@ -210,21 +201,21 @@ shadows of June</cell>
 <gap/>
 </del>
 <date when="1860-06-06">6<link target="http://tinyurl.com/zvq9lbv"/>
-</date> beg. <unclear>to mature</unclear>
+</date> beg. to mature
 <lb/>
 darkening along
 <lb/>
-highways<lb/>
+highway<lb/>
 <date when="1860-06-04">4<link target="http://tinyurl.com/zxzatkk"/>
 </date>
-comp.
+comp
  dense &amp;<lb/>
 heavy already</cell>
 </row>
 <row>
 <cell/>
-<cell>Observe shadows of<lb/>
-trees <gap/>
+<cell><emph rend="bold">Observe shadows of<lb/>
+    trees </emph><gap/>
 </cell>
 <cell/>
 <cell>
@@ -256,8 +247,8 @@ tops suggest shade</cell>
 </row>
 <row>
 <cell/>
-<cell>Shadows of clouds<lb/>
-on waving grass <gap/>
+<cell><emph rend="bold">Shadows of clouds<lb/>
+    on waving grass </emph><gap/>
 </cell>
 <cell/>
 <cell/>
@@ -267,7 +258,7 @@ on waving grass <gap/>
 </date> dark shade <gap/>
  clear<lb/>
 air after rain on light green<lb/>
-foliage - a 
+foliage - a
 <emph rend="underline">new</emph> sky
 </cell>
 <cell/>
@@ -281,13 +272,11 @@ foliage - a
 </row>
 <row>
 <cell/>
-<cell>Bluish <gap/>
- air over<lb/>
-water</cell>
+    <cell><emph rend="bold">Bluish <gap/> air over<lb/> water</emph></cell>
 <cell>
 <date when="1852-06-15">15th<link target="http://tinyurl.com/znf94dy"/>
-</date> &amp; <date when="1852-06-23">23<link target="https://tinyurl.com/4kywt39u"/>
-</date> -<date when="1852-06-24">24<link target="https://tinyurl.com/2kf4mbxc"/>
+</date> &amp; <date when="1852-06-23">23<link target="http://tinyurl.com/he2fbk4"/>
+</date> -<date when="1852-06-24">24<link target="http://tinyurl.com/jrs4bus"/>
 </date>
 </cell>
 <cell/>
@@ -306,8 +295,8 @@ haze</cell>
 </row>
 <row>
 <cell/>
-<cell>Bubbles on sluggish<lb/>
-river</cell>
+<cell><emph rend="bold">Bubbles on sluggish<lb/>
+    river</emph></cell>
 <cell/>
 <cell/>
 <cell/>
@@ -323,7 +312,7 @@ river</cell>
 </row>
 <row>
 <cell/>
-<cell>Blue mist on Landscape</cell>
+    <cell><emph rend="bold">Blue mist on Landscape</emph></cell>
 <cell/>
 <cell/>
 <cell>
@@ -349,16 +338,15 @@ afterward E wind<lb/>
 </row>
 <row>
 <cell/>
-<cell>Summer aspect of river</cell>
+    <cell><emph rend="bold">Summer aspect of river</emph></cell>
 <cell>
 <date when="1852-06-19">19<link target="http://tinyurl.com/hm9cnwx"/>
 </date> river has a <emph rend="underline">June</emph>
 <lb/>
 look</cell>
 <cell>
-<date when="1853-06-05">5th<link target="https://tinyurl.com/8c6x2uev"/>
-</date>
-<abbr corresp= "pickerel">pick.</abbr> weed 1 foot
+<date when="1853-06-05">5th<link target="http://tinyurl.com/hrt39ux"/>
+</date> pick weed 1 foot
 <lb/>
 high &amp; other weeds
 </cell>
@@ -378,7 +366,7 @@ summer aspect</cell>
 </row>
 <row>
 <cell/>
-<cell>Summer <gap/>
+<cell>Summer <unclear>regions</unclear>
  of river</cell>
 <cell/>
 <cell/>

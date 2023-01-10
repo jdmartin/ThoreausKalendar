@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- The line above is the "XML declaration"; it is not -->
 <!-- required, but we recommend using it. -->
-<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
 <!-- The line above is a processing instruction for finding the schema; -->
 <!-- it is intended for oXygen, but other software may use it, also. -->
 <!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
-<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -16,9 +14,7 @@
         </author>
       </titleStmt>
       <publicationStmt>
-        <availability>
           <ab><!-- copyright or copyleft information here --></ab>
-        </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -79,8 +75,8 @@
                     </row>
                     <row>
                         <cell>10</cell>
-                        <cell>River when lowest in<lb/>April &amp;
-                            <gap reason="unclear"/><lb/>
+                        <cell><emph rend="bold">River when lowest in<lb/>April &amp;
+                          <gap reason="unclear"/></emph><lb/>
                             <date when="1851-04-04">April 4</date>-<date when="1851-04-05">5</date>
                             <date when="1851-04-06">6</date>
                             not yet so high by
@@ -171,7 +167,7 @@
                     </row>
                     <row>
                         <cell><del rend="strikethrough">2d</del>16</cell>
-                        <cell>River when highest in April<lb/>&amp; <unclear>now</unclear> high.
+                      <cell><emph rend="bold">River when highest in April<lb/>&amp; <unclear>now</unclear> high.</emph>
                 <lb/>(<date when="1850-05-31">May 31-50</date> higher)<lb/>than it has been at this
               season<lb/>for many years - <lb/> water over road <emph>below</emph>
               <placeName>master <lb/> Cheney's</placeName>
@@ -195,14 +191,14 @@
                   target="https://tinyurl.com/ytvh36bx"/></date> &amp; high <date when="1854-04-24"
                   >24<link target="http://tinyurl.com/lktzm7t"/></date> rises a little <add
                 place="interliner">owing to rain of <date when="1854-04-22">22nd<link
-                    target="http://tinyurl.com/pvtuzmn"/></date> &amp;<date when="1854-04-23"
+                    target="http://tinyurl.com/pvtuzmn"/></date> &amp; <date when="1854-04-23"
                     >23rd<link target="http://tinyurl.com/pvtuzmn"/></date>
               </add><lb/>
               <add place="left"><date when="1853-03-17">Mar 17 <unclear>or</unclear></date></add>
               <date when="1854-04-29">29</date> nearly as high <lb/>as anytime in this year<lb/>
                           <date when="1854-05-05">May 5<link target="https://tinyurl.com/yukfjz5x"/></date>
               <add place="above">far</add> highest in<lb/>the year <add place="interlinear">very
-                high</add> the year 54 as <lb/><del rend="strikethrough">year</del>(on ac. of rain
+                high</add> the year 54 as <lb/><del rend="strikethrough">year</del> (on ac. of rain
               <lb/> the <date when="1855-05-03">3rd<link target="http://tinyurl.com/pbmgwfh"
                 /></date>and <date when="1855-05-04">4th)<link target="http://tinyurl.com/pbmgwfh"
                 /></date>
@@ -321,7 +317,7 @@
                     </row>
                     <row>
                         <cell>14 <add rend="pencil">?</add></cell>
-                        <cell>Smooth reflecting water</cell>
+                      <cell><emph rend="bold">Smooth reflecting water</emph></cell>
                         <cell>
                           <date when="1852-04-11">11<link target="http://tinyurl.com/qaftpsd"></link></date>
                placid <lb/>eve &amp; reflecting <lb/> water</cell><cell/>
@@ -351,7 +347,11 @@
               </ref><unclear>wan</unclear> &amp; <gap reason="unclear" extent="1 word"/> &amp; no ripple</cell><cell/></row>
                     <row>
                         <cell>12 or before</cell>
-                        <cell>Ripples on ripple lakes</cell><cell/><cell/><cell/><cell/><cell/><cell/><cell/>
+                      <cell><emph rend="bold">Ripples on ripple lakes</emph>
+                      </cell><cell/>
+                      <cell/><cell/>
+                      <cell/><cell/>
+                      <cell/><cell/>
                         <cell>
                           <date when="1859-04-09">9th<link target="http://tinyurl.com/nu3duwf"></link></date>
                         </cell>
@@ -362,7 +362,7 @@
                     </row>
                     <row>
                         <cell>13?</cell>
-                        <cell>Spearing</cell>
+                      <cell><emph rend="bold">Spearing</emph></cell>
                         <cell>
                           <date when="1852-04-08">8th<link target="http://tinyurl.com/kf85xv3"></link></date> &amp; <date when="1852-04-30">30th<link target="https://tinyurl.com/m7zuztma"></link></date>
                         </cell>
@@ -395,7 +395,7 @@
                         <cell>Mar 25
                             <add rend="pencil">?</add>
                         </cell>
-                        <cell>1st leave off greatcoat<lb/>
+                      <cell><emph rend="bold">1st leave off greatcoat</emph><lb/>
                             v
                             <emph rend="underline">Mar.</emph>)</cell>
                         <cell>
@@ -486,7 +486,7 @@
                     </row>
                     <row>
                         <cell>15(?)</cell>
-                        <cell>Wear greatcoat again</cell><cell><del rend="strikethrough"></del></cell><cell/>
+                      <cell><emph rend="bold">Wear greatcoat again</emph></cell><cell><del rend="strikethrough"></del></cell><cell/>
                         <cell>
                         </cell>
                       <cell>
@@ -511,8 +511,8 @@
                     </row>
                     <row>
                         <cell>21</cell>
-                        <cell>begin to wear one coat
-                            <emph rend="underline">generally</emph>
+                        <cell><emph rend="bold">begin to wear one coat
+                          <emph rend="underline">generally</emph></emph>
                         </cell>
                         <cell>
                             <add rend="pencil">
@@ -533,8 +533,7 @@
                     <row>
                         <cell>
                             <del rend="strikethrough">28</del><gap/><lb/>27</cell>
-                      <cell>sit without fire commonly<add place="above"><del rend="strikethrough"
-                /></add><add place="below">v below</add></cell>
+                      <cell><emph rend="bold">sit without fire commonly</emph><add place="above"><del rend="strikethrough"/></add> <add place="below">v below</add></cell>
                         <cell>
                             <del rend="strikethrough">
                                 <date when="1852-04-30">30</date>
@@ -572,14 +571,25 @@
                     </row>
                     <row>
                         <cell>27</cell>
-                        <cell>first <emph rend="underline">am</emph> that I sit with open window</cell><cell/><cell/><cell/>
+                      <cell><emph rend="bold">first <emph rend="underline">am</emph> that I sit with open window</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1855-04-19">19th 55<link target="http://tinyurl.com/lmjtkgj"></link></date>
                         </cell><cell/><cell/><cell/>
                         <cell> </cell><cell/></row>
                     <row><cell/>
-                        <cell>weather for half-thick
-                            <lb/>coat</cell><cell/><cell/><cell/><cell/><cell/><cell/><cell/><cell>
+                        <cell><emph rend="bold">weather for half-thick
+                          <lb/>coat</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell>
                 <date when="1859-04-27">27</date>
                               &amp; <date when="1859-04-30">30th<link target="https://tinyurl.com/up8m8t62"></link></date>
             </cell>
@@ -591,7 +601,9 @@
                     </row>
                     <row>
                         <cell>20</cell>
-                        <cell>Dark evening</cell><cell/><cell/>
+                      <cell><emph rend="bold">Dark evening</emph></cell>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1854-04-26">26-54<link target="http://tinyurl.com/mu2troc"></link></date>
                a single cloud</cell>
@@ -604,7 +616,7 @@
                     </row>
                     <row>
                         <cell>23</cell>
-                        <cell>Burning of brush
+                      <cell><emph rend="bold">Burning of brush</emph>
                             <lb/>v
                             <unclear>winter</unclear>
                             Mar 30)</cell><cell/><cell/>
@@ -623,7 +635,7 @@
                         <cell>25
                             <add rend="pencil">?</add>
                         </cell>
-                        <cell>Fires in woods late in month</cell>
+                      <cell><emph rend="bold">Fires in woods late in month</emph></cell>
                         <cell>
                           <date when="1852-04-28">28<link target="http://tinyurl.com/lnyjncf"></link></date>
                         </cell><cell/><cell/><cell/><cell/><cell/><cell/><cell>
@@ -637,8 +649,8 @@
                         </cell>
                     </row>
                     <row><cell/>
-                        <cell>Plowing <add place="above">a little</add>  and planting going on
-              generally </cell>
+                        <cell><emph rend="bold">Plowing <add place="above">a little</add>  and planting going on
+                          generally </emph></cell>
                         <cell>
                           <date when="1852-04-17">17<link target="http://tinyurl.com/m4sz7s7"></link></date>
                         </cell><cell/><cell/>
@@ -685,9 +697,13 @@
                     </row>
                     <row>
                         <cell>21 <add rend="pencil">?</add></cell>
-                        <cell>
-                            <supplied>Scudding</supplied>
-                            clouds<figure/></cell><cell/><cell/><cell/><cell/><cell/>
+                        <cell><emph rend="bold"><supplied>Scudding</supplied>
+                          clouds<figure/></emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                               <date when="1857-04-21">21<link target="https://tinyurl.com/23z35u8s"></link></date>-
                               <date when="1857-04-24">24<link target="https://tinyurl.com/25x2cb6p"></link></date>
@@ -695,7 +711,7 @@
                         </cell><cell/><cell/><cell/></row>
                     <row>
                         <cell>10th</cell>
-                        <cell>dark barred spring clouds</cell>
+                      <cell><emph rend="bold">dark barred spring clouds</emph></cell>
                         <cell>
                           <date when="1852-04-10">10th<link target="https://tinyurl.com/4behj695"></link></date>
                         </cell><cell/><cell/><cell/><cell/>
@@ -705,14 +721,20 @@
                     <row>
                         <cell>18
                         </cell>
-                        <cell>still almost sultry - with <lb/> wet looking clouds hanging <lb/>
-              about - 1st time</cell><cell/><cell/><cell/>
+                        <cell><emph rend="bold">still almost sultry - with <lb/> wet looking clouds hanging <lb/>
+                          about - 1st time</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1855-04-18">18<link target="http://tinyurl.com/nobh8n8"></link></date>
                         </cell><cell/><cell/><cell/><cell/><cell/></row>
                     <row>
                         <cell>21</cell>
-                        <cell>Sea Turn</cell><cell/><cell/><cell/>
+                      <cell><emph rend="bold">Sea Turn</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1855-04-18">18<link target="http://tinyurl.com/ptbkduz"></link></date>
                             (a warm day
@@ -728,7 +750,7 @@
                         </cell><cell/><cell/><cell/><cell/></row>
                     <row>
                         <cell>7</cell>
-                        <cell><del rend="strikethrough">1st</del> Hazy</cell>
+                      <cell><del rend="strikethrough">1st</del> <emph rend="bold">Hazy</emph></cell>
                         <cell>
                             <add rend="pencil">
                               <date when="1852-04-01">1st<link target="http://tinyurl.com/pmvoe3r"></link></date>
@@ -763,7 +785,10 @@
                     <row>
                         <cell>17
                         </cell>
-                        <cell>Fog over river in morning</cell><cell/><cell/><cell/>
+                      <cell><emph rend="bold">Fog over river in morning</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                             <emph rend="underline">some</emph>
                           <date when="1855-04-21">21st<link target="http://tinyurl.com/pesp3b8"></link></date>
@@ -777,7 +802,7 @@
                     <row>
                         <cell>24
 <add rend="pencil">?</add>                        </cell>
-                        <cell>Cold in last half of month</cell>
+                      <cell><emph rend="bold">Cold in last half of month</emph></cell>
                         <cell>
                             <add rend="pencil">
                               <date when="1852-04-28">28<link target="http://tinyurl.com/noruhst"></link></date>
@@ -817,7 +842,7 @@
                     <row>
                         <cell>25
 <add rend="pencil">?</add>                        </cell>
-                        <cell>Mtns still spotted with snow</cell>
+                      <cell><emph rend="bold">Mtns still spotted with snow</emph></cell>
                         <cell>
                           <date when="1852-04-01">1st<link target="http://tinyurl.com/nep44wc"></link></date>
                             &amp;
@@ -839,14 +864,17 @@
                             snow whitening the
                             <lb/>mts</cell><cell/><cell/><cell/></row>
                     <row><cell/>
-                        <cell>1st moon to walk by</cell><cell/><cell/>
+                      <cell><emph rend="bold">1st moon to walk by</emph></cell>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1854-04-11">11th 54<link target="http://tinyurl.com/kzgslnk"></link></date>
                         </cell><cell/><cell/><cell/><cell/><cell/><cell/></row>
                     <row>
                         <cell>19
                         </cell>
-                        <cell>Willow (alba) peels</cell><cell/>
+                      <cell><emph rend="bold">Willow (alba) peels</emph></cell>
+                      <cell/>
                         <cell>
                           <date when="1853-04-19">19th<link target="http://tinyurl.com/l7rkc7k"></link></date>
                             how long?</cell>
@@ -864,13 +892,22 @@
                     </row>
                     <row>
                         <cell>19 (?)</cell>
-                        <cell>Bass peels</cell><cell/>
+                      <cell><emph rend="bold">Bass peels</emph></cell>
+                      <cell/>
                         <cell>
                           <date when="1853-04-19">19th<link target="http://tinyurl.com/l7rkc7k"></link></date>
                             how long?</cell><cell/><cell/><cell/><cell/><cell/><cell/><cell/></row>
                     <row>
                         <cell>19 (?)</cell>
-                        <cell>S. discolor peels</cell><cell/><cell/><cell/><cell/><cell/><cell/><cell/><cell/>
+                      <cell><emph rend="bold">S. discolor peels</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1860-04-18">18<link target="http://tinyurl.com/qxtnhh2"></link></date>
                             peels well</cell>
@@ -878,15 +915,22 @@
                     <row>
                         <cell>20 (?)</cell>
                         <cell>
-                            Tremula
-                            aspen peels</cell><cell/><cell/><cell/><cell/><cell/><cell/><cell/><cell/>
+                            <emph rend="bold">Tremula aspen peels</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1860-04-18">18<link target="http://tinyurl.com/q74oyg4"></link></date>
                             just begun</cell>
                     </row>
                     <row>
                         <cell>14</cell>
-                        <cell>Rain after E wind</cell>
+                      <cell><emph rend="bold">Rain after E wind</emph></cell>
                         <cell>
                           <date when="1852-04-18">18<link target="https://tinyurl.com/386cbntd"></link></date>
                             5 days
@@ -905,7 +949,7 @@ rain after E wind<lb/>
                     </row>
                     <row>
                         <cell>21<add rend="pencil">?</add></cell>
-                        <cell>White frosts</cell>
+                      <cell><emph rend="bold">White frosts</emph></cell>
                         <cell>
                           <date when="1852-05-01">May 1st<link target="http://tinyurl.com/mxfrevt"></link></date>
                             platforms white with
@@ -939,22 +983,37 @@ rain after E wind<lb/>
                     <row>
                         <cell>17
                         </cell>
-                        <cell>Evenings very consid. shortened</cell><cell/><cell/><cell/><cell/><cell/><cell/><cell/><cell/>
+                      <cell><emph rend="bold">Evenings very consid. shortened</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1860-04-17">17th<link target="http://tinyurl.com/lpydh5o"></link></date>
                         </cell>
                     </row>
                     <row>
                         <cell>25</cell>
-                        <cell>Very few leaves indeed on
-                            <lb/>young oaks</cell><cell/><cell/><cell/><cell/><cell/><cell/><cell/><cell/>
+                        <cell><emph rend="bold">Very few leaves indeed on<lb/>young oaks</emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1860-04-26">26th<link target="http://tinyurl.com/mj23nbq"></link></date>
                         </cell>
                     </row>
                     <row>
                         <cell/>
-                        <cell>Begin to sit without fire<lb/>commonly</cell>
+                      <cell><emph rend="bold">Begin to sit without fire<lb/>commonly</emph></cell>
                         <cell>
                           <date when="1852-04-30">30<link target="http://tinyurl.com/p92d9db"></link></date>
                         </cell><cell/>
@@ -980,9 +1039,8 @@ rain after E wind<lb/>
                         </cell>
                     </row>
                     <row><cell/>
-                        <cell>
-              <add rend="pencil">Warm in last half month</add>
-            </cell><cell/><cell/>
+                        <cell><emph rend="bold"><add rend="pencil">Warm in last half month</add></emph></cell>
+                      <cell/><cell/>
                         <cell>
                             <add rend="pencil">
                               <date when="1854-04-20">20th<link target="https://tinyurl.com/3uhn49cv"></link></date></add> - 
@@ -1000,25 +1058,27 @@ rain after E wind<lb/>
                             </add>
                         </cell><cell/><cell/><cell/><cell/></row>
                     <row><cell/>
-                        <cell>
-              <add rend="pencil">Flower like scent</add>
-            </cell><cell/><cell/>
+                        <cell><emph rend="bold">
+                          <add rend="pencil">Flower like scent</add></emph></cell>
+                      <cell/>
+                      <cell/>
                         <cell>
                           <date when="1854-04-21">21st<link target="http://tinyurl.com/o9jaw66"></link></date>-<date when="1854-04-26">26<link target="https://tinyurl.com/3n2cr5x8"></link></date>
                         </cell><cell/><cell/><cell/><cell/><cell/><cell/></row>
                     <row><cell/>
-                        <cell>
-                            <add rend="pencil">Dark night</add>
-                        </cell><cell/><cell/>
+                      <cell><emph rend="bold"><add rend="pencil">Dark night</add></emph></cell>
+                      <cell/>
+                      <cell/>
                         <cell>
                             <add rend="pencil">
                               <date when="1855-04-26">26th<link target="https://tinyurl.com/56e4jdr8"></link></date>
                                  in thunder<lb/> shower <emph rend="underline">very</emph></add>
                         </cell><cell/><cell/><cell/><cell/><cell/><cell/></row>
                     <row><cell/>
-                        <cell>
-                            <add rend="pencil"><unclear>Wait on</unclear> tree sparrows</add>
-                        </cell><cell/><cell/><cell/>
+                        <cell><emph rend="bold"><add rend="pencil"><unclear>Wait on</unclear> tree sparrows</add></emph></cell>
+                      <cell/>
+                      <cell/>
+                      <cell/>
                         <cell>
                             <add rend="pencil">
                               <date when="1855-04-16">16<link target="http://tinyurl.com/op7y4pk"></link></date>

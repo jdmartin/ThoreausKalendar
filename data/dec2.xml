@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- The line above is the "XML declaration"; it is not -->
 <!-- required, but we recommend using it. -->
-<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
 <!-- The line above is a processing instruction for finding the schema; -->
 <!-- it is intended for oXygen, but other software may use it, also. -->
 <!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
-<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -16,9 +14,7 @@
         </author>
       </titleStmt>
       <publicationStmt>
-        <availability>
           <ab><!-- copyright or copyleft information here --></ab>
-        </availability> 
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -50,7 +46,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Hooting Owl</cell>
+            <cell><emph rend="bold">Hooting Owl</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -64,8 +60,8 @@
           </row>
           <row>
             <cell/>
-            <cell>Woodcock
-              still</cell>
+            <cell><emph rend="bold">Woodcock
+              still</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -79,7 +75,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Partridge in snare</cell>
+            <cell><emph rend="bold">Partridge in snare</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -93,7 +89,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Sheldrake in <placeName ref="Walden Pond">Walden</placeName></cell>
+            <cell><emph rend="bold">Sheldrake in <placeName ref="Walden Pond">Walden</placeName></emph></cell>
             <cell><date when="1852-12-27">27<link target="https://tinyurl.com/3reyf2vk"></link></date>a black &amp; white <lb/>duck on it</cell>
             <cell/>
             <cell/>
@@ -108,7 +104,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Golden-crested wren</cell>
+            <cell><emph rend="bold">Golden-crested wren</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -122,7 +118,7 @@
           </row>
           <row>
             <cell></cell>
-            <cell>Perch rise on<placeName ref="Walden">Walden</placeName> ?</cell>
+            <cell><emph rend="bold">Perch rise on<placeName ref="Walden">Walden</placeName> ?</emph></cell>
             <cell><date when="1852-12-05">5(?)<link target="https://tinyurl.com/2ehjk4ka"></link></date></cell>
             <cell/>
             <cell/>
@@ -136,7 +132,7 @@
           </row>
           <row>
             <cell/>
-            <cell>1st Fish through ice</cell>
+            <cell><emph rend="bold">1st Fish through ice</emph></cell>
             <cell/>
             <cell><date when="1853-12-15">15<link target="https://tinyurl.com/bderyupc"></link></date>yesterday on<lb/><placeName ref="Flint's Pond">Flint's</placeName>&amp; 
               <placeName ref="Fair Haven">F.H.</placeName><add rend="underline"> first</add></cell>
@@ -152,7 +148,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Trout</cell>
+            <cell><emph rend="bold">Trout</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -166,7 +162,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Dig up frog</cell>
+            <cell><emph rend="bold">Dig up frog</emph></cell>
             <cell/>
             <cell><date when="1853-12-03">3rd<link target="https://tinyurl.com/3svvzum4"></link></date>at a spring</cell>
             <cell/>
@@ -180,7 +176,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Bullfrog out</cell>
+            <cell><emph rend="bold">Bullfrog out</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -194,7 +190,7 @@
           </row>
           <row>
             <cell/>
-            <cell>First larvae &amp;c on ice</cell>
+            <cell><emph rend="bold">First larvae &amp;c on ice</emph></cell>
             <cell/>
             <cell/>
             <cell><date when="1854-12-15">15<link target="https://tinyurl.com/4tavjcaf"></link></date></cell>
@@ -208,7 +204,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Ants in winter quarters</cell>
+            <cell><emph rend="bold">Ants in winter quarters</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -222,7 +218,7 @@
           </row>
           <row>
             <cell/>
-            <cell><add place="above"><date when="1850-12-22">22<link target="https://tinyurl.com/bdcwhph9"></link></date></add>Dogwood fruit <add place="above"><date when="1851-12-21">21<link target="https://tinyurl.com/55xuuwjm"></link></date></add></cell>
+            <cell><add place="above"><date when="1850-12-22">22<link target="https://tinyurl.com/bdcwhph9"></link></date></add> <emph rend="bold">Dogwood fruit</emph> <add place="above"><date when="1851-12-21">21<link target="https://tinyurl.com/55xuuwjm"></link></date></add></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -236,7 +232,7 @@
           </row>
           <row>
             <cell/>
-            <cell>prino berries<add place="above"><date when="1851-12-21">21<link target="https://tinyurl.com/352as5ac"></link></date></add></cell>
+            <cell><emph rend="bold">prino berries</emph> <add place="above"><date when="1851-12-21">21<link target="https://tinyurl.com/352as5ac"></link></date></add></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -250,9 +246,9 @@
           </row>
           <row>
             <cell/>
-            <cell>Woodchopping fairly begun<add place="above"><date when="1851-12-19">19<link target="https://tinyurl.com/yeveefxc"></link></date>sound of in all woods</add></cell>
+            <cell><emph rend="bold">Woodchopping fairly begun</emph> <add place="above"><date when="1851-12-19">19<link target="https://tinyurl.com/yeveefxc"></link></date>sound of in all woods</add></cell>
             <cell/>
-            <cell><date when="1853-12-23">23<link target="https://tinyurl.com/3pb56ev9"></link></date><persName ref="Alek Therien">Therien</persName>in rain</cell>
+            <cell><date when="1853-12-23">23<link target="https://tinyurl.com/3pb56ev9"></link></date><persName ref="Alek Therien">Therien</persName> in rain</cell>
             <cell/>
             <cell><date when="1855-12-14">14<link target="https://tinyurl.com/yyd9nv2n"></link></date>hear sound of</cell>
             <cell/>
@@ -264,8 +260,8 @@
           </row>
           <row>
             <cell/>
-            <cell>Winter sunset from <placeName ref="Fair Haven Hill">F.H.H.</placeName>&amp;
-              elsewhere<add place="above"><date when="1851-12-23">23-<link target="https://tinyurl.com/36smpx9c"/></date>
+            <cell><emph rend="bold">Winter sunset from <placeName ref="Fair Haven Hill">F.H.H.</placeName>&amp;
+              elsewhere</emph> <add place="above"><date when="1851-12-23">23-<link target="https://tinyurl.com/36smpx9c"/></date>
                 <date when="1851-12-24">4<link target="https://tinyurl.com/2x5bwsn7"
                   /></date>&amp;<date when="1851-12-27">27th<link
                     target="https://tinyurl.com/bdhuu78d"/></date></add></cell>
@@ -282,7 +278,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Splendid sunsets</cell>
+            <cell><emph rend="bold">Splendid sunsets</emph></cell>
             <cell/>
             <cell/>
             <cell><date when="1854-12-08">8<link target="https://tinyurl.com/nxu5u6b2"></link></date>a <unclear> fine one</unclear><lb/><date when="1854-12-11">11th<link target="https://tinyurl.com/yc3uynjd"></link></date>early still clear win<lb/>ter sunset now</cell>
@@ -297,7 +293,7 @@
           </row>
           <row>
             <cell/>
-            <cell><unclear>Notice</unclear> color of woods <unclear>I cut</unclear></cell>
+            <cell><emph rend="bodl"><unclear>Notice</unclear> color of woods <unclear>I cut</unclear></emph></cell>
             <cell><date when="1852-12-22">22<link target="https://tinyurl.com/3dfcbvxh"></link></date></cell>
             <cell/>
             <cell/>
@@ -311,7 +307,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Reflection in over part<lb/>of river</cell>
+            <cell><emph rend="bold">Reflection in over part<lb/>of river</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -325,7 +321,7 @@
           </row>
           <row>
             <cell/>
-            <cell>River green</cell>
+            <cell><emph rend="bold">River green</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -339,7 +335,7 @@
           </row>
           <row>
             <cell/>
-            <cell><add place="above">50 51</add>Mother O' pearls sky</cell>
+            <cell><add place="above">50 51</add> <emph rend="bold">Mother O' pearls sky</emph></cell>
             <cell>52</cell>
             <cell>53</cell>
             <cell>54<lb/><date when="1854-12-20">20th<link target="https://tinyurl.com/4vch3h6n"></link></date>at sunrise</cell>
@@ -353,7 +349,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Walk in swamps</cell>
+            <cell><emph rend="bold">Walk in swamps</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -367,7 +363,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Walker eats his heart</cell>
+            <cell><emph rend="bold">Walker eats his heart</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -381,7 +377,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Shrub <abbr corresp="oak">O.</abbr> leaves have fallen</cell>
+            <cell><emph rend="bold">Shrub <abbr corresp="oak">O.</abbr> leaves have fallen</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -395,7 +391,7 @@
             <cell/>
           </row><row>
             <cell/>
-            <cell>Short <add rend="underline">PM</add></cell>
+            <cell><emph rend="bold">Short <add rend="underline">PM</add></emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -409,7 +405,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Winter eve at <placeName ref="Walden Pond">Walden</placeName> </cell>
+            <cell><emph rend="bold">Winter eve at <placeName ref="Walden Pond">Walden</placeName></emph> </cell>
             <cell/>
             <cell/>
             <cell/>

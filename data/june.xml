@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- The line above is the "XML declaration"; it is not --><!-- required, but we recommend using it.  --><?oxygen RNGSchema="./exercise.rnc" type="compact"?><!-- The line above is a processing instruction for finding the schema; --><!-- it is intended for oXygen, but other software may use it, also. --><!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? --><?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
+<!-- The line above is the "XML declaration"; it is not --><!-- required, but we recommend using it.  --><!-- The line above is a processing instruction for finding the schema; --><!-- it is intended for oXygen, but other software may use it, also. --><!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -10,9 +10,7 @@
                 </author>
             </titleStmt>
             <publicationStmt>
-                <availability>
                     <ab>                        <!-- copyright or copyleft information here --></ab>
-                </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -41,7 +39,7 @@
                     </row>
                     <row>
                         <cell/>
-                        <cell>River Lowest</cell>
+                        <cell><emph rend="bold">River Lowest</emph></cell>
                         <cell>
                             <date when="1852-06-01">1st<link target="http://tinyurl.com/jkedggh"/>
                             </date> down at<lb/>
@@ -76,7 +74,7 @@ by rain of <date when="1858-06-12">12th<link target="http://tinyurl.com/jaqzzf9"
 </date> river falls<lb/>
 several inches</cell>
 <cell>
-<date when="1860-06-01">1st<link target="http://tinyurl.com/hy3pqvc"/>
+    <date when="1860-06-01">1st<link target="https://tinyurl.com/2p8bxw2h"/>
 </date> 1 3/8 above <lb/>
 <abbr corresp="summer level">S.L.</abbr>
 </cell>
@@ -96,7 +94,7 @@ several inches</cell>
 </row>
 <row>
 <cell/>
-<cell>River highest</cell>
+    <cell><emph rend="bold">River highest</emph></cell>
 <cell/>
 <cell/>
 <cell/>
@@ -113,12 +111,12 @@ dle all about<gap reason="unclear"/>
 <gap reason="unclear"/>
 <emph rend="underline">willowy</emph> meadow</cell>
 <cell>
-    <date when="1859-06-18">18<link target="https://tinyurl.com/5n6r66un"/>
+<date when="1859-06-18">18<link target="http://tinyurl.com/z5lv3pc"/>
 </date> river raised<lb/>
 by rain last night<lb/>
 <date when="1859-06-20">20<link target="http://tinyurl.com/h2jxs2f"/>
 </date> some 2 ft. above<lb/>
-summer level <unclear>?</unclear>
+summer level ?
 </cell>
 <cell>
 <date when="1860-06-23">23rd<link target="http://tinyurl.com/hqj6m3m"/>
@@ -141,12 +139,7 @@ summer level <unclear>?</unclear>
 </row>
 <row>
 <cell/>
-<cell>
-<note place="above">
-<unclear>the</unclear> mist but<gap reason="unclear"/>
-</note>Haze<lb/>
-<date when="1851-06-28">28<link target="http://tinyurl.com/haxvgy8"/>
-</date>-51 Thick fog like haze<lb/>
+    <cell><add place="above">the mist but<gap reason="unclear"/></add> <lb/> <emph rend="bold">Haze</emph><lb/><date when="1851-06-28">28<link target="http://tinyurl.com/haxvgy8"/></date>-51 Thick fog like haze<lb/>
 <gap reason="unclear" extent="1 line"/>
 </cell>
 <cell>
@@ -163,9 +156,9 @@ summer level <unclear>?</unclear>
 weather<lb/>
 <date when="1854-06-16">16<link target="http://tinyurl.com/zkukjqe"/>
 </date> thick fog or haze<lb/>
-<unclear>with</unclear>
+with
 <abbr corresp="East">E.</abbr> wind for several<lb/>
-<unclear>pms past</unclear>
+pms past
 <lb/>
 <date when="1854-06-17">17<link target="http://tinyurl.com/hg4n2mv"/>
 </date> very</cell>
@@ -175,7 +168,7 @@ weather<lb/>
 <cell>
 <date when="1858-06-25">25<link target="http://tinyurl.com/jxwfkef"/>
 </date>
-<unclear>&amp;</unclear> see no<lb/>
+&amp; see no<lb/>
 Mts. <emph rend="underline">very hot</emph>
 </cell>
 <cell/>
@@ -185,11 +178,11 @@ Mts. <emph rend="underline">very hot</emph>
 </row>
 <row>
 <cell></cell>
-<cell>Fog</cell>
+    <cell><emph rend="bold">Fog</emph></cell>
 <cell>
 <date when="1852-06-16">16<link target="http://tinyurl.com/j25td5a"/>
 </date> low on meads<lb/>
-<unclear>early</unclear>
+early
 </cell>
 <cell>
 <date when="1853-06-09">9<link target="http://tinyurl.com/hzdkxlq"/>
@@ -199,8 +192,7 @@ Mts. <emph rend="underline">very hot</emph>
 </cell>
 <cell>
 <date when="1854-06-17">17<link target="http://tinyurl.com/hz382u5"/>
-</date>
-<gap reason="unclear"/>
+</date> consid.
 </cell>
 <cell/>
 <cell/>
@@ -208,7 +200,7 @@ Mts. <emph rend="underline">very hot</emph>
 <cell/>
 <cell/>
 <cell>
-<date when="1860-06-12">12<link target="https://tinyurl.com/ydsc4kjv"/>
+<date when="1860-06-12">12<link target="http://tinyurl.com/zmr3nnv"/>
 </date> a very low solid<lb/>
 <emph rend="underline">local</emph> fog (or dew) at<lb/>
 eve<lb/>
@@ -217,8 +209,7 @@ eve<lb/>
 </row>
 <row>
 <cell/>
-<cell>sun <emph rend="underline">light yellow</emph>
-</cell>
+    <cell><emph rend="bold">sun <emph rend="underline">light yellow</emph></emph></cell>
 <cell/>
 <cell/>
 <cell/>
@@ -234,12 +225,12 @@ eve<lb/>
 </row>
 <row>
 <cell/>
-<cell>Great Fog</cell>
+    <cell><emph rend="bold">Great Fog</emph></cell>
 <cell/>
 <cell>
 <date when="1853-06-01">1st<link target="http://tinyurl.com/hwmed3e"/>
 </date> quite a fog<lb/>
-great fogs beg. <unclear>&amp;</unclear> mid<lb/>
+great fogs beg. &amp; mid<lb/>
 June &amp; more or less in July<lb/>
 <date when="1853-06-02">2<link target="http://tinyurl.com/jkwf8z3"/>
 </date> great fog<lb/>
@@ -254,7 +245,7 @@ June &amp; more or less in July<lb/>
 <date when="1854-06-07">7th<link target="http://tinyurl.com/h4etby7"/>
 </date> thick fog<lb/>
 <date when="1854-06-21">21<link target="http://tinyurl.com/zc8fqs8"/>
-</date> thick " <unclear>&amp;</unclear> rain<lb/>
+</date> thick " &amp; rain<lb/>
 through it</cell>
 <cell/>
 <cell/>
@@ -268,7 +259,7 @@ through it</cell>
 </row>
 <row>
 <cell/>
-<cell>mizzling weather</cell>
+    <cell><emph rend="bold">mizzling weather</emph></cell>
 <cell/>
 <cell/>
 <cell/>
@@ -279,7 +270,7 @@ through it</cell>
 <cell>
 <date when="1856-06-06">6<link target="http://tinyurl.com/hry3c4j"/>
 </date> drizzling<lb/>
-<date when="1856-06-26">26<link target="https://tinyurl.com/yhh4p7yx"/>
+<date when="1856-06-26">26<link target="http://tinyurl.com/j9thdl7"/>
 </date> at <placeName ref="New Bedford">N. Bedford</placeName>
 </cell>
 <cell>
@@ -293,7 +284,7 @@ Cod</placeName>
 </row>
 <row>
 <cell/>
-<cell>Rain<lb/>
+    <cell><emph rend="bold">Rain</emph><lb/>
 June <date when="1851-06-07">7<link target="http://tinyurl.com/hsvdzrd"/>
 </date> 51 a gentle straight down<lb/>
 rainy day - a fishing day</cell>
@@ -318,10 +309,10 @@ May <date when="1853-05-26">26<link target="http://tinyurl.com/zxs7jet"/>
 <date when="1854-06-07">7th<link target="http://tinyurl.com/hoeoy5u"/>
 </date>
 <gap reason="unclear"/>
- &amp; <date when="1854-06-08">8th<link target="http://tinyurl.com/jmvkpq4"/>
+    &amp; <date when="1854-06-08">8th<link target="https://tinyurl.com/ycxxy82m"/>
 </date> gentle<lb/>
 steady rain storm<lb/>
-<date when="1854-06-19">19th<link target="https://tinyurl.com/yum4a73z"/>
+<date when="1854-06-19">19th<link target="http://tinyurl.com/hw8qdmt"/>
 </date> 1st of <abbr corresp="consequence">conseq.</abbr> for 3<lb/>
 weeks - with a<gap reason="unclear"/>
 <lb/>
@@ -330,12 +321,10 @@ weeks - with a<gap reason="unclear"/>
 </date>
 </cell>
 <cell>
-<unclear>
 <date when="1855-06-03">3rd<link target="http://tinyurl.com/jsn3rrk"/>
-</date>
-</unclear> rainy day at last clears<lb/>
-up <emph rend="underline">am</emph>
-of <date when="1855-06-04">4th<link target="https://tinyurl.com/4kr53v6n"/>
+</date> rainy day at last clears<lb/>
+    up <emph rend="underline">am</emph>
+ of <date when="1855-06-04">4th<link target="http://tinyurl.com/zb5hqnf"/>
 </date> 1st important rain<lb/>
 of season<lb/>
 <date when="1855-06-14">14<link target="http://tinyurl.com/h6mzzx2"/>
@@ -352,7 +341,7 @@ for a few weeks past than<lb/>
 at any other season<lb/>
 have unexpected showers</cell>
 <cell>
-<date when="1858-06-04">4th<link target="http://tinyurl.com/hgtaz9g"/>
+    <date when="1858-06-04">4th<link target="https://tinyurl.com/2ctzv32x"/>
 </date> on RR in <placeName ref="Winchendon">Win-<lb/>
 chendon</placeName>
 <lb/>
@@ -366,18 +355,16 @@ no clear weather since <date when="1858-06-11">11th<link target="http://tinyurl.
 <cell>night of <date when="1859-06-01">1st<link target="http://tinyurl.com/gpaurv8"/>
 </date>
 <lb/>
-<unclear>
-<date when="1859-06-13">13<link target="http://tinyurl.com/jusla9u"/>
-</date>
-</unclear>heavy rain<lb/>
+    <date when="1859-06-13">18<link target="https://tinyurl.com/ycasfj79"/>
+</date> heavy rain<lb/>
 raining since last night<lb/>
 <date when="1859-06-18">18<link target="http://tinyurl.com/jmuydxu"/>
-</date> more rain we
+</date> more rain<gap reason="unclear"/>
 <lb/>
 under bridge<lb/>
 <date when="1859-06-24">24<link target="http://tinyurl.com/zqdz7fz"/>
 </date>
-in white of cobwebs
+<gap reason="unclear"/>
 </cell>
 <cell>
 <date when="1860-06-01">1st<link target="http://tinyurl.com/zw9go5b"/>
@@ -393,13 +380,12 @@ night<lb/>
 <date when="1860-06-20">20<link target="http://tinyurl.com/jtl2a4u"/>
 </date> heavy rain most of<lb/>
 day &amp; part of night next<lb/>
-2 1/8 inches beats down
-<lb/>
-crop &amp;c. - no dew in morn.</cell>
+2 1/8 inches beats down<lb/>
+ - no dew in morn.</cell>
 </row>
 <row>
 <cell/>
-<cell>Dogdayish</cell>
+    <cell><emph rend="bold">Dogdayish</emph></cell>
 <cell/>
 <cell>
 <date when="1853-06-23">23<link target="http://tinyurl.com/gprwd2x"/>
@@ -410,25 +396,25 @@ about</cell>
 <date when="1854-06-23">23<link target="http://tinyurl.com/zoosvtp"/>
 </date> Foggy haze<lb/>
 dog day like - more or<lb/>
-less <unclear>10</unclear> days past<lb/>
+less 10 days past<lb/>
 &amp; cold</cell>
 <cell/>
 <cell/>
 <cell>
-<date when="1857-06-30">30th<link target="http://tinyurl.com/z5gvax3"/>
+    <date when="1857-06-30">30th<link target="https://tinyurl.com/mr26msb4"/>
 </date> &amp; cold</cell>
 <cell/>
 <cell>
 <date when="1859-06-23">23<link target="http://tinyurl.com/hmc5d95"/>
 </date>
 <del>
-<gap reason="unclear"/>
+23
 </del> foggy day<lb/>
 with E. wind - Cape-<lb/>
 coddish<lb/>
 <date when="1859-06-24">24<link target="http://tinyurl.com/zqdz7fz"/>
 </date>
-<unclear>another</unclear> &amp; rain</cell>
+another &amp; rain</cell>
 <cell>
 <date when="1860-06-18">18<link target="http://tinyurl.com/zuowulo"/>
 </date> &amp; not rain threatening
@@ -436,16 +422,14 @@ coddish<lb/>
 &amp; <date when="1860-06-19">19th<link target="http://tinyurl.com/zuowulo"/>
 </date> 2 1/2 days<lb/>
 then the heavy rains<lb/>
-of <date when="1860-06-20">20th<link target="https://tinyurl.com/4ttdtyy3"/>
+of <date when="1860-06-20">20th<link target="http://tinyurl.com/znuw2ph"/>
 </date>
 <gap reason="unclear"/>
 <lb/>
 <date when="1860-06-23">23<link target="http://tinyurl.com/hldn9r5"/>
 </date>
 decidedly
-musty <lb/>
-&amp; blueish
-<lb/>
+musty <lb/> &amp; bluish
 <date when="1860-06-24">24<link target="http://tinyurl.com/jdj3l44"/>
 </date> &amp; <date when="1860-06-26">26<link target="http://tinyurl.com/jb5kb7a"/>
 </date> &amp; <date when="1860-06-29">29<link target="http://tinyurl.com/j4jwmmt"/>
@@ -454,17 +438,17 @@ musty <lb/>
 </row>
 <row>
 <cell/>
-<cell>Thunder Shower</cell>
+    <cell><emph rend="bold">Thunder Shower</emph></cell>
 <cell>
 <date when="1852-06-03">3rd<link target="http://tinyurl.com/jl6vuog"/>
-</date> slight(sultry)<lb/>
+</date> slight (sultry)<lb/>
 v<date when="1852-06-22">22<link target="http://tinyurl.com/z2zjbon"/>
 </date> lightning<lb/>
 <date when="1852-06-17">17<link target="http://tinyurl.com/gvtbo4w"/>
 </date> slight</cell>
 <cell>
 <date when="1853-06-22">22<link target="http://tinyurl.com/gw9sybz"/>
-</date> 1st <emph rend="underline">Thunder</emph><lb/>
+</date> 1st Thunder<lb/>
 since May <date when="1853-05-26">26<link target="http://tinyurl.com/zxs7jet"/>
 </date>
 </cell>
@@ -481,15 +465,15 @@ since May <date when="1853-05-26">26<link target="http://tinyurl.com/zxs7jet"/>
 <cell/>
 <cell>
 <date when="1860-06-17">17<link target="http://tinyurl.com/jsskh8r"/>
-</date> the 3 day at pm
+</date> the 3 day in <emph rend="underline">pm</emph>
 <lb/>
-(<unclear>have or around</unclear>)<lb/>
+(have or around)<lb/>
 preventing walks</cell>
 </row>
 <row>
 <cell/>
-<cell>Succession of Thunder<lb/>
-Showers</cell>
+<cell><emph rend="bold">Succession of Thunder<lb/>
+    Showers</emph></cell>
 <cell>
 <date when="1852-06-22">22nd<link target="http://tinyurl.com/je9vk4z"/>
 </date>

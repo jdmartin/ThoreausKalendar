@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- The line above is the "XML declaration"; it is not -->
 <!-- required, but we recommend using it. -->
-<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
 <!-- The line above is a processing instruction for finding the schema; -->
 <!-- it is intended for oXygen, but other software may use it, also. -->
 <!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
-<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -16,9 +14,7 @@
         </author>
       </titleStmt>
       <publicationStmt>
-        <availability>
           <ab><!-- copyright or copyleft information here --></ab>
-        </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -35,12 +31,12 @@
           <head>General Phenomena for November</head>
           <row role="label">
             <cell><add rend="pencil"><date when="1850-11-15">15th</date><lb/><del>17</del></add></cell>
-            <cell><add place="above">50 51</add><add rend ="pencil" place="above"><date when="1851-12-29">Dec 29<link target="https://tinyurl.com/49kdwmxp"></link></date></add><lb/>Willows 
-              <unclear>are</unclear>bright</cell>
+            <cell><add place="above">50 51</add> <add rend ="pencil" place="above"><date when="1851-12-29">Dec 29<link target="https://tinyurl.com/49kdwmxp"></link></date></add><lb/><emph rend="bold">Willows 
+              <unclear>are</unclear>bright</emph></cell>
             <cell><add place="above">52</add></cell>
             <cell><add place="above">53</add></cell>
-            <cell><add place="above">54</add><date when="1854-11-14">14<link target="https://tinyurl.com/ywv9f3zp"
-                /></date>as in spring</cell>
+            <cell><add place="above">54</add><lb/><date when="1854-11-14">14<link target="https://tinyurl.com/ywv9f3zp"
+                /></date> as in spring</cell>
             <cell><add place="above">55</add><add rend="pencil"><date when="1855-12-03">Dec 3<link target="https://tinyurl.com/5hyxydjp"></link></date><gap reason="unclear" extent="1 word">
              </gap> Tracks</add></cell>
             <cell><add place="above">56</add></cell>
@@ -53,7 +49,7 @@
           <row>
             <cell><add rend="pencil">8th</add></cell>
             <cell><add place="above"><date when="1850-11-09">9th<link target="https://tinyurl.com/7xp4y3tc"></link></date>a. scoparius</add>
-              November Lights<lb/><del><add place="below" rend="penicl">(v oct</add></del></cell>
+              <emph rend="bold">November Lights</emph><lb/><del><add place="below" rend="penicl">(v oct</add></del></cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -77,12 +73,12 @@
           </row>
           <row>
             <cell></cell>
-            <cell>Twigs like cobwebs<del><add rend="pencil">(v oct</add></del></cell>
+            <cell><emph rend="bold">Twigs like cobwebs</emph><del><add rend="pencil">(v oct</add></del></cell>
             <cell/>
             <cell></cell>
             <cell/>
             <cell/>
-            <cell><date when="1856-11-28">28<link target="https://tinyurl.com/8f8s5fe9"></link></date>at(<add place="above" rend="pencil">was</add><placeName>Amboy</placeName>before)</cell>
+            <cell><date when="1856-11-28">28<link target="https://tinyurl.com/8f8s5fe9"></link></date>at (<add place="above" rend="pencil">was</add> <placeName>Amboy</placeName> before)</cell>
             <cell/>
             <cell><add rend="pencil"><date when="1858-10-25">Oct. 25<link target="https://tinyurl.com/2epahehk"></link></date>birch twigs <lb/>at sunset</add></cell>
             <cell><add rend="pencil"><del>Oct.</del></add></cell>
@@ -91,14 +87,14 @@
           </row>
           <row>
             <cell><add rend="pencil">10th</add></cell>
-            <cell><placeName ref="Massachusetts">Mass</placeName> birch &amp;c &amp;c</cell>
+            <cell><emph rend="bold"><placeName ref="Massachusetts">Mass</placeName> birch &amp;c &amp;c</emph></cell>
             <cell/>
             <cell/>
             <cell/>
             <cell/>
             <cell></cell>
             <cell><add place="left"><date when="1857-11-03">3<link target="https://tinyurl.com/yc7ufre3"></link></date>Birch twig</add></cell>
-            <cell><add place="above" rend="pencil">began with an alder</add><date when="1858-11-08">8<link target="https://tinyurl.com/pbvmu3wp"></link></date>many mazes<lb/>
+            <cell><add place="above" rend="pencil">began with an alder</add><lb/> <date when="1858-11-08">8<link target="https://tinyurl.com/pbvmu3wp"></link></date>many mazes<lb/>
               <date when="1858-11-15">15th<link target="https://tinyurl.com/2ubyxdpd"></link></date>&amp; ap<date when="1858-11-17">17th
                 <link target="https://tinyurl.com/3468tz4p"></link></date></cell>
             <cell/>
@@ -107,11 +103,11 @@
           </row>
           <row>
             <cell/>
-            <cell><add rend="pencil"><del rend="strikethrough">Gossamer (v <date when="1858-11-15">15-58<link
-              target="https://tinyurl.com/yeccncaz"/></date></del>(v oct</add></cell>
+            <cell><emph rend="bold"><add rend="pencil"><del rend="strikethrough">Gossamer</del></add></emph> <add rend="pencil"><del rend="strikethroug">(v <date when="1858-11-15">15-58<link
+              target="https://tinyurl.com/yeccncaz"/></date>(v oct</del></add></cell>
             <cell></cell>
             <cell><del rend="strikethrough"><add rend="pencil"><date when="1853-11-19">19<link
-              target="https://tinyurl.com/23ttuxb9"/></date>but not as<lb/>perfect as<date
+              target="https://tinyurl.com/23ttuxb9"/></date>but not as<lb/>perfect as <date
                 when="1853-10-31">31st Oct.<link target="https://tinyurl.com/597axvfr"/></date><lb/>
                   <abbr corresp="Indian Summer">Ind Sum.</abbr>
                   <emph rend="underline">PM</emph></add></del></cell>
@@ -127,7 +123,7 @@
           </row>
           <row>
             <cell><add rend="pencil"><del>v. Dec.</del></add></cell>
-            <cell><del rend="strikethrough">Notice colored twigs<add place="below" rend="pencil">or above
+            <cell><del rend="strikethrough"><emph rend="bold">Notice colored twigs</emph> <add place="below" rend="pencil">or above
                 snow</add></del></cell>
             <cell/>
             <cell/>
@@ -143,7 +139,7 @@
           </row>
           <row>
             <cell><add rend="pencil">8th</add></cell>
-            <cell>Water blue as indigo</cell>
+            <cell><emph rend="bold">Water blue as indigo</emph></cell>
             <cell/>
             <cell><date when="1853-11-14">14th<link target="https://tinyurl.com/5y28jakd"></link></date></cell>
             <cell/>
@@ -157,7 +153,7 @@
           </row>
           <row>
             <cell><add rend="pencil">15th</add></cell>
-            <cell>Colors of Andromeda in dif light</cell>
+            <cell><emph rend="bold">Colors of Andromeda in dif light</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -171,7 +167,7 @@
           </row>
           <row>
             <cell><add rend="pencil">5<lb/><del></del></add></cell>
-            <cell>Notice buds<add place="above"><date when="1851-11-01">1st<link target="https://tinyurl.com/k4xzp5vd"></link></date>p. pines<add rend="pencil">do skunk cab.<lb/>bud<lb/>(v oct)<lb/>
+            <cell><emph rend="bold">Notice buds</emph> <add place="above"><date when="1851-11-01">1st<link target="https://tinyurl.com/k4xzp5vd"></link></date>p. pines<add rend="pencil">do skunk cab.<lb/>bud<lb/>(v oct)<lb/>
               <date when="1851-10-12">Oct. 12-51<link target="https://tinyurl.com/28594jtu"></link></date>beg. to notice swamp<lb/>pink</add></add></cell>
             <cell>Dec. <date when="1852-12-01">1<link target="https://tinyurl.com/2s4ytwuu"/></date>
               alder, birch<lb/>catkins &amp;c.<lb/>
@@ -198,7 +194,7 @@
           </row>
           <row>
             <cell><add rend="pencil">12</add></cell>
-            <cell>Willow &amp; alder buds <gap extent="1 word" reason="unclear"></gap></cell>
+            <cell><emph rend="bold">Willow &amp; alder buds</emph> <gap extent="1 word" reason="unclear"></gap></cell>
             <cell><date when="1852-11-30">30<link target="https://tinyurl.com/47p59z6u"></link></date>Early tremblers &amp;<lb/>early willows</cell>
             <cell/>
             <cell/>
@@ -213,7 +209,7 @@
           </row>
           <row>
             <cell></cell>
-            <cell><del rend="strikethrough">Shadbush &amp;c &amp;c leaf<add place="above" rend="pencil"><date
+            <cell><del rend="strikethrough"><emph rend="bold">Shadbush &amp;c &amp;c leaf</emph> <add place="above" rend="pencil"><date
               when="1851-10-16">Oct 16-51<link target="https://tinyurl.com/838m6846"
                 /></date>shadbush nearly<lb/>leafing</add></del></cell>
             <cell><del rend="strikethrough"></del></cell>
@@ -234,7 +230,7 @@
           </row>
           <row>
             <cell><add rend="pencil">8th</add></cell>
-            <cell>Green Rad. leaves</cell>
+            <cell><emph rend="bold">Green Rad. leaves</emph></cell>
             <cell></cell>
             <cell><date when="1853-11-03">3rd<link target="https://tinyurl.com/47p7m3rn"></link></date> of many plants <lb/>- primrose - thistle
               <lb/>&amp; frag. everlasting<lb/><date when="1853-11-14">14<link target="https://tinyurl.com/3et6zta2"></link></date><lb/>winter rye the most<lb/><unclear>conspicuous</unclear></cell>
@@ -252,7 +248,7 @@
           <row>
             <cell><add rend="pencil">2</add></cell>
             <cell><add place="above"><date when="1850-11-19">19th-50<link target="https://tinyurl.com/333wr2fr"></link></date> evergreens
-              <date when="1851-11-22">22<link target="https://tinyurl.com/2u9rhad9"></link></date>-cress</add>Notice evergreen ferns &amp;c &amp;c
+              <date when="1851-11-22">22<link target="https://tinyurl.com/2u9rhad9"></link></date>-cress</add> <lb/><emph rend="bold">Notice evergreen ferns &amp;c &amp;c</emph><lb/>
               <add place="below" rend="pencil"><gap></gap>&amp; perhaps both - winter rye green in Oct.</add></cell>
             <cell></cell>
             <cell><date when="1853-11-03">3rd<link target="https://tinyurl.com/yc6wvaaw"></link></date>ev. trees more<lb/>
@@ -273,12 +269,12 @@
               fluitans<lb/>more noticeable <lb/><date when="1858-11-08">8</date> broom
               distinct<lb/>(v. <date when="1858-11-17">17 <link
                   target="https://tinyurl.com/3zafxcfx"/></date>&amp;<date when="1858-11-18"
-                >18-58</date> in list<add rend="pencil"><date when="1858-10-06">oct 6<link
-                  target="https://tinyurl.com/2a95z7nf"/></date>evergreens greener<add
+                >18-58</date> in list <lb/><add rend="pencil"><date when="1858-10-06">oct 6<link
+                  target="https://tinyurl.com/2a95z7nf"/></date>evergreens greener <lb/><add
                   place="Below"><date when="1858-10-18">oct 18<link
                     target="https://tinyurl.com/ehv3parx"/></date>wintergreen
               tc</add></add></cell>
-            <cell><add rend="pencil">Ev. ferns grow more<lb/>distinct after<date when="1859-09-16"
+            <cell><add rend="pencil">Ev. ferns grow more<lb/>distinct after <date when="1859-09-16"
               >Sep 16<link target="https://tinyurl.com/25b78u4r"/></date><lb/><date
                 when="1859-10-12">Oct 12<link target="https://tinyurl.com/2p83wd5a"/></date> very
                 few ferns but<lb/>ev. are left</add></cell>
@@ -287,7 +283,7 @@
           </row>
           <row>
             <cell><add rend="pencil">10th</add></cell>
-            <cell>Sap flows in scar. oak</cell>
+            <cell><emph rend="bold">Sap flows in scar. oak</emph></cell>
             <cell></cell>
             <cell></cell>
             <cell/>
@@ -301,7 +297,7 @@
           </row>
           <row>
             <cell><add rend="pencil"><del>v Dec.</del></add></cell>
-            <cell><del>A lichen day</del><add place="above" rend="pencil"><date when="1851-12-31">Dec 31-51<link target="https://tinyurl.com/4ac37fs5"></link></date></add></cell>
+            <cell><del><emph rend="bold">A lichen day</emph></del> <add place="above" rend="pencil"><date when="1851-12-31">Dec 31-51<link target="https://tinyurl.com/4ac37fs5"></link></date></add></cell>
             <cell/>
             <cell/>
             <cell></cell>
@@ -316,7 +312,7 @@
           </row>
           <row>
             <cell><add rend="pencil">3</add></cell>
-            <cell>Woodchoppers' axe</cell>
+            <cell><emph rend="bold">Woodchoppers' axe</emph></cell>
             <cell/>
             <cell><date when="1853-11-03">3rd<link target="https://tinyurl.com/mseuhzrn"></link></date></cell>
             <cell/>
@@ -331,7 +327,7 @@
           <row>
             <cell><add rend="pencil">1st</add></cell>
             <cell><add place="above"><date when="1851-11-13">13th<link target="https://tinyurl.com/4787krfr"></link></date>think of going into</add>
-              Short<emph rend="underline"> PM</emph><lb/><unclear>Gather places</unclear> going into winter quar-<lb/>ters.</cell>
+              <emph rend="bold">Short<emph rend="underline"> PM</emph><lb/><unclear>Gather places</unclear> going into winter quar-<lb/>ters.</emph></cell>
             <cell/>
             <cell/>
             <cell/>

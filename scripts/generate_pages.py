@@ -1,7 +1,10 @@
+import os
+
 from bs4 import BeautifulSoup
 
 
 def menu():
+    os.system('clear')
     choice = ""
     options = {
     '0': ['newapril', 'April (New)'],

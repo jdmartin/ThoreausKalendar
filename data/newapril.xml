@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- The line above is the "XML declaration"; it is not -->
 <!-- required, but we recommend using it. -->
-<?oxygen RNGSchema="./exercise.rnc" type="compact"?>
 <!-- The line above is a processing instruction for finding the schema; -->
 <!-- it is intended for oXygen, but other software may use it, also. -->
-<!-- ?xml-stylesheet type="text/css" href="tiny_TEI_template.css"? -->
-<?xml-stylesheet type="text/css" href="oxygen_CSS/tei_oxygen.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -16,9 +13,7 @@
         </author>
       </titleStmt>
       <publicationStmt>
-        <availability>
           <ab><!-- copyright or copyleft information here --></ab>
-        </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -37,8 +32,7 @@
           <head>General Phenomena for April </head>
           <row role="label">
             <cell>Ap. 1</cell>
-            <cell>Walden open <abbr>av.</abbr><lb/> of 13 years<note rend="pencil" place="above">or
-                overcast April weather</note></cell>
+            <cell>Walden open <abbr>av.</abbr><lb/> of 13 years</cell>
             <cell><add rend="pencil">52</add></cell>
             <cell><add rend="pencil">53</add></cell>
             <cell><add rend="pencil">54</add></cell>
@@ -51,9 +45,10 @@
           </row>
           <row>
             <cell>6</cell>
-            <cell> Still sober gentle April rain<lb/>or moist weather<lb/>before mid of month</cell>
+            <cell> <emph rend="bold">Still sober gentle April rain<lb/>or moist weather<lb/>before mid of month</emph><add rend="pencil" place="above">or
+              overcast April weather</add></cell>
             <cell>
-              <date when="1852-04-02">2nd<link target="http://tinyurl.com/psqzyyf"/></date> turns to
+              <date when="1852-04-02">2nd<link target="http://tinyurl.com/psqzyyf"></link></date> turns to
               sleet</cell>
             <cell>
               <date when="1853-03-30">Mar 30th<link target="http://tinyurl.com/olp7m5a"/>
@@ -99,7 +94,7 @@
           </row>
           <row>
             <cell>25</cell>
-            <cell>The same <emph rend="underline">after</emph> mid of <lb/>month</cell>
+            <cell><emph rend="bold">The same <emph rend="underline">after</emph> mid of <lb/>month</emph></cell>
             <cell>
               <date when="1852-04-26">26th<link target="http://tinyurl.com/mtx35rs"/></date>
             </cell>
@@ -128,7 +123,7 @@
           </row>
           <row>
             <cell/>
-            <cell>Uncertain or April <lb/>weather</cell>
+            <cell><emph rend="bold">Uncertain or April <lb/>weather</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -145,7 +140,7 @@
           </row>
           <row>
             <cell>10</cell>
-            <cell>April shower before <lb/>mid of month</cell>
+            <cell><emph rend="bold">April shower before <lb/>mid of month</emph></cell>
             <cell/>
             <cell>
               <date when="1853-04-06">6<link target="http://tinyurl.com/mkfvt7m"/></date>
@@ -162,7 +157,7 @@
           </row>
           <row>
             <cell>18</cell>
-            <cell>April shower after <lb/>mid of month</cell>
+            <cell><emph rend="bold">April shower after <lb/>mid of month</emph></cell>
             <cell/>
             <cell/>
             <cell>
@@ -185,8 +180,7 @@
           <row>
             <cell> Mar 24<lb/>22</cell>
             <cell>
-              <add place="above">1st of year</add>Thunder shower (with or <lb/> without lightning in
-              Ap. alone)</cell>
+              <add place="above">1st of year</add> <emph rend="bold">Thunder shower (with or <lb/> without lightning in Ap. alone)</emph></cell>
             <cell/>
             <cell>
               <add rend="pencil">Some thunder<lb/>
@@ -219,8 +213,7 @@
           </row>
           <row>
             <cell>6<add rend="pencil">?</add></cell>
-            <cell>
-              <add place="above">1st of year</add>Lightning in April (v. Mar)</cell>
+            <cell><add place="above">1st of year</add> <emph rend="bold">Lightning in April</emph> (v. Mar)</cell>
             <cell><add rend="pencil">1st of year the <lb/>Sunday before <date when="1852-05-19"
                     >May<lb/>19th<link target="http://tinyurl.com/oxm9zsd"/></date>
               </add>
@@ -257,7 +250,7 @@
           <row>
             <cell>16<lb/>
               <del>17</del><lb/>15</cell>
-            <cell>Rain in <abbr>pm</abbr> followed by<lb/>clear yellow light<lb/></cell>
+            <cell><emph rend="bold">Rain in <abbr>pm</abbr> followed by<lb/>clear yellow light</emph></cell>
             <cell>
               <date when="1852-04-11">11<link target="http://tinyurl.com/ohpnnhh"/></date>
             </cell>
@@ -277,8 +270,7 @@
           <row>
             <cell>18</cell>
             <cell>
-              <add rend="pencil" place="above"> v. below </add>Rain with some sleet<lb/> or hail
-              before mid month</cell>
+              <add rend="pencil" place="above"> v. below </add> <emph rend="bold">Rain with some sleet<lb/> or hail before mid month</emph></cell>
             <cell>
               <date when="1852-04-02">2<link target="https://tinyurl.com/yu99hcyt"/></date>
             </cell>
@@ -297,10 +289,7 @@
           </row>
           <row>
             <cell/>
-            <cell>
-              <del rend="pencil">The same after mid month</del>
-              <add rend="pencil">Warm in 1st half of month</add>
-            </cell>
+            <cell><del rend="pencil">The same after mid month</del> <emph rend="bold"><add rend="pencil">Warm in 1st half of month</add></emph></cell>
             <cell>
               <add rend="pencil">
                 <date when="1852-04-14">14th<link target="http://tinyurl.com/oxh47eg"/></date>
@@ -323,7 +312,7 @@
             <cell>6 <lb/>
               <add place="above">say earlier</add>
             </cell>
-            <cell>Rain with fog <lb/>frost coming out.</cell>
+            <cell><emph rend="bold">Rain with fog </emph><lb/>frost coming out.</cell>
             <cell/>
             <cell/>
             <cell/>
@@ -343,7 +332,7 @@
           </row>
           <row>
             <cell>16</cell>
-            <cell>Rain</cell>
+            <cell><emph rend="bold">Rain</emph></cell>
             <cell>
               <date when="1852-04-15">15th<link target="http://tinyurl.com/lg8k827"/></date>
             </cell>
@@ -386,7 +375,7 @@
           </row>
           <row>
             <cell>21<add rend="pencil">?</add></cell>
-            <cell>April rainstorm (2 days<lb/>or more)</cell>
+            <cell><emph rend="bold">April rainstorm</emph> (2 days<lb/>or more)</cell>
             <cell>5 days incessantly<add place="above">With E wind</add><lb/>
               <date when="1852-04-18">18<link target="http://tinyurl.com/mp3oeag"/></date> - <date
                 when="1852-04-22">22nd<link target="http://tinyurl.com/mwmh8rz"/></date>
@@ -421,8 +410,7 @@
           </row>
           <row>
             <cell/>
-            <cell><del rend="strikethrough">1st Rainbow v. Mar &amp; May 30<lb/> 1st of year Mar
-                4th</del></cell>
+            <cell><del rend="strikethrough"><emph rend="bold">1st Rainbow</emph> v. Mar &amp; May 30<lb/> 1st of year Mar 4th</del></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -451,13 +439,8 @@
           </row>
           <row>
             <cell>2nd</cell>
-            <cell>High wind rocking house<lb/>&amp;c<lb/><gap/>
-              <add>
-                <date when="1851-04-16">16-51<link target="https://tinyurl.com/56ty4frk"/></date>
-                100 pines blown down on <placeName ref="Fairhaven Hill">
-                  <abbr>F.H.</abbr><lb/>hill-</placeName>
-              </add>
-            </cell>
+            <cell><emph rend="bold">High wind rocking house</emph><lb/>&amp;c<lb/><add> <date when="1851-04-16">16-51<link target="https://tinyurl.com/56ty4frk"/>
+            </date> 100 pines blown down on <placeName ref="Fairhaven Hill"><abbr>F.H.</abbr><lb/>hill-</placeName></add></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -472,7 +455,7 @@
           </row>
           <row>
             <cell>16</cell>
-            <cell>Strong winds</cell>
+            <cell><emph rend="bold">Strong winds</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -511,7 +494,7 @@
           </row>
           <row>
             <cell>24</cell>
-            <cell>Whirl wind taking <lb/> up leaves</cell>
+            <cell><emph rend="bold">Whirl wind taking <lb/> up leaves</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -529,7 +512,7 @@
           </row>
           <row>
             <cell>2nd</cell>
-            <cell> Horn icicles </cell>
+            <cell> <emph rend="bold">Horn icicles </emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -544,7 +527,7 @@
           </row>
           <row>
             <cell>5</cell>
-            <cell>Cold weather in 1st half</cell>
+            <cell><emph rend="bold">Cold weather in 1st half</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -576,7 +559,7 @@
           </row>
           <row>
             <cell>14</cell>
-            <cell>Tanned by snow <lb/></cell>
+            <cell><emph rend="bold">Tanned by snow</emph></cell>
             <cell>
               <date when="1852-04-14">14th<link target="http://tinyurl.com/lv6j65q"/></date>
             </cell>
@@ -591,7 +574,7 @@
           </row>
           <row>
             <cell>15 or 16</cell>
-            <cell>A whitening of snow </cell>
+            <cell><emph rend="bold">A whitening of snow</emph></cell>
             <cell>
               <add rend="pencil">
                 <date when="1852-04-01">1st<link target="http://tinyurl.com/m49kzva"/></date>
@@ -624,7 +607,7 @@
           </row>
           <row>
             <cell>15</cell>
-            <cell> More than 3 inches or more of<lb/>snow</cell>
+            <cell><emph rend="bold">More than 3 inches or more of<lb/>snow</emph></cell>
             <cell>
               <date when="1852-04-06">6th<link target="http://tinyurl.com/kgqnq4v"/></date> &amp;
                 <date when="1862-04-13">13th<link target="http://tinyurl.com/mjje5bo"/></date>
@@ -650,12 +633,10 @@
             <cell>
               <del> 4th </del>
             </cell>
-            <cell>
-              <del rend="pen">Frost out of garden</del><lb/> Plowing generally</cell>
+            <cell><del rend="pen">Frost out of garden</del><lb/><emph rend="bold">Plowing generally</emph></cell>
             <cell>
               <ref target="http://tinyurl.com/o85tya5">
-                <date when="1852-02-13">Feb. <unclear>13<link target="https://tinyurl.com/d8sdffkz"
-                    /></unclear></date>
+                <date when="1852-02-13">Feb. 5<link target="https://tinyurl.com/d8sdffkz"/></date>
               </ref> Out of ground<lb/>in many places</cell>
             <cell>Ground soaks <lb/>up rain <date when="1853-04-03">3rd<link
                   target="https://tinyurl.com/3kzy7tzh"/></date>
@@ -695,9 +676,7 @@
           <row>
             <cell>
               <add rend="pencil">20<lb/>6</add></cell>
-            <cell>Frost still in ground <lb/>
-              <add rend="pencil"> feel it in meadows</add>
-            </cell>
+            <cell><emph rend="bold">Frost still in ground </emph><lb/><add rend="pencil"> feel it in meadows</add></cell>
             <cell>
               <date when="1852-03-30">March 30th<link target="http://tinyurl.com/q8jr7ut"/></date>
               at 10<lb/>inches deep where I<lb/>dig parsnips<lb/>
@@ -745,7 +724,7 @@
           </row>
           <row>
             <cell>up to <lb/>12</cell>
-            <cell>Still use gloves in <lb/> morning</cell>
+            <cell><emph rend="bold">Still use gloves in <lb/> morning</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -764,7 +743,7 @@
           </row>
           <row>
             <cell>16</cell>
-            <cell>Heels of snow left</cell>
+            <cell><emph rend="bold">Heels of snow left</emph></cell>
             <cell>
               <date when="1852-04-28">28<link target="http://tinyurl.com/lkce3cw"></link></date>
                snow in <lb/>hollows <lb/>
@@ -806,8 +785,7 @@
           </row>
           <row>
             <cell>12</cell>
-            <cell>
-              <name>Stowe's </name>cold pond hole still full of ice </cell>
+            <cell><emph rend="bold"><name>Stow's</name>cold pond hole <lb/>still full of ice</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -824,7 +802,7 @@
           </row>
           <row>
             <cell>18</cell>
-            <cell>Hail</cell>
+            <cell><emph rend="bold">Hail</emph></cell>
             <cell/>
             <cell/>
             <cell/>
