@@ -19,7 +19,7 @@ In the first instance, we use [Sass](https://sass-lang.com/) to watch our change
   - Open a terminal.
   - Navigate to the resources/css folder.
     - On my machine: 
-      ``` cd ~/Coding/Github/Kalendar-2021/resources/css```
+      ``` cd ~/Developer/Github/Kalendar-2021/resources/css```
   - Now, tell Sass to watch the appropriate files.
     - ``` sass --watch sass/kalendar.scss kalendar.css```
 
