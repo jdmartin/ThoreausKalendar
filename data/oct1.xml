@@ -46,8 +46,8 @@
                         <cell><add place="above" rend="pencil">prob. 11 in 51</add> <add place="above">R. quite low <date when="1851-09-21">Sep 21-51
                             <link target="https://tinyurl.com/3cruarj7"></link></date><lb/> all meads &amp; swamps have been remarkably<lb/>dry this year 
                             &amp; are still <date when="1851-10-05">Oct. 5th<link target="https://tinyurl.com/9wup782x"></link></date></add><lb/>
-                            <emph rend="bold">River Lowest</emph><lb/><add place="below">R. still quite low but I <gap/> higher<lb/>than <date when="1851-10-07">7th
-                            <link target="https://tinyurl.com/y26r8f9v"></link></date><gap reason="unlcear"/> <date when="1851-10-15">15th
+                            <emph rend="bold">River Lowest</emph><lb/><add place="below">R. still quite low but 1 foot higher<lb/>than <date when="1851-10-07">7th
+                            <link target="https://tinyurl.com/y26r8f9v"></link></date> on <date when="1851-10-15">15th
                             <link target="https://tinyurl.com/22cwks7b"></link></date><lb/> R. 4 inch below long stone <date when="1851-10-27">27th
                             <link target="https://tinyurl.com/mv6xtuue"></link> </date> yet 1 foot higher than it has been this summer !!</add></cell>
                         <cell><date when="1852-10-02">Oct 2nd<link target="https://tinyurl.com/2zwfmbz8"></link></date><lb/>"within an inch or 2 as low<lb/>
@@ -114,7 +114,7 @@
                         <cell><add rend="pencil"><date when="1857-10-31">31st<link target="https://tinyurl.com/nhccmhj"></link></date></add></cell>
                         <cell><add rend="pencil"><gap extent="1" reason="unclear"/><date when="1858-10-01">Oct 1st<link target="https://tinyurl.com/bp6yama2"></link></date></add></cell>
                         <cell><add rend="pencil"><gap reason="unclear" extent="2"/><date when="1859-10-08">Oct 3<link target="https://tinyurl.com/3am9thct"></link></date>
-                            <gap reason="unlcear" extent="1"/>10 ½<lb/>inch higher than<date when="1859-08-22">Aug 22<link target="https://tinyurl.com/56dvnd5v"></link></date><lb/>
+                            <gap reason="unclear" extent="1"/>10 ½<lb/>inch higher than<date when="1859-08-22">Aug 22<link target="https://tinyurl.com/56dvnd5v"></link></date><lb/>
                             River lowest for Oct (when I was here <date when="1859-08-22">Aug 22</date> 22/3rd<lb/>below SL.) + <date when="1859-10-11">Oct 11
                             <link target="https://tinyurl.com/57452ck2"></link></date><lb/><date when="1859-10-19">19th<link target="https://tinyurl.com/56pwtzyx"></link>
                             </date> 4 in. above <date when="1859-08-22">Aug 22<link target="https://tinyurl.com/56dvnd5v"></link></date><lb/>say Oct 11??</add></cell>
@@ -160,7 +160,7 @@
                             <link target="https://tinyurl.com/58bnewa9"></link></date> rain brings down leaves<lb/> last night &amp; all today</cell>
                         <cell><date when="1856-10-18">18<link target="https://tinyurl.com/2w84ku67"></link></date> all night &amp; half of day<lb/>
                             <add rend="pencil" place="below"><date when="1856-10-10">Oct 10<link target="https://tinyurl.com/y55jbm4x"></link></date>
-                            <gap reason="unlcear" extent="3"/>to abundance of rain these<lb/>last 6 weeks</add></cell>
+                            <gap reason="unclear" extent="3"/>to abundance of rain these<lb/>last 6 weeks</add></cell>
                         <cell/>
                         <cell><date when="1858-10-30">30th<link target="https://tinyurl.com/3awzdeuj"></link></date> rain with wind</cell>
                         <cell><date when="1859-10-18">18<link target="https://tinyurl.com/y5jmjdk8"></link></date> rains till 3 pm</cell>
@@ -352,7 +352,7 @@
                         <cell/>
                         <cell><date when="1856-09-27"><add rend="pencil">Sep.</add> 27<link target="https://tinyurl.com/5dafutvd"></link></date> about done</cell>
                         <cell/>
-                        <cell><date when="1858-09-30">Sep 30<link target="https://tinyurl.com/mrxn8ekk"></link></date> bathe<gap reason="unlcear" extent="1"/><lb/>last time</cell>
+                        <cell><date when="1858-09-30">Sep 30<link target="https://tinyurl.com/mrxn8ekk"></link></date> bathe<gap reason="unclear" extent="1"/><lb/>last time</cell>
                         <cell/>
                         <cell/>
                         <cell/>
@@ -375,7 +375,7 @@
                     <row>
                         <cell><add rend="pencil">3</add>
                         </cell>
-                        <cell><emph rend="bold">wear a thicker coat than this</emph></cell>
+                        <cell><emph rend="bold">wear a thicker coat than thin</emph></cell>
                         <cell><add rend="pencil">before <date when="1852-10-02">Oct 2nd<link target="https://tinyurl.com/2p8ezehb"></link></date></add>
                         </cell>
                         <cell/>
@@ -452,7 +452,7 @@
                         <cell/>
                         <cell><date when="1859-10-21">21<link target="https://tinyurl.com/5b7pdwr7"></link></date> Flint's brook frozen<lb/>in pm<lb/>Blustering day</cell>
                         <cell><date when="1860-10-01">Oct 1st<link target="https://tinyurl.com/mwv3mue5"></link></date> I hear<lb/>21 degrees + early about<lb/>
-                            full of moon<gap extent="7" reason="unlcear"/></cell>
+                            full of moon spoils <lb/> Bull's grapes &amp; white</cell>
                         <cell/>
                     </row>
                     <row>
@@ -466,7 +466,7 @@
                         <cell>Sep. night in some<lb/>places 1st in yard <date when="1854-09-21">Sept 21<link target="https://tinyurl.com/bdfdvzkn"></link></date>
                             <lb/>hard <date when="1854-09-22">Sept 22.<link target="https://tinyurl.com/mr32huew"></link></date><lb/>
                             <date when="1854-10-22">Oct 22<link target="https://tinyurl.com/zcucx4zv"></link></date> hard frosts these<lb/>days</cell>
-                        <cell><date when="1855-09-20">Sep 20<link target="https://tinyurl.com/4yx8de9n"></link></date> 1st decisive<lb/>killing off melons</cell>
+                        <cell><date when="1855-09-20">Sep 20<link target="https://tinyurl.com/4yx8de9n"></link></date> 1st decisive<lb/> 21 killing melons</cell>
                         <cell><date when="1856-10-06">Oct 6<link target="https://tinyurl.com/yjnpsjrp"></link></date> some in garden I hear of some 5 or 6<lb/> days ago 
                             elsewhere <lb/><date when="1856-10-15">15<link target="https://tinyurl.com/442es7nk"></link></date> &amp; <date when="1856-10-16">16
                             <link target="https://tinyurl.com/442es7nk"></link></date> smart kills plants in house - ground stiffened</cell>
@@ -561,7 +561,8 @@
                         </cell>
                         <cell><add place="above"> <date when="1851-10-27">Oct 27-51<link target="https://tinyurl.com/zhwuna7m"></link></date>1st snowing then
                             <lb/>warm at end of rain</add><lb/><emph rend="bold">1st snow </emph><add place="below" rend="pencil">NB in Nov. V. Nov.</add></cell>
-                        <cell/>
+                        <cell><date when="1852-10-15">15<link target="https://tinyurl.com/yvwp2uh9"></link></date> 1st snow -<lb/>a whitening - but<lb/>half
+                            an hour, then turns<lb/>to rain</cell>
                         <cell><date when="1853-11-08">Nov. 8<link target="https://tinyurl.com/2p8y2f3s"></link></date></cell>
                         <cell><date when="1854-11-15">Nov 15<link target="https://tinyurl.com/4x5tm6ay"></link> </date>first sugaring here</cell>
                         <cell><date when="1855-11-17">Nov 17<link target="https://tinyurl.com/4cxvm8wc"></link></date> 1st snow</cell>
@@ -576,8 +577,7 @@
                         <cell>25</cell>
                         <cell><emph rend="bold">snow on mtns</emph><add place="below" rend="pencil"> V. Nov <date when="1851-11-13">Nov.13-51<link target="https://tinyurl.com/mryfvduu"></link>
                             </date></add></cell>
-                        <cell><date when="1852-10-15">15<link target="https://tinyurl.com/yvwp2uh9"></link></date> 1st snow -<lb/>a whitening - but<lb/>half
-                            an hour, snow then turns<lb/>to rain</cell>
+                        <cell></cell>
                         <cell/>
                         <cell><date when="1854-10-19">19th<link target="https://tinyurl.com/2bhpknfs"></link></date> sugared with -<lb/>1st snow above Little-<lb/>ton</cell>
                         <cell/>

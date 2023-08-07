@@ -283,8 +283,8 @@
           </row>
           <row>
             <cell/>
-            <cell/>
-            <cell>52</cell>
+            <cell>Corner <gap reason="unclear"></gap></cell>
+            <cell>52<lb/>the 20th 30th</cell>
             <cell>53</cell>
             <cell>54</cell>
             <cell>55</cell>
@@ -311,8 +311,8 @@
             <cell><date when="1856-05-10">10<link target="https://tinyurl.com/j8drr34j"/></date>goes over meads<lb/>again after they were almost
               bare<lb/><date when="1856-05-12">12th<link target="https://tinyurl.com/3utfwdke"/></date> as high as before<lb/>this
               spring<lb/><date when="1856-05-17">17<link target="https://tinyurl.com/3tyuxfvn"/></date> fallen a foot</cell>
-            <cell><date when="1857-05-23">23<link target="https://tinyurl.com/2p89pr3n"/></date> still generally<lb/>over meads<gap
-              reason="unclear" extent="2 lines"/><lb/><date when="1857-05-03">3<link target="https://tinyurl.com/mryck4j4"/></date> still high
+            <cell><date when="1857-05-23">23<link target="https://tinyurl.com/2p89pr3n"/></date> still generally<lb/>over meads- can cross
+              <lb/>(Hubs mead. <lb/><date when="1857-05-03">3<link target="https://tinyurl.com/mryck4j4"/></date> still high
               <lb/><date when="1857-05-20">20<link target="https://tinyurl.com/ynmnsm4n"/></date> rising<lb/><date when="1857-05-25">25<link
               /></date> still
               high</cell>
@@ -331,7 +331,7 @@
             <cell/>
             <cell><date when="1854-05-17">17<link target="https://tinyurl.com/3utpxu33"/></date> getting shallow<lb/>on meads<lb/><date
               when="1854-05-21">21<link target="https://tinyurl.com/3nmwzeu2"/></date> going rapidly down<lb/><date when="1854-05-28">28<link target="https://tinyurl.com/294a7ubr"/></date>
-              still have to <lb/> lower mast at Br.</cell>
+              still have to <lb/> take down mast at Br.</cell>
             <cell><date when="1855-05-25">25<link target="https://tinyurl.com/bdzmzhrh"/></date> - 4 inch below long stone<lb/>i.e 4 inch below
               <abbr corresp="summer level">SL</abbr> <date when="1855-05-01">1st<link target="https://tinyurl.com/45hk4v7a"/></date> gone down
               very fast<lb/><unclear>&amp;</unclear>grass sprang up <lb/><date when="1855-05-04"
@@ -416,7 +416,7 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell>May <date when="1860-05-01">1st<link target="https://tinyurl.com/3257u44z"/></date> midst<lb/><gap reason="unclear"/></cell>
+            <cell>May <date when="1860-05-01">1st<link target="https://tinyurl.com/3257u44z"/></date> midst<lb/>yet</cell>
           </row>
           <row>
             <cell/>
@@ -446,7 +446,7 @@
           </row>
           <row>
             <cell/>
-            <cell><emph rend="bold">Leaves off all oaks but young white</emph></cell>
+            <cell><emph rend="bold">Leaves off all oaks but young white os</emph></cell>
             <cell/>
             <cell/>
             <cell><date when="1854-05-07">7th<link target="https://tinyurl.com/53a4x6dx"/></date></cell>

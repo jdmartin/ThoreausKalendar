@@ -84,10 +84,36 @@ def build_page(page):
             contents = file.read()
             
             #Make some soup
-            soup = BeautifulSoup(contents, 'lxml')
+            soup = BeautifulSoup(contents, features="xml")
 
             #Geat all the TEI rows
             rows = soup.find_all("row")
+
+            # Find all <lb> tags in the XML
+            lb_tags = soup.find_all('lb')
+
+            # Insert a <br> tag before each <lb> tag
+            for lb_tag in lb_tags:
+                br_tag = soup.new_tag('br')
+                lb_tag.insert_before(br_tag)
+
+            # Find all the <gap> elements and replace them with [gap]
+            for gap in soup.find_all('gap'):
+                extent = gap.get('extent')
+                reason = gap.get('reason')
+
+                result = ''
+                if extent:
+                    result += "Extent: " + extent + " | "
+                if reason:
+                    result += "Reason: " + reason + " "
+
+                # Create a new <span> element with the tooltip content
+                gap_span = soup.new_tag('span', type="gap", style="border-bottom:1px dotted;", title=result)
+                gap_span.string = "[gap]"
+
+                # Replace the <gap> element with the new <span>
+                gap.replace_with(gap_span)
 
             with open(page + ".html", "a") as output:
                 #Create a container for the processed and prepared XML
