@@ -1,4 +1,5 @@
-/* Include Constituent Parts */ /* Header Stuff Follows */
+/* Include Constituent Parts */
+/* Header Stuff Follows */
 /* Fonts */
 /* eb-garamond-regular - latin-ext_latin */
 @font-face {
@@ -264,6 +265,10 @@ gap {
 }
 gap .hidden {
   display: none;
+}
+
+span[type=gap] {
+  background: #feece9;
 }
 
 span[type=gap]::before, span[type=gap]::after, span[type=note]::before, span[type=note]::after {
