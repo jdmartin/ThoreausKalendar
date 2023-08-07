@@ -209,13 +209,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
             document.querySelector("#righty").innerHTML = data;
         })
 
-    //Take <lb> in source and insert a line break in HTML
-    theLB = document.querySelectorAll('lb');
-    for (var i = 0; i < theLB.length; i++) {
-        let new_node = document.createElement('br');
-        theLB[i].parentNode.insertBefore(new_node, theLB[i].nextSibling);
-    }
-
     //Insert spans after <unclear>
     theUnclear = document.getElementsByTagName('unclear');
     for (var i = 0; i < theUnclear.length; i++) {
