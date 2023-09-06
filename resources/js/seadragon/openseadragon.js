@@ -39,7 +39,7 @@
  */
 
 /*
- * Portions of this source file taken from jQuery:
+ * Portions of this source file taken from jq:
  *
  * Copyright 2011 John Resig
  *
@@ -833,7 +833,7 @@ function OpenSeadragon( options ){
 
 
     /**
-     * Taken from jquery 1.6.1
+     * Taken from jq 1.6.1
      * [[Class]] -> type pairs
      * @private
      */
@@ -854,20 +854,20 @@ function OpenSeadragon( options ){
         hasOwn      = Object.prototype.hasOwnProperty;
 
     /**
-     * Taken from jQuery 1.6.1
+     * Taken from jq 1.6.1
      * @function isFunction
      * @memberof OpenSeadragon
-     * @see {@link http://www.jquery.com/ jQuery}
+     * @see {@link http://www.jq.com/ jq}
      */
     $.isFunction = function( obj ) {
         return $.type(obj) === "function";
     };
 
     /**
-     * Taken from jQuery 1.6.1
+     * Taken from jq 1.6.1
      * @function isArray
      * @memberof OpenSeadragon
-     * @see {@link http://www.jquery.com/ jQuery}
+     * @see {@link http://www.jq.com/ jq}
      */
     $.isArray = Array.isArray || function( obj ) {
         return $.type(obj) === "array";
@@ -876,10 +876,10 @@ function OpenSeadragon( options ){
 
     /**
      * A crude way of determining if an object is a window.
-     * Taken from jQuery 1.6.1
+     * Taken from jq 1.6.1
      * @function isWindow
      * @memberof OpenSeadragon
-     * @see {@link http://www.jquery.com/ jQuery}
+     * @see {@link http://www.jq.com/ jq}
      */
     $.isWindow = function( obj ) {
         return obj && typeof obj === "object" && "setInterval" in obj;
@@ -887,10 +887,10 @@ function OpenSeadragon( options ){
 
 
     /**
-     * Taken from jQuery 1.6.1
+     * Taken from jq 1.6.1
      * @function type
      * @memberof OpenSeadragon
-     * @see {@link http://www.jquery.com/ jQuery}
+     * @see {@link http://www.jq.com/ jq}
      */
     $.type = function( obj ) {
         return ( obj === null ) || ( obj === undefined ) ?
@@ -900,10 +900,10 @@ function OpenSeadragon( options ){
 
 
     /**
-     * Taken from jQuery 1.6.1
+     * Taken from jq 1.6.1
      * @function isPlainObject
      * @memberof OpenSeadragon
-     * @see {@link http://www.jquery.com/ jQuery}
+     * @see {@link http://www.jq.com/ jq}
      */
     $.isPlainObject = function( obj ) {
         // Must be an Object.
@@ -933,10 +933,10 @@ function OpenSeadragon( options ){
 
 
     /**
-     * Taken from jQuery 1.6.1
+     * Taken from jq 1.6.1
      * @function isEmptyObject
      * @memberof OpenSeadragon
-     * @see {@link http://www.jquery.com/ jQuery}
+     * @see {@link http://www.jq.com/ jq}
      */
     $.isEmptyObject = function( obj ) {
         for ( var name in obj ) {
@@ -1072,12 +1072,12 @@ function OpenSeadragon( options ){
 
 /**
  *  This closure defines all static methods available to the OpenSeadragon
- *  namespace.  Many, if not most, are taken directly from jQuery for use
+ *  namespace.  Many, if not most, are taken directly from jq for use
  *  to simplify and reduce common programming patterns.  More static methods
- *  from jQuery may eventually make their way into this though we are
- *  attempting to avoid an explicit dependency on jQuery only because
+ *  from jq may eventually make their way into this though we are
+ *  attempting to avoid an explicit dependency on jq only because
  *  OpenSeadragon is a broadly useful code base and would be made less broad
- *  by requiring jQuery fully.
+ *  by requiring jq fully.
  *
  *  Some static methods have also been refactored from the original OpenSeadragon
  *  project.
@@ -1085,10 +1085,10 @@ function OpenSeadragon( options ){
 (function( $ ){
 
     /**
-     * Taken from jQuery 1.6.1
+     * Taken from jq 1.6.1
      * @function extend
      * @memberof OpenSeadragon
-     * @see {@link http://www.jquery.com/ jQuery}
+     * @see {@link http://www.jq.com/ jq}
      */
     $.extend = function() {
         var options,
@@ -1115,7 +1115,7 @@ function OpenSeadragon( options ){
             target = {};
         }
 
-        // extend jQuery itself if only one argument is passed
+        // extend jq itself if only one argument is passed
         if ( length === i ) {
             target = this;
             --i;
@@ -2461,7 +2461,7 @@ function OpenSeadragon( options ){
         },
 
         /**
-         * Taken from jQuery 1.6.1
+         * Taken from jq 1.6.1
          * @function
          * @param {Object} options
          * @param {String} options.url
