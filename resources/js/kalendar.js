@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     notesButton.addEventListener('click', notesButtonToggler);
 
     //Store some values for later
-    const theGaps = document.querySelectorAll('span[type="gap"]');
+    const theGaps = document.querySelectorAll('gap');
 
     var currentPageName = ""
     var currentPageNameCount = 0
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     function gapsButtonToggler() {
         gapsButton.classList.toggle('red');
-        var gaps = document.querySelectorAll('span[type="gap"]');
+        var gaps = document.querySelectorAll('gap');
         for (var i = 0; i < gaps.length; i++) {
             gaps[i].classList.toggle('hidden');
         }
