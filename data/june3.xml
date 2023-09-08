@@ -41,7 +41,7 @@
                         <cell/>
                         <cell><emph rend="bold">Thunder showers around</emph>
                             <lb/>
-summer showers in pm</cell>
+summer showers in <emph rend="underline">pm</emph></cell>
                         <cell/>
                         <cell/>
                         <cell>
@@ -55,14 +55,13 @@ in E fail to reach us</cell>
                         <cell/>
                         <cell>
                             <date when="1857-06-02">2nd<link target="http://tinyurl.com/z7ulyqc"/>
-                            </date>
-                            <gap/>
+                            </date> at eve
                         </cell>
                         <cell/>
                         <cell/>
                         <cell>
                             <date when="1860-06-08">8<link target="http://tinyurl.com/zswwsgp"/>
-                            </date> season of pm showers<lb/>for a day or 2 harsh                        <lb/>
+                            </date> <emph rend="underline">season</emph> of pm showers<lb/>for a day or 2 harsh                        <lb/>
                         <date when="1860-06-08">8<link target="http://tinyurl.com/zswwsgp"/>
                         </date> within a day or 2<lb/>
 uncertain walking<lb/>
@@ -98,8 +97,8 @@ shower strikes near</cell>
 <date when="1860-06-29">29<link target="http://tinyurl.com/zgm58fv"/>
 </date> at 6pm<lb/>
 a short deluge<lb/>
-with very strong gust<lb/>
-after at <unclear>5 pm</unclear> 91+<lb/>injuring lands and buildings
+with very strong gusts<lb/>
+after at <unclear>5 pm</unclear> 91&#176;+<lb/>injuring <gap reason="unclear"></gap> and buildings
 </cell>
 </row>
 <row>
@@ -108,7 +107,7 @@ after at <unclear>5 pm</unclear> 91+<lb/>injuring lands and buildings
 <cell/>
 <cell>
 <date when="1853-06-26">26<link target="http://tinyurl.com/hw9m26r"/>
-</date> slight in pm</cell>
+</date> slight in <emph rend="underline">pm</emph></cell>
 <cell/>
 <cell/>
 <cell/>
@@ -141,7 +140,7 @@ after at <unclear>5 pm</unclear> 91+<lb/>injuring lands and buildings
 <date when="1860-06-07">7th<link target="http://tinyurl.com/h89z8bc"/>
 </date> pm<lb/>
 <del>
-<gap/>
+9 at eve<gap/>
 </del>
 </cell>
 </row>
@@ -192,7 +191,7 @@ after hail</cell>
 <cell>
 <date when="1854-06-23">23<link target="http://tinyurl.com/h9e37lc"/>
 </date> clearer after<lb/>
-1 or 2 cool + rainy<lb/>
+1 or 2 cool rainy<lb/>
 days<lb/>
 <date when="1854-06-26">26<link target="http://tinyurl.com/jeupfsg"/>
 </date> &amp; <date when="1854-06-28">28th<link target="http://tinyurl.com/hodj442"/>
@@ -239,23 +238,22 @@ washing days</cell>
 <cell/>
 <cell>
 <date when="1857-06-02">2nd<link target="http://tinyurl.com/js2dvmw"/>
-</date> in pm</cell>
+</date> in <emph rend="underline">pm</emph></cell>
 <cell/>
 <cell/>
 <cell>
 <date when="1860-06-29">29th<link target="http://tinyurl.com/j6kyf2k"/>
-</date> quite windy<lb/>
+</date> <emph rend="underline">quite</emph> windy<lb/>
 <date when="1860-06-02">2<link target="http://tinyurl.com/zybovuw"/>
 </date> a windy washing<lb/>NW wind
 <lb/>
 <date when="1860-06-03">3<link target="http://tinyurl.com/jap32ea"/>
 </date> clear breezy days<lb/>
 <date when="1860-06-07">7<link target="http://tinyurl.com/zd978df"/>
-</date>
-<gap/>
+</date> ap.
 after rains<lb/>
 <date when="1860-06-21">21<link target="http://tinyurl.com/hxhxusn"/>
-</date> about in constant breeze<lb/>this month - so far<gap/>
+</date> almost in constant breeze<lb/>this month - so far &amp; all of it &amp; into July
 </cell>
 </row>
 <row>
@@ -286,7 +284,7 @@ after rains<lb/>
 </date>
 </cell>
 <cell>
-<date when="1860-06-11">11th<link target="http://tinyurl.com/hbhlf4u"/>
+<del rend="strikethrough">15</del><lb/><date when="1860-06-11">11th<link target="http://tinyurl.com/hbhlf4u"/>
 </date> first of it</cell>
 </row>
 <row>
@@ -316,7 +314,7 @@ after rains<lb/>
 </date> swamp <abbr corresp="white oak">wht o.</abbr>
 <lb/>
 red maple<lb/>
-willows beg. to show
+willows &amp; beg. to show
 <lb/>
 a slight silveriness</cell>
 <cell>
@@ -344,7 +342,7 @@ a slight silveriness</cell>
 <date when="1859-06-30">30<link target="http://tinyurl.com/hdozw56"/>
 </date>
 </cell>
-<cell>
+<cell><del rend="strikethrough">3</del>
 <date when="1860-06-11">11<link target="http://tinyurl.com/got8oex"/>
 </date>
 </cell>
@@ -383,7 +381,7 @@ trees</cell>
 <cell>
 <date when="1854-06-16">16<link target="http://tinyurl.com/jcxlnrd"/>
 </date> cool E wind<lb/>
-for several pms past<lb/>
+for several <emph rend="underline">pms</emph> past<lb/>
 <date when="1854-06-03">3rd<link target="http://tinyurl.com/zvtobs6"/>
 </date> cools the air</cell>
 <cell/>

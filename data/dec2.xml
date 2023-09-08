@@ -272,7 +272,7 @@
             <cell/>
             <cell/>
             <cell><date when="1858-12-03">3rd<link target="https://tinyurl.com/5n85m4bu"></link></date>warm sunset</cell>
-            <cell><date when="1859-12-13">13<link target="https://tinyurl.com/ycxu38uf"></link></date>from <placeName ref="The Deep Cut">D.C.</placeName></cell>
+            <cell><date when="1859-12-13">13<link target="https://tinyurl.com/ycxu38uf"></link></date>from <placeName ref="Railroad">R.R.</placeName></cell>
             <cell/>
             <cell/>
           </row>
@@ -281,7 +281,7 @@
             <cell><emph rend="bold">Splendid sunsets</emph></cell>
             <cell/>
             <cell/>
-            <cell><date when="1854-12-08">8<link target="https://tinyurl.com/nxu5u6b2"></link></date>a <unclear> fine one</unclear><lb/><date when="1854-12-11">11th<link target="https://tinyurl.com/yc3uynjd"></link></date>early still clear win<lb/>ter sunset now</cell>
+            <cell><date when="1854-12-08">8<link target="https://tinyurl.com/nxu5u6b2"></link></date>a <unclear> fine one</unclear><lb/><date when="1854-12-11">11th<link target="https://tinyurl.com/yc3uynjd"></link></date>Early still clear win<lb/>ter sunsets now</cell>
             <cell/>
             <cell/>
             <cell/>
@@ -293,7 +293,7 @@
           </row>
           <row>
             <cell/>
-            <cell><emph rend="bodl"><unclear>Notice</unclear> color of woods <unclear>I cut</unclear></emph></cell>
+            <cell><emph rend="bodl"> Notice color of woods I cut </emph></cell>
             <cell><date when="1852-12-22">22<link target="https://tinyurl.com/3dfcbvxh"></link></date></cell>
             <cell/>
             <cell/>
@@ -307,7 +307,7 @@
           </row>
           <row>
             <cell/>
-            <cell><emph rend="bold">Reflection in over part<lb/>of river</emph></cell>
+            <cell><emph rend="bold">Reflection in open part<lb/>of river</emph></cell>
             <cell/>
             <cell/>
             <cell/>
@@ -354,7 +354,7 @@
             <cell/>
             <cell/>
             <cell><date when="1855-12-29">29<link target="https://tinyurl.com/bdf792aa"></link></date>good walk</cell>
-            <cell><date when="1856-12-06">6th<link target="https://tinyurl.com/5fakv2v5"></link></date> &amp; <unclear>hard</unclear> dry swamp <lb/> fruit</cell>
+            <cell><date when="1856-12-06">6th<link target="https://tinyurl.com/5fakv2v5"></link></date> observe dry swamp <lb/> fruit</cell>
             <cell/>
             <cell/>
             <cell/>
@@ -367,7 +367,7 @@
             <cell/>
             <cell/>
             <cell/>
-            <cell><date when="1855-12-08">8<link target="https://tinyurl.com/yc7976nu"></link></date><unclear>solitdue &amp; dream<lb/>ing <gap reason="unclear" extent="1 word"></gap> walk now</unclear></cell>
+            <cell><date when="1855-12-08">8<link target="https://tinyurl.com/yc7976nu"></link></date><unclear>solitdue &amp; </unclear><gap reason="unclear"></gap><lb/> <gap reason="unclear" extent="1 word"></gap><unclear> walk now</unclear></cell>
             <cell><date when="1856-12-17">17th<link target="https://tinyurl.com/mr2yfwc6"></link></date>poor picking for</cell>
             <cell/>
             <cell><date when="1858-12-25">25<link target="https://tinyurl.com/ddy8urv4"></link></date>hard Dec to get thro'</cell>
@@ -377,7 +377,7 @@
           </row>
           <row>
             <cell/>
-            <cell><emph rend="bold">Shrub <abbr corresp="oak">O.</abbr> leaves have fallen</emph></cell>
+            <cell><emph rend="bold">Shrub <abbr corresp="oak">O.</abbr> leaves <gap></gap></emph></cell>
             <cell/>
             <cell/>
             <cell/>
