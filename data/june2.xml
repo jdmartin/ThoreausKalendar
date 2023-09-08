@@ -71,11 +71,11 @@ night past</cell>
         <date when="1858-06-06">6<link target="http://tinyurl.com/jjc6ksb"/>
         </date> warm <abbr corresp="weather">W.</abbr> suddenly come<lb/>
     <date when="1858-06-07">7<link target="http://tinyurl.com/zwu996b"/>
-    </date> 87 at 3pm</cell>
+    </date> 87&#176; at 3pm</cell>
 <cell>
     <date when="1859-06-15">15<link target="http://tinyurl.com/zbu5khe"/>
     </date> suddenly hot<lb/>
-90 after very cool day</cell>
+90&#176; after very cool days</cell>
 <cell>
     <date when="1860-06-04">4th<link target="http://tinyurl.com/hl6gfeq"/>
     </date> uncomfortably<lb/>
@@ -130,21 +130,21 @@ days &amp; nights<lb/>
 </date>
 <lb/>
 hotter still - &amp; muggy<lb/>
-&amp; close 93 at<lb/>
-1pm</cell>
+&amp; close 93&#176; at<lb/>
+1<emph rend="underline">pm</emph></cell>
 <cell>
 <date when="1859-06-29">29<link target="http://tinyurl.com/hqeh8wy"/>
 </date> very hot</cell>
 <cell>
 <date when="1860-06-16">16<link target="http://tinyurl.com/jyd9aal"/>
-</date> 85+ 2pm<lb/>
+</date> 85+ 2<emph rend="underline">pm</emph><lb/>
 <emph rend="underline">this</emph> is hot for<lb/>
 <emph rend="underline">June</emph>
 <lb/>
 <date when="1860-06-29">29<link target="http://tinyurl.com/jsfw4wh"/>
 </date> 6pm 91 warm-<lb/> -est of month
 <lb/>
-85 at 2pm<lb/>
+85 at 2<emph rend="underline">pm</emph><lb/>
 the <date when="1860-06-23">23rd<link target="http://tinyurl.com/zeyvptt"/>
 </date>
 </cell>
@@ -168,8 +168,7 @@ to <date when="1853-06-29">29th<link target="http://tinyurl.com/zfsvdoz"/>
 in their yards<lb/>
 <date when="1853-06-21">21<link target="http://tinyurl.com/z2zgshg"/>
 </date>-<date when="1853-06-22">2<link target="http://tinyurl.com/z2zgshg"/>
-</date>
-<gap reason="unclear"/>
+</date> exceedingly
 </cell>
 <cell/>
 <cell/>
@@ -284,7 +283,7 @@ past</cell>
 <row>
 <cell/>
 <cell>
-    <emph rend="bold">Bring some ice</emph>
+    <emph rend="bold">Bring <gap reason="unclear"></gap></emph>
 </cell>
 <cell/>
 <cell/>
@@ -320,8 +319,8 @@ in 10 past days</cell>
 <cell>
 <date when="1860-06-10">10<link target="http://tinyurl.com/zez53l4"/>
 </date> strong &amp; cold<lb/>
-N.W. wind 58 at<lb/>
-6pm</cell>
+N.W. wind 58&#176; at<lb/>
+6<emph rend="underline">pm</emph></cell>
 </row>
 <row>
 <cell/>
@@ -352,7 +351,7 @@ of warm days &amp; nights</cell>
 northerly wind</cell>
 <cell>
 <date when="1860-06-21">21<link target="http://tinyurl.com/jp7jr99"/>
-</date> 12<abbr corresp="midnight">m.</abbr> 59+</cell>
+</date> 12 <emph rend="underline">pm.</emph> 59&#176;+</cell>
 </row>
 <row>
 <cell/>
@@ -376,7 +375,7 @@ for 10 days past</cell>
 <date when="1860-06-06">6<link target="http://tinyurl.com/hhvmfcy"/>
 </date> on <abbr corresp="account">ac.</abbr> of rain<lb/>
 <date when="1860-06-21">21<link target="http://tinyurl.com/hopna88"/>
-</date> cooled by rain<gap reason="unclear"/>
+</date> cooled by rain yester
 <lb/>
 day - must have fires</cell>
 </row>
@@ -397,7 +396,7 @@ day - must have fires</cell>
 <cell>
 <date when="1860-06-22">22<link target="http://tinyurl.com/zypgpcz"/>
 </date> cold wind 60<lb/>
-at 12 1/2 pm</cell>
+at 12 1/2 <emph rend="underline">pm</emph></cell>
 </row>
 <row>
 <cell/>

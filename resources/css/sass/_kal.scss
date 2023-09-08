@@ -78,11 +78,13 @@ gap {
     }
 }
 
-span[type=gap] {
-    background: #feece9;
-}
+// gap::before, gap::after {
+//     content: " ";
+//     white-space: pre;
+// }
 
-span[type=gap]::before, span[type=gap]::after , span[type=note]::before, span[type=note]::after {
+
+span[type=note]::before, span[type=note]::after {
     content: " ";
     white-space: pre;
 }

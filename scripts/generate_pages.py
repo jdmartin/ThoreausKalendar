@@ -96,6 +96,14 @@ def build_page(page):
             for lb_tag in lb_tags:
                 br_tag = soup.new_tag('br')
                 lb_tag.insert_before(br_tag)
+            
+            #Remove empty (self-closing) <note>, else leave:
+            note_tags = soup.find_all('note')
+
+            # Loop through the found <note> tags and extract the self-closing ones
+            for note_tag in note_tags:
+                if not note_tag.contents:  # Check if the tag has no contents (empty)
+                    note_tag.extract()
 
             # Find all the <gap> elements and replace them with [gap]
             for gap in soup.find_all('gap'):
@@ -109,7 +117,7 @@ def build_page(page):
                     result += "Reason: " + reason + " "
 
                 # Create a new <span> element with the tooltip content
-                gap_span = soup.new_tag('span', type="gap", style="border-bottom:1px dotted;", title=result)
+                gap_span = soup.new_tag('gap', style="border-bottom:1px dotted;", title=result)
                 gap_span.string = "[gap]"
 
                 # Replace the <gap> element with the new <span>
