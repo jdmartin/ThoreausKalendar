@@ -6,9 +6,12 @@
   font-family: "EB Garamond";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff") format("woff"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.svg#EBGaramond") format("svg"); /* Legacy iOS */
+  src: url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff") format("woff"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.svg#EBGaramond") format("svg");
+  /* Legacy iOS */
 }
+
 * {
   font-family: "EB Garamond", serif;
   font-weight: 400;
@@ -35,12 +38,15 @@
   padding-top: 0;
   z-index: 9999;
 }
+
 #navmainpage ul {
   list-style-type: none;
 }
+
 #navmainpage a:hover {
   color: #6BFBF7;
 }
+
 #navmainpage span.navarrow {
   color: #6BFBF7;
 }
@@ -64,14 +70,17 @@
   font-style: normal;
   height: 25px;
   line-height: 25px;
-  width: 260px; /*Change this value to change the width of menu items on the nav. menu */
+  width: 260px;
+  /*Change this value to change the width of menu items on the nav. menu */
   text-decoration: none;
   text-align: left;
 }
+
 .navbutton:hover {
   background-color: black;
   color: #5F8EED;
 }
+
 .navbutton:active {
   position: relative;
   top: 1px;
@@ -87,6 +96,7 @@
   background-repeat: repeat-x;
   overflow: hidden;
 }
+
 #banner img {
   padding-top: 15px;
   display: block;
@@ -111,28 +121,35 @@
   background: #FFF;
   color: black;
 }
+
 #copy a {
   color: #00498F;
 }
+
 #copy p {
   text-align: left;
 }
+
 #copy ul {
   margin-left: 0;
 }
+
 #copy li {
   padding-top: 10px;
   list-style: none;
   text-align: left;
   text-indent: -45px;
 }
+
 #copy li:first-line {
   list-style: none;
   text-align: left;
 }
+
 #copy h3 {
   color: black;
 }
+
 #copy span {
   padding-left: 30px;
   display: block;
@@ -170,6 +187,7 @@
   position: relative;
   margin-top: 10px;
 }
+
 #quote p {
   text-align: center;
 }
@@ -186,6 +204,7 @@ table {
   width: 100%;
   table-layout: fixed;
 }
+
 table td {
   border: 1px solid black;
   padding: 3px;
@@ -263,11 +282,13 @@ gap {
   display: inline;
   background: #feece9;
 }
+
 gap .hidden {
   display: none;
 }
 
-span[type=note]::before, span[type=note]::after {
+span[type=note]::before,
+span[type=note]::after {
   content: " ";
   white-space: pre;
 }
@@ -283,9 +304,11 @@ unclear {
 note {
   background: rgb(248, 245, 211);
 }
+
 note .hidden {
   visibility: hidden;
 }
+
 note .active {
   display: inline;
 }
@@ -307,6 +330,7 @@ note .active {
   background-color: black;
   color: white;
 }
+
 #search-menu button {
   padding: 5px;
   background-color: black;
@@ -316,10 +340,12 @@ note .active {
   border: 1px solid #e8e3de;
   margin-left: 5px;
 }
+
 #search-menu .red {
   background-color: white;
   color: black;
 }
+
 #search-menu .no-matches {
   background-color: grey;
   color: black;
@@ -348,9 +374,11 @@ note .active {
   color: #fff;
   z-index: 1000;
 }
+
 .helpactive b {
   color: #9FBCD8;
 }
+
 .helpactive ul li {
   list-style-type: none;
 }
@@ -358,7 +386,7 @@ note .active {
 .alpha {
   background: #f1f6ff;
   background: linear-gradient(to right, #f1f6ff 0%, #edf2fb 41%, #e8edf6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f1f6ff", endColorstr="#e8edf6",GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1f6ff", endColorstr="#e8edf6", GradientType=1);
 }
 
 .redHighlight {
@@ -403,33 +431,40 @@ note .active {
   font-size: 14px;
   color: #808080;
 }
+
 #footer a {
   color: #9FBCD8;
 }
+
 #footer div ul li b {
   color: #CBCBCB;
 }
+
 #footer button {
   background: black;
   color: white;
   margin-left: 5px;
   font-size: 12px;
 }
+
 #footer input {
   width: 100px;
   margin-left: auto;
   margin-right: auto;
 }
+
 #footer input[placeholder] {
   font-style: normal;
   color: black;
 }
+
 #footer .turvy {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   float: left;
 }
+
 #footer .turvy ul {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -438,6 +473,7 @@ note .active {
   margin-right: auto;
   list-style: none;
 }
+
 #footer .turvy ul li {
   list-style: none;
 }
@@ -446,6 +482,7 @@ note .active {
   width: 40%;
   float: left;
 }
+
 #lefty ul {
   list-style: none;
 }
@@ -454,6 +491,7 @@ note .active {
   width: 40%;
   float: right;
 }
+
 #righty ul {
   list-style: none;
 }
@@ -462,45 +500,57 @@ note .active {
   width: 20%;
   float: left;
 }
+
 #nader #alphasearch {
   font-weight: normal;
 }
+
 #nader input.horizontal-shake {
   -webkit-animation: horizontal-shaking 0.5s;
   animation: horizontal-shaking 0.5s;
   -webkit-animation-iteration-count: 2;
   animation-iteration-count: 2;
 }
+
 @-webkit-keyframes horizontal-shaking {
   0% {
     transform: translateX(0);
   }
+
   25% {
     transform: translateX(5px);
   }
+
   50% {
     transform: translateX(-5px);
   }
+
   75% {
     transform: translateX(5px);
   }
+
   100% {
     transform: translateX(0);
   }
 }
+
 @keyframes horizontal-shaking {
   0% {
     transform: translateX(0);
   }
+
   25% {
     transform: translateX(5px);
   }
+
   50% {
     transform: translateX(-5px);
   }
+
   75% {
     transform: translateX(5px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -515,9 +565,11 @@ note .active {
   background-color: black;
   z-index: 999;
 }
+
 #search-help span ul li b {
   color: #9FBCD8;
 }
+
 #search-help ul li {
   display: inline-block;
   margin-left: 0;
