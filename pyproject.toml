@@ -1,9 +1,5 @@
 [tool.poetry]
-name = "ThoreausKalendar"
-version = "1.03"
-description = "Python Rebuild of Thoreau's Kalendar"
-authors = ["jdmartin"]
-license = "MIT"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.7"
