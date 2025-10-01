@@ -8,7 +8,16 @@
   font-weight: 400;
   src: url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff") format("woff"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/eb-garamond-v15-latin-ext_latin-regular.svg#EBGaramond") format("svg");
+  src: local(""),
+    url("../fonts/eb-garamond-v15-latin-ext_latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/eb-garamond-v15-latin-ext_latin-regular.woff") format("woff"),
+    url("../fonts/eb-garamond-v15-latin-ext_latin-regular.ttf")
+      format("truetype"),
+    url("../fonts/eb-garamond-v15-latin-ext_latin-regular.svg#EBGaramond")
+      format("svg");
   /* Legacy iOS */
 }
 
@@ -44,11 +53,11 @@
 }
 
 #navmainpage a:hover {
-  color: #6BFBF7;
+  color: #6bfbf7;
 }
 
 #navmainpage span.navarrow {
-  color: #6BFBF7;
+  color: #6bfbf7;
 }
 
 .activenavbutton {
@@ -78,7 +87,7 @@
 
 .navbutton:hover {
   background-color: black;
-  color: #5F8EED;
+  color: #5f8eed;
 }
 
 .navbutton:active {
@@ -105,7 +114,7 @@
 
 /* Body Stuff Follows */
 #content {
-  background: #FFFFFF;
+  background: #ffffff;
   padding-top: 0;
   width: 100%;
   height: auto;
@@ -118,12 +127,12 @@
   margin-top: 30px;
   width: 75%;
   text-align: center;
-  background: #FFF;
+  background: #fff;
   color: black;
 }
 
 #copy a {
-  color: #00498F;
+  color: #00498f;
 }
 
 #copy p {
@@ -165,7 +174,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #intro {
@@ -223,59 +232,59 @@ date::after {
 }
 
 ref a {
-  color: #8A4E5D;
+  color: #8a4e5d;
 }
 
 .pencil {
-  box-shadow: inset 0 0 0 1px #13DA13;
+  box-shadow: inset 0 0 0 1px #13da13;
 }
 
 .pencilHighlight {
-  background: #E4FDE4;
+  background: #e4fde4;
 }
 
-emph[rend=underline] {
+emph[rend="underline"] {
   text-decoration: underline;
 }
 
-emph[rend=bold] {
+emph[rend="bold"] {
   font-weight: bold;
 }
 
 .place {
-  box-shadow: inset 0 0 0 1px #FF7500;
+  box-shadow: inset 0 0 0 1px #ff7500;
 }
 
 placeName.active {
-  color: #FF7500;
+  color: #ff7500;
 }
 
 add.active {
-  color: #00F;
+  color: #00f;
 }
 
 .add {
-  box-shadow: inset 0 0 0 1px #00F;
+  box-shadow: inset 0 0 0 1px #00f;
 }
 
-add[rend=pencil].active {
+add[rend="pencil"].active {
   color: green;
 }
 
 .addHighlight {
-  background: #DBDBFF;
+  background: #dbdbff;
 }
 
 persName.active {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .person {
-  box-shadow: inset 0 0 0 1px #FF0000;
+  box-shadow: inset 0 0 0 1px #ff0000;
 }
 
 .personHighlight {
-  background: #FFC8C8;
+  background: #ffc8c8;
 }
 
 gap {
@@ -287,8 +296,8 @@ gap .hidden {
   display: none;
 }
 
-span[type=note]::before,
-span[type=note]::after {
+span[type="note"]::before,
+span[type="note"]::after {
   content: " ";
   white-space: pre;
 }
@@ -376,7 +385,7 @@ note .active {
 }
 
 .helpactive b {
-  color: #9FBCD8;
+  color: #9fbcd8;
 }
 
 .helpactive ul li {
@@ -390,7 +399,7 @@ note .active {
 }
 
 .redHighlight {
-  background: #FFF1E5;
+  background: #fff1e5;
 }
 
 .info {
@@ -413,7 +422,7 @@ note .active {
 }
 
 .blast {
-  background-color: #BCE9F3;
+  background-color: #bce9f3;
 }
 
 .searcherror {
@@ -433,11 +442,11 @@ note .active {
 }
 
 #footer a {
-  color: #9FBCD8;
+  color: #9fbcd8;
 }
 
 #footer div ul li b {
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 
 #footer button {
@@ -567,7 +576,7 @@ note .active {
 }
 
 #search-help span ul li b {
-  color: #9FBCD8;
+  color: #9fbcd8;
 }
 
 #search-help ul li {
