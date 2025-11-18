@@ -12,3 +12,4 @@ package = false
 
 [tool.pyright]
 reportMissingModuleSource = false
+reportOperatorIssue = false

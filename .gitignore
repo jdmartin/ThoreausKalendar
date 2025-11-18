@@ -353,3 +353,4 @@ MigrationBackup/
 .venv
 .DS_Store
 .well-known/
+pyrightconfig.json
