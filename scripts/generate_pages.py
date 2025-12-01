@@ -1,10 +1,8 @@
-import os
-
 from bs4 import BeautifulSoup
 
 
 def menu():
-    os.system("clear")
+    print("\033[2J\033[H", end="")
     choice = ""
     options = {
         "0": ["newapril", "April (New)"],
