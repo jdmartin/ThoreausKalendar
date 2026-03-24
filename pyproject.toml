@@ -1,15 +1,28 @@
 [project]
-name = ""
-version = "0.0.1"
-requires-python = ">=3.12"
+name = "thoreauskalendar"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
 dependencies = [
-    "beautifulsoup4>=4.14.2,<5",
-    "lxml>=5.4.0,<7",
+    "beautifulsoup4 (>=4.14.3,<5.0.0)",
+    "lxml (>=6.0.2,<7.0.0)"
 ]
 
-[tool.uv]
-package = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
 
 [tool.pyright]
 reportMissingModuleSource = false
 reportOperatorIssue = false
+
+
+[tool.poetry]
+package-mode = false
